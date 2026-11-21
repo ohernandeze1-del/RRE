@@ -1,0 +1,19 @@
+kind,id,file,row_number,what_the_demo_should_say
+error,E1,budget_lines.csv,10,Norte vende 500 USD a Sur y Sur no registra la compra. Descalce visible. No entra al numero limpio.
+error,E2,budget_lines.csv,28,Costa carga 25000000 en USD y su moneda es ARS. La fila se frena.
+error,E3,budget_lines.csv,34,Pampa repite la fila 33 (Venta granos 800000 ARS). Se frena la copia.
+error,E4,budget_lines.csv,43,Sierra trae TOTAL_REV 800 EUR. El detalle REV_EXT suma 500 EUR. El total se frena.
+error,E5,pasted_indicators.csv,2,ROIC ROCE y EVA pegados a mano no coinciden con el calculo.
+match,M1,budget_lines.csv,3,Holding REV_IC 200 USD a Costa. Espejo en fila 26: 200000 ARS = 200 USD.
+match,M2,budget_lines.csv,46,Sierra REV_IC 50 EUR a Norte = 100 USD. Espejo en fila 12: Norte COGS_IC 100 USD.
+result,group_ebit_usd,budget_lines.csv,,8950
+result,nopat_usd,assumptions.csv,,6265
+result,assets_usd,budget_lines.csv,,49000
+result,current_liabilities_usd,budget_lines.csv,,9700
+result,equity_usd,budget_lines.csv,,29600
+result,debt_usd,budget_lines.csv,,9700
+result,capital_employed_usd,budget_lines.csv,,39300
+result,invested_capital_usd,budget_lines.csv,,39300
+result,roce,assumptions.csv,,0.227735
+result,roic,assumptions.csv,,0.159415
+result,eva_usd,assumptions.csv,,2335

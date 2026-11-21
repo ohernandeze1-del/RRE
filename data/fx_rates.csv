@@ -1,0 +1,4 @@
+currency,usd_per_unit,convention
+USD,1,amount_usd = amount * usd_per_unit
+ARS,0.001,amount_usd = amount * usd_per_unit
+EUR,2,amount_usd = amount * usd_per_unit

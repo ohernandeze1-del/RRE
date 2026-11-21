@@ -1,0 +1,50 @@
+company_id,account_code,account_name,currency,amount,counterparty_id,period,detalle
+holding,REV_EXT,Ventas a terceros,USD,5000,,2026,Servicios externos
+holding,REV_IC,Ventas a empresas del grupo,USD,200,costa,2026,Fee de gestion a Costa
+holding,OPEX,Gastos operativos,USD,1200,,2026,Estructura holding
+holding,ASSET,Activo total,USD,20000,,2026,Cierre
+holding,LIAB_CURRENT,Pasivo corriente,USD,4000,,2026,Cierre
+holding,EQUITY,Patrimonio,USD,12000,,2026,Cierre
+holding,DEBT,Deuda financiera,USD,4000,,2026,Cierre
+norte,REV_EXT,Ventas a terceros,USD,3000,,2026,Venta mayorista
+norte,REV_IC,Ventas a empresas del grupo,USD,500,sur,2026,Venta interna a Sur
+norte,COGS_EXT,Costo de ventas a terceros,USD,1000,,2026,Costo mayorista
+norte,COGS_IC,Costo de compras a empresas del grupo,USD,100,sierra,2026,Compra a Sierra
+norte,OPEX,Gastos operativos,USD,400,,2026,Estructura norte
+norte,ASSET,Activo total,USD,8000,,2026,Cierre
+norte,LIAB_CURRENT,Pasivo corriente,USD,1500,,2026,Cierre
+norte,EQUITY,Patrimonio,USD,5000,,2026,Cierre
+norte,DEBT,Deuda financiera,USD,1500,,2026,Cierre
+sur,REV_EXT,Ventas a terceros,EUR,1000,,2026,Venta Europa
+sur,COGS_EXT,Costo de ventas a terceros,EUR,350,,2026,Costo Europa
+sur,OPEX,Gastos operativos,EUR,100,,2026,Estructura sur
+sur,ASSET,Activo total,EUR,2500,,2026,Cierre
+sur,LIAB_CURRENT,Pasivo corriente,EUR,500,,2026,Cierre
+sur,EQUITY,Patrimonio,EUR,1500,,2026,Cierre
+sur,DEBT,Deuda financiera,EUR,500,,2026,Cierre
+costa,REV_EXT,Ventas a terceros,ARS,2000000,,2026,Venta local
+costa,COGS_IC,Costo de compras a empresas del grupo,ARS,200000,holding,2026,Fee de Holding
+costa,OPEX,Gastos operativos,ARS,500000,,2026,Estructura costa
+costa,OPEX,Gastos operativos,USD,25000000,,2026,Ajuste manual
+costa,ASSET,Activo total,ARS,10000000,,2026,Cierre
+costa,LIAB_CURRENT,Pasivo corriente,ARS,2000000,,2026,Cierre
+costa,EQUITY,Patrimonio,ARS,6000000,,2026,Cierre
+costa,DEBT,Deuda financiera,ARS,2000000,,2026,Cierre
+pampa,REV_EXT,Ventas a terceros,ARS,800000,,2026,Venta granos
+pampa,REV_EXT,Ventas a terceros,ARS,800000,,2026,Venta granos
+pampa,COGS_EXT,Costo de ventas a terceros,ARS,300000,,2026,Costo granos
+pampa,OPEX,Gastos operativos,ARS,100000,,2026,Estructura pampa
+pampa,ASSET,Activo total,ARS,3000000,,2026,Cierre
+pampa,LIAB_CURRENT,Pasivo corriente,ARS,600000,,2026,Cierre
+pampa,EQUITY,Patrimonio,ARS,1800000,,2026,Cierre
+pampa,DEBT,Deuda financiera,ARS,600000,,2026,Cierre
+sierra,REV_EXT,Ventas a terceros,EUR,250,,2026,Contratos norte
+sierra,REV_EXT,Ventas a terceros,EUR,250,,2026,Contratos sur
+sierra,TOTAL_REV,Total de ventas,EUR,800,,2026,Total ventas
+sierra,COGS_EXT,Costo de ventas a terceros,EUR,150,,2026,Costo contratos
+sierra,OPEX,Gastos operativos,EUR,75,,2026,Estructura sierra
+sierra,REV_IC,Ventas a empresas del grupo,EUR,50,norte,2026,Venta a Norte
+sierra,ASSET,Activo total,EUR,1500,,2026,Cierre
+sierra,LIAB_CURRENT,Pasivo corriente,EUR,300,,2026,Cierre
+sierra,EQUITY,Patrimonio,EUR,900,,2026,Cierre
+sierra,DEBT,Deuda financiera,EUR,300,,2026,Cierre
