@@ -716,12 +716,32 @@
     const actions = review
       ? `<div class="decide" data-id="${esc(item.id)}"><button class="solid" type="button" data-accept>Aceptar</button><button class="line" type="button" data-reject>Rechazar</button><form class="reject-box" hidden><textarea name="motivo" rows="3" placeholder="Motivo del rechazo" required></textarea><button class="solid" type="submit">Enviar comentario</button></form></div>`
       : "";
-    return `<article class="preview">${photo}<div><h3>${esc(item.name)}</h3><p class="who">${esc(who ? who.name : item.company)}</p>${blurb}<p class="figures"><span>Ingreso ${money(ingreso)} USD</span><span>Inversión ${money(inversion)} USD</span></p>${verdict}${open}${actions}</div></article>`;
+    return `<article class="initiative">${photo}<div><h3>${esc(item.name)}</h3><p class="who">${esc(who ? who.name : item.company)}</p>${blurb}<p class="figures"><span>Ingreso ${money(ingreso)} USD</span><span>Inversión ${money(inversion)} USD</span></p>${verdict}${open}${actions}</div></article>`;
+  }
+
+  function budgetReview(companyId) {
+    const who = company(companyId);
+    const decision = (loadStore().decisions || {})[`budget-${companyId}`];
+    const verdict = decision
+      ? `<p class="verdict ${decision.status}">${decision.status === "aceptada" ? "Aceptado por el corporativo" : "Rechazado por el corporativo"}${decision.comment ? `. ${esc(decision.comment)}` : ""}</p>`
+      : `<p class="note">El presupuesto completo de esta empresa, no cada línea.</p>`;
+    return `<section class="budget-call"><div><h2>Presupuesto de ${esc(who.name)}</h2>${verdict}</div><div class="decide" data-id="budget-${esc(companyId)}"><button class="solid" type="button" data-accept>Aceptar</button><button class="line" type="button" data-reject>Rechazar</button><form class="reject-box" hidden><textarea name="motivo" rows="3" placeholder="Motivo del rechazo" required></textarea><button class="solid" type="submit">Enviar comentario</button></form></div></section>`;
   }
 
   function decide(itemId, status, comment) {
-    const item = initiativesOf(null).find((entry) => entry.id === itemId);
-    if (!item) return;
+    let companyId = "";
+    let title = "";
+    if (String(itemId).startsWith("budget-")) {
+      companyId = String(itemId).slice("budget-".length);
+      const who = company(companyId);
+      if (!who) return;
+      title = `Presupuesto de ${who.name}`;
+    } else {
+      const item = initiativesOf(null).find((entry) => entry.id === itemId);
+      if (!item) return;
+      companyId = item.company;
+      title = item.name;
+    }
     const state = loadStore();
     state.decisions = state.decisions || {};
     state.notices = state.notices || [];
@@ -729,8 +749,8 @@
     if (status === "rechazada") {
       state.notices.push({
         id: `ntc-${Date.now()}`,
-        company: item.company,
-        initiative: item.name,
+        company: companyId,
+        initiative: title,
         comment,
         seen: false
       });
@@ -766,7 +786,7 @@
     if (!pending.length) return;
     const layer = document.createElement("div");
     layer.className = "notice-layer";
-    layer.innerHTML = `<div class="notice" role="dialog" aria-modal="true" aria-labelledby="notice-title"><h2 id="notice-title">El corporativo rechazó una propuesta</h2>${pending.map((notice) => `<article><strong>${esc(notice.initiative)}</strong><p>${esc(notice.comment)}</p></article>`).join("")}<button class="solid" type="button" id="close-notice">Entendido</button></div>`;
+    layer.innerHTML = `<div class="notice" role="dialog" aria-modal="true" aria-labelledby="notice-title"><h2 id="notice-title">El corporativo rechazó</h2>${pending.map((notice) => `<article><strong>${esc(notice.initiative)}</strong><p>${esc(notice.comment)}</p></article>`).join("")}<button class="solid" type="button" id="close-notice">Entendido</button></div>`;
     document.body.appendChild(layer);
     document.getElementById("close-notice").addEventListener("click", () => {
       const fresh = loadStore();
@@ -858,13 +878,14 @@
         <div><dt>ROCE</dt><dd>${groupReturn ? `<span data-kind="ratio" data-value="${groupReturn.roce}">${pct(groupReturn.roce).replace("+", "")}</span>` : "—"}</dd></div>
         <div><dt>EVA</dt><dd>${groupReturn ? `<span data-kind="money" data-value="${groupReturn.eva}">${money(groupReturn.eva)}</span>` : "—"}</dd></div>
       </dl>
+      ${selected === "TODAS" ? "" : budgetReview(selected)}
       <div class="viz">
         <section class="chart-box">${bars}</section>
         <section>${pie()}</section>
       </div>
       <section class="previews">
         <h2>Iniciativas${selected === "TODAS" ? "" : " · " + esc(company(selected).name)}</h2>
-        ${selected === "TODAS" ? "" : "<p class='note'>Aceptá o rechazá cada propuesta. Si la rechazás, el comentario llega al portal de esta empresa.</p>"}
+        ${selected === "TODAS" ? "" : "<p class='note'>Aceptá o rechazá cada iniciativa. Si la rechazás, el comentario llega al portal de esta empresa.</p>"}
         <div class="preview-row">${list.map((item) => previewCard(item, selected !== "TODAS")).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
       </section>
       <details class="fold">
