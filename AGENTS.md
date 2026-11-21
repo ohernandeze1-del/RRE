@@ -58,6 +58,13 @@ Primer mensaje de Oscar:
 - `data/budget_lines.csv` — presupuesto. La fila 1 es el encabezado. El número de fila del archivo es el origen.
 - `data/pasted_indicators.csv` — ROIC, ROCE y EVA copiados a mano, con valores que no coinciden.
 - `data/clave_equipo.csv` — respuesta para las personas. El código no la lee.
+- `data/ventas_historicas.csv` — ventas reales a terceros, 2021 a 2025, en la moneda de cada empresa. No es el presupuesto. No trae errores sembrados. El presupuesto de 2026 sigue en `budget_lines.csv`.
+
+## Portal que vamos a mostrar
+
+Entran dos personas, con usuario y clave falsos escritos en la pantalla: Norte y un director del grupo. Norte sube un archivo o tipea sus números. Ve solo lo suyo, en su moneda y en USD, y las filas frenadas. No ve a las otras empresas. El director ve primero el número del grupo en USD y, al tocarlo, la fila original.
+
+El histórico ya está. El forecast —proyectar 2026 desde esos cinco años y compararlo con el presupuesto— todavía no es una pantalla. No lo inventen en el código hasta que Brian lo pida.
 
 ## Reglas del número
 
