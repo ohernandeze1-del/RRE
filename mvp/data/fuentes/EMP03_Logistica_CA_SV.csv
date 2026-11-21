@@ -1,0 +1,12 @@
+account_code;account_name;dept;intercompany_flag;counterparty;currency;budget_amt;actual_amt;prior_amt;justification;comments
+4100;Flete a terceros;Operations;NO;;USD;6400000;6400000;6400000;;Clientes en El Salvador y Guatemala
+4200;Flete cobrado a Aceros Honduras;Operations;NO;EMP04;USD;420000;420000;420000;;Marcado como tercero aunque tiene contraparte
+5100;Combustible y mantenimiento;Fleet;NO;;USD;3100000;3782000;3100000;;Diesel +22% y corredor nuevo
+6100;Gastos de la sede;Admin;NO;;USD;715000;715000;715000;;
+6100;Licencia GPS de proveedor europeo;IT;NO;;EUR;45000;45000;45000;;Factura en euros
+6300;Depreciacion de flota;Fleet;NO;;USD;680000;680000;680000;;
+1050;Efectivo;Balance;NO;;USD;850000;850000;850000;;
+1100;Activos totales;Balance;NO;;USD;12000000;12000000;12000000;;
+2100;Pasivo corriente;Balance;NO;;USD;2500000;2500000;2500000;;
+2200;Deuda financiera;Balance;NO;;USD;4000000;4000000;4000000;;
+3100;Patrimonio;Balance;NO;;USD;5500000;5500000;5500000;;

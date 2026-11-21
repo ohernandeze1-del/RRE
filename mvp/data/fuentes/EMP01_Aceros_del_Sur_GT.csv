@@ -1,0 +1,13 @@
+codigo,cuenta,centro,tipo,contraparte,moneda,presupuesto,real,anterior,justificacion,notas
+4100,Ventas locales de acero estructural,Comercial,Terceros,,GTQ,116250000,124000000,110000000,,Mayor demanda de productos largos en obra vial
+4200,Ventas de acero a Distribuidora Metro,Comercial,Intercompania,EMP02,GTQ,15500000,15500000,15500000,,Despachos de planta al centro de distribucion
+4200,Venta de chatarra a Ferreteria Norte,Comercial,Intercompania,EMP05,GTQ,77500,77500,77500,,Sin registro espejo en la ferreteria
+5100,Costo de chatarra y palanquilla,Planta,Terceros,,GTQ,69750000,82653750,69750000,,Alza internacional +18.5% del precio por tonelada
+6100,Gastos de administracion y ventas,Admin,Terceros,,GTQ,15500000,15500000,15500000,,Ejecucion en linea
+6200,Honorarios de gestion del holding,Admin,Intercompania,EMP06,GTQ,2325000,2325000,2325000,,Fee anual segun contrato
+6300,Depreciacion de hornos y maquinaria,Planta,Terceros,,GTQ,3875000,3875000,3875000,,Linea recta
+1050,Efectivo y bancos,Balance,Terceros,,GTQ,15500000,15500000,15500000,,Caja
+1100,Activos totales,Balance,Terceros,,GTQ,193750000,193750000,193750000,,Planta e inventario
+2100,Pasivos corrientes,Balance,Terceros,,GTQ,46500000,46500000,46500000,,Proveedores
+2200,Deuda financiera,Balance,Terceros,,GTQ,38750000,38750000,38750000,,Prestamo industrial
+3100,Patrimonio,Balance,Terceros,,GTQ,108500000,108500000,108500000,,Capital y reservas

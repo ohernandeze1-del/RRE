@@ -1,0 +1,16 @@
+DISTRIBUIDORA METROPOLITANA S.A. - GUATEMALA
+Reporte presupuestario anual 2026. Cifras en quetzales.
+
+cta;descripcion;area;es_intercompania;empresa_relacionada;divisa;ppto_anual;ejecutado;anterior;justificacion;observaciones
+4100;Ventas mayoreo;Ventas;NO;;GTQ;62000000;62000000;62000000;;Primera fila de datos
+5100;Compras a proveedores externos;Compras;NO;;GTQ;31000000;31000000;31000000;;
+5200;Compras de acero a Aceros del Sur;Compras;SI;EMP01;GTQ;15500000;15500000;15500000;;
+6100;Gastos de distribucion y flota;Logistica;NO;;GTQ;7750000;7750000;7750000;;
+6100;Gastos administrativos de bodega;Admin;NO;;GTQ;3875000;3875000;3875000;;
+6300;Depreciacion de bodega;Logistica;NO;;GTQ;775000;775000;775000;;
+6100;Ajuste manual de flete;Logistica;NO;;GTQ;-5450000;-5450000;-5450000;;Signo invertido
+1050;Caja y bancos;Balance;NO;;GTQ;3875000;3875000;3875000;;
+1100;Activos totales;Balance;NO;;GTQ;46500000;46500000;46500000;;
+2100;Pasivos de corto plazo;Balance;NO;;GTQ;15500000;15500000;15500000;;
+2200;Prestamos bancarios;Balance;NO;;GTQ;7750000;7750000;7750000;;
+3100;Capital contable;Balance;NO;;GTQ;23250000;23250000;23250000;;

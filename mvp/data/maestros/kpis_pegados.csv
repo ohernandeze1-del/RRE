@@ -1,0 +1,5 @@
+indicador,valor_pegado,unidad,origen
+nota,Estos valores se copiaron de una hoja local. El motor no los usa.,,Hoja KPIs de Aceros Honduras
+ROIC,0.165,ratio,fila local 3
+ROCE,0.22,ratio,fila local 4
+EVA,850000,USD,fila local 5

@@ -1,0 +1,13 @@
+codigo,nombre,estado,signo_ebit
+4100,Ingresos a terceros,P&L,1
+4200,Ingresos entre empresas,P&L,1
+5100,Costo a terceros,P&L,-1
+5200,Costo entre empresas,P&L,-1
+6100,Gastos operativos,P&L,-1
+6200,Gastos entre empresas,P&L,-1
+6300,Depreciacion,P&L,-1
+1050,Efectivo,BS,0
+1100,Activos totales,BS,0
+2100,Pasivo corriente,BS,0
+2200,Deuda financiera,BS,0
+3100,Patrimonio,BS,0

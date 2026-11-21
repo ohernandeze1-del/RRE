@@ -1,0 +1,4 @@
+moneda,tasa_presupuesto,tasa_real,convencion
+USD,1,1,moneda_local / tasa = USD
+GTQ,7.75,7.72,moneda_local / tasa = USD
+HNL,25,25.2,moneda_local / tasa = USD

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RRE · Presupuesto del grupo</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <div class="brand">RRE · CONSOLIDACIÓN</div>
+        <h1>Un número para el grupo. En dólares. Sin capturas.</h1>
+        <p class="lede">El presupuesto de seis empresas se junta solo. Lo que una le vende a otra sale. Lo que está mal se frena antes de entrar.</p>
+      </div>
+      <div class="scenarios">
+        <button type="button" data-scenario="oficial">Tasa oficial</button>
+        <button type="button" data-scenario="filial">Tasa filial 24,5</button>
+      </div>
+    </header>
+    <p class="banner">Cifras ficticias del Grupo Istmo, para mostrar el método. No son los estados de Grupo AG.</p>
+    <nav class="nav">
+      <a href="#numero">Número</a>
+      <a href="#empresas">Empresas</a>
+      <a href="#validar">Validación</a>
+      <a href="#desvios">Desviaciones</a>
+      <a href="#valor">Valor</a>
+      <a href="#iniciativas">Iniciativas</a>
+      <a href="#mercado">Contexto</a>
+    </nav>
+    <main id="app"></main>
+  </div>
+  <div id="shade"></div>
+  <aside id="drawer" aria-label="Origen de la cifra">
+    <button id="close-x" class="ghost" type="button">Cerrar</button>
+  </aside>
+  <script src="js/data.js"></script>
+  <script src="js/engine.js"></script>
+  <script src="js/ui.js"></script>
+</body>
+</html>

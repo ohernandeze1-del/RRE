@@ -1,0 +1,12 @@
+GL_Account,Line_Item,Cost_Center,IC_Partner,CCY,Budget,Actual,Prior,Justification,Audit_Note
+4100,Asesoria externa,Corporate,,USD,250000,260000,250000,,Ingreso a terceros
+4200,Fee a Aceros del Sur,Corporate,EMP01,USD,300000,300000,300000,,
+4200,Fee a Aceros Honduras,Corporate,EMP04,USD,200000,200000,200000,,
+6100,Nomina y nube,Corporate,,USD,520000,545000,520000,,Equipo corporativo y licencias
+9999,Gastos varios sin clasificar,Corporate,,USD,150000,150000,150000,,Cuenta fuera del catalogo
+6300,Amortizacion de software,IT Corp,,USD,65000,65000,65000,,
+1050,Efectivo,Balance,,USD,620000,620000,620000,,
+1100,Activos totales,Balance,,USD,2400000,2400000,2400000,,
+2100,Pasivo corriente,Balance,,USD,280000,280000,280000,,
+2200,Deuda corporativa,Balance,,USD,500000,500000,500000,,
+3100,Patrimonio,Balance,,USD,1620000,1620000,1620000,,

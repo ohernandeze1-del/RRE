@@ -1,0 +1,7 @@
+parametro,valor,descripcion
+moneda,USD,Moneda unica del grupo
+impuesto,0.25,Tasa para el NOPAT
+wacc,0.105,Costo del capital
+periodo,2026,Presupuesto
+anterior,2025,Ciclo contra el que se valida un recorte
+tasa_filial_hnl,24.5,Tasa interna que el motor no usa en el cierre oficial
