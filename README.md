@@ -20,4 +20,6 @@ python src/consolidar.py
 
 Eso escribe `salida/informe.html` y `salida/lineas.csv`. El informe es la hoja que se abre en el demo.
 
-La landing está en `index.html`. Abrila en el navegador.
+Abrí `index.html` en el navegador. Ahí se elige el portal de cada empresa o el del corporativo.
+
+Los archivos crudos para la demostración están en `datos-demo/`. Cada empresa tiene su Excel de presupuesto 2026 y de ventas 2025. Las iniciativas están en `datos-demo/iniciativas/`.

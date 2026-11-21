@@ -1,0 +1,37 @@
+mes,nombre_mes,cuenta,moneda,importe
+1,Ene,Ventas a terceros,USD,420000
+1,Ene,Costo de ventas,USD,252000
+1,Ene,Gastos,USD,63000
+2,Feb,Ventas a terceros,USD,420000
+2,Feb,Costo de ventas,USD,252000
+2,Feb,Gastos,USD,63000
+3,Mar,Ventas a terceros,USD,480000
+3,Mar,Costo de ventas,USD,288000
+3,Mar,Gastos,USD,72000
+4,Abr,Ventas a terceros,USD,480000
+4,Abr,Costo de ventas,USD,288000
+4,Abr,Gastos,USD,72000
+5,May,Ventas a terceros,USD,480000
+5,May,Costo de ventas,USD,288000
+5,May,Gastos,USD,72000
+6,Jun,Ventas a terceros,USD,480000
+6,Jun,Costo de ventas,USD,288000
+6,Jun,Gastos,USD,72000
+7,Jul,Ventas a terceros,USD,480000
+7,Jul,Costo de ventas,USD,288000
+7,Jul,Gastos,USD,72000
+8,Ago,Ventas a terceros,USD,540000
+8,Ago,Costo de ventas,USD,324000
+8,Ago,Gastos,USD,81000
+9,Sep,Ventas a terceros,USD,540000
+9,Sep,Costo de ventas,USD,324000
+9,Sep,Gastos,USD,81000
+10,Oct,Ventas a terceros,USD,540000
+10,Oct,Costo de ventas,USD,324000
+10,Oct,Gastos,USD,81000
+11,Nov,Ventas a terceros,USD,540000
+11,Nov,Costo de ventas,USD,324000
+11,Nov,Gastos,USD,81000
+12,Dic,Ventas a terceros,USD,600000
+12,Dic,Costo de ventas,USD,360000
+12,Dic,Gastos,USD,90000

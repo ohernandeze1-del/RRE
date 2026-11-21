@@ -1,0 +1,37 @@
+mes,nombre_mes,cuenta,moneda,importe
+1,Ene,Ventas a terceros,GTQ,8400000
+1,Ene,Costo de ventas,GTQ,5040000
+1,Ene,Gastos,GTQ,1260000
+2,Feb,Ventas a terceros,GTQ,8400000
+2,Feb,Costo de ventas,GTQ,5040000
+2,Feb,Gastos,GTQ,1260000
+3,Mar,Ventas a terceros,GTQ,9600000
+3,Mar,Costo de ventas,GTQ,5760000
+3,Mar,Gastos,GTQ,1440000
+4,Abr,Ventas a terceros,GTQ,9600000
+4,Abr,Costo de ventas,GTQ,5760000
+4,Abr,Gastos,GTQ,1440000
+5,May,Ventas a terceros,GTQ,9600000
+5,May,Costo de ventas,GTQ,5760000
+5,May,Gastos,GTQ,1440000
+6,Jun,Ventas a terceros,GTQ,9600000
+6,Jun,Costo de ventas,GTQ,5760000
+6,Jun,Gastos,GTQ,1440000
+7,Jul,Ventas a terceros,GTQ,9600000
+7,Jul,Costo de ventas,GTQ,5760000
+7,Jul,Gastos,GTQ,1440000
+8,Ago,Ventas a terceros,GTQ,10800000
+8,Ago,Costo de ventas,GTQ,6480000
+8,Ago,Gastos,GTQ,1620000
+9,Sep,Ventas a terceros,GTQ,10800000
+9,Sep,Costo de ventas,GTQ,6480000
+9,Sep,Gastos,GTQ,1620000
+10,Oct,Ventas a terceros,GTQ,10800000
+10,Oct,Costo de ventas,GTQ,6480000
+10,Oct,Gastos,GTQ,1620000
+11,Nov,Ventas a terceros,GTQ,10800000
+11,Nov,Costo de ventas,GTQ,6480000
+11,Nov,Gastos,GTQ,1620000
+12,Dic,Ventas a terceros,GTQ,12000000
+12,Dic,Costo de ventas,GTQ,7200000
+12,Dic,Gastos,GTQ,1800000

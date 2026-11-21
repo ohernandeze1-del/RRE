@@ -3,11 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=/mvp/">
-  <title>RRE</title>
-  <script>location.replace("/mvp/");</script>
+  <title>RRE · Elegir portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portales/app.css">
 </head>
 <body>
-  <p><a href="/mvp/">Abrir el demo</a></p>
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <h1>¿A qué portal entrás?</h1>
+        <p class="sub">Seis empresas cargan su presupuesto. El corporativo ve el grupo en dólares, contra el año pasado. Cifras ficticias del Grupo Istmo.</p>
+      </div>
+    </header>
+    <nav class="directory" id="directory"></nav>
+  </main>
+  <script src="portales/datos.js"></script>
+  <script>
+    const data = window.RRE_DATA;
+    const sum = (values) => values.reduce((total, value) => total + value, 0);
+    const pct = (value) => {
+      const shown = (value * 100).toLocaleString("es-GT", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+      return (value > 0 ? "+" : "") + shown + "%";
+    };
+    const usd = (amount, currency) => amount / data.fx[currency];
+    let priorUsd = 0;
+    let budgetUsd = 0;
+    data.companies.forEach((item) => {
+      priorUsd += usd(sum(data.sales[item.id].prior), item.currency);
+      budgetUsd += usd(sum(data.sales[item.id].budget), item.currency);
+    });
+    const groupChange = (budgetUsd - priorUsd) / priorUsd;
+    const rows = [`<a class="entry corp" href="portales/grupo.html"><span><strong>Corporativo</strong><div class="meta">Todas las empresas, en dólares</div></span><span class="meta">Presupuesto, gráfico e iniciativas</span><span class="delta ${groupChange < 0 ? "down" : "up"}">${pct(groupChange)}</span></a>`];
+    data.companies.forEach((item) => {
+      const prior = sum(data.sales[item.id].prior);
+      const budget = sum(data.sales[item.id].budget);
+      const change = (budget - prior) / prior;
+      rows.push(`<a class="entry" href="portales/empresa.html?empresa=${item.id}"><strong>${item.name}</strong><span class="meta">${item.country} · ${item.currency}</span><span class="delta ${change < 0 ? "down" : "up"}">${pct(change)}</span></a>`);
+    });
+    document.getElementById("directory").innerHTML = rows.join("");
+  </script>
 </body>
 </html>

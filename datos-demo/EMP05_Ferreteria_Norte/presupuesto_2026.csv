@@ -1,0 +1,37 @@
+mes,nombre_mes,cuenta,moneda,importe
+1,Ene,Ventas a terceros,HNL,5250000
+1,Ene,Costo de ventas,HNL,3150000
+1,Ene,Gastos,HNL,787500
+2,Feb,Ventas a terceros,HNL,5250000
+2,Feb,Costo de ventas,HNL,3150000
+2,Feb,Gastos,HNL,787500
+3,Mar,Ventas a terceros,HNL,6000000
+3,Mar,Costo de ventas,HNL,3600000
+3,Mar,Gastos,HNL,900000
+4,Abr,Ventas a terceros,HNL,6000000
+4,Abr,Costo de ventas,HNL,3600000
+4,Abr,Gastos,HNL,900000
+5,May,Ventas a terceros,HNL,6000000
+5,May,Costo de ventas,HNL,3600000
+5,May,Gastos,HNL,900000
+6,Jun,Ventas a terceros,HNL,6000000
+6,Jun,Costo de ventas,HNL,3600000
+6,Jun,Gastos,HNL,900000
+7,Jul,Ventas a terceros,HNL,6000000
+7,Jul,Costo de ventas,HNL,3600000
+7,Jul,Gastos,HNL,900000
+8,Ago,Ventas a terceros,HNL,6750000
+8,Ago,Costo de ventas,HNL,4050000
+8,Ago,Gastos,HNL,1012500
+9,Sep,Ventas a terceros,HNL,6750000
+9,Sep,Costo de ventas,HNL,4050000
+9,Sep,Gastos,HNL,1012500
+10,Oct,Ventas a terceros,HNL,6750000
+10,Oct,Costo de ventas,HNL,4050000
+10,Oct,Gastos,HNL,1012500
+11,Nov,Ventas a terceros,HNL,6750000
+11,Nov,Costo de ventas,HNL,4050000
+11,Nov,Gastos,HNL,1012500
+12,Dic,Ventas a terceros,HNL,7500000
+12,Dic,Costo de ventas,HNL,4500000
+12,Dic,Gastos,HNL,1125000
