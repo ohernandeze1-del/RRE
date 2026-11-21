@@ -1,37 +1,145 @@
-mes,nombre_mes,cuenta,moneda,importe
-1,Ene,Ventas a terceros,HNL,5250000
-1,Ene,Costo de ventas,HNL,3150000
-1,Ene,Gastos,HNL,787500
-2,Feb,Ventas a terceros,HNL,5250000
-2,Feb,Costo de ventas,HNL,3150000
-2,Feb,Gastos,HNL,787500
-3,Mar,Ventas a terceros,HNL,6000000
-3,Mar,Costo de ventas,HNL,3600000
-3,Mar,Gastos,HNL,900000
-4,Abr,Ventas a terceros,HNL,6000000
-4,Abr,Costo de ventas,HNL,3600000
-4,Abr,Gastos,HNL,900000
-5,May,Ventas a terceros,HNL,6000000
-5,May,Costo de ventas,HNL,3600000
-5,May,Gastos,HNL,900000
-6,Jun,Ventas a terceros,HNL,6000000
-6,Jun,Costo de ventas,HNL,3600000
-6,Jun,Gastos,HNL,900000
-7,Jul,Ventas a terceros,HNL,6000000
-7,Jul,Costo de ventas,HNL,3600000
-7,Jul,Gastos,HNL,900000
-8,Ago,Ventas a terceros,HNL,6750000
-8,Ago,Costo de ventas,HNL,4050000
-8,Ago,Gastos,HNL,1012500
-9,Sep,Ventas a terceros,HNL,6750000
-9,Sep,Costo de ventas,HNL,4050000
-9,Sep,Gastos,HNL,1012500
-10,Oct,Ventas a terceros,HNL,6750000
-10,Oct,Costo de ventas,HNL,4050000
-10,Oct,Gastos,HNL,1012500
-11,Nov,Ventas a terceros,HNL,6750000
-11,Nov,Costo de ventas,HNL,4050000
-11,Nov,Gastos,HNL,1012500
-12,Dic,Ventas a terceros,HNL,7500000
-12,Dic,Costo de ventas,HNL,4500000
-12,Dic,Gastos,HNL,1125000
+mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
+1,Ene,Obra San Pedro,Ventas a terceros,HNL,2887500,NO,Concentra más obra de este cliente.
+1,Ene,Obra San Pedro,Costo de ventas,HNL,1732500,NO,Concentra más obra de este cliente.
+1,Ene,Obra San Pedro,Gastos,HNL,433125,NO,Concentra más obra de este cliente.
+1,Ene,Cadena del Lago,Ventas a terceros,HNL,1312500,NO,Perdió parte del contrato de la cadena.
+1,Ene,Cadena del Lago,Costo de ventas,HNL,787500,NO,Perdió parte del contrato de la cadena.
+1,Ene,Cadena del Lago,Gastos,HNL,196875,NO,Perdió parte del contrato de la cadena.
+1,Ene,Depósito Choloma,Ventas a terceros,HNL,1050000,NO,Sigue el mismo peso que el año pasado.
+1,Ene,Depósito Choloma,Costo de ventas,HNL,630000,NO,Sigue el mismo peso que el año pasado.
+1,Ene,Depósito Choloma,Gastos,HNL,157500,NO,Sigue el mismo peso que el año pasado.
+1,Ene,Aceros Honduras,Ventas a terceros,HNL,350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Aceros Honduras,Costo de ventas,HNL,210000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Aceros Honduras,Gastos,HNL,52500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Obra San Pedro,Ventas a terceros,HNL,2887500,NO,Concentra más obra de este cliente.
+2,Feb,Obra San Pedro,Costo de ventas,HNL,1732500,NO,Concentra más obra de este cliente.
+2,Feb,Obra San Pedro,Gastos,HNL,433125,NO,Concentra más obra de este cliente.
+2,Feb,Cadena del Lago,Ventas a terceros,HNL,1312500,NO,Perdió parte del contrato de la cadena.
+2,Feb,Cadena del Lago,Costo de ventas,HNL,787500,NO,Perdió parte del contrato de la cadena.
+2,Feb,Cadena del Lago,Gastos,HNL,196875,NO,Perdió parte del contrato de la cadena.
+2,Feb,Depósito Choloma,Ventas a terceros,HNL,1050000,NO,Sigue el mismo peso que el año pasado.
+2,Feb,Depósito Choloma,Costo de ventas,HNL,630000,NO,Sigue el mismo peso que el año pasado.
+2,Feb,Depósito Choloma,Gastos,HNL,157500,NO,Sigue el mismo peso que el año pasado.
+2,Feb,Aceros Honduras,Ventas a terceros,HNL,350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Aceros Honduras,Costo de ventas,HNL,210000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Aceros Honduras,Gastos,HNL,52500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Obra San Pedro,Ventas a terceros,HNL,3300000,NO,Concentra más obra de este cliente.
+3,Mar,Obra San Pedro,Costo de ventas,HNL,1980000,NO,Concentra más obra de este cliente.
+3,Mar,Obra San Pedro,Gastos,HNL,495000,NO,Concentra más obra de este cliente.
+3,Mar,Cadena del Lago,Ventas a terceros,HNL,1500000,NO,Perdió parte del contrato de la cadena.
+3,Mar,Cadena del Lago,Costo de ventas,HNL,900000,NO,Perdió parte del contrato de la cadena.
+3,Mar,Cadena del Lago,Gastos,HNL,225000,NO,Perdió parte del contrato de la cadena.
+3,Mar,Depósito Choloma,Ventas a terceros,HNL,1200000,NO,Sigue el mismo peso que el año pasado.
+3,Mar,Depósito Choloma,Costo de ventas,HNL,720000,NO,Sigue el mismo peso que el año pasado.
+3,Mar,Depósito Choloma,Gastos,HNL,180000,NO,Sigue el mismo peso que el año pasado.
+3,Mar,Aceros Honduras,Ventas a terceros,HNL,400000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Aceros Honduras,Costo de ventas,HNL,240000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Aceros Honduras,Gastos,HNL,60000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Obra San Pedro,Ventas a terceros,HNL,3300000,NO,Concentra más obra de este cliente.
+4,Abr,Obra San Pedro,Costo de ventas,HNL,1980000,NO,Concentra más obra de este cliente.
+4,Abr,Obra San Pedro,Gastos,HNL,495000,NO,Concentra más obra de este cliente.
+4,Abr,Cadena del Lago,Ventas a terceros,HNL,1500000,NO,Perdió parte del contrato de la cadena.
+4,Abr,Cadena del Lago,Costo de ventas,HNL,900000,NO,Perdió parte del contrato de la cadena.
+4,Abr,Cadena del Lago,Gastos,HNL,225000,NO,Perdió parte del contrato de la cadena.
+4,Abr,Depósito Choloma,Ventas a terceros,HNL,1200000,NO,Sigue el mismo peso que el año pasado.
+4,Abr,Depósito Choloma,Costo de ventas,HNL,720000,NO,Sigue el mismo peso que el año pasado.
+4,Abr,Depósito Choloma,Gastos,HNL,180000,NO,Sigue el mismo peso que el año pasado.
+4,Abr,Aceros Honduras,Ventas a terceros,HNL,400000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Aceros Honduras,Costo de ventas,HNL,240000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Aceros Honduras,Gastos,HNL,60000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Obra San Pedro,Ventas a terceros,HNL,3300000,NO,Concentra más obra de este cliente.
+5,May,Obra San Pedro,Costo de ventas,HNL,1980000,NO,Concentra más obra de este cliente.
+5,May,Obra San Pedro,Gastos,HNL,495000,NO,Concentra más obra de este cliente.
+5,May,Cadena del Lago,Ventas a terceros,HNL,1500000,NO,Perdió parte del contrato de la cadena.
+5,May,Cadena del Lago,Costo de ventas,HNL,900000,NO,Perdió parte del contrato de la cadena.
+5,May,Cadena del Lago,Gastos,HNL,225000,NO,Perdió parte del contrato de la cadena.
+5,May,Depósito Choloma,Ventas a terceros,HNL,1200000,NO,Sigue el mismo peso que el año pasado.
+5,May,Depósito Choloma,Costo de ventas,HNL,720000,NO,Sigue el mismo peso que el año pasado.
+5,May,Depósito Choloma,Gastos,HNL,180000,NO,Sigue el mismo peso que el año pasado.
+5,May,Aceros Honduras,Ventas a terceros,HNL,400000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Aceros Honduras,Costo de ventas,HNL,240000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Aceros Honduras,Gastos,HNL,60000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Obra San Pedro,Ventas a terceros,HNL,3300000,NO,Concentra más obra de este cliente.
+6,Jun,Obra San Pedro,Costo de ventas,HNL,1980000,NO,Concentra más obra de este cliente.
+6,Jun,Obra San Pedro,Gastos,HNL,495000,NO,Concentra más obra de este cliente.
+6,Jun,Cadena del Lago,Ventas a terceros,HNL,1500000,NO,Perdió parte del contrato de la cadena.
+6,Jun,Cadena del Lago,Costo de ventas,HNL,900000,NO,Perdió parte del contrato de la cadena.
+6,Jun,Cadena del Lago,Gastos,HNL,225000,NO,Perdió parte del contrato de la cadena.
+6,Jun,Depósito Choloma,Ventas a terceros,HNL,1200000,NO,Sigue el mismo peso que el año pasado.
+6,Jun,Depósito Choloma,Costo de ventas,HNL,720000,NO,Sigue el mismo peso que el año pasado.
+6,Jun,Depósito Choloma,Gastos,HNL,180000,NO,Sigue el mismo peso que el año pasado.
+6,Jun,Aceros Honduras,Ventas a terceros,HNL,400000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Aceros Honduras,Costo de ventas,HNL,240000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Aceros Honduras,Gastos,HNL,60000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Obra San Pedro,Ventas a terceros,HNL,3300000,NO,Concentra más obra de este cliente.
+7,Jul,Obra San Pedro,Costo de ventas,HNL,1980000,NO,Concentra más obra de este cliente.
+7,Jul,Obra San Pedro,Gastos,HNL,495000,NO,Concentra más obra de este cliente.
+7,Jul,Cadena del Lago,Ventas a terceros,HNL,1500000,NO,Perdió parte del contrato de la cadena.
+7,Jul,Cadena del Lago,Costo de ventas,HNL,900000,NO,Perdió parte del contrato de la cadena.
+7,Jul,Cadena del Lago,Gastos,HNL,225000,NO,Perdió parte del contrato de la cadena.
+7,Jul,Depósito Choloma,Ventas a terceros,HNL,1200000,NO,Sigue el mismo peso que el año pasado.
+7,Jul,Depósito Choloma,Costo de ventas,HNL,720000,NO,Sigue el mismo peso que el año pasado.
+7,Jul,Depósito Choloma,Gastos,HNL,180000,NO,Sigue el mismo peso que el año pasado.
+7,Jul,Aceros Honduras,Ventas a terceros,HNL,400000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Aceros Honduras,Costo de ventas,HNL,240000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Aceros Honduras,Gastos,HNL,60000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Obra San Pedro,Ventas a terceros,HNL,3712500,NO,Concentra más obra de este cliente.
+8,Ago,Obra San Pedro,Costo de ventas,HNL,2227500,NO,Concentra más obra de este cliente.
+8,Ago,Obra San Pedro,Gastos,HNL,556875,NO,Concentra más obra de este cliente.
+8,Ago,Cadena del Lago,Ventas a terceros,HNL,1687500,NO,Perdió parte del contrato de la cadena.
+8,Ago,Cadena del Lago,Costo de ventas,HNL,1012500,NO,Perdió parte del contrato de la cadena.
+8,Ago,Cadena del Lago,Gastos,HNL,253125,NO,Perdió parte del contrato de la cadena.
+8,Ago,Depósito Choloma,Ventas a terceros,HNL,1350000,NO,Sigue el mismo peso que el año pasado.
+8,Ago,Depósito Choloma,Costo de ventas,HNL,810000,NO,Sigue el mismo peso que el año pasado.
+8,Ago,Depósito Choloma,Gastos,HNL,202500,NO,Sigue el mismo peso que el año pasado.
+8,Ago,Aceros Honduras,Ventas a terceros,HNL,450000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Aceros Honduras,Costo de ventas,HNL,270000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Aceros Honduras,Gastos,HNL,67500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Obra San Pedro,Ventas a terceros,HNL,3712500,NO,Concentra más obra de este cliente.
+9,Sep,Obra San Pedro,Costo de ventas,HNL,2227500,NO,Concentra más obra de este cliente.
+9,Sep,Obra San Pedro,Gastos,HNL,556875,NO,Concentra más obra de este cliente.
+9,Sep,Cadena del Lago,Ventas a terceros,HNL,1687500,NO,Perdió parte del contrato de la cadena.
+9,Sep,Cadena del Lago,Costo de ventas,HNL,1012500,NO,Perdió parte del contrato de la cadena.
+9,Sep,Cadena del Lago,Gastos,HNL,253125,NO,Perdió parte del contrato de la cadena.
+9,Sep,Depósito Choloma,Ventas a terceros,HNL,1350000,NO,Sigue el mismo peso que el año pasado.
+9,Sep,Depósito Choloma,Costo de ventas,HNL,810000,NO,Sigue el mismo peso que el año pasado.
+9,Sep,Depósito Choloma,Gastos,HNL,202500,NO,Sigue el mismo peso que el año pasado.
+9,Sep,Aceros Honduras,Ventas a terceros,HNL,450000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Aceros Honduras,Costo de ventas,HNL,270000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Aceros Honduras,Gastos,HNL,67500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Obra San Pedro,Ventas a terceros,HNL,3712500,NO,Concentra más obra de este cliente.
+10,Oct,Obra San Pedro,Costo de ventas,HNL,2227500,NO,Concentra más obra de este cliente.
+10,Oct,Obra San Pedro,Gastos,HNL,556875,NO,Concentra más obra de este cliente.
+10,Oct,Cadena del Lago,Ventas a terceros,HNL,1687500,NO,Perdió parte del contrato de la cadena.
+10,Oct,Cadena del Lago,Costo de ventas,HNL,1012500,NO,Perdió parte del contrato de la cadena.
+10,Oct,Cadena del Lago,Gastos,HNL,253125,NO,Perdió parte del contrato de la cadena.
+10,Oct,Depósito Choloma,Ventas a terceros,HNL,1350000,NO,Sigue el mismo peso que el año pasado.
+10,Oct,Depósito Choloma,Costo de ventas,HNL,810000,NO,Sigue el mismo peso que el año pasado.
+10,Oct,Depósito Choloma,Gastos,HNL,202500,NO,Sigue el mismo peso que el año pasado.
+10,Oct,Aceros Honduras,Ventas a terceros,HNL,450000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Aceros Honduras,Costo de ventas,HNL,270000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Aceros Honduras,Gastos,HNL,67500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Obra San Pedro,Ventas a terceros,HNL,3712500,NO,Concentra más obra de este cliente.
+11,Nov,Obra San Pedro,Costo de ventas,HNL,2227500,NO,Concentra más obra de este cliente.
+11,Nov,Obra San Pedro,Gastos,HNL,556875,NO,Concentra más obra de este cliente.
+11,Nov,Cadena del Lago,Ventas a terceros,HNL,1687500,NO,Perdió parte del contrato de la cadena.
+11,Nov,Cadena del Lago,Costo de ventas,HNL,1012500,NO,Perdió parte del contrato de la cadena.
+11,Nov,Cadena del Lago,Gastos,HNL,253125,NO,Perdió parte del contrato de la cadena.
+11,Nov,Depósito Choloma,Ventas a terceros,HNL,1350000,NO,Sigue el mismo peso que el año pasado.
+11,Nov,Depósito Choloma,Costo de ventas,HNL,810000,NO,Sigue el mismo peso que el año pasado.
+11,Nov,Depósito Choloma,Gastos,HNL,202500,NO,Sigue el mismo peso que el año pasado.
+11,Nov,Aceros Honduras,Ventas a terceros,HNL,450000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Aceros Honduras,Costo de ventas,HNL,270000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Aceros Honduras,Gastos,HNL,67500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Obra San Pedro,Ventas a terceros,HNL,4125000,NO,Concentra más obra de este cliente.
+12,Dic,Obra San Pedro,Costo de ventas,HNL,2475000,NO,Concentra más obra de este cliente.
+12,Dic,Obra San Pedro,Gastos,HNL,618750,NO,Concentra más obra de este cliente.
+12,Dic,Cadena del Lago,Ventas a terceros,HNL,1875000,NO,Perdió parte del contrato de la cadena.
+12,Dic,Cadena del Lago,Costo de ventas,HNL,1125000,NO,Perdió parte del contrato de la cadena.
+12,Dic,Cadena del Lago,Gastos,HNL,281250,NO,Perdió parte del contrato de la cadena.
+12,Dic,Depósito Choloma,Ventas a terceros,HNL,1500000,NO,Sigue el mismo peso que el año pasado.
+12,Dic,Depósito Choloma,Costo de ventas,HNL,900000,NO,Sigue el mismo peso que el año pasado.
+12,Dic,Depósito Choloma,Gastos,HNL,225000,NO,Sigue el mismo peso que el año pasado.
+12,Dic,Aceros Honduras,Ventas a terceros,HNL,500000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Aceros Honduras,Costo de ventas,HNL,300000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Aceros Honduras,Gastos,HNL,75000,SI,Venta a otra empresa del grupo. Esta línea no entra.

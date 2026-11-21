@@ -1,37 +1,109 @@
-mes,nombre_mes,cuenta,moneda,importe
-1,Ene,Ventas a terceros,USD,168000
-1,Ene,Costo de ventas,USD,100800
-1,Ene,Gastos,USD,25200
-2,Feb,Ventas a terceros,USD,168000
-2,Feb,Costo de ventas,USD,100800
-2,Feb,Gastos,USD,25200
-3,Mar,Ventas a terceros,USD,192000
-3,Mar,Costo de ventas,USD,115200
-3,Mar,Gastos,USD,28800
-4,Abr,Ventas a terceros,USD,192000
-4,Abr,Costo de ventas,USD,115200
-4,Abr,Gastos,USD,28800
-5,May,Ventas a terceros,USD,192000
-5,May,Costo de ventas,USD,115200
-5,May,Gastos,USD,28800
-6,Jun,Ventas a terceros,USD,192000
-6,Jun,Costo de ventas,USD,115200
-6,Jun,Gastos,USD,28800
-7,Jul,Ventas a terceros,USD,192000
-7,Jul,Costo de ventas,USD,115200
-7,Jul,Gastos,USD,28800
-8,Ago,Ventas a terceros,USD,216000
-8,Ago,Costo de ventas,USD,129600
-8,Ago,Gastos,USD,32400
-9,Sep,Ventas a terceros,USD,216000
-9,Sep,Costo de ventas,USD,129600
-9,Sep,Gastos,USD,32400
-10,Oct,Ventas a terceros,USD,216000
-10,Oct,Costo de ventas,USD,129600
-10,Oct,Gastos,USD,32400
-11,Nov,Ventas a terceros,USD,216000
-11,Nov,Costo de ventas,USD,129600
-11,Nov,Gastos,USD,32400
-12,Dic,Ventas a terceros,USD,240000
-12,Dic,Costo de ventas,USD,144000
-12,Dic,Gastos,USD,36000
+mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
+1,Ene,Aseguradora Istmo,Ventas a terceros,USD,84000,NO,Renueva el contrato de servicios.
+1,Ene,Aseguradora Istmo,Costo de ventas,USD,50400,NO,Renueva el contrato de servicios.
+1,Ene,Aseguradora Istmo,Gastos,USD,12600,NO,Renueva el contrato de servicios.
+1,Ene,Banco del Puerto,Ventas a terceros,USD,84000,NO,El fee mensual se mantiene.
+1,Ene,Banco del Puerto,Costo de ventas,USD,50400,NO,El fee mensual se mantiene.
+1,Ene,Banco del Puerto,Gastos,USD,12600,NO,El fee mensual se mantiene.
+1,Ene,Logística CA,Ventas a terceros,USD,12600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Logística CA,Costo de ventas,USD,7560,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Logística CA,Gastos,USD,1890,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Aseguradora Istmo,Ventas a terceros,USD,84000,NO,Renueva el contrato de servicios.
+2,Feb,Aseguradora Istmo,Costo de ventas,USD,50400,NO,Renueva el contrato de servicios.
+2,Feb,Aseguradora Istmo,Gastos,USD,12600,NO,Renueva el contrato de servicios.
+2,Feb,Banco del Puerto,Ventas a terceros,USD,84000,NO,El fee mensual se mantiene.
+2,Feb,Banco del Puerto,Costo de ventas,USD,50400,NO,El fee mensual se mantiene.
+2,Feb,Banco del Puerto,Gastos,USD,12600,NO,El fee mensual se mantiene.
+2,Feb,Logística CA,Ventas a terceros,USD,12600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Logística CA,Costo de ventas,USD,7560,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Logística CA,Gastos,USD,1890,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
+3,Mar,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
+3,Mar,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
+3,Mar,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
+3,Mar,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
+3,Mar,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+3,Mar,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
+4,Abr,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
+4,Abr,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
+4,Abr,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
+4,Abr,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
+4,Abr,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+4,Abr,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
+5,May,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
+5,May,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
+5,May,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
+5,May,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
+5,May,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+5,May,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
+6,Jun,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
+6,Jun,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
+6,Jun,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
+6,Jun,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
+6,Jun,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+6,Jun,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
+7,Jul,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
+7,Jul,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
+7,Jul,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
+7,Jul,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
+7,Jul,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+7,Jul,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
+8,Ago,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
+8,Ago,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
+8,Ago,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
+8,Ago,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
+8,Ago,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+8,Ago,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
+9,Sep,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
+9,Sep,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
+9,Sep,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
+9,Sep,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
+9,Sep,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+9,Sep,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
+10,Oct,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
+10,Oct,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
+10,Oct,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
+10,Oct,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
+10,Oct,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+10,Oct,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
+11,Nov,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
+11,Nov,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
+11,Nov,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
+11,Nov,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
+11,Nov,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+11,Nov,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Aseguradora Istmo,Ventas a terceros,USD,120000,NO,Renueva el contrato de servicios.
+12,Dic,Aseguradora Istmo,Costo de ventas,USD,72000,NO,Renueva el contrato de servicios.
+12,Dic,Aseguradora Istmo,Gastos,USD,18000,NO,Renueva el contrato de servicios.
+12,Dic,Banco del Puerto,Ventas a terceros,USD,120000,NO,El fee mensual se mantiene.
+12,Dic,Banco del Puerto,Costo de ventas,USD,72000,NO,El fee mensual se mantiene.
+12,Dic,Banco del Puerto,Gastos,USD,18000,NO,El fee mensual se mantiene.
+12,Dic,Logística CA,Ventas a terceros,USD,18000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Logística CA,Costo de ventas,USD,10800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Logística CA,Gastos,USD,2700,SI,Venta a otra empresa del grupo. Esta línea no entra.

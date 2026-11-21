@@ -1,8 +1,14 @@
 Datos crudos para la demostración. Cifras ficticias del Grupo Istmo. No son de Grupo AG.
 
-Cada carpeta EMP0x trae:
-- presupuesto_2026.xlsx: ventas, costo y gastos por mes, en la moneda de la empresa.
-- ventas_2025.xlsx: ventas a terceros del año pasado, por mes.
+Cada carpeta EMP0x trae el detalle por cliente y mes:
+- presupuesto_2026.xlsx: cliente, cuenta, importe y si el cliente está dentro del grupo.
+- ventas_2025.xlsx: a qué cliente se le vendió el año pasado, por mes.
+Si dentro_del_grupo dice SI, el cliente es de otra empresa del grupo y esa línea no entra.
+La hoja Supuestos trae, de prueba, impuesto 0,30, WACC 0,10 y el capital de cada empresa.
+Con eso el portal calcula ROIC, ROCE y EVA. No son cifras reales.
+
+plantillas/plantilla_presupuesto.xlsx es el archivo vacío para cargar un presupuesto nuevo.
+plantillas/plantilla_iniciativa.xlsx es el archivo vacío de una iniciativa.
 
 La carpeta iniciativas trae, por iniciativa:
 - un Excel con ingreso incremental e inversión de cada mes.

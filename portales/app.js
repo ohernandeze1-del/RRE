@@ -1,6 +1,6 @@
 (function () {
   const DATA = window.RRE_DATA;
-  const STORE = "rre-portales-v1";
+  const STORE = "rre-portales-v2";
   const pptUrls = {};
 
   function loadStore() {
@@ -44,8 +44,243 @@
 
   function budgetOf(id) {
     const custom = loadStore().budgets[id];
-    if (custom && custom.length === 12) return custom.map(Number);
+    if (custom && Array.isArray(custom.months) && custom.months.length === 12) return custom.months.map(Number);
     return DATA.sales[id].budget.slice();
+  }
+
+  function detailOf(id) {
+    const custom = loadStore().budgets[id];
+    const seeded = DATA.sales[id];
+    if (custom && Array.isArray(custom.months)) {
+      const rates = custom.assumptions;
+      const usable = rates && rates.impuesto != null && rates.wacc != null && rates.capital_empleado > 0 && rates.capital_invertido > 0;
+      return Object.assign({}, custom, { assumptions: usable ? rates : seeded.assumptions });
+    }
+    return {
+      months: seeded.budget.slice(),
+      cost: seeded.cost.slice(),
+      expense: seeded.expense.slice(),
+      clients: seeded.clients,
+      removedCount: seeded.removedCount,
+      removedAmount: seeded.removedAmount,
+      lines: seeded.lines || [],
+      assumptions: seeded.assumptions || null
+    };
+  }
+
+  const COLORS = ["#f4e7c3", "#d4b06a", "#8ea4c8", "#a8843d", "#c47b4a", "#9bb0c9"];
+
+  function colorOf(id) {
+    const index = DATA.companies.findIndex((item) => item.id === id);
+    return COLORS[index] || COLORS[0];
+  }
+
+  function isInternalClient(name, flag) {
+    const mark = String(flag || "").trim().toLowerCase();
+    if (["si", "sí", "yes", "1", "true"].includes(mark)) return true;
+    const value = String(name || "").trim().toLowerCase();
+    if (!value) return false;
+    return DATA.companies.some((item) => item.id.toLowerCase() === value || item.name.toLowerCase() === value);
+  }
+
+  function amountOf(value) {
+    const number = Number(String(value).replace(/,/g, ""));
+    return isFinite(number) ? number : 0;
+  }
+
+  function accountKind(account) {
+    const text = String(account || "");
+    if (/costo/i.test(text)) return "costo";
+    if (/gasto/i.test(text)) return "gasto";
+    if (/venta/i.test(text)) return "venta";
+    return "";
+  }
+
+  function parseBudget(rows, companyId, fileName, assumptions) {
+    const companyCurrency = company(companyId).currency;
+    const findings = [];
+    const seen = new Set();
+    const prepared = [];
+    rows.forEach((raw) => {
+      const row = normalizeRow(raw);
+      const excelRow = Number(row.__row) || prepared.length + 2;
+      const cliente = String(row.cliente || "").trim();
+      const account = String(row.cuenta || "").trim();
+      const kind = accountKind(account);
+      const month = Number(row.mes);
+      const rawAmount = row.importe;
+      const amount = amountOf(rawAmount);
+      const currency = String(row.moneda || "").trim().toUpperCase();
+      const monthName = String(row.nombre_mes || "").trim();
+      const flagged = ["si", "sí", "yes", "1", "true"].includes(String(row.dentro_del_grupo || "").trim().toLowerCase());
+      const namedInternal = isInternalClient(cliente, "");
+      const issues = [];
+      if (!cliente) issues.push("no trae cliente");
+      if (!month || month < 1 || month > 12) issues.push("el mes no está entre 1 y 12");
+      if (String(rawAmount).trim() === "" || !isFinite(Number(String(rawAmount).replace(/,/g, "")))) issues.push("el importe no es un número");
+      else if (amount < 0) issues.push("el importe es negativo");
+      if (!currency || !DATA.fx[currency]) issues.push("la moneda no es GTQ, HNL ni USD");
+      else if (currency !== companyCurrency) issues.push(`la moneda es ${currency} y la empresa trabaja en ${companyCurrency}`);
+      if (!account) issues.push("no trae cuenta");
+      else if (!kind) issues.push(`la cuenta "${account}" no es ventas, costo ni gastos`);
+      if (issues.length) {
+        findings.push({ level: "error", row: excelRow, text: `Fila ${excelRow}: ${issues.join("; ")}. Esa fila no entra.` });
+        return;
+      }
+      const dentro = flagged || namedInternal;
+      if (kind === "venta" && namedInternal) findings.push({ level: "aviso", row: excelRow, text: `Fila ${excelRow}: ${cliente} es una empresa del grupo. Esa venta no entra.` });
+      else if (kind === "venta" && flagged) findings.push({ level: "aviso", row: excelRow, text: `Fila ${excelRow}: ${cliente} está marcado como intercompany. Esa venta no entra.` });
+      if (monthName && monthName.toLowerCase() !== String(DATA.months[month - 1]).toLowerCase()) {
+        findings.push({ level: "aviso", row: excelRow, text: `Fila ${excelRow}: el mes ${month} no coincide con "${monthName}".` });
+      }
+      const key = `${month}|${cliente.toLowerCase()}|${kind}|${amount}`;
+      if (seen.has(key)) {
+        findings.push({ level: "aviso", row: excelRow, text: `Fila ${excelRow}: está repetida. Entra la primera y esta se frena.` });
+        return;
+      }
+      seen.add(key);
+      prepared.push({
+        month, amount, account, kind, cliente, dentro, currency,
+        motivo: row.motivo ? String(row.motivo) : "",
+        row: excelRow
+      });
+    });
+    const salesClients = new Set(prepared.filter((line) => line.kind === "venta" && !line.dentro).map((line) => line.cliente.toLowerCase()));
+    prepared.forEach((line) => {
+      if (line.dentro || line.kind === "venta") return;
+      if (!salesClients.has(line.cliente.toLowerCase())) {
+        findings.push({ level: "aviso", row: line.row, text: `Fila ${line.row}: ${line.cliente} tiene ${line.kind} y no tiene ventas. No entra.` });
+        line.skip = true;
+      }
+    });
+    const clients = new Map();
+    const months = Array(12).fill(0);
+    const cost = Array(12).fill(0);
+    const expense = Array(12).fill(0);
+    const trace = [];
+    let removedCount = 0;
+    let removedAmount = 0;
+    let used = 0;
+    prepared.forEach((line) => {
+      if (!clients.has(line.cliente.toLowerCase())) clients.set(line.cliente.toLowerCase(), { cliente: line.cliente, dentro: false, motivo: "", budget: 0 });
+      const entry = clients.get(line.cliente.toLowerCase());
+      entry.dentro = entry.dentro || line.dentro;
+      if (line.motivo) entry.motivo = line.motivo;
+      const entra = !line.dentro && !line.skip;
+      if (line.kind === "venta") {
+        used += 1;
+        entry.budget += line.amount;
+        trace.push({
+          file: fileName,
+          row: line.row,
+          mes: line.month,
+          cliente: line.cliente,
+          cuenta: line.account,
+          moneda: line.currency,
+          importe: line.amount,
+          dentro: line.dentro,
+          motivo: line.motivo
+        });
+        if (line.dentro) {
+          removedCount += 1;
+          removedAmount += line.amount;
+        } else months[line.month - 1] += line.amount;
+      } else if (entra && line.kind === "costo") cost[line.month - 1] += line.amount;
+      else if (entra && line.kind === "gasto") expense[line.month - 1] += line.amount;
+    });
+    if (!used) throw new Error("No encontré filas de ventas. La columna cuenta tiene que decir Ventas y tiene que venir el cliente.");
+    const rates = assumptions || { impuesto: null, wacc: null, capital_empleado: null, capital_invertido: null };
+    const missingRates = ["impuesto", "wacc", "capital_empleado", "capital_invertido"].filter((key) => rates[key] == null || rates[key] === "");
+    if (missingRates.length) findings.push({ level: "aviso", row: "", text: `Faltan en la hoja Supuestos: ${missingRates.join(", ")}. Sin eso no hay ROIC, ROCE ni EVA.` });
+    return {
+      months, cost, expense,
+      clients: Array.from(clients.values()),
+      removedCount, removedAmount,
+      lines: trace,
+      assumptions: rates,
+      findings
+    };
+  }
+
+  function explainRows(id) {
+    const seeded = DATA.sales[id].clients;
+    const custom = loadStore().budgets[id];
+    const priorBy = new Map(seeded.map((item) => [item.cliente.toLowerCase(), item]));
+    if (!custom || !custom.clients) return seeded.map((item) => Object.assign({}, item));
+    const seen = new Set();
+    const rows = custom.clients.map((item) => {
+      seen.add(item.cliente.toLowerCase());
+      const old = priorBy.get(item.cliente.toLowerCase());
+      return {
+        cliente: item.cliente,
+        dentro: item.dentro,
+        motivo: item.motivo || (old ? old.motivo : ""),
+        prior: old && !item.dentro ? old.prior : (old && item.dentro ? old.prior : 0),
+        budget: item.budget
+      };
+    });
+    seeded.forEach((item) => {
+      if (item.dentro || seen.has(item.cliente.toLowerCase())) return;
+      rows.push({ cliente: item.cliente, dentro: false, motivo: "", prior: item.prior, budget: 0, dropped: true });
+    });
+    return rows;
+  }
+
+  function whyText(row) {
+    if (row.dentro) return row.motivo || "No entra. El cliente está dentro del grupo, así que esta venta no pasa.";
+    if (row.dropped || (row.budget === 0 && row.prior > 0)) return "Ya no está en el presupuesto. El año pasado sí se le vendía.";
+    if (row.prior === 0 && row.budget > 0) return row.motivo || "Cliente nuevo. No tenía ventas el año pasado.";
+    if (row.budget > row.prior) return row.motivo || "El presupuesto de este cliente supera lo vendido el año pasado.";
+    if (row.budget < row.prior) return row.motivo || "El presupuesto de este cliente queda por debajo del año pasado.";
+    return row.motivo || "Queda igual que el año pasado.";
+  }
+
+  function explainTable(ids) {
+    const body = ids.map((id) => {
+      const item = company(id);
+      return explainRows(id).map((row) => {
+        const delta = row.dentro ? 0 : row.budget - row.prior;
+        const change = row.dentro ? "No entra" : money(delta);
+        return `<tr><td>${esc(item.name)}</td><td>${esc(row.cliente)}</td><td>${money(row.prior)}</td><td>${money(row.budget)}</td><td class="${row.dentro ? "" : delta < 0 ? "down" : "up"}">${change}</td><td>${esc(whyText(row))}</td></tr>`;
+      }).join("");
+    }).join("");
+    return `<div class="sheet"><table><thead><tr><th>Empresa</th><th>Cliente</th><th>2025</th><th>2026</th><th>Cambio</th><th>Por qué</th></tr></thead><tbody>${body}</tbody></table></div>`;
+  }
+
+  function ebitOf(id) {
+    const detail = detailOf(id);
+    const sales = sum(detail.months);
+    const cost = sum(detail.cost || []);
+    const expense = sum(detail.expense || []);
+    if (sales && !cost && !expense) return null;
+    return sales - cost - expense;
+  }
+
+  function returnsOf(id) {
+    const ebit = ebitOf(id);
+    const rates = detailOf(id).assumptions;
+    const ready = ebit != null && rates && rates.impuesto != null && rates.wacc != null && rates.capital_empleado > 0 && rates.capital_invertido > 0;
+    if (!ready) return { ebit, ready: false };
+    const nopat = ebit * (1 - rates.impuesto);
+    return {
+      ebit,
+      ready: true,
+      nopat,
+      roce: ebit / rates.capital_empleado,
+      roic: nopat / rates.capital_invertido,
+      eva: nopat - rates.capital_invertido * rates.wacc
+    };
+  }
+
+  function ratios(result, currency) {
+    const figure = result.ebit == null ? "—" : `${money(result.ebit)} ${esc(currency)}`;
+    const roce = result.ready ? pct(result.roce).replace("+", "") : "—";
+    const roic = result.ready ? pct(result.roic).replace("+", "") : "—";
+    const eva = result.ready ? `${money(result.eva)} ${esc(currency)}` : "—";
+    const note = result.ready
+      ? `NOPAT = EBIT × (1 − impuesto). ROCE = EBIT / capital empleado. ROIC = NOPAT / capital invertido. EVA = NOPAT − capital invertido × WACC.`
+      : "El EBIT sale de las ventas que pasan, menos costo, menos gastos. ROIC, ROCE y EVA piden, en la hoja Supuestos, impuesto, wacc, capital_empleado y capital_invertido. Esos cuatro datos no están en las filas de venta.";
+    return `<section><h2>Resultado y retornos</h2><dl class="ledger"><div><dt>EBIT estimado</dt><dd>${figure}</dd></div><div><dt>ROIC</dt><dd>${roic}</dd></div><div><dt>ROCE</dt><dd>${roce}</dd></div><div><dt>EVA</dt><dd>${eva}</dd></div></dl><p class="note">${note}</p></section>`;
   }
 
   function priorOf(id) {
@@ -136,24 +371,65 @@
   }
 
   function parseCsv(text) {
-    const lines = text.replace(/^\uFEFF/, "").trim().split(/\r?\n/).filter(Boolean);
-    const headers = lines.shift().split(",").map((header) => header.trim().toLowerCase());
-    return lines.map((line) => {
+    const lines = text.replace(/^\uFEFF/, "").split(/\r?\n/);
+    const headerIndex = lines.findIndex((line) => line.trim());
+    const headers = lines[headerIndex].split(",").map((header) => header.trim().toLowerCase());
+    return lines.slice(headerIndex + 1).map((line, index) => {
+      if (!line.trim()) return null;
       const cells = line.split(",");
-      const row = {};
-      headers.forEach((header, index) => { row[header] = (cells[index] || "").trim(); });
+      const row = { __row: headerIndex + index + 2 };
+      headers.forEach((header, cell) => { row[header] = (cells[cell] || "").trim(); });
       return row;
-    });
+    }).filter(Boolean);
+  }
+
+  function assumptionsFrom(rows) {
+    const source = (rows || []).map(normalizeRow).find((row) => Object.values(row).some((value) => String(value).trim() !== ""));
+    const rate = (value) => {
+      if (value == null || String(value).trim() === "") return null;
+      const number = Number(String(value).replace("%", "").replace(",", "."));
+      if (!isFinite(number)) return null;
+      return Math.abs(number) > 1 ? number / 100 : number;
+    };
+    const figure = (value) => {
+      if (value == null || String(value).trim() === "") return null;
+      const number = Number(String(value).replace(/,/g, ""));
+      return isFinite(number) ? number : null;
+    };
+    if (!source) return { impuesto: null, wacc: null, capital_empleado: null, capital_invertido: null };
+    return {
+      impuesto: rate(source.impuesto),
+      wacc: rate(source.wacc),
+      capital_empleado: figure(source.capital_empleado),
+      capital_invertido: figure(source.capital_invertido)
+    };
   }
 
   async function readRows(file) {
+    const book = await readWorkbook(file);
+    return book.rows;
+  }
+
+  async function readWorkbook(file) {
     const name = file.name.toLowerCase();
-    if (name.endsWith(".csv")) return parseCsv(await file.text());
+    if (name.endsWith(".csv")) return { rows: parseCsv(await file.text()), assumptions: null, fileName: file.name };
     if (!window.XLSX) {
       throw new Error("Para leer Excel hace falta conexión la primera vez. También podés subir el CSV de la misma carpeta.");
     }
     const book = XLSX.read(await file.arrayBuffer(), { type: "array" });
-    return XLSX.utils.sheet_to_json(book.Sheets[book.SheetNames[0]], { defval: "" });
+    const sheet = book.Sheets[book.SheetNames[0]];
+    const matrix = XLSX.utils.sheet_to_json(sheet, { header: 1, defval: "" });
+    const headers = (matrix[0] || []).map((header) => String(header).trim().toLowerCase());
+    const rows = [];
+    matrix.slice(1).forEach((cells, index) => {
+      if (!cells || !cells.some((cell) => String(cell).trim() !== "")) return;
+      const row = { __row: index + 2 };
+      headers.forEach((header, cell) => { if (header) row[header] = cells[cell]; });
+      rows.push(row);
+    });
+    const supName = book.SheetNames.find((sheetName) => /supuesto/i.test(sheetName));
+    const assumptions = supName ? assumptionsFrom(XLSX.utils.sheet_to_json(book.Sheets[supName], { defval: "" })) : null;
+    return { rows, assumptions, fileName: file.name };
   }
 
   function normalizeRow(row) {
@@ -171,17 +447,25 @@
     return `<div class="sheet"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto 2026</th><th>Variación</th></tr></thead><tbody>${rows.join("")}</tbody></table></div><p class="note">Importes en ${esc(currency)}.</p>`;
   }
 
-  function chart(prior, base, incremental) {
-    const max = Math.max(...prior.map((value, index) => Math.max(value, base[index] + (incremental[index] || 0))), 1);
+  function chart(prior, parts, incremental) {
+    const stacked = DATA.months.map((_, index) => parts.reduce((total, part) => total + (part.values[index] || 0), 0));
+    const max = Math.max(...prior.map((value, index) => Math.max(value, stacked[index] + (incremental[index] || 0))), 1);
     const height = 230;
     const columns = DATA.months.map((name, index) => {
       const priorPx = Math.round(prior[index] / max * height);
-      const basePx = Math.round(base[index] / max * height);
-      const rawInc = Math.round((incremental[index] || 0) / max * height);
-      const incPx = incremental[index] ? Math.max(rawInc, 5) : 0;
-      return `<div class="month"><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack"><div class="bar inc" style="height:${incPx}px"></div><div class="bar base" style="height:${basePx}px"></div></div></div><span class="name">${name}</span></div>`;
+      const pieces = parts.map((part) => {
+        const px = Math.round((part.values[index] || 0) / max * height);
+        return px ? `<div class="bar" style="height:${px}px;background:${part.color}"></div>` : "";
+      });
+      const incPx = Math.round((incremental[index] || 0) / max * height);
+      const inc = incPx ? `<div class="bar inc" style="height:${incPx}px"></div>` : "";
+      return `<div class="month"><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack">${inc}${pieces.reverse().join("")}</div></div><span class="name">${name}</span></div>`;
     }).join("");
-    return `<div class="legend"><span><i class="swatch prior"></i>Año pasado</span><span><i class="swatch base"></i>Presupuesto base</span><span><i class="swatch inc"></i>Incremental, encima</span></div><div class="chart">${columns}</div>`;
+    const legend = [`<span><i class="swatch prior"></i>Año pasado</span>`]
+      .concat(parts.map((part) => `<span><i class="swatch" style="background:${part.color}"></i>${esc(part.name)}</span>`))
+      .concat(`<span><i class="swatch inc"></i>Incremental, encima</span>`)
+      .join("");
+    return `<div class="legend">${legend}</div><div class="chart">${columns}</div>`;
   }
 
   function shareLabel(value) {
@@ -189,7 +473,6 @@
   }
 
   function pie() {
-    const colors = ["#f4e7c3", "#d4b06a", "#f7f7f7", "#8ea4c8", "#a8843d", "#d8dee8"];
     const parts = DATA.companies.map((item) => ({
       name: item.name,
       value: sum(budgetOf(item.id).map((amount) => toUsd(amount, item.currency)))
@@ -200,9 +483,9 @@
       const start = cursor / total * 360;
       cursor += part.value;
       const end = cursor / total * 360;
-      return `${colors[index]} ${start}deg ${end}deg`;
+      return `${colorOf(DATA.companies[index].id)} ${start}deg ${end}deg`;
     });
-    const legend = parts.map((part, index) => `<li><span><i style="background:${colors[index]}"></i>${esc(part.name)}</span><span>${shareLabel(part.value / total)}</span></li>`).join("");
+    const legend = parts.map((part, index) => `<li><span><i style="background:${colorOf(DATA.companies[index].id)}"></i>${esc(part.name)}</span><span>${shareLabel(part.value / total)}</span></li>`).join("");
     return `<div class="pie-wrap"><div class="pie" style="background:conic-gradient(${stops.join(",")})"></div><ul class="pie-legend">${legend}</ul></div>`;
   }
 
@@ -233,20 +516,23 @@
         <div><dt>Presupuesto 2026</dt><dd>${money(sum(budget))} <small>${esc(item.currency)}</small></dd></div>
         <div><dt>Ventas 2025</dt><dd>${money(sum(prior))} <small>${esc(item.currency)}</small></dd></div>
         <div><dt>Contra el año pasado</dt><dd class="${change < 0 ? "down" : "up"}">${pct(change)}</dd></div>
+        <div><dt>Venta interna que no entra</dt><dd>${money(detailOf(id).removedAmount)} <small>${esc(item.currency)}</small></dd></div>
       </dl>
+      ${ratios(returnsOf(id), item.currency)}
       <div class="split">
         <div>
-          ${chart(prior, budget, added)}
+          ${chart(prior, [{ name: item.name, color: colorOf(id), values: budget }], added)}
           ${monthTable(prior, budget, item.currency)}
         </div>
         <aside class="actions">
           <button class="solid" type="button" id="toggle-budget">Editar presupuesto</button>
           <button class="solid" type="button" id="toggle-init">Editar o subir iniciativas</button>
           <form id="budget-form" hidden>
-            <p class="note">Excel o CSV con columnas mes, cuenta, moneda, importe. Reemplaza el presupuesto actual.</p>
+            <p class="note">Excel por cliente y mes. El portal revisa intercompany, importes, moneda y la hoja Supuestos antes de cargar.</p>
             <input type="file" name="archivo" accept=".xlsx,.xls,.csv" required>
-            <button class="solid" type="submit">Cargar presupuesto</button>
+            <button class="solid" type="submit">Revisar presupuesto</button>
             <p class="note" id="budget-msg"></p>
+            <div id="budget-preview"></div>
           </form>
           <div class="drawer" id="init-panel" hidden>
             <form id="init-form">
@@ -261,6 +547,8 @@
           </div>
         </aside>
       </div>
+      <h2>Qué cambió contra el año pasado</h2>
+      ${explainTable([id])}
       <p><button class="ghost" type="button" id="reset">Volver a los datos de ejemplo</button></p>
     `;
     document.getElementById("toggle-budget").addEventListener("click", () => {
@@ -276,26 +564,28 @@
       event.preventDefault();
       const msg = document.getElementById("budget-msg");
       try {
-        const rows = await readRows(event.target.archivo.files[0]);
-        const next = Array(12).fill(0);
-        let used = 0;
-        rows.forEach((raw) => {
-          const row = normalizeRow(raw);
-          const account = String(row.cuenta || "");
-          if (!/venta/i.test(account)) return;
-          const month = Number(row.mes);
-          const amount = Number(String(row.importe).replace(/,/g, ""));
-          if (month >= 1 && month <= 12 && isFinite(amount)) {
-            next[month - 1] += amount;
-            used += 1;
-          }
+        const loaded = await readWorkbook(event.target.archivo.files[0]);
+        const parsed = parseBudget(loaded.rows, id, loaded.fileName, loaded.assumptions);
+        const priorTotal = sum(priorOf(id));
+        const fullYear = sum(parsed.months);
+        const growth = priorTotal ? (fullYear - priorTotal) / priorTotal : 0;
+        const errors = parsed.findings.filter((item) => item.level === "error");
+        const notices = parsed.findings.filter((item) => item.level === "aviso");
+        const list = (items) => items.slice(0, 8).map((item) => `<li class="finding ${item.level}">${esc(item.text)}</li>`).join("") + (items.length > 8 ? `<li class="finding">Y ${items.length - 8} más.</li>` : "");
+        msg.textContent = "";
+        const preview = document.getElementById("budget-preview");
+        preview.innerHTML = `<div class="preview"><p class="note">Full year que entra: <strong>${money(fullYear)} ${esc(item.currency)}</strong>. Año pasado: ${money(priorTotal)}. Crecimiento presupuestado: <strong class="${growth < 0 ? "down" : "up"}">${pct(growth)}</strong>. Ventas que no entran: ${parsed.removedCount}, por ${money(parsed.removedAmount)} ${esc(item.currency)}.</p>${errors.length ? `<p>Hay que corregir</p><ul>${list(errors)}</ul>` : ""}${notices.length ? `<p>Revisado</p><ul>${list(notices)}</ul>` : "<p class='note'>Ningún cliente es intercompany y no vi importes rotos.</p>"}<div class="row-actions">${errors.length ? "" : `<button class="solid" type="button" id="confirm-budget">Confirmar y cargar</button>`}<button class="ghost" type="button" id="cancel-budget">Cancelar</button></div></div>`;
+        const confirm = document.getElementById("confirm-budget");
+        if (confirm) confirm.addEventListener("click", () => {
+          const state = loadStore();
+          state.budgets[id] = parsed;
+          saveStore(state);
+          renderCompany();
         });
-        if (!used) throw new Error("No encontré filas de ventas. La columna cuenta tiene que decir Ventas.");
-        const state = loadStore();
-        state.budgets[id] = next;
-        saveStore(state);
-        msg.textContent = `Listo. Entré ${used} filas de ventas.`;
-        renderCompany();
+        document.getElementById("cancel-budget").addEventListener("click", () => {
+          preview.innerHTML = "";
+          msg.textContent = "No se cargó. El presupuesto sigue como estaba.";
+        });
       } catch (error) {
         msg.textContent = error.message;
       }
@@ -399,6 +689,7 @@
       </header>
       <div class="tools">
         <label>Ver <select id="filtro">${options}</select></label>
+        <a class="solid" href="detalle.html">Ver detalle de cifras</a>
         <a class="solid" href="#iniciativas">Ver iniciativas</a>
       </div>
       <dl class="ledger">
@@ -407,15 +698,27 @@
         <div><dt>Contra el año pasado</dt><dd class="${change < 0 ? "down" : "up"}">${pct(change)}</dd></div>
         <div><dt>Incremental</dt><dd>${money(sum(incremental))} <small>USD</small></dd></div>
       </dl>
+      ${ratios((() => {
+        const each = ids.map((companyId) => returnsOf(companyId));
+        const ebit = each.every((item) => item.ebit == null) ? null : each.reduce((total, item) => total + toUsd(item.ebit || 0, DATA.sales[ids[each.indexOf(item)]].currency), 0);
+        if (!each.every((item) => item.ready)) return { ebit, ready: false };
+        const nopat = each.reduce((total, item, index) => total + toUsd(item.nopat, DATA.sales[ids[index]].currency), 0);
+        const employed = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_empleado, DATA.sales[ids[index]].currency), 0);
+        const invested = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido, DATA.sales[ids[index]].currency), 0);
+        const charge = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido * detailOf(ids[index]).assumptions.wacc, DATA.sales[ids[index]].currency), 0);
+        return { ebit, ready: true, nopat, roce: ebit / employed, roic: nopat / invested, eva: nopat - charge };
+      })(), "USD")}
       <div class="viz">
-        <section class="chart-box">${chart(sales.prior, sales.budget, incremental)}</section>
+        <section class="chart-box">${chart(sales.prior, ids.map((companyId) => ({ name: company(companyId).name, color: colorOf(companyId), values: budgetOf(companyId).map((value) => toUsd(value, DATA.sales[companyId].currency)) })), incremental)}</section>
         <section>
           <h2>Aporte de cada empresa</h2>
           ${pie()}
         </section>
       </div>
       <div class="sheet" style="margin-top:22px"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto base</th><th>Variación</th><th>Incremental</th><th>Base + incremental</th></tr></thead><tbody>${monthRows}</tbody></table></div>
-      <p class="note">Dólares. Quetzal a 7,75. Lempira a 25. La barra blanca es el año pasado. La dorada es el presupuesto, con el incremental blanco encima.</p>
+      <p class="note">Dólares. Quetzal a 7,75. Lempira a 25. La barra blanca es el año pasado. La barra de al lado se parte por empresa y el incremental queda encima. La venta entre empresas no está en estas cifras.</p>
+      <h2>Qué cambió contra el año pasado</h2>
+      ${explainTable(ids)}
       <h2 id="iniciativas">Iniciativas de crecimiento</h2>
       <div class="init-list">${list.map(card).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
     `;
@@ -425,7 +728,43 @@
     });
   }
 
+  function renderDetail() {
+    const root = document.getElementById("app");
+    const selected = new URLSearchParams(location.search).get("empresa") || "TODAS";
+    const ids = selected === "TODAS" ? DATA.companies.map((item) => item.id) : [selected];
+    const options = [`<option value="TODAS">Todas las empresas</option>`]
+      .concat(DATA.companies.map((item) => `<option value="${item.id}" ${item.id === selected ? "selected" : ""}>${esc(item.name)}</option>`))
+      .join("");
+    const lines = ids.flatMap((id) => (detailOf(id).lines || []).filter((line) => accountKind(line.cuenta) === "venta").map((line) => Object.assign({ company: id }, line)));
+    const body = lines.map((line, index) => `<tr><td>${esc(company(line.company).name)}</td><td>${DATA.months[line.mes - 1] || line.mes}</td><td>${esc(line.cliente)}</td><td>${money(line.importe)} ${esc(line.moneda)}</td><td>${line.dentro ? "No entra" : "Entra"}</td><td>${esc(line.file)}</td><td>${line.row}</td><td><button class="ghost" type="button" data-trace="${index}">Trazar</button></td></tr>`).join("");
+    root.innerHTML = `
+      <header class="top">
+        <div>
+          <h1>Detalle de cifras</h1>
+          <p class="sub">Cada venta del presupuesto se abre hasta el archivo y la fila que la originó.</p>
+        </div>
+        <a class="back" href="grupo.html">Volver al corporativo</a>
+      </header>
+      <div class="tools"><label>Ver <select id="filtro">${options}</select></label></div>
+      <div class="sheet"><table><thead><tr><th>Empresa</th><th>Mes</th><th>Cliente</th><th>Importe</th><th>Estado</th><th>Archivo</th><th>Fila</th><th></th></tr></thead><tbody>${body}</tbody></table></div>
+      <div id="trace"></div>
+    `;
+    document.getElementById("filtro").addEventListener("change", (event) => {
+      const value = event.target.value;
+      location.search = value === "TODAS" ? "" : `?empresa=${value}`;
+    });
+    document.querySelectorAll("[data-trace]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const line = lines[Number(button.dataset.trace)];
+        const href = line.file.startsWith("datos-demo/") ? `../${line.file}` : "";
+        const file = href ? `<a href="${esc(href)}">${esc(line.file)}</a>` : esc(line.file);
+        document.getElementById("trace").innerHTML = `<div class="trace"><p><strong>${money(line.importe)} ${esc(line.moneda)}</strong> de ${esc(line.cliente)} en ${DATA.months[line.mes - 1] || ""}. Sale de ${file}, fila ${line.row}. Cuenta: ${esc(line.cuenta)}.</p><p>${line.dentro ? "No entra al número: el cliente está dentro del grupo." : "Esta línea sí entra al presupuesto del grupo."}</p></div>`;
+      });
+    });
+  }
+
   const page = document.body.dataset.page;
   if (page === "empresa") renderCompany();
   if (page === "grupo") renderGroup();
+  if (page === "detalle") renderDetail();
 })();

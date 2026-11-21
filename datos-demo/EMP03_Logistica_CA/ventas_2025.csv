@@ -1,13 +1,37 @@
-mes,nombre_mes,moneda,importe
-1,Ene,USD,350000
-2,Feb,USD,350000
-3,Mar,USD,400000
-4,Abr,USD,400000
-5,May,USD,400000
-6,Jun,USD,400000
-7,Jul,USD,400000
-8,Ago,USD,450000
-9,Sep,USD,450000
-10,Oct,USD,450000
-11,Nov,USD,450000
-12,Dic,USD,500000
+mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
+1,Ene,Puerto Acajutla,USD,210000,NO
+1,Ene,Almacén Pacífico,USD,140000,NO
+1,Ene,Holding Servicios,USD,26600,SI
+2,Feb,Puerto Acajutla,USD,210000,NO
+2,Feb,Almacén Pacífico,USD,140000,NO
+2,Feb,Holding Servicios,USD,26600,SI
+3,Mar,Puerto Acajutla,USD,240000,NO
+3,Mar,Almacén Pacífico,USD,160000,NO
+3,Mar,Holding Servicios,USD,30400,SI
+4,Abr,Puerto Acajutla,USD,240000,NO
+4,Abr,Almacén Pacífico,USD,160000,NO
+4,Abr,Holding Servicios,USD,30400,SI
+5,May,Puerto Acajutla,USD,240000,NO
+5,May,Almacén Pacífico,USD,160000,NO
+5,May,Holding Servicios,USD,30400,SI
+6,Jun,Puerto Acajutla,USD,240000,NO
+6,Jun,Almacén Pacífico,USD,160000,NO
+6,Jun,Holding Servicios,USD,30400,SI
+7,Jul,Puerto Acajutla,USD,240000,NO
+7,Jul,Almacén Pacífico,USD,160000,NO
+7,Jul,Holding Servicios,USD,30400,SI
+8,Ago,Puerto Acajutla,USD,270000,NO
+8,Ago,Almacén Pacífico,USD,180000,NO
+8,Ago,Holding Servicios,USD,34200,SI
+9,Sep,Puerto Acajutla,USD,270000,NO
+9,Sep,Almacén Pacífico,USD,180000,NO
+9,Sep,Holding Servicios,USD,34200,SI
+10,Oct,Puerto Acajutla,USD,270000,NO
+10,Oct,Almacén Pacífico,USD,180000,NO
+10,Oct,Holding Servicios,USD,34200,SI
+11,Nov,Puerto Acajutla,USD,270000,NO
+11,Nov,Almacén Pacífico,USD,180000,NO
+11,Nov,Holding Servicios,USD,34200,SI
+12,Dic,Puerto Acajutla,USD,300000,NO
+12,Dic,Almacén Pacífico,USD,200000,NO
+12,Dic,Holding Servicios,USD,38000,SI

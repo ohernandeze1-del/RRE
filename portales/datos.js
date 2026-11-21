@@ -92,7 +92,603 @@ window.RRE_DATA = {
         9000000,
         9000000,
         10000000
-      ]
+      ],
+      "cost": [
+        5040000,
+        5040000,
+        5760000,
+        5760000,
+        5760000,
+        5760000,
+        5760000,
+        6480000,
+        6480000,
+        6480000,
+        6480000,
+        7200000
+      ],
+      "expense": [
+        1260000,
+        1260000,
+        1440000,
+        1440000,
+        1440000,
+        1440000,
+        1440000,
+        1620000,
+        1620000,
+        1620000,
+        1620000,
+        1800000
+      ],
+      "removedCount": 12,
+      "removedAmount": 8400000,
+      "clients": [
+        {
+          "cliente": "Constructora Izabal",
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla.",
+          "budget": 60000000,
+          "prior": 55000000
+        },
+        {
+          "cliente": "Cementos del Valle",
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube.",
+          "budget": 36000000,
+          "prior": 30000000
+        },
+        {
+          "cliente": "Taller Océano",
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado.",
+          "budget": 24000000,
+          "prior": 15000000
+        },
+        {
+          "cliente": "Distribuidora Metro",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 8400000,
+          "prior": 6200000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4200000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2520000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1680000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 1,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 588000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4200000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2520000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 2,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1680000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 2,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 588000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4800000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 3,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 3,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 3,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 672000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 4,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4800000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 4,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 4,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 4,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 672000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 5,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4800000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 5,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 5,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 5,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 672000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 6,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4800000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 6,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 6,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 6,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 672000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 7,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 4800000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 7,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 7,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 7,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 672000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 8,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 5400000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 8,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 3240000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 8,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2160000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 8,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 756000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 9,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 5400000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 9,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 3240000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 9,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2160000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 9,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 756000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 110,
+          "mes": 10,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 5400000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 113,
+          "mes": 10,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 3240000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 116,
+          "mes": 10,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2160000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 119,
+          "mes": 10,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 756000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 122,
+          "mes": 11,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 5400000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 125,
+          "mes": 11,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 3240000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 128,
+          "mes": 11,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2160000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 131,
+          "mes": 11,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 756000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 134,
+          "mes": 12,
+          "cliente": "Constructora Izabal",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 6000000,
+          "dentro": false,
+          "motivo": "Sube el volumen de varilla."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 137,
+          "mes": 12,
+          "cliente": "Cementos del Valle",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 3600000,
+          "dentro": false,
+          "motivo": "El precio del contrato anual sube."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 140,
+          "mes": 12,
+          "cliente": "Taller Océano",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2400000,
+          "dentro": false,
+          "motivo": "Compra más chatarra que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP01_Aceros_del_Sur/presupuesto_2026.xlsx",
+          "row": 143,
+          "mes": 12,
+          "cliente": "Distribuidora Metro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 840000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 150000000,
+        "capital_invertido": 150000000
+      }
     },
     "EMP02": {
       "currency": "GTQ",
@@ -123,7 +719,464 @@ window.RRE_DATA = {
         3600000,
         3600000,
         4000000
-      ]
+      ],
+      "cost": [
+        2016000,
+        2016000,
+        2304000,
+        2304000,
+        2304000,
+        2304000,
+        2304000,
+        2592000,
+        2592000,
+        2592000,
+        2592000,
+        2880000
+      ],
+      "expense": [
+        504000,
+        504000,
+        576000,
+        576000,
+        576000,
+        576000,
+        576000,
+        648000,
+        648000,
+        648000,
+        648000,
+        720000
+      ],
+      "removedCount": 12,
+      "removedAmount": 3600000,
+      "clients": [
+        {
+          "cliente": "Ferretería El Prado",
+          "dentro": false,
+          "motivo": "Abre más puntos de venta.",
+          "budget": 28800000,
+          "prior": 20000000
+        },
+        {
+          "cliente": "Depósito Central",
+          "dentro": false,
+          "motivo": "Este depósito compra menos.",
+          "budget": 19200000,
+          "prior": 20000000
+        },
+        {
+          "cliente": "Aceros del Sur",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 3600000,
+          "prior": 2800000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2016000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1344000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 252000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 2,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2016000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1344000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 252000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 3,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2304000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 3,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1536000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 288000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 4,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2304000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 4,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1536000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 4,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 288000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 5,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2304000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 5,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1536000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 5,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 288000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 6,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2304000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 6,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1536000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 6,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 288000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 7,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2304000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 7,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1536000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 7,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 288000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 8,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2592000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 8,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1728000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 8,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 324000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 9,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2592000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 9,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1728000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 9,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 324000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 10,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2592000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 10,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1728000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 10,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 324000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 11,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2592000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 11,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1728000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 11,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 324000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 12,
+          "cliente": "Ferretería El Prado",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 2880000,
+          "dentro": false,
+          "motivo": "Abre más puntos de venta."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 12,
+          "cliente": "Depósito Central",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 1920000,
+          "dentro": false,
+          "motivo": "Este depósito compra menos."
+        },
+        {
+          "file": "datos-demo/EMP02_Distribuidora_Metro/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 12,
+          "cliente": "Aceros del Sur",
+          "cuenta": "Ventas a terceros",
+          "moneda": "GTQ",
+          "importe": 360000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 80000000,
+        "capital_invertido": 80000000
+      }
     },
     "EMP03": {
       "currency": "USD",
@@ -154,7 +1207,464 @@ window.RRE_DATA = {
         450000,
         450000,
         500000
-      ]
+      ],
+      "cost": [
+        252000,
+        252000,
+        288000,
+        288000,
+        288000,
+        288000,
+        288000,
+        324000,
+        324000,
+        324000,
+        324000,
+        360000
+      ],
+      "expense": [
+        63000,
+        63000,
+        72000,
+        72000,
+        72000,
+        72000,
+        72000,
+        81000,
+        81000,
+        81000,
+        81000,
+        90000
+      ],
+      "removedCount": 12,
+      "removedAmount": 450000,
+      "clients": [
+        {
+          "cliente": "Puerto Acajutla",
+          "dentro": false,
+          "motivo": "Más carga de importación.",
+          "budget": 4200000,
+          "prior": 3000000
+        },
+        {
+          "cliente": "Almacén Pacífico",
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente.",
+          "budget": 1800000,
+          "prior": 2000000
+        },
+        {
+          "cliente": "Holding Servicios",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 450000,
+          "prior": 380000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 294000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 126000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 31500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 2,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 294000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 126000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 31500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 3,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 336000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 3,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 144000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 36000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 4,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 336000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 4,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 144000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 4,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 36000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 5,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 336000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 5,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 144000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 5,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 36000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 6,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 336000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 6,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 144000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 6,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 36000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 7,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 336000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 7,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 144000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 7,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 36000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 8,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 378000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 8,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 162000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 8,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 40500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 9,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 378000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 9,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 162000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 9,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 40500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 10,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 378000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 10,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 162000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 10,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 40500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 11,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 378000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 11,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 162000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 11,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 40500,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 12,
+          "cliente": "Puerto Acajutla",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 420000,
+          "dentro": false,
+          "motivo": "Más carga de importación."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 12,
+          "cliente": "Almacén Pacífico",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 180000,
+          "dentro": false,
+          "motivo": "Baja el almacenaje de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP03_Logistica_CA/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 12,
+          "cliente": "Holding Servicios",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 45000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 10000000,
+        "capital_invertido": 10000000
+      }
     },
     "EMP04": {
       "currency": "HNL",
@@ -185,7 +1695,464 @@ window.RRE_DATA = {
         18000000,
         18000000,
         20000000
-      ]
+      ],
+      "cost": [
+        10500000,
+        10500000,
+        12000000,
+        12000000,
+        12000000,
+        12000000,
+        12000000,
+        13500000,
+        13500000,
+        13500000,
+        13500000,
+        15000000
+      ],
+      "expense": [
+        2625000,
+        2625000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3000000,
+        3375000,
+        3375000,
+        3375000,
+        3375000,
+        3750000
+      ],
+      "removedCount": 12,
+      "removedAmount": 15000000,
+      "clients": [
+        {
+          "cliente": "Constructora Sula",
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula.",
+          "budget": 137500000,
+          "prior": 100000000
+        },
+        {
+          "cliente": "Agroindustrias Lenca",
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero.",
+          "budget": 112500000,
+          "prior": 100000000
+        },
+        {
+          "cliente": "Ferretería Norte",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 15000000,
+          "prior": 12000000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9625000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 7875000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1050000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 2,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9625000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 7875000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1050000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 3,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11000000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 3,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9000000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 4,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11000000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 4,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9000000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 4,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 5,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11000000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 5,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9000000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 5,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 6,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11000000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 6,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9000000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 6,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 7,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11000000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 7,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 9000000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 7,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 8,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 12375000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 8,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 10125000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 8,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 9,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 12375000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 9,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 10125000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 9,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 10,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 12375000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 10,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 10125000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 10,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 11,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 12375000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 11,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 10125000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 11,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 12,
+          "cliente": "Constructora Sula",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 13750000,
+          "dentro": false,
+          "motivo": "Más obra privada en San Pedro Sula."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 12,
+          "cliente": "Agroindustrias Lenca",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 11250000,
+          "dentro": false,
+          "motivo": "El ingenio pide menos acero."
+        },
+        {
+          "file": "datos-demo/EMP04_Aceros_Honduras/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 12,
+          "cliente": "Ferretería Norte",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 250000000,
+        "capital_invertido": 250000000
+      }
     },
     "EMP05": {
       "currency": "HNL",
@@ -216,7 +2183,603 @@ window.RRE_DATA = {
         7200000,
         7200000,
         8000000
-      ]
+      ],
+      "cost": [
+        3150000,
+        3150000,
+        3600000,
+        3600000,
+        3600000,
+        3600000,
+        3600000,
+        4050000,
+        4050000,
+        4050000,
+        4050000,
+        4500000
+      ],
+      "expense": [
+        787500,
+        787500,
+        900000,
+        900000,
+        900000,
+        900000,
+        900000,
+        1012500,
+        1012500,
+        1012500,
+        1012500,
+        1125000
+      ],
+      "removedCount": 12,
+      "removedAmount": 5000000,
+      "clients": [
+        {
+          "cliente": "Obra San Pedro",
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente.",
+          "budget": 41250000,
+          "prior": 32000000
+        },
+        {
+          "cliente": "Cadena del Lago",
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena.",
+          "budget": 18750000,
+          "prior": 32000000
+        },
+        {
+          "cliente": "Depósito Choloma",
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado.",
+          "budget": 15000000,
+          "prior": 16000000
+        },
+        {
+          "cliente": "Aceros Honduras",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 5000000,
+          "prior": 6400000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 2887500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1312500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1050000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 1,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 2887500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1312500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 2,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1050000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 2,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 350000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3300000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 3,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 3,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 3,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 400000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 4,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3300000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 4,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 4,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 4,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 400000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 5,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3300000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 5,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 5,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 5,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 400000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 6,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3300000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 6,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 6,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 6,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 400000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 7,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3300000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 7,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 7,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1200000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 7,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 400000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 8,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3712500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 8,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1687500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 8,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 8,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 450000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 9,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3712500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 9,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1687500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 9,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 9,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 450000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 110,
+          "mes": 10,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3712500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 113,
+          "mes": 10,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1687500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 116,
+          "mes": 10,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 119,
+          "mes": 10,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 450000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 122,
+          "mes": 11,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 3712500,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 125,
+          "mes": 11,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1687500,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 128,
+          "mes": 11,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1350000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 131,
+          "mes": 11,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 450000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 134,
+          "mes": 12,
+          "cliente": "Obra San Pedro",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 4125000,
+          "dentro": false,
+          "motivo": "Concentra más obra de este cliente."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 137,
+          "mes": 12,
+          "cliente": "Cadena del Lago",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1875000,
+          "dentro": false,
+          "motivo": "Perdió parte del contrato de la cadena."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 140,
+          "mes": 12,
+          "cliente": "Depósito Choloma",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 1500000,
+          "dentro": false,
+          "motivo": "Sigue el mismo peso que el año pasado."
+        },
+        {
+          "file": "datos-demo/EMP05_Ferreteria_Norte/presupuesto_2026.xlsx",
+          "row": 143,
+          "mes": 12,
+          "cliente": "Aceros Honduras",
+          "cuenta": "Ventas a terceros",
+          "moneda": "HNL",
+          "importe": 500000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 125000000,
+        "capital_invertido": 125000000
+      }
     },
     "EMP06": {
       "currency": "USD",
@@ -247,7 +2810,464 @@ window.RRE_DATA = {
         180000,
         180000,
         200000
-      ]
+      ],
+      "cost": [
+        100800,
+        100800,
+        115200,
+        115200,
+        115200,
+        115200,
+        115200,
+        129600,
+        129600,
+        129600,
+        129600,
+        144000
+      ],
+      "expense": [
+        25200,
+        25200,
+        28800,
+        28800,
+        28800,
+        28800,
+        28800,
+        32400,
+        32400,
+        32400,
+        32400,
+        36000
+      ],
+      "removedCount": 12,
+      "removedAmount": 180000,
+      "clients": [
+        {
+          "cliente": "Aseguradora Istmo",
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios.",
+          "budget": 1200000,
+          "prior": 1000000
+        },
+        {
+          "cliente": "Banco del Puerto",
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene.",
+          "budget": 1200000,
+          "prior": 1000000
+        },
+        {
+          "cliente": "Logística CA",
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra.",
+          "budget": 180000,
+          "prior": 150000
+        }
+      ],
+      "lines": [
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 2,
+          "mes": 1,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 84000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 5,
+          "mes": 1,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 84000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 8,
+          "mes": 1,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 12600,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 11,
+          "mes": 2,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 84000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 14,
+          "mes": 2,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 84000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 17,
+          "mes": 2,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 12600,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 20,
+          "mes": 3,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 23,
+          "mes": 3,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 26,
+          "mes": 3,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 14400,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 29,
+          "mes": 4,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 32,
+          "mes": 4,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 35,
+          "mes": 4,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 14400,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 38,
+          "mes": 5,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 41,
+          "mes": 5,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 44,
+          "mes": 5,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 14400,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 47,
+          "mes": 6,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 50,
+          "mes": 6,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 53,
+          "mes": 6,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 14400,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 56,
+          "mes": 7,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 59,
+          "mes": 7,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 96000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 62,
+          "mes": 7,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 14400,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 65,
+          "mes": 8,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 68,
+          "mes": 8,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 71,
+          "mes": 8,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 16200,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 74,
+          "mes": 9,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 77,
+          "mes": 9,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 80,
+          "mes": 9,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 16200,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 83,
+          "mes": 10,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 86,
+          "mes": 10,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 89,
+          "mes": 10,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 16200,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 92,
+          "mes": 11,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 95,
+          "mes": 11,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 108000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 98,
+          "mes": 11,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 16200,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 101,
+          "mes": 12,
+          "cliente": "Aseguradora Istmo",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 120000,
+          "dentro": false,
+          "motivo": "Renueva el contrato de servicios."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 104,
+          "mes": 12,
+          "cliente": "Banco del Puerto",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 120000,
+          "dentro": false,
+          "motivo": "El fee mensual se mantiene."
+        },
+        {
+          "file": "datos-demo/EMP06_Holding_Servicios/presupuesto_2026.xlsx",
+          "row": 107,
+          "mes": 12,
+          "cliente": "Logística CA",
+          "cuenta": "Ventas a terceros",
+          "moneda": "USD",
+          "importe": 18000,
+          "dentro": true,
+          "motivo": "Venta a otra empresa del grupo. Esta línea no entra."
+        }
+      ],
+      "assumptions": {
+        "impuesto": 0.3,
+        "wacc": 0.1,
+        "capital_empleado": 4000000,
+        "capital_invertido": 4000000
+      }
     }
   },
   "initiatives": [
@@ -392,5 +3412,5 @@ window.RRE_DATA = {
       ]
     }
   ],
-  "note": "Cifras ficticias del Grupo Istmo. No son datos de Grupo AG."
+  "note": "Cifras ficticias del Grupo Istmo. No son datos de Grupo AG. La venta a una empresa del grupo no entra al número."
 };

@@ -1,37 +1,109 @@
-mes,nombre_mes,cuenta,moneda,importe
-1,Ene,Ventas a terceros,GTQ,3360000
-1,Ene,Costo de ventas,GTQ,2016000
-1,Ene,Gastos,GTQ,504000
-2,Feb,Ventas a terceros,GTQ,3360000
-2,Feb,Costo de ventas,GTQ,2016000
-2,Feb,Gastos,GTQ,504000
-3,Mar,Ventas a terceros,GTQ,3840000
-3,Mar,Costo de ventas,GTQ,2304000
-3,Mar,Gastos,GTQ,576000
-4,Abr,Ventas a terceros,GTQ,3840000
-4,Abr,Costo de ventas,GTQ,2304000
-4,Abr,Gastos,GTQ,576000
-5,May,Ventas a terceros,GTQ,3840000
-5,May,Costo de ventas,GTQ,2304000
-5,May,Gastos,GTQ,576000
-6,Jun,Ventas a terceros,GTQ,3840000
-6,Jun,Costo de ventas,GTQ,2304000
-6,Jun,Gastos,GTQ,576000
-7,Jul,Ventas a terceros,GTQ,3840000
-7,Jul,Costo de ventas,GTQ,2304000
-7,Jul,Gastos,GTQ,576000
-8,Ago,Ventas a terceros,GTQ,4320000
-8,Ago,Costo de ventas,GTQ,2592000
-8,Ago,Gastos,GTQ,648000
-9,Sep,Ventas a terceros,GTQ,4320000
-9,Sep,Costo de ventas,GTQ,2592000
-9,Sep,Gastos,GTQ,648000
-10,Oct,Ventas a terceros,GTQ,4320000
-10,Oct,Costo de ventas,GTQ,2592000
-10,Oct,Gastos,GTQ,648000
-11,Nov,Ventas a terceros,GTQ,4320000
-11,Nov,Costo de ventas,GTQ,2592000
-11,Nov,Gastos,GTQ,648000
-12,Dic,Ventas a terceros,GTQ,4800000
-12,Dic,Costo de ventas,GTQ,2880000
-12,Dic,Gastos,GTQ,720000
+mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
+1,Ene,Ferretería El Prado,Ventas a terceros,GTQ,2016000,NO,Abre más puntos de venta.
+1,Ene,Ferretería El Prado,Costo de ventas,GTQ,1209600,NO,Abre más puntos de venta.
+1,Ene,Ferretería El Prado,Gastos,GTQ,302400,NO,Abre más puntos de venta.
+1,Ene,Depósito Central,Ventas a terceros,GTQ,1344000,NO,Este depósito compra menos.
+1,Ene,Depósito Central,Costo de ventas,GTQ,806400,NO,Este depósito compra menos.
+1,Ene,Depósito Central,Gastos,GTQ,201600,NO,Este depósito compra menos.
+1,Ene,Aceros del Sur,Ventas a terceros,GTQ,252000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Aceros del Sur,Costo de ventas,GTQ,151200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Aceros del Sur,Gastos,GTQ,37800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Ferretería El Prado,Ventas a terceros,GTQ,2016000,NO,Abre más puntos de venta.
+2,Feb,Ferretería El Prado,Costo de ventas,GTQ,1209600,NO,Abre más puntos de venta.
+2,Feb,Ferretería El Prado,Gastos,GTQ,302400,NO,Abre más puntos de venta.
+2,Feb,Depósito Central,Ventas a terceros,GTQ,1344000,NO,Este depósito compra menos.
+2,Feb,Depósito Central,Costo de ventas,GTQ,806400,NO,Este depósito compra menos.
+2,Feb,Depósito Central,Gastos,GTQ,201600,NO,Este depósito compra menos.
+2,Feb,Aceros del Sur,Ventas a terceros,GTQ,252000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Aceros del Sur,Costo de ventas,GTQ,151200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Aceros del Sur,Gastos,GTQ,37800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
+3,Mar,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
+3,Mar,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
+3,Mar,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
+3,Mar,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
+3,Mar,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+3,Mar,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
+4,Abr,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
+4,Abr,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
+4,Abr,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
+4,Abr,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
+4,Abr,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+4,Abr,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
+5,May,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
+5,May,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
+5,May,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
+5,May,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
+5,May,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+5,May,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
+6,Jun,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
+6,Jun,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
+6,Jun,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
+6,Jun,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
+6,Jun,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+6,Jun,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
+7,Jul,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
+7,Jul,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
+7,Jul,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
+7,Jul,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
+7,Jul,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+7,Jul,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
+8,Ago,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
+8,Ago,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
+8,Ago,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
+8,Ago,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
+8,Ago,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+8,Ago,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
+9,Sep,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
+9,Sep,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
+9,Sep,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
+9,Sep,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
+9,Sep,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+9,Sep,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
+10,Oct,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
+10,Oct,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
+10,Oct,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
+10,Oct,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
+10,Oct,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+10,Oct,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
+11,Nov,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
+11,Nov,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
+11,Nov,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
+11,Nov,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
+11,Nov,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+11,Nov,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Ferretería El Prado,Ventas a terceros,GTQ,2880000,NO,Abre más puntos de venta.
+12,Dic,Ferretería El Prado,Costo de ventas,GTQ,1728000,NO,Abre más puntos de venta.
+12,Dic,Ferretería El Prado,Gastos,GTQ,432000,NO,Abre más puntos de venta.
+12,Dic,Depósito Central,Ventas a terceros,GTQ,1920000,NO,Este depósito compra menos.
+12,Dic,Depósito Central,Costo de ventas,GTQ,1152000,NO,Este depósito compra menos.
+12,Dic,Depósito Central,Gastos,GTQ,288000,NO,Este depósito compra menos.
+12,Dic,Aceros del Sur,Ventas a terceros,GTQ,360000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Aceros del Sur,Costo de ventas,GTQ,216000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Aceros del Sur,Gastos,GTQ,54000,SI,Venta a otra empresa del grupo. Esta línea no entra.

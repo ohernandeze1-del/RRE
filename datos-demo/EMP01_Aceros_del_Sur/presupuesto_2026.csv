@@ -1,37 +1,145 @@
-mes,nombre_mes,cuenta,moneda,importe
-1,Ene,Ventas a terceros,GTQ,8400000
-1,Ene,Costo de ventas,GTQ,5040000
-1,Ene,Gastos,GTQ,1260000
-2,Feb,Ventas a terceros,GTQ,8400000
-2,Feb,Costo de ventas,GTQ,5040000
-2,Feb,Gastos,GTQ,1260000
-3,Mar,Ventas a terceros,GTQ,9600000
-3,Mar,Costo de ventas,GTQ,5760000
-3,Mar,Gastos,GTQ,1440000
-4,Abr,Ventas a terceros,GTQ,9600000
-4,Abr,Costo de ventas,GTQ,5760000
-4,Abr,Gastos,GTQ,1440000
-5,May,Ventas a terceros,GTQ,9600000
-5,May,Costo de ventas,GTQ,5760000
-5,May,Gastos,GTQ,1440000
-6,Jun,Ventas a terceros,GTQ,9600000
-6,Jun,Costo de ventas,GTQ,5760000
-6,Jun,Gastos,GTQ,1440000
-7,Jul,Ventas a terceros,GTQ,9600000
-7,Jul,Costo de ventas,GTQ,5760000
-7,Jul,Gastos,GTQ,1440000
-8,Ago,Ventas a terceros,GTQ,10800000
-8,Ago,Costo de ventas,GTQ,6480000
-8,Ago,Gastos,GTQ,1620000
-9,Sep,Ventas a terceros,GTQ,10800000
-9,Sep,Costo de ventas,GTQ,6480000
-9,Sep,Gastos,GTQ,1620000
-10,Oct,Ventas a terceros,GTQ,10800000
-10,Oct,Costo de ventas,GTQ,6480000
-10,Oct,Gastos,GTQ,1620000
-11,Nov,Ventas a terceros,GTQ,10800000
-11,Nov,Costo de ventas,GTQ,6480000
-11,Nov,Gastos,GTQ,1620000
-12,Dic,Ventas a terceros,GTQ,12000000
-12,Dic,Costo de ventas,GTQ,7200000
-12,Dic,Gastos,GTQ,1800000
+mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
+1,Ene,Constructora Izabal,Ventas a terceros,GTQ,4200000,NO,Sube el volumen de varilla.
+1,Ene,Constructora Izabal,Costo de ventas,GTQ,2520000,NO,Sube el volumen de varilla.
+1,Ene,Constructora Izabal,Gastos,GTQ,630000,NO,Sube el volumen de varilla.
+1,Ene,Cementos del Valle,Ventas a terceros,GTQ,2520000,NO,El precio del contrato anual sube.
+1,Ene,Cementos del Valle,Costo de ventas,GTQ,1512000,NO,El precio del contrato anual sube.
+1,Ene,Cementos del Valle,Gastos,GTQ,378000,NO,El precio del contrato anual sube.
+1,Ene,Taller Océano,Ventas a terceros,GTQ,1680000,NO,Compra más chatarra que el año pasado.
+1,Ene,Taller Océano,Costo de ventas,GTQ,1008000,NO,Compra más chatarra que el año pasado.
+1,Ene,Taller Océano,Gastos,GTQ,252000,NO,Compra más chatarra que el año pasado.
+1,Ene,Distribuidora Metro,Ventas a terceros,GTQ,588000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Distribuidora Metro,Costo de ventas,GTQ,352800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Distribuidora Metro,Gastos,GTQ,88200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Constructora Izabal,Ventas a terceros,GTQ,4200000,NO,Sube el volumen de varilla.
+2,Feb,Constructora Izabal,Costo de ventas,GTQ,2520000,NO,Sube el volumen de varilla.
+2,Feb,Constructora Izabal,Gastos,GTQ,630000,NO,Sube el volumen de varilla.
+2,Feb,Cementos del Valle,Ventas a terceros,GTQ,2520000,NO,El precio del contrato anual sube.
+2,Feb,Cementos del Valle,Costo de ventas,GTQ,1512000,NO,El precio del contrato anual sube.
+2,Feb,Cementos del Valle,Gastos,GTQ,378000,NO,El precio del contrato anual sube.
+2,Feb,Taller Océano,Ventas a terceros,GTQ,1680000,NO,Compra más chatarra que el año pasado.
+2,Feb,Taller Océano,Costo de ventas,GTQ,1008000,NO,Compra más chatarra que el año pasado.
+2,Feb,Taller Océano,Gastos,GTQ,252000,NO,Compra más chatarra que el año pasado.
+2,Feb,Distribuidora Metro,Ventas a terceros,GTQ,588000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Distribuidora Metro,Costo de ventas,GTQ,352800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Distribuidora Metro,Gastos,GTQ,88200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
+3,Mar,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
+3,Mar,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
+3,Mar,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
+3,Mar,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
+3,Mar,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
+3,Mar,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
+3,Mar,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
+3,Mar,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+3,Mar,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
+4,Abr,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
+4,Abr,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
+4,Abr,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
+4,Abr,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
+4,Abr,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
+4,Abr,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
+4,Abr,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
+4,Abr,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+4,Abr,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
+5,May,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
+5,May,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
+5,May,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
+5,May,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
+5,May,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
+5,May,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
+5,May,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
+5,May,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+5,May,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
+6,Jun,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
+6,Jun,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
+6,Jun,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
+6,Jun,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
+6,Jun,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
+6,Jun,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
+6,Jun,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
+6,Jun,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+6,Jun,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
+7,Jul,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
+7,Jul,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
+7,Jul,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
+7,Jul,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
+7,Jul,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
+7,Jul,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
+7,Jul,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
+7,Jul,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+7,Jul,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
+8,Ago,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
+8,Ago,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
+8,Ago,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
+8,Ago,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
+8,Ago,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
+8,Ago,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
+8,Ago,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
+8,Ago,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+8,Ago,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
+9,Sep,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
+9,Sep,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
+9,Sep,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
+9,Sep,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
+9,Sep,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
+9,Sep,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
+9,Sep,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
+9,Sep,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+9,Sep,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
+10,Oct,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
+10,Oct,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
+10,Oct,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
+10,Oct,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
+10,Oct,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
+10,Oct,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
+10,Oct,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
+10,Oct,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+10,Oct,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
+11,Nov,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
+11,Nov,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
+11,Nov,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
+11,Nov,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
+11,Nov,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
+11,Nov,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
+11,Nov,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
+11,Nov,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+11,Nov,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Constructora Izabal,Ventas a terceros,GTQ,6000000,NO,Sube el volumen de varilla.
+12,Dic,Constructora Izabal,Costo de ventas,GTQ,3600000,NO,Sube el volumen de varilla.
+12,Dic,Constructora Izabal,Gastos,GTQ,900000,NO,Sube el volumen de varilla.
+12,Dic,Cementos del Valle,Ventas a terceros,GTQ,3600000,NO,El precio del contrato anual sube.
+12,Dic,Cementos del Valle,Costo de ventas,GTQ,2160000,NO,El precio del contrato anual sube.
+12,Dic,Cementos del Valle,Gastos,GTQ,540000,NO,El precio del contrato anual sube.
+12,Dic,Taller Océano,Ventas a terceros,GTQ,2400000,NO,Compra más chatarra que el año pasado.
+12,Dic,Taller Océano,Costo de ventas,GTQ,1440000,NO,Compra más chatarra que el año pasado.
+12,Dic,Taller Océano,Gastos,GTQ,360000,NO,Compra más chatarra que el año pasado.
+12,Dic,Distribuidora Metro,Ventas a terceros,GTQ,840000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Distribuidora Metro,Costo de ventas,GTQ,504000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Distribuidora Metro,Gastos,GTQ,126000,SI,Venta a otra empresa del grupo. Esta línea no entra.

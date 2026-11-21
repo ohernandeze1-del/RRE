@@ -1,13 +1,49 @@
-mes,nombre_mes,moneda,importe
-1,Ene,HNL,5600000
-2,Feb,HNL,5600000
-3,Mar,HNL,6400000
-4,Abr,HNL,6400000
-5,May,HNL,6400000
-6,Jun,HNL,6400000
-7,Jul,HNL,6400000
-8,Ago,HNL,7200000
-9,Sep,HNL,7200000
-10,Oct,HNL,7200000
-11,Nov,HNL,7200000
-12,Dic,HNL,8000000
+mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
+1,Ene,Obra San Pedro,HNL,2240000,NO
+1,Ene,Cadena del Lago,HNL,2240000,NO
+1,Ene,Depósito Choloma,HNL,1120000,NO
+1,Ene,Aceros Honduras,HNL,448000,SI
+2,Feb,Obra San Pedro,HNL,2240000,NO
+2,Feb,Cadena del Lago,HNL,2240000,NO
+2,Feb,Depósito Choloma,HNL,1120000,NO
+2,Feb,Aceros Honduras,HNL,448000,SI
+3,Mar,Obra San Pedro,HNL,2560000,NO
+3,Mar,Cadena del Lago,HNL,2560000,NO
+3,Mar,Depósito Choloma,HNL,1280000,NO
+3,Mar,Aceros Honduras,HNL,512000,SI
+4,Abr,Obra San Pedro,HNL,2560000,NO
+4,Abr,Cadena del Lago,HNL,2560000,NO
+4,Abr,Depósito Choloma,HNL,1280000,NO
+4,Abr,Aceros Honduras,HNL,512000,SI
+5,May,Obra San Pedro,HNL,2560000,NO
+5,May,Cadena del Lago,HNL,2560000,NO
+5,May,Depósito Choloma,HNL,1280000,NO
+5,May,Aceros Honduras,HNL,512000,SI
+6,Jun,Obra San Pedro,HNL,2560000,NO
+6,Jun,Cadena del Lago,HNL,2560000,NO
+6,Jun,Depósito Choloma,HNL,1280000,NO
+6,Jun,Aceros Honduras,HNL,512000,SI
+7,Jul,Obra San Pedro,HNL,2560000,NO
+7,Jul,Cadena del Lago,HNL,2560000,NO
+7,Jul,Depósito Choloma,HNL,1280000,NO
+7,Jul,Aceros Honduras,HNL,512000,SI
+8,Ago,Obra San Pedro,HNL,2880000,NO
+8,Ago,Cadena del Lago,HNL,2880000,NO
+8,Ago,Depósito Choloma,HNL,1440000,NO
+8,Ago,Aceros Honduras,HNL,576000,SI
+9,Sep,Obra San Pedro,HNL,2880000,NO
+9,Sep,Cadena del Lago,HNL,2880000,NO
+9,Sep,Depósito Choloma,HNL,1440000,NO
+9,Sep,Aceros Honduras,HNL,576000,SI
+10,Oct,Obra San Pedro,HNL,2880000,NO
+10,Oct,Cadena del Lago,HNL,2880000,NO
+10,Oct,Depósito Choloma,HNL,1440000,NO
+10,Oct,Aceros Honduras,HNL,576000,SI
+11,Nov,Obra San Pedro,HNL,2880000,NO
+11,Nov,Cadena del Lago,HNL,2880000,NO
+11,Nov,Depósito Choloma,HNL,1440000,NO
+11,Nov,Aceros Honduras,HNL,576000,SI
+12,Dic,Obra San Pedro,HNL,3200000,NO
+12,Dic,Cadena del Lago,HNL,3200000,NO
+12,Dic,Depósito Choloma,HNL,1600000,NO
+12,Dic,Aceros Honduras,HNL,640000,SI

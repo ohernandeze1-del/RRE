@@ -1,13 +1,37 @@
-mes,nombre_mes,moneda,importe
-1,Ene,USD,140000
-2,Feb,USD,140000
-3,Mar,USD,160000
-4,Abr,USD,160000
-5,May,USD,160000
-6,Jun,USD,160000
-7,Jul,USD,160000
-8,Ago,USD,180000
-9,Sep,USD,180000
-10,Oct,USD,180000
-11,Nov,USD,180000
-12,Dic,USD,200000
+mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
+1,Ene,Aseguradora Istmo,USD,70000,NO
+1,Ene,Banco del Puerto,USD,70000,NO
+1,Ene,Logística CA,USD,10500,SI
+2,Feb,Aseguradora Istmo,USD,70000,NO
+2,Feb,Banco del Puerto,USD,70000,NO
+2,Feb,Logística CA,USD,10500,SI
+3,Mar,Aseguradora Istmo,USD,80000,NO
+3,Mar,Banco del Puerto,USD,80000,NO
+3,Mar,Logística CA,USD,12000,SI
+4,Abr,Aseguradora Istmo,USD,80000,NO
+4,Abr,Banco del Puerto,USD,80000,NO
+4,Abr,Logística CA,USD,12000,SI
+5,May,Aseguradora Istmo,USD,80000,NO
+5,May,Banco del Puerto,USD,80000,NO
+5,May,Logística CA,USD,12000,SI
+6,Jun,Aseguradora Istmo,USD,80000,NO
+6,Jun,Banco del Puerto,USD,80000,NO
+6,Jun,Logística CA,USD,12000,SI
+7,Jul,Aseguradora Istmo,USD,80000,NO
+7,Jul,Banco del Puerto,USD,80000,NO
+7,Jul,Logística CA,USD,12000,SI
+8,Ago,Aseguradora Istmo,USD,90000,NO
+8,Ago,Banco del Puerto,USD,90000,NO
+8,Ago,Logística CA,USD,13500,SI
+9,Sep,Aseguradora Istmo,USD,90000,NO
+9,Sep,Banco del Puerto,USD,90000,NO
+9,Sep,Logística CA,USD,13500,SI
+10,Oct,Aseguradora Istmo,USD,90000,NO
+10,Oct,Banco del Puerto,USD,90000,NO
+10,Oct,Logística CA,USD,13500,SI
+11,Nov,Aseguradora Istmo,USD,90000,NO
+11,Nov,Banco del Puerto,USD,90000,NO
+11,Nov,Logística CA,USD,13500,SI
+12,Dic,Aseguradora Istmo,USD,100000,NO
+12,Dic,Banco del Puerto,USD,100000,NO
+12,Dic,Logística CA,USD,15000,SI

@@ -1,37 +1,109 @@
-mes,nombre_mes,cuenta,moneda,importe
-1,Ene,Ventas a terceros,HNL,17500000
-1,Ene,Costo de ventas,HNL,10500000
-1,Ene,Gastos,HNL,2625000
-2,Feb,Ventas a terceros,HNL,17500000
-2,Feb,Costo de ventas,HNL,10500000
-2,Feb,Gastos,HNL,2625000
-3,Mar,Ventas a terceros,HNL,20000000
-3,Mar,Costo de ventas,HNL,12000000
-3,Mar,Gastos,HNL,3000000
-4,Abr,Ventas a terceros,HNL,20000000
-4,Abr,Costo de ventas,HNL,12000000
-4,Abr,Gastos,HNL,3000000
-5,May,Ventas a terceros,HNL,20000000
-5,May,Costo de ventas,HNL,12000000
-5,May,Gastos,HNL,3000000
-6,Jun,Ventas a terceros,HNL,20000000
-6,Jun,Costo de ventas,HNL,12000000
-6,Jun,Gastos,HNL,3000000
-7,Jul,Ventas a terceros,HNL,20000000
-7,Jul,Costo de ventas,HNL,12000000
-7,Jul,Gastos,HNL,3000000
-8,Ago,Ventas a terceros,HNL,22500000
-8,Ago,Costo de ventas,HNL,13500000
-8,Ago,Gastos,HNL,3375000
-9,Sep,Ventas a terceros,HNL,22500000
-9,Sep,Costo de ventas,HNL,13500000
-9,Sep,Gastos,HNL,3375000
-10,Oct,Ventas a terceros,HNL,22500000
-10,Oct,Costo de ventas,HNL,13500000
-10,Oct,Gastos,HNL,3375000
-11,Nov,Ventas a terceros,HNL,22500000
-11,Nov,Costo de ventas,HNL,13500000
-11,Nov,Gastos,HNL,3375000
-12,Dic,Ventas a terceros,HNL,25000000
-12,Dic,Costo de ventas,HNL,15000000
-12,Dic,Gastos,HNL,3750000
+mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
+1,Ene,Constructora Sula,Ventas a terceros,HNL,9625000,NO,Más obra privada en San Pedro Sula.
+1,Ene,Constructora Sula,Costo de ventas,HNL,5775000,NO,Más obra privada en San Pedro Sula.
+1,Ene,Constructora Sula,Gastos,HNL,1443750,NO,Más obra privada en San Pedro Sula.
+1,Ene,Agroindustrias Lenca,Ventas a terceros,HNL,7875000,NO,El ingenio pide menos acero.
+1,Ene,Agroindustrias Lenca,Costo de ventas,HNL,4725000,NO,El ingenio pide menos acero.
+1,Ene,Agroindustrias Lenca,Gastos,HNL,1181250,NO,El ingenio pide menos acero.
+1,Ene,Ferretería Norte,Ventas a terceros,HNL,1050000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Ferretería Norte,Costo de ventas,HNL,630000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+1,Ene,Ferretería Norte,Gastos,HNL,157500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Constructora Sula,Ventas a terceros,HNL,9625000,NO,Más obra privada en San Pedro Sula.
+2,Feb,Constructora Sula,Costo de ventas,HNL,5775000,NO,Más obra privada en San Pedro Sula.
+2,Feb,Constructora Sula,Gastos,HNL,1443750,NO,Más obra privada en San Pedro Sula.
+2,Feb,Agroindustrias Lenca,Ventas a terceros,HNL,7875000,NO,El ingenio pide menos acero.
+2,Feb,Agroindustrias Lenca,Costo de ventas,HNL,4725000,NO,El ingenio pide menos acero.
+2,Feb,Agroindustrias Lenca,Gastos,HNL,1181250,NO,El ingenio pide menos acero.
+2,Feb,Ferretería Norte,Ventas a terceros,HNL,1050000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Ferretería Norte,Costo de ventas,HNL,630000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+2,Feb,Ferretería Norte,Gastos,HNL,157500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
+3,Mar,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
+3,Mar,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
+3,Mar,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
+3,Mar,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
+3,Mar,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+3,Mar,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+3,Mar,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
+4,Abr,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
+4,Abr,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
+4,Abr,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
+4,Abr,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
+4,Abr,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+4,Abr,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+4,Abr,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
+5,May,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
+5,May,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
+5,May,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
+5,May,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
+5,May,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+5,May,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+5,May,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
+6,Jun,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
+6,Jun,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
+6,Jun,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
+6,Jun,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
+6,Jun,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+6,Jun,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+6,Jun,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
+7,Jul,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
+7,Jul,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
+7,Jul,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
+7,Jul,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
+7,Jul,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+7,Jul,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+7,Jul,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
+8,Ago,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
+8,Ago,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
+8,Ago,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
+8,Ago,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
+8,Ago,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+8,Ago,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+8,Ago,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
+9,Sep,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
+9,Sep,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
+9,Sep,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
+9,Sep,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
+9,Sep,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+9,Sep,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+9,Sep,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
+10,Oct,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
+10,Oct,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
+10,Oct,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
+10,Oct,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
+10,Oct,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+10,Oct,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+10,Oct,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
+11,Nov,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
+11,Nov,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
+11,Nov,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
+11,Nov,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
+11,Nov,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+11,Nov,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+11,Nov,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Constructora Sula,Ventas a terceros,HNL,13750000,NO,Más obra privada en San Pedro Sula.
+12,Dic,Constructora Sula,Costo de ventas,HNL,8250000,NO,Más obra privada en San Pedro Sula.
+12,Dic,Constructora Sula,Gastos,HNL,2062500,NO,Más obra privada en San Pedro Sula.
+12,Dic,Agroindustrias Lenca,Ventas a terceros,HNL,11250000,NO,El ingenio pide menos acero.
+12,Dic,Agroindustrias Lenca,Costo de ventas,HNL,6750000,NO,El ingenio pide menos acero.
+12,Dic,Agroindustrias Lenca,Gastos,HNL,1687500,NO,El ingenio pide menos acero.
+12,Dic,Ferretería Norte,Ventas a terceros,HNL,1500000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Ferretería Norte,Costo de ventas,HNL,900000,SI,Venta a otra empresa del grupo. Esta línea no entra.
+12,Dic,Ferretería Norte,Gastos,HNL,225000,SI,Venta a otra empresa del grupo. Esta línea no entra.

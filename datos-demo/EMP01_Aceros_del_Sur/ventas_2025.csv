@@ -1,13 +1,49 @@
-mes,nombre_mes,moneda,importe
-1,Ene,GTQ,7000000
-2,Feb,GTQ,7000000
-3,Mar,GTQ,8000000
-4,Abr,GTQ,8000000
-5,May,GTQ,8000000
-6,Jun,GTQ,8000000
-7,Jul,GTQ,8000000
-8,Ago,GTQ,9000000
-9,Sep,GTQ,9000000
-10,Oct,GTQ,9000000
-11,Nov,GTQ,9000000
-12,Dic,GTQ,10000000
+mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
+1,Ene,Constructora Izabal,GTQ,3850000,NO
+1,Ene,Cementos del Valle,GTQ,2100000,NO
+1,Ene,Taller Océano,GTQ,1050000,NO
+1,Ene,Distribuidora Metro,GTQ,434000,SI
+2,Feb,Constructora Izabal,GTQ,3850000,NO
+2,Feb,Cementos del Valle,GTQ,2100000,NO
+2,Feb,Taller Océano,GTQ,1050000,NO
+2,Feb,Distribuidora Metro,GTQ,434000,SI
+3,Mar,Constructora Izabal,GTQ,4400000,NO
+3,Mar,Cementos del Valle,GTQ,2400000,NO
+3,Mar,Taller Océano,GTQ,1200000,NO
+3,Mar,Distribuidora Metro,GTQ,496000,SI
+4,Abr,Constructora Izabal,GTQ,4400000,NO
+4,Abr,Cementos del Valle,GTQ,2400000,NO
+4,Abr,Taller Océano,GTQ,1200000,NO
+4,Abr,Distribuidora Metro,GTQ,496000,SI
+5,May,Constructora Izabal,GTQ,4400000,NO
+5,May,Cementos del Valle,GTQ,2400000,NO
+5,May,Taller Océano,GTQ,1200000,NO
+5,May,Distribuidora Metro,GTQ,496000,SI
+6,Jun,Constructora Izabal,GTQ,4400000,NO
+6,Jun,Cementos del Valle,GTQ,2400000,NO
+6,Jun,Taller Océano,GTQ,1200000,NO
+6,Jun,Distribuidora Metro,GTQ,496000,SI
+7,Jul,Constructora Izabal,GTQ,4400000,NO
+7,Jul,Cementos del Valle,GTQ,2400000,NO
+7,Jul,Taller Océano,GTQ,1200000,NO
+7,Jul,Distribuidora Metro,GTQ,496000,SI
+8,Ago,Constructora Izabal,GTQ,4950000,NO
+8,Ago,Cementos del Valle,GTQ,2700000,NO
+8,Ago,Taller Océano,GTQ,1350000,NO
+8,Ago,Distribuidora Metro,GTQ,558000,SI
+9,Sep,Constructora Izabal,GTQ,4950000,NO
+9,Sep,Cementos del Valle,GTQ,2700000,NO
+9,Sep,Taller Océano,GTQ,1350000,NO
+9,Sep,Distribuidora Metro,GTQ,558000,SI
+10,Oct,Constructora Izabal,GTQ,4950000,NO
+10,Oct,Cementos del Valle,GTQ,2700000,NO
+10,Oct,Taller Océano,GTQ,1350000,NO
+10,Oct,Distribuidora Metro,GTQ,558000,SI
+11,Nov,Constructora Izabal,GTQ,4950000,NO
+11,Nov,Cementos del Valle,GTQ,2700000,NO
+11,Nov,Taller Océano,GTQ,1350000,NO
+11,Nov,Distribuidora Metro,GTQ,558000,SI
+12,Dic,Constructora Izabal,GTQ,5500000,NO
+12,Dic,Cementos del Valle,GTQ,3000000,NO
+12,Dic,Taller Océano,GTQ,1500000,NO
+12,Dic,Distribuidora Metro,GTQ,620000,SI

@@ -1,13 +1,37 @@
-mes,nombre_mes,moneda,importe
-1,Ene,HNL,14000000
-2,Feb,HNL,14000000
-3,Mar,HNL,16000000
-4,Abr,HNL,16000000
-5,May,HNL,16000000
-6,Jun,HNL,16000000
-7,Jul,HNL,16000000
-8,Ago,HNL,18000000
-9,Sep,HNL,18000000
-10,Oct,HNL,18000000
-11,Nov,HNL,18000000
-12,Dic,HNL,20000000
+mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
+1,Ene,Constructora Sula,HNL,7000000,NO
+1,Ene,Agroindustrias Lenca,HNL,7000000,NO
+1,Ene,Ferretería Norte,HNL,840000,SI
+2,Feb,Constructora Sula,HNL,7000000,NO
+2,Feb,Agroindustrias Lenca,HNL,7000000,NO
+2,Feb,Ferretería Norte,HNL,840000,SI
+3,Mar,Constructora Sula,HNL,8000000,NO
+3,Mar,Agroindustrias Lenca,HNL,8000000,NO
+3,Mar,Ferretería Norte,HNL,960000,SI
+4,Abr,Constructora Sula,HNL,8000000,NO
+4,Abr,Agroindustrias Lenca,HNL,8000000,NO
+4,Abr,Ferretería Norte,HNL,960000,SI
+5,May,Constructora Sula,HNL,8000000,NO
+5,May,Agroindustrias Lenca,HNL,8000000,NO
+5,May,Ferretería Norte,HNL,960000,SI
+6,Jun,Constructora Sula,HNL,8000000,NO
+6,Jun,Agroindustrias Lenca,HNL,8000000,NO
+6,Jun,Ferretería Norte,HNL,960000,SI
+7,Jul,Constructora Sula,HNL,8000000,NO
+7,Jul,Agroindustrias Lenca,HNL,8000000,NO
+7,Jul,Ferretería Norte,HNL,960000,SI
+8,Ago,Constructora Sula,HNL,9000000,NO
+8,Ago,Agroindustrias Lenca,HNL,9000000,NO
+8,Ago,Ferretería Norte,HNL,1080000,SI
+9,Sep,Constructora Sula,HNL,9000000,NO
+9,Sep,Agroindustrias Lenca,HNL,9000000,NO
+9,Sep,Ferretería Norte,HNL,1080000,SI
+10,Oct,Constructora Sula,HNL,9000000,NO
+10,Oct,Agroindustrias Lenca,HNL,9000000,NO
+10,Oct,Ferretería Norte,HNL,1080000,SI
+11,Nov,Constructora Sula,HNL,9000000,NO
+11,Nov,Agroindustrias Lenca,HNL,9000000,NO
+11,Nov,Ferretería Norte,HNL,1080000,SI
+12,Dic,Constructora Sula,HNL,10000000,NO
+12,Dic,Agroindustrias Lenca,HNL,10000000,NO
+12,Dic,Ferretería Norte,HNL,1200000,SI
