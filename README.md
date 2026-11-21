@@ -1,7 +1,13 @@
 # RRE
 
-Presupuesto de un grupo de seis empresas, en una sola moneda, con cada cifra rastreable hasta la fila.
+Presupuesto de un grupo de seis empresas, en una sola moneda. Cada cifra se abre hasta la fila que la originó.
 
-Abrí esta carpeta en Cursor y leé `AGENTS.md`. Los datos están en `data/`. El EBIT limpio del grupo es 8.950 USD.
+Abrí esta carpeta en Cursor. El agente lee `AGENTS.md` solo. Ahí está el trabajo de cada uno.
 
-`data/clave_equipo.csv` es la respuesta del equipo. El cálculo no la usa.
+| Persona | Trabajo | Dónde escribe |
+|---|---|---|
+| Brian | El código | `src/` |
+| Josué | El chequeo del número a mano | `josue/CHEQUEO.md` |
+| Oscar | El demo para un director | `oscar/DEMO.md` |
+
+Los datos están en `data/`. El EBIT limpio del grupo es 8.950 USD. `data/clave_equipo.csv` es la respuesta del equipo. El cálculo no la usa.
