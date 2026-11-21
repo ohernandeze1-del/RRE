@@ -447,19 +447,26 @@
     return `<div class="sheet"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto 2026</th><th>Variación</th></tr></thead><tbody>${rows.join("")}</tbody></table></div><p class="note">Importes en ${esc(currency)}.</p>`;
   }
 
-  function chart(prior, parts, incremental, barHeight) {
+  function chart(prior, parts, incremental, barHeight, currency) {
     const stacked = DATA.months.map((_, index) => parts.reduce((total, part) => total + (part.values[index] || 0), 0));
     const max = Math.max(...prior.map((value, index) => Math.max(value, stacked[index] + (incremental[index] || 0))), 1);
     const height = barHeight || 230;
+    const unit = currency ? ` ${esc(currency)}` : "";
     const columns = DATA.months.map((name, index) => {
       const priorPx = Math.round(prior[index] / max * height);
       const pieces = parts.map((part) => {
         const px = Math.round((part.values[index] || 0) / max * height);
         return px ? `<div class="bar" style="height:${px}px;background:${part.color}"></div>` : "";
       });
-      const incPx = Math.round((incremental[index] || 0) / max * height);
+      const incValue = incremental[index] || 0;
+      const incPx = Math.round(incValue / max * height);
       const inc = incPx ? `<div class="bar inc" style="height:${incPx}px"></div>` : "";
-      return `<div class="month" style="--i:${index}"><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack">${inc}${pieces.reverse().join("")}</div></div><span class="name">${name}</span></div>`;
+      const now = stacked[index] + incValue;
+      const delta = now - prior[index];
+      const rate = prior[index] ? delta / prior[index] : 0;
+      const klass = delta < 0 ? "down" : "up";
+      const lift = (rate > 0 ? "+" : "") + Math.round(rate * 100) + "%";
+      return `<div class="month" style="--i:${index}"><span class="lift ${klass}">${lift}</span><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack">${inc}${pieces.reverse().join("")}</div></div><span class="name">${name}</span><div class="tip"><strong>${name}</strong><span>Año pasado ${money(prior[index])}${unit}</span><span>Presupuesto ${money(stacked[index])}${unit}</span><span>Incremental ${money(incValue)}${unit}</span><span class="${klass}">Contra el año pasado ${money(delta)} (${pct(rate)})</span></div></div>`;
     }).join("");
     const legend = [`<span><i class="swatch prior"></i>Año pasado</span>`]
       .concat(parts.map((part) => `<span><i class="swatch" style="background:${part.color}"></i>${esc(part.name)}</span>`))
@@ -472,21 +479,72 @@
     return (value * 100).toLocaleString("es-GT", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "%";
   }
 
+  function pieSlice(start, end) {
+    const r = 46;
+    const cx = 50;
+    const cy = 50;
+    const sweep = end - start;
+    if (sweep >= 359.99) return `M ${cx} ${cy - r} A ${r} ${r} 0 1 1 ${cx - 0.01} ${cy - r} Z`;
+    const a1 = (start - 90) * Math.PI / 180;
+    const a2 = (end - 90) * Math.PI / 180;
+    const x1 = cx + r * Math.cos(a1);
+    const y1 = cy + r * Math.sin(a1);
+    const x2 = cx + r * Math.cos(a2);
+    const y2 = cy + r * Math.sin(a2);
+    const large = sweep > 180 ? 1 : 0;
+    return `M ${cx} ${cy} L ${x1.toFixed(2)} ${y1.toFixed(2)} A ${r} ${r} 0 ${large} 1 ${x2.toFixed(2)} ${y2.toFixed(2)} Z`;
+  }
+
+  function companyCard(id, total) {
+    const item = company(id);
+    const budget = sum(budgetOf(id).map((amount) => toUsd(amount, item.currency)));
+    const prior = sum(priorOf(id).map((amount) => toUsd(amount, item.currency)));
+    const change = prior ? (budget - prior) / prior : 0;
+    const result = returnsOf(id);
+    const ebit = result.ebit == null ? "—" : `${money(toUsd(result.ebit, item.currency))} USD`;
+    const roic = result.ready ? pct(result.roic).replace("+", "") : "—";
+    const roce = result.ready ? pct(result.roce).replace("+", "") : "—";
+    return `<strong>${esc(item.name)}</strong><p>${esc(item.country)} · ${esc(item.currency)}</p><span>Presupuesto ${money(budget)} USD</span><span>Año pasado ${money(prior)} USD</span><span class="${change < 0 ? "down" : "up"}">Contra el año pasado ${pct(change)}</span><span>Parte del grupo ${shareLabel(budget / total)}</span><span>EBIT ${ebit}</span><span>ROIC ${roic} · ROCE ${roce}</span>`;
+  }
+
   function pie() {
     const parts = DATA.companies.map((item) => ({
+      id: item.id,
       name: item.name,
       value: sum(budgetOf(item.id).map((amount) => toUsd(amount, item.currency)))
     }));
     const total = sum(parts.map((part) => part.value)) || 1;
     let cursor = 0;
-    const stops = parts.map((part, index) => {
+    const slices = parts.map((part) => {
       const start = cursor / total * 360;
       cursor += part.value;
       const end = cursor / total * 360;
-      return `${colorOf(DATA.companies[index].id)} ${start}deg ${end}deg`;
+      return `<path class="slice" data-company="${esc(part.id)}" d="${pieSlice(start, end)}" fill="${colorOf(part.id)}"></path>`;
+    }).join("");
+    const legend = parts.map((part) => `<li data-company="${esc(part.id)}"><span><i style="background:${colorOf(part.id)}"></i>${esc(part.name)}</span><span>${shareLabel(part.value / total)}</span></li>`).join("");
+    return `<div class="pie-wrap" data-total="${total}"><svg class="pie" viewBox="0 0 100 100">${slices}</svg><div class="pie-card" id="pie-card" hidden></div><ul class="pie-legend">${legend}</ul></div>`;
+  }
+
+  function bindPie(root) {
+    const wrap = root.querySelector(".pie-wrap");
+    const card = root.querySelector("#pie-card");
+    if (!wrap || !card) return;
+    const total = Number(wrap.dataset.total) || 1;
+    const mark = (id) => {
+      wrap.querySelectorAll("[data-company]").forEach((node) => node.classList.toggle("on", node.dataset.company === id));
+    };
+    wrap.querySelectorAll(".slice, .pie-legend li").forEach((node) => {
+      node.addEventListener("pointerenter", () => {
+        const id = node.dataset.company;
+        card.innerHTML = companyCard(id, total);
+        card.hidden = false;
+        mark(id);
+      });
     });
-    const legend = parts.map((part, index) => `<li><span><i style="background:${colorOf(DATA.companies[index].id)}"></i>${esc(part.name)}</span><span>${shareLabel(part.value / total)}</span></li>`).join("");
-    return `<div class="pie-wrap"><div class="pie" style="background:conic-gradient(${stops.join(",")})"></div><ul class="pie-legend">${legend}</ul></div>`;
+    wrap.addEventListener("pointerleave", () => {
+      card.hidden = true;
+      mark("");
+    });
   }
 
   function renderCompany() {
@@ -521,7 +579,7 @@
       ${ratios(returnsOf(id), item.currency)}
       <div class="split">
         <div>
-          ${chart(prior, [{ name: item.name, color: colorOf(id), values: budget }], added)}
+          ${chart(prior, [{ name: item.name, color: colorOf(id), values: budget }], added, 230, item.currency)}
           ${monthTable(prior, budget, item.currency)}
         </div>
         <aside class="actions">
@@ -602,6 +660,7 @@
       renderCompany();
     });
     playFigures(root);
+    showNotices(id);
   }
 
   async function saveExistingInitiative(box) {
@@ -633,6 +692,91 @@
       ? `<a class="solid" href="${esc(href)}" target="_blank" rel="noopener">Abrir PowerPoint</a>`
       : `<span class="note">${item.ppt ? "Volvé a adjuntar el PowerPoint para abrirlo." : "Sin PowerPoint."}</span>`;
     return `<article><div><h3>${esc(item.name)}</h3><p>${esc(who ? who.name : item.company)}</p></div><strong>${money(ingreso)} USD</strong>${open}</article>`;
+  }
+
+  function previewCard(item, review) {
+    const ingreso = sum(item.ingreso.map((value) => toUsd(value, item.currency || "USD")));
+    const inversion = sum(item.inversion.map((value) => toUsd(value, item.currency || "USD")));
+    const who = company(item.company);
+    const href = pptHref(item);
+    const preview = !item.uploaded && window.RRE_PREVIEWS ? window.RRE_PREVIEWS[item.ppt] : null;
+    const photo = preview
+      ? `<img src="${esc(preview.image)}" alt="">`
+      : `<div class="preview-fallback">Sin vista previa</div>`;
+    const blurb = preview
+      ? `<p>${esc(preview.text)}</p>`
+      : `<p class="note">${item.ppt ? "Volvé a adjuntar el PowerPoint para ver de qué se trata." : "Sin PowerPoint."}</p>`;
+    const open = href
+      ? `<a class="solid" href="${esc(href)}" target="_blank" rel="noopener">Abrir PowerPoint</a>`
+      : "";
+    const decision = (loadStore().decisions || {})[item.id];
+    const verdict = decision
+      ? `<p class="verdict ${decision.status}">${decision.status === "aceptada" ? "Aceptada por el corporativo" : "Rechazada por el corporativo"}${decision.comment ? `. ${esc(decision.comment)}` : ""}</p>`
+      : "";
+    const actions = review
+      ? `<div class="decide" data-id="${esc(item.id)}"><button class="solid" type="button" data-accept>Aceptar</button><button class="line" type="button" data-reject>Rechazar</button><form class="reject-box" hidden><textarea name="motivo" rows="3" placeholder="Motivo del rechazo" required></textarea><button class="solid" type="submit">Enviar comentario</button></form></div>`
+      : "";
+    return `<article class="preview">${photo}<div><h3>${esc(item.name)}</h3><p class="who">${esc(who ? who.name : item.company)}</p>${blurb}<p class="figures"><span>Ingreso ${money(ingreso)} USD</span><span>Inversión ${money(inversion)} USD</span></p>${verdict}${open}${actions}</div></article>`;
+  }
+
+  function decide(itemId, status, comment) {
+    const item = initiativesOf(null).find((entry) => entry.id === itemId);
+    if (!item) return;
+    const state = loadStore();
+    state.decisions = state.decisions || {};
+    state.notices = state.notices || [];
+    state.decisions[itemId] = { status, comment, at: Date.now() };
+    if (status === "rechazada") {
+      state.notices.push({
+        id: `ntc-${Date.now()}`,
+        company: item.company,
+        initiative: item.name,
+        comment,
+        seen: false
+      });
+    }
+    saveStore(state);
+    renderGroup();
+  }
+
+  function bindReview(root) {
+    root.querySelectorAll("[data-accept]").forEach((button) => {
+      button.addEventListener("click", () => decide(button.closest(".decide").dataset.id, "aceptada", ""));
+    });
+    root.querySelectorAll("[data-reject]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const box = button.closest(".decide").querySelector(".reject-box");
+        box.hidden = false;
+        box.motivo.focus();
+      });
+    });
+    root.querySelectorAll(".reject-box").forEach((form) => {
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const comment = form.motivo.value.trim();
+        if (!comment) return;
+        decide(form.closest(".decide").dataset.id, "rechazada", comment);
+      });
+    });
+  }
+
+  function showNotices(companyId) {
+    const state = loadStore();
+    const pending = (state.notices || []).filter((notice) => notice.company === companyId && !notice.seen && notice.comment);
+    if (!pending.length) return;
+    const layer = document.createElement("div");
+    layer.className = "notice-layer";
+    layer.innerHTML = `<div class="notice" role="dialog" aria-modal="true" aria-labelledby="notice-title"><h2 id="notice-title">El corporativo rechazó una propuesta</h2>${pending.map((notice) => `<article><strong>${esc(notice.initiative)}</strong><p>${esc(notice.comment)}</p></article>`).join("")}<button class="solid" type="button" id="close-notice">Entendido</button></div>`;
+    document.body.appendChild(layer);
+    document.getElementById("close-notice").addEventListener("click", () => {
+      const fresh = loadStore();
+      const ids = new Set(pending.map((notice) => notice.id));
+      (fresh.notices || []).forEach((notice) => {
+        if (ids.has(notice.id)) notice.seen = true;
+      });
+      saveStore(fresh);
+      layer.remove();
+    });
   }
 
   function onInitiative(companyId) {
@@ -694,7 +838,7 @@
       name: company(companyId).name,
       color: colorOf(companyId),
       values: budgetOf(companyId).map((value) => toUsd(value, DATA.sales[companyId].currency))
-    })), incremental, 132);
+    })), incremental, 132, "USD");
     root.innerHTML = `
       <header class="top board-top">
         <h1>Grupo unificado</h1>
@@ -718,28 +862,24 @@
         <section class="chart-box">${bars}</section>
         <section>${pie()}</section>
       </div>
+      <section class="previews">
+        <h2>Iniciativas${selected === "TODAS" ? "" : " · " + esc(company(selected).name)}</h2>
+        ${selected === "TODAS" ? "" : "<p class='note'>Aceptá o rechazá cada propuesta. Si la rechazás, el comentario llega al portal de esta empresa.</p>"}
+        <div class="preview-row">${list.map((item) => previewCard(item, selected !== "TODAS")).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
+      </section>
       <details class="fold">
         <summary>Mes a mes y clientes</summary>
         <div class="sheet"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto</th><th>Variación</th><th>Incremental</th><th>Base + incremental</th></tr></thead><tbody>${monthRows}</tbody></table></div>
         <h2>Qué cambió contra el año pasado</h2>
         ${explainTable(ids)}
       </details>
-      <aside class="dock">
-        <div class="dock-panel" id="init-dock" hidden>
-          <h2>Iniciativas${selected === "TODAS" ? "" : " · " + esc(company(selected).name)}</h2>
-          <div class="init-list">${list.map(card).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
-        </div>
-        <button class="solid" type="button" id="toggle-inits">Iniciativas (${list.length})</button>
-      </aside>
     `;
     document.getElementById("filtro").addEventListener("change", (event) => {
       const value = event.target.value;
       location.search = value === "TODAS" ? "" : `?empresa=${value}`;
     });
-    document.getElementById("toggle-inits").addEventListener("click", () => {
-      const panel = document.getElementById("init-dock");
-      panel.hidden = !panel.hidden;
-    });
+    bindPie(root);
+    bindReview(root);
     playFigures(root);
   }
 

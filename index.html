@@ -38,12 +38,20 @@
       budgetUsd += usd(sum(data.sales[item.id].budget), item.currency);
     });
     const groupChange = (budgetUsd - priorUsd) / priorUsd;
-    const rows = [`<a class="entry corp" href="portales/grupo.html"><span><strong>Corporativo</strong><div class="meta">Todas las empresas, en dólares</div></span><span class="meta">Presupuesto, gráfico e iniciativas</span><span class="delta ${groupChange < 0 ? "down" : "up"}">${pct(groupChange)}</span></a>`];
+    const marks = {
+      EMP01: "portales/brand/logo-aceros-sur.jpg",
+      EMP02: "portales/brand/logo-metro.jpg",
+      EMP03: "portales/brand/logo-logistica.jpg",
+      EMP04: "portales/brand/logo-aceros-hn.jpg",
+      EMP05: "portales/brand/logo-ferreteria.jpg",
+      EMP06: "portales/brand/logo-holding.jpg"
+    };
+    const rows = [`<a class="entry corp" href="portales/grupo.html"><span class="identity"><span class="markbox"><img class="mark" src="portales/brand/logo-istmo.jpg?v=2" alt=""></span><span><strong>Corporativo</strong><div class="meta">Todas las empresas, en dólares</div></span></span><span class="meta">Presupuesto, gráfico e iniciativas</span><span class="delta ${groupChange < 0 ? "down" : "up"}">${pct(groupChange)}</span></a>`];
     data.companies.forEach((item) => {
       const prior = sum(data.sales[item.id].prior);
       const budget = sum(data.sales[item.id].budget);
       const change = (budget - prior) / prior;
-      rows.push(`<a class="entry" href="portales/empresa.html?empresa=${item.id}"><strong>${item.name}</strong><span class="meta">${item.country} · ${item.currency}</span><span class="delta ${change < 0 ? "down" : "up"}">${pct(change)}</span></a>`);
+      rows.push(`<a class="entry" href="portales/empresa.html?empresa=${item.id}"><span class="identity"><span class="markbox"><img class="mark" src="${marks[item.id]}" alt=""></span><strong>${item.name}</strong></span><span class="meta">${item.country} · ${item.currency}</span><span class="delta ${change < 0 ? "down" : "up"}">${pct(change)}</span></a>`);
     });
     document.getElementById("directory").innerHTML = rows.join("");
   </script>
