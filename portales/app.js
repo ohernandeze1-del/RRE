@@ -608,6 +608,7 @@
       <h2>Qué cambió contra el año pasado</h2>
       ${explainTable([id])}
       <p><button class="ghost" type="button" id="reset">Volver a los datos de ejemplo</button></p>
+      <button class="solid skala-widget" type="button" id="open-skala">Skala</button>
     `;
     document.getElementById("toggle-budget").addEventListener("click", () => {
       document.getElementById("budget-form").hidden = !document.getElementById("budget-form").hidden;
@@ -661,6 +662,8 @@
     });
     playFigures(root);
     showNotices(id);
+    const skala = document.getElementById("open-skala");
+    if (skala) skala.addEventListener("click", () => openSkala(id));
   }
 
   async function saveExistingInitiative(box) {
@@ -894,6 +897,7 @@
         <h2>Qué cambió contra el año pasado</h2>
         ${explainTable(ids)}
       </details>
+      <button class="solid skala-widget" type="button" id="open-skala">Skala</button>
     `;
     document.getElementById("filtro").addEventListener("change", (event) => {
       const value = event.target.value;
@@ -902,6 +906,117 @@
     bindPie(root);
     bindReview(root);
     playFigures(root);
+    const skala = document.getElementById("open-skala");
+    if (skala) skala.addEventListener("click", () => openSkala(selected));
+  }
+
+  const SKALA_TOPICS = [
+    { id: "revenue", name: "Revenue" },
+    { id: "etica", name: "Ética" },
+    { id: "sostenibilidad", name: "Sostenibilidad" },
+    { id: "participacion", name: "Participación de mercado" },
+    { id: "nuevos", name: "Nuevos mercados" }
+  ];
+
+  function skalaRow(empresa, topico) {
+    return (window.RRE_SKALA.rows || []).find((row) => row.empresa === empresa && row.topico === topico);
+  }
+
+  function liveRevenue(ids) {
+    const sales = seriesUsd(ids);
+    return { actual: Math.round(sum(sales.prior)), deseado: Math.round(sum(sales.budget)) };
+  }
+
+  function skalaFigure(value, unidad) {
+    if (unidad === "usd") return money(value) + " USD";
+    if (unidad === "pct") return value.toLocaleString("es-GT", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "%";
+    return Math.round(value) + " pts";
+  }
+
+  function skalaView(scope) {
+    const ids = scope === "TODAS" ? DATA.companies.map((item) => item.id) : [scope];
+    const revenue = liveRevenue(ids);
+    const topics = SKALA_TOPICS.map((topic) => {
+      const grupo = skalaRow("GRUPO", topic.id);
+      if (scope === "TODAS") {
+        const parts = DATA.companies.map((item) => ({ id: item.id, row: skalaRow(item.id, topic.id), weight: liveRevenue([item.id]).actual }));
+        if (topic.id === "revenue") {
+          const mercado = parts.reduce((total, part) => total + (part.row.mercado || 0), 0);
+          return Object.assign({}, topic, { actual: revenue.actual, deseado: revenue.deseado, potencial: mercado - revenue.actual, mercado, unidad: "usd", hint: "mercado del escenario que hoy no compra al grupo", actividad: grupo.actividad, fila: grupo.fila });
+        }
+        if (topic.id === "nuevos") {
+          return Object.assign({}, topic, {
+            actual: parts.reduce((total, part) => total + part.row.actual, 0),
+            deseado: parts.reduce((total, part) => total + part.row.deseado, 0),
+            potencial: parts.reduce((total, part) => total + part.row.mercado, 0),
+            unidad: "usd",
+            hint: "oportunidad que todavía no está en el presupuesto",
+            actividad: grupo.actividad,
+            fila: grupo.fila
+          });
+        }
+        if (topic.id === "participacion") {
+          const mercado = parts.reduce((total, part) => total + part.row.mercado, 0);
+          const actual = mercado ? revenue.actual / mercado * 100 : 0;
+          const deseadoVentas = parts.reduce((total, part) => total + part.row.mercado * part.row.deseado / 100, 0);
+          const deseado = mercado ? deseadoVentas / mercado * 100 : 0;
+          return Object.assign({}, topic, { actual, deseado, potencial: deseado - actual, mercado, unidad: "pct", hint: "puntos de participación para la meta", actividad: grupo.actividad, fila: grupo.fila });
+        }
+        const weight = parts.reduce((total, part) => total + part.weight, 0) || 1;
+        const actual = parts.reduce((total, part) => total + part.row.actual * part.weight, 0) / weight;
+        const deseado = parts.reduce((total, part) => total + part.row.deseado * part.weight, 0) / weight;
+        return Object.assign({}, topic, { actual, deseado, potencial: deseado - actual, unidad: "puntos", hint: "puntos para llegar a la meta", actividad: grupo.actividad, fila: grupo.fila });
+      }
+      const row = skalaRow(scope, topic.id);
+      if (topic.id === "revenue") {
+        return Object.assign({}, topic, { actual: revenue.actual, deseado: revenue.deseado, potencial: (row.mercado || 0) - revenue.actual, mercado: row.mercado, unidad: "usd", hint: "mercado del escenario que hoy no compra", actividad: row.actividad, fila: row.fila });
+      }
+      if (topic.id === "nuevos") {
+        return Object.assign({}, topic, { actual: row.actual, deseado: row.deseado, potencial: row.mercado, unidad: "usd", hint: "oportunidad fuera de lo ya deseado", actividad: row.actividad, fila: row.fila });
+      }
+      if (topic.id === "participacion") {
+        const actual = row.mercado ? revenue.actual / row.mercado * 100 : row.actual;
+        return Object.assign({}, topic, { actual, deseado: row.deseado, potencial: row.deseado - actual, mercado: row.mercado, unidad: "pct", hint: "puntos de participación para la meta", actividad: row.actividad, fila: row.fila });
+      }
+      return Object.assign({}, topic, { actual: row.actual, deseado: row.deseado, potencial: row.deseado - row.actual, unidad: "puntos", hint: "puntos para llegar a la meta", actividad: row.actividad, fila: row.fila });
+    });
+    return topics;
+  }
+
+  function skalaCard(topic) {
+    const max = topic.id === "revenue"
+      ? Math.max(topic.mercado || 0, topic.deseado, topic.actual, 1)
+      : topic.id === "nuevos"
+        ? Math.max(topic.potencial || 0, topic.deseado, topic.actual, 1)
+        : 100;
+    const actualPct = Math.max(0, Math.min(100, topic.actual / max * 100));
+    const deseadoPct = Math.max(0, Math.min(100, topic.deseado / max * 100));
+    const file = window.RRE_SKALA.file;
+    return `<article class="skala-card"><h3>${esc(topic.name)}</h3><dl><div><dt>Actual</dt><dd>${skalaFigure(topic.actual, topic.unidad)}</dd></div><div><dt>Deseado</dt><dd>${skalaFigure(topic.deseado, topic.unidad)}</dd></div><div><dt>Potencial</dt><dd>${skalaFigure(topic.potencial, topic.unidad)}</dd><small>${esc(topic.hint)}</small></div></dl><div class="skala-track" aria-hidden="true"><span class="now" style="width:${actualPct.toFixed(1)}%"></span><span class="want" style="left:${deseadoPct.toFixed(1)}%"></span></div><p>${esc(topic.actividad)}</p><p class="note">${esc(file)}, fila ${topic.fila}</p></article>`;
+  }
+
+  function openSkala(scope) {
+    if (!window.RRE_SKALA) return;
+    const previous = document.getElementById("skala-layer");
+    if (previous) previous.remove();
+    const layer = document.createElement("div");
+    layer.id = "skala-layer";
+    layer.className = "skala-layer";
+    layer.innerHTML = `<div class="skala-panel" role="dialog" aria-modal="true" aria-labelledby="skala-title"></div>`;
+    document.body.appendChild(layer);
+    const paint = (next) => {
+      const who = next === "TODAS" ? "Corporativo" : company(next).name;
+      const options = [`<option value="TODAS"${next === "TODAS" ? " selected" : ""}>Corporativo</option>`]
+        .concat(DATA.companies.map((item) => `<option value="${item.id}"${item.id === next ? " selected" : ""}>${esc(item.name)}</option>`))
+        .join("");
+      layer.querySelector(".skala-panel").innerHTML = `<header><div><h2 id="skala-title">Skala</h2><p class="note">De la situación actual a la deseada, y el potencial que todavía no es del grupo. Escenario ficticio. El revenue sale de las ventas 2025 y del presupuesto 2026.</p></div><button class="ghost" type="button" id="close-skala">Cerrar</button></header><label class="skala-scope">Ver <select id="skala-scope">${options}</select></label><p class="sub">${esc(who)}</p><div class="skala-grid">${skalaView(next).map(skalaCard).join("")}</div>`;
+      layer.querySelector("#close-skala").addEventListener("click", () => layer.remove());
+      layer.querySelector("#skala-scope").addEventListener("change", (event) => paint(event.target.value));
+    };
+    paint(scope || "TODAS");
+    layer.addEventListener("click", (event) => {
+      if (event.target === layer) layer.remove();
+    });
   }
 
   function playFigures(root) {
