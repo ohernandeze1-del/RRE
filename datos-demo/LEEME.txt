@@ -12,7 +12,7 @@ plantillas/plantilla_iniciativa.xlsx es el archivo vacío de una iniciativa.
 
 La carpeta iniciativas trae, por iniciativa:
 - un Excel con ingreso incremental e inversión de cada mes.
-- un PowerPoint de una lámina para subir en el portal.
+- un PowerPoint de 10 láminas (portada, proceso, beneficios, datos y cierre) para subir en el portal.
 
 Tasa oficial a dólares: quetzal 7,75, lempira 25, dólar 1. USD = importe local / tasa.
 En el portal, elegí la empresa y subí el Excel de presupuesto o el de la iniciativa.
