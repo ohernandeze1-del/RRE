@@ -1,37 +1,193 @@
 mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
-1,Ene,Constructora Sula,HNL,7000000,NO
-1,Ene,Agroindustrias Lenca,HNL,7000000,NO
+1,Ene,Constructora Sula,HNL,840000,NO
+1,Ene,Agroindustrias Lenca,HNL,980000,NO
+1,Ene,Ingenio Yojoa,HNL,700000,NO
+1,Ene,Obras Choloma,HNL,980000,NO
+1,Ene,Puerto Cortés Industrial,HNL,560000,NO
+1,Ene,Talleres SPS,HNL,840000,NO
+1,Ene,Ferretería La Ceiba,HNL,700000,NO
+1,Ene,Planta Villanueva,HNL,700000,NO
+1,Ene,Constructora Copán,HNL,840000,NO
+1,Ene,Depósito El Progreso,HNL,1120000,NO
+1,Ene,Obras Comayagua,HNL,1540000,NO
+1,Ene,Taller Choluteca,HNL,980000,NO
+1,Ene,Edificios Tegucigalpa,HNL,1260000,NO
+1,Ene,Agro Olanchito,HNL,840000,NO
+1,Ene,Maquila Choloma,HNL,1120000,NO
 1,Ene,Ferretería Norte,HNL,840000,SI
-2,Feb,Constructora Sula,HNL,7000000,NO
-2,Feb,Agroindustrias Lenca,HNL,7000000,NO
+2,Feb,Constructora Sula,HNL,840000,NO
+2,Feb,Agroindustrias Lenca,HNL,980000,NO
+2,Feb,Ingenio Yojoa,HNL,700000,NO
+2,Feb,Obras Choloma,HNL,980000,NO
+2,Feb,Puerto Cortés Industrial,HNL,560000,NO
+2,Feb,Talleres SPS,HNL,840000,NO
+2,Feb,Ferretería La Ceiba,HNL,700000,NO
+2,Feb,Planta Villanueva,HNL,700000,NO
+2,Feb,Constructora Copán,HNL,840000,NO
+2,Feb,Depósito El Progreso,HNL,1120000,NO
+2,Feb,Obras Comayagua,HNL,1540000,NO
+2,Feb,Taller Choluteca,HNL,980000,NO
+2,Feb,Edificios Tegucigalpa,HNL,1260000,NO
+2,Feb,Agro Olanchito,HNL,840000,NO
+2,Feb,Maquila Choloma,HNL,1120000,NO
 2,Feb,Ferretería Norte,HNL,840000,SI
-3,Mar,Constructora Sula,HNL,8000000,NO
-3,Mar,Agroindustrias Lenca,HNL,8000000,NO
+3,Mar,Constructora Sula,HNL,960000,NO
+3,Mar,Agroindustrias Lenca,HNL,1120000,NO
+3,Mar,Ingenio Yojoa,HNL,800000,NO
+3,Mar,Obras Choloma,HNL,1120000,NO
+3,Mar,Puerto Cortés Industrial,HNL,640000,NO
+3,Mar,Talleres SPS,HNL,960000,NO
+3,Mar,Ferretería La Ceiba,HNL,800000,NO
+3,Mar,Planta Villanueva,HNL,800000,NO
+3,Mar,Constructora Copán,HNL,960000,NO
+3,Mar,Depósito El Progreso,HNL,1280000,NO
+3,Mar,Obras Comayagua,HNL,1760000,NO
+3,Mar,Taller Choluteca,HNL,1120000,NO
+3,Mar,Edificios Tegucigalpa,HNL,1440000,NO
+3,Mar,Agro Olanchito,HNL,960000,NO
+3,Mar,Maquila Choloma,HNL,1280000,NO
 3,Mar,Ferretería Norte,HNL,960000,SI
-4,Abr,Constructora Sula,HNL,8000000,NO
-4,Abr,Agroindustrias Lenca,HNL,8000000,NO
+4,Abr,Constructora Sula,HNL,960000,NO
+4,Abr,Agroindustrias Lenca,HNL,1120000,NO
+4,Abr,Ingenio Yojoa,HNL,800000,NO
+4,Abr,Obras Choloma,HNL,1120000,NO
+4,Abr,Puerto Cortés Industrial,HNL,640000,NO
+4,Abr,Talleres SPS,HNL,960000,NO
+4,Abr,Ferretería La Ceiba,HNL,800000,NO
+4,Abr,Planta Villanueva,HNL,800000,NO
+4,Abr,Constructora Copán,HNL,960000,NO
+4,Abr,Depósito El Progreso,HNL,1280000,NO
+4,Abr,Obras Comayagua,HNL,1760000,NO
+4,Abr,Taller Choluteca,HNL,1120000,NO
+4,Abr,Edificios Tegucigalpa,HNL,1440000,NO
+4,Abr,Agro Olanchito,HNL,960000,NO
+4,Abr,Maquila Choloma,HNL,1280000,NO
 4,Abr,Ferretería Norte,HNL,960000,SI
-5,May,Constructora Sula,HNL,8000000,NO
-5,May,Agroindustrias Lenca,HNL,8000000,NO
+5,May,Constructora Sula,HNL,960000,NO
+5,May,Agroindustrias Lenca,HNL,1120000,NO
+5,May,Ingenio Yojoa,HNL,800000,NO
+5,May,Obras Choloma,HNL,1120000,NO
+5,May,Puerto Cortés Industrial,HNL,640000,NO
+5,May,Talleres SPS,HNL,960000,NO
+5,May,Ferretería La Ceiba,HNL,800000,NO
+5,May,Planta Villanueva,HNL,800000,NO
+5,May,Constructora Copán,HNL,960000,NO
+5,May,Depósito El Progreso,HNL,1280000,NO
+5,May,Obras Comayagua,HNL,1760000,NO
+5,May,Taller Choluteca,HNL,1120000,NO
+5,May,Edificios Tegucigalpa,HNL,1440000,NO
+5,May,Agro Olanchito,HNL,960000,NO
+5,May,Maquila Choloma,HNL,1280000,NO
 5,May,Ferretería Norte,HNL,960000,SI
-6,Jun,Constructora Sula,HNL,8000000,NO
-6,Jun,Agroindustrias Lenca,HNL,8000000,NO
+6,Jun,Constructora Sula,HNL,960000,NO
+6,Jun,Agroindustrias Lenca,HNL,1120000,NO
+6,Jun,Ingenio Yojoa,HNL,800000,NO
+6,Jun,Obras Choloma,HNL,1120000,NO
+6,Jun,Puerto Cortés Industrial,HNL,640000,NO
+6,Jun,Talleres SPS,HNL,960000,NO
+6,Jun,Ferretería La Ceiba,HNL,800000,NO
+6,Jun,Planta Villanueva,HNL,800000,NO
+6,Jun,Constructora Copán,HNL,960000,NO
+6,Jun,Depósito El Progreso,HNL,1280000,NO
+6,Jun,Obras Comayagua,HNL,1760000,NO
+6,Jun,Taller Choluteca,HNL,1120000,NO
+6,Jun,Edificios Tegucigalpa,HNL,1440000,NO
+6,Jun,Agro Olanchito,HNL,960000,NO
+6,Jun,Maquila Choloma,HNL,1280000,NO
 6,Jun,Ferretería Norte,HNL,960000,SI
-7,Jul,Constructora Sula,HNL,8000000,NO
-7,Jul,Agroindustrias Lenca,HNL,8000000,NO
+7,Jul,Constructora Sula,HNL,960000,NO
+7,Jul,Agroindustrias Lenca,HNL,1120000,NO
+7,Jul,Ingenio Yojoa,HNL,800000,NO
+7,Jul,Obras Choloma,HNL,1120000,NO
+7,Jul,Puerto Cortés Industrial,HNL,640000,NO
+7,Jul,Talleres SPS,HNL,960000,NO
+7,Jul,Ferretería La Ceiba,HNL,800000,NO
+7,Jul,Planta Villanueva,HNL,800000,NO
+7,Jul,Constructora Copán,HNL,960000,NO
+7,Jul,Depósito El Progreso,HNL,1280000,NO
+7,Jul,Obras Comayagua,HNL,1760000,NO
+7,Jul,Taller Choluteca,HNL,1120000,NO
+7,Jul,Edificios Tegucigalpa,HNL,1440000,NO
+7,Jul,Agro Olanchito,HNL,960000,NO
+7,Jul,Maquila Choloma,HNL,1280000,NO
 7,Jul,Ferretería Norte,HNL,960000,SI
-8,Ago,Constructora Sula,HNL,9000000,NO
-8,Ago,Agroindustrias Lenca,HNL,9000000,NO
+8,Ago,Constructora Sula,HNL,1080000,NO
+8,Ago,Agroindustrias Lenca,HNL,1260000,NO
+8,Ago,Ingenio Yojoa,HNL,900000,NO
+8,Ago,Obras Choloma,HNL,1260000,NO
+8,Ago,Puerto Cortés Industrial,HNL,720000,NO
+8,Ago,Talleres SPS,HNL,1080000,NO
+8,Ago,Ferretería La Ceiba,HNL,900000,NO
+8,Ago,Planta Villanueva,HNL,900000,NO
+8,Ago,Constructora Copán,HNL,1080000,NO
+8,Ago,Depósito El Progreso,HNL,1440000,NO
+8,Ago,Obras Comayagua,HNL,1980000,NO
+8,Ago,Taller Choluteca,HNL,1260000,NO
+8,Ago,Edificios Tegucigalpa,HNL,1620000,NO
+8,Ago,Agro Olanchito,HNL,1080000,NO
+8,Ago,Maquila Choloma,HNL,1440000,NO
 8,Ago,Ferretería Norte,HNL,1080000,SI
-9,Sep,Constructora Sula,HNL,9000000,NO
-9,Sep,Agroindustrias Lenca,HNL,9000000,NO
+9,Sep,Constructora Sula,HNL,1080000,NO
+9,Sep,Agroindustrias Lenca,HNL,1260000,NO
+9,Sep,Ingenio Yojoa,HNL,900000,NO
+9,Sep,Obras Choloma,HNL,1260000,NO
+9,Sep,Puerto Cortés Industrial,HNL,720000,NO
+9,Sep,Talleres SPS,HNL,1080000,NO
+9,Sep,Ferretería La Ceiba,HNL,900000,NO
+9,Sep,Planta Villanueva,HNL,900000,NO
+9,Sep,Constructora Copán,HNL,1080000,NO
+9,Sep,Depósito El Progreso,HNL,1440000,NO
+9,Sep,Obras Comayagua,HNL,1980000,NO
+9,Sep,Taller Choluteca,HNL,1260000,NO
+9,Sep,Edificios Tegucigalpa,HNL,1620000,NO
+9,Sep,Agro Olanchito,HNL,1080000,NO
+9,Sep,Maquila Choloma,HNL,1440000,NO
 9,Sep,Ferretería Norte,HNL,1080000,SI
-10,Oct,Constructora Sula,HNL,9000000,NO
-10,Oct,Agroindustrias Lenca,HNL,9000000,NO
+10,Oct,Constructora Sula,HNL,1080000,NO
+10,Oct,Agroindustrias Lenca,HNL,1260000,NO
+10,Oct,Ingenio Yojoa,HNL,900000,NO
+10,Oct,Obras Choloma,HNL,1260000,NO
+10,Oct,Puerto Cortés Industrial,HNL,720000,NO
+10,Oct,Talleres SPS,HNL,1080000,NO
+10,Oct,Ferretería La Ceiba,HNL,900000,NO
+10,Oct,Planta Villanueva,HNL,900000,NO
+10,Oct,Constructora Copán,HNL,1080000,NO
+10,Oct,Depósito El Progreso,HNL,1440000,NO
+10,Oct,Obras Comayagua,HNL,1980000,NO
+10,Oct,Taller Choluteca,HNL,1260000,NO
+10,Oct,Edificios Tegucigalpa,HNL,1620000,NO
+10,Oct,Agro Olanchito,HNL,1080000,NO
+10,Oct,Maquila Choloma,HNL,1440000,NO
 10,Oct,Ferretería Norte,HNL,1080000,SI
-11,Nov,Constructora Sula,HNL,9000000,NO
-11,Nov,Agroindustrias Lenca,HNL,9000000,NO
+11,Nov,Constructora Sula,HNL,1080000,NO
+11,Nov,Agroindustrias Lenca,HNL,1260000,NO
+11,Nov,Ingenio Yojoa,HNL,900000,NO
+11,Nov,Obras Choloma,HNL,1260000,NO
+11,Nov,Puerto Cortés Industrial,HNL,720000,NO
+11,Nov,Talleres SPS,HNL,1080000,NO
+11,Nov,Ferretería La Ceiba,HNL,900000,NO
+11,Nov,Planta Villanueva,HNL,900000,NO
+11,Nov,Constructora Copán,HNL,1080000,NO
+11,Nov,Depósito El Progreso,HNL,1440000,NO
+11,Nov,Obras Comayagua,HNL,1980000,NO
+11,Nov,Taller Choluteca,HNL,1260000,NO
+11,Nov,Edificios Tegucigalpa,HNL,1620000,NO
+11,Nov,Agro Olanchito,HNL,1080000,NO
+11,Nov,Maquila Choloma,HNL,1440000,NO
 11,Nov,Ferretería Norte,HNL,1080000,SI
-12,Dic,Constructora Sula,HNL,10000000,NO
-12,Dic,Agroindustrias Lenca,HNL,10000000,NO
+12,Dic,Constructora Sula,HNL,1200000,NO
+12,Dic,Agroindustrias Lenca,HNL,1400000,NO
+12,Dic,Ingenio Yojoa,HNL,1000000,NO
+12,Dic,Obras Choloma,HNL,1400000,NO
+12,Dic,Puerto Cortés Industrial,HNL,800000,NO
+12,Dic,Talleres SPS,HNL,1200000,NO
+12,Dic,Ferretería La Ceiba,HNL,1000000,NO
+12,Dic,Planta Villanueva,HNL,1000000,NO
+12,Dic,Constructora Copán,HNL,1200000,NO
+12,Dic,Depósito El Progreso,HNL,1600000,NO
+12,Dic,Obras Comayagua,HNL,2200000,NO
+12,Dic,Taller Choluteca,HNL,1400000,NO
+12,Dic,Edificios Tegucigalpa,HNL,1800000,NO
+12,Dic,Agro Olanchito,HNL,1200000,NO
+12,Dic,Maquila Choloma,HNL,1600000,NO
 12,Dic,Ferretería Norte,HNL,1200000,SI

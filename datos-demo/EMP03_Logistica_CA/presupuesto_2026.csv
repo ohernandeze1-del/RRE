@@ -1,109 +1,577 @@
 mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
-1,Ene,Puerto Acajutla,Ventas a terceros,USD,294000,NO,Más carga de importación.
-1,Ene,Puerto Acajutla,Costo de ventas,USD,176400,NO,Más carga de importación.
-1,Ene,Puerto Acajutla,Gastos,USD,44100,NO,Más carga de importación.
-1,Ene,Almacén Pacífico,Ventas a terceros,USD,126000,NO,Baja el almacenaje de este cliente.
-1,Ene,Almacén Pacífico,Costo de ventas,USD,75600,NO,Baja el almacenaje de este cliente.
-1,Ene,Almacén Pacífico,Gastos,USD,18900,NO,Baja el almacenaje de este cliente.
+1,Ene,Puerto Acajutla,Ventas a terceros,USD,42000,NO,Gana participación contra el año pasado.
+1,Ene,Puerto Acajutla,Costo de ventas,USD,25200,NO,Gana participación contra el año pasado.
+1,Ene,Puerto Acajutla,Gastos,USD,6300,NO,Gana participación contra el año pasado.
+1,Ene,Almacén Pacífico,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+1,Ene,Almacén Pacífico,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+1,Ene,Almacén Pacífico,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+1,Ene,Naviera del Golfo,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+1,Ene,Naviera del Golfo,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+1,Ene,Naviera del Golfo,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+1,Ene,Bodega La Unión,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+1,Ene,Bodega La Unión,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+1,Ene,Bodega La Unión,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+1,Ene,Carga Sonsonate,Ventas a terceros,USD,29400,NO,Gana participación contra el año pasado.
+1,Ene,Carga Sonsonate,Costo de ventas,USD,17640,NO,Gana participación contra el año pasado.
+1,Ene,Carga Sonsonate,Gastos,USD,4410,NO,Gana participación contra el año pasado.
+1,Ene,Terminal Cutuco,Ventas a terceros,USD,29400,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Terminal Cutuco,Costo de ventas,USD,17640,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Terminal Cutuco,Gastos,USD,4410,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Almacén Santa Ana,Ventas a terceros,USD,29400,NO,Gana participación contra el año pasado.
+1,Ene,Almacén Santa Ana,Costo de ventas,USD,17640,NO,Gana participación contra el año pasado.
+1,Ene,Almacén Santa Ana,Gastos,USD,4410,NO,Gana participación contra el año pasado.
+1,Ene,Fletes San Miguel,Ventas a terceros,USD,25200,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fletes San Miguel,Costo de ventas,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fletes San Miguel,Gastos,USD,3780,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Contenedores La Libertad,Ventas a terceros,USD,25200,NO,Gana participación contra el año pasado.
+1,Ene,Contenedores La Libertad,Costo de ventas,USD,15120,NO,Gana participación contra el año pasado.
+1,Ene,Contenedores La Libertad,Gastos,USD,3780,NO,Gana participación contra el año pasado.
+1,Ene,Patio Santa Tecla,Ventas a terceros,USD,25200,NO,Gana participación contra el año pasado.
+1,Ene,Patio Santa Tecla,Costo de ventas,USD,15120,NO,Gana participación contra el año pasado.
+1,Ene,Patio Santa Tecla,Gastos,USD,3780,NO,Gana participación contra el año pasado.
+1,Ene,Exportadora Bálsamo,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+1,Ene,Exportadora Bálsamo,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+1,Ene,Exportadora Bálsamo,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+1,Ene,Frigorífico Acajutla,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+1,Ene,Frigorífico Acajutla,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+1,Ene,Frigorífico Acajutla,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+1,Ene,Textiles de Apopa,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+1,Ene,Textiles de Apopa,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+1,Ene,Textiles de Apopa,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+1,Ene,Café de Apaneca,Ventas a terceros,USD,25200,NO,Pierde participación contra el año pasado.
+1,Ene,Café de Apaneca,Costo de ventas,USD,15120,NO,Pierde participación contra el año pasado.
+1,Ene,Café de Apaneca,Gastos,USD,3780,NO,Pierde participación contra el año pasado.
+1,Ene,Maquila Opico,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+1,Ene,Maquila Opico,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+1,Ene,Maquila Opico,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
 1,Ene,Holding Servicios,Ventas a terceros,USD,31500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Holding Servicios,Costo de ventas,USD,18900,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Holding Servicios,Gastos,USD,4725,SI,Venta a otra empresa del grupo. Esta línea no entra.
-2,Feb,Puerto Acajutla,Ventas a terceros,USD,294000,NO,Más carga de importación.
-2,Feb,Puerto Acajutla,Costo de ventas,USD,176400,NO,Más carga de importación.
-2,Feb,Puerto Acajutla,Gastos,USD,44100,NO,Más carga de importación.
-2,Feb,Almacén Pacífico,Ventas a terceros,USD,126000,NO,Baja el almacenaje de este cliente.
-2,Feb,Almacén Pacífico,Costo de ventas,USD,75600,NO,Baja el almacenaje de este cliente.
-2,Feb,Almacén Pacífico,Gastos,USD,18900,NO,Baja el almacenaje de este cliente.
+2,Feb,Puerto Acajutla,Ventas a terceros,USD,42000,NO,Gana participación contra el año pasado.
+2,Feb,Puerto Acajutla,Costo de ventas,USD,25200,NO,Gana participación contra el año pasado.
+2,Feb,Puerto Acajutla,Gastos,USD,6300,NO,Gana participación contra el año pasado.
+2,Feb,Almacén Pacífico,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+2,Feb,Almacén Pacífico,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+2,Feb,Almacén Pacífico,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+2,Feb,Naviera del Golfo,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+2,Feb,Naviera del Golfo,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+2,Feb,Naviera del Golfo,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+2,Feb,Bodega La Unión,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+2,Feb,Bodega La Unión,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+2,Feb,Bodega La Unión,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+2,Feb,Carga Sonsonate,Ventas a terceros,USD,29400,NO,Gana participación contra el año pasado.
+2,Feb,Carga Sonsonate,Costo de ventas,USD,17640,NO,Gana participación contra el año pasado.
+2,Feb,Carga Sonsonate,Gastos,USD,4410,NO,Gana participación contra el año pasado.
+2,Feb,Terminal Cutuco,Ventas a terceros,USD,29400,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Terminal Cutuco,Costo de ventas,USD,17640,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Terminal Cutuco,Gastos,USD,4410,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Almacén Santa Ana,Ventas a terceros,USD,29400,NO,Gana participación contra el año pasado.
+2,Feb,Almacén Santa Ana,Costo de ventas,USD,17640,NO,Gana participación contra el año pasado.
+2,Feb,Almacén Santa Ana,Gastos,USD,4410,NO,Gana participación contra el año pasado.
+2,Feb,Fletes San Miguel,Ventas a terceros,USD,25200,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fletes San Miguel,Costo de ventas,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fletes San Miguel,Gastos,USD,3780,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Contenedores La Libertad,Ventas a terceros,USD,25200,NO,Gana participación contra el año pasado.
+2,Feb,Contenedores La Libertad,Costo de ventas,USD,15120,NO,Gana participación contra el año pasado.
+2,Feb,Contenedores La Libertad,Gastos,USD,3780,NO,Gana participación contra el año pasado.
+2,Feb,Patio Santa Tecla,Ventas a terceros,USD,25200,NO,Gana participación contra el año pasado.
+2,Feb,Patio Santa Tecla,Costo de ventas,USD,15120,NO,Gana participación contra el año pasado.
+2,Feb,Patio Santa Tecla,Gastos,USD,3780,NO,Gana participación contra el año pasado.
+2,Feb,Exportadora Bálsamo,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+2,Feb,Exportadora Bálsamo,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+2,Feb,Exportadora Bálsamo,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+2,Feb,Frigorífico Acajutla,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+2,Feb,Frigorífico Acajutla,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+2,Feb,Frigorífico Acajutla,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+2,Feb,Textiles de Apopa,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+2,Feb,Textiles de Apopa,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+2,Feb,Textiles de Apopa,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
+2,Feb,Café de Apaneca,Ventas a terceros,USD,25200,NO,Pierde participación contra el año pasado.
+2,Feb,Café de Apaneca,Costo de ventas,USD,15120,NO,Pierde participación contra el año pasado.
+2,Feb,Café de Apaneca,Gastos,USD,3780,NO,Pierde participación contra el año pasado.
+2,Feb,Maquila Opico,Ventas a terceros,USD,21000,NO,Pierde participación contra el año pasado.
+2,Feb,Maquila Opico,Costo de ventas,USD,12600,NO,Pierde participación contra el año pasado.
+2,Feb,Maquila Opico,Gastos,USD,3150,NO,Pierde participación contra el año pasado.
 2,Feb,Holding Servicios,Ventas a terceros,USD,31500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Holding Servicios,Costo de ventas,USD,18900,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Holding Servicios,Gastos,USD,4725,SI,Venta a otra empresa del grupo. Esta línea no entra.
-3,Mar,Puerto Acajutla,Ventas a terceros,USD,336000,NO,Más carga de importación.
-3,Mar,Puerto Acajutla,Costo de ventas,USD,201600,NO,Más carga de importación.
-3,Mar,Puerto Acajutla,Gastos,USD,50400,NO,Más carga de importación.
-3,Mar,Almacén Pacífico,Ventas a terceros,USD,144000,NO,Baja el almacenaje de este cliente.
-3,Mar,Almacén Pacífico,Costo de ventas,USD,86400,NO,Baja el almacenaje de este cliente.
-3,Mar,Almacén Pacífico,Gastos,USD,21600,NO,Baja el almacenaje de este cliente.
+3,Mar,Puerto Acajutla,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+3,Mar,Puerto Acajutla,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+3,Mar,Puerto Acajutla,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+3,Mar,Almacén Pacífico,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+3,Mar,Almacén Pacífico,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+3,Mar,Almacén Pacífico,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+3,Mar,Naviera del Golfo,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+3,Mar,Naviera del Golfo,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+3,Mar,Naviera del Golfo,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+3,Mar,Bodega La Unión,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+3,Mar,Bodega La Unión,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+3,Mar,Bodega La Unión,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+3,Mar,Carga Sonsonate,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+3,Mar,Carga Sonsonate,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+3,Mar,Carga Sonsonate,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+3,Mar,Terminal Cutuco,Ventas a terceros,USD,33600,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Terminal Cutuco,Costo de ventas,USD,20160,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Terminal Cutuco,Gastos,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Almacén Santa Ana,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+3,Mar,Almacén Santa Ana,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+3,Mar,Almacén Santa Ana,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+3,Mar,Fletes San Miguel,Ventas a terceros,USD,28800,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fletes San Miguel,Costo de ventas,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fletes San Miguel,Gastos,USD,4320,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Contenedores La Libertad,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+3,Mar,Contenedores La Libertad,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+3,Mar,Contenedores La Libertad,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+3,Mar,Patio Santa Tecla,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+3,Mar,Patio Santa Tecla,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+3,Mar,Patio Santa Tecla,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+3,Mar,Exportadora Bálsamo,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+3,Mar,Exportadora Bálsamo,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+3,Mar,Exportadora Bálsamo,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+3,Mar,Frigorífico Acajutla,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+3,Mar,Frigorífico Acajutla,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+3,Mar,Frigorífico Acajutla,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+3,Mar,Textiles de Apopa,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+3,Mar,Textiles de Apopa,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+3,Mar,Textiles de Apopa,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+3,Mar,Café de Apaneca,Ventas a terceros,USD,28800,NO,Pierde participación contra el año pasado.
+3,Mar,Café de Apaneca,Costo de ventas,USD,17280,NO,Pierde participación contra el año pasado.
+3,Mar,Café de Apaneca,Gastos,USD,4320,NO,Pierde participación contra el año pasado.
+3,Mar,Maquila Opico,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+3,Mar,Maquila Opico,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+3,Mar,Maquila Opico,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
 3,Mar,Holding Servicios,Ventas a terceros,USD,36000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Holding Servicios,Costo de ventas,USD,21600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Holding Servicios,Gastos,USD,5400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-4,Abr,Puerto Acajutla,Ventas a terceros,USD,336000,NO,Más carga de importación.
-4,Abr,Puerto Acajutla,Costo de ventas,USD,201600,NO,Más carga de importación.
-4,Abr,Puerto Acajutla,Gastos,USD,50400,NO,Más carga de importación.
-4,Abr,Almacén Pacífico,Ventas a terceros,USD,144000,NO,Baja el almacenaje de este cliente.
-4,Abr,Almacén Pacífico,Costo de ventas,USD,86400,NO,Baja el almacenaje de este cliente.
-4,Abr,Almacén Pacífico,Gastos,USD,21600,NO,Baja el almacenaje de este cliente.
+4,Abr,Puerto Acajutla,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+4,Abr,Puerto Acajutla,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+4,Abr,Puerto Acajutla,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+4,Abr,Almacén Pacífico,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+4,Abr,Almacén Pacífico,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+4,Abr,Almacén Pacífico,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+4,Abr,Naviera del Golfo,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+4,Abr,Naviera del Golfo,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+4,Abr,Naviera del Golfo,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+4,Abr,Bodega La Unión,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+4,Abr,Bodega La Unión,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+4,Abr,Bodega La Unión,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+4,Abr,Carga Sonsonate,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+4,Abr,Carga Sonsonate,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+4,Abr,Carga Sonsonate,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+4,Abr,Terminal Cutuco,Ventas a terceros,USD,33600,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Terminal Cutuco,Costo de ventas,USD,20160,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Terminal Cutuco,Gastos,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Almacén Santa Ana,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+4,Abr,Almacén Santa Ana,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+4,Abr,Almacén Santa Ana,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+4,Abr,Fletes San Miguel,Ventas a terceros,USD,28800,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fletes San Miguel,Costo de ventas,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fletes San Miguel,Gastos,USD,4320,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Contenedores La Libertad,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+4,Abr,Contenedores La Libertad,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+4,Abr,Contenedores La Libertad,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+4,Abr,Patio Santa Tecla,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+4,Abr,Patio Santa Tecla,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+4,Abr,Patio Santa Tecla,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+4,Abr,Exportadora Bálsamo,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+4,Abr,Exportadora Bálsamo,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+4,Abr,Exportadora Bálsamo,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+4,Abr,Frigorífico Acajutla,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+4,Abr,Frigorífico Acajutla,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+4,Abr,Frigorífico Acajutla,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+4,Abr,Textiles de Apopa,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+4,Abr,Textiles de Apopa,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+4,Abr,Textiles de Apopa,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+4,Abr,Café de Apaneca,Ventas a terceros,USD,28800,NO,Pierde participación contra el año pasado.
+4,Abr,Café de Apaneca,Costo de ventas,USD,17280,NO,Pierde participación contra el año pasado.
+4,Abr,Café de Apaneca,Gastos,USD,4320,NO,Pierde participación contra el año pasado.
+4,Abr,Maquila Opico,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+4,Abr,Maquila Opico,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+4,Abr,Maquila Opico,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
 4,Abr,Holding Servicios,Ventas a terceros,USD,36000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Holding Servicios,Costo de ventas,USD,21600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Holding Servicios,Gastos,USD,5400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-5,May,Puerto Acajutla,Ventas a terceros,USD,336000,NO,Más carga de importación.
-5,May,Puerto Acajutla,Costo de ventas,USD,201600,NO,Más carga de importación.
-5,May,Puerto Acajutla,Gastos,USD,50400,NO,Más carga de importación.
-5,May,Almacén Pacífico,Ventas a terceros,USD,144000,NO,Baja el almacenaje de este cliente.
-5,May,Almacén Pacífico,Costo de ventas,USD,86400,NO,Baja el almacenaje de este cliente.
-5,May,Almacén Pacífico,Gastos,USD,21600,NO,Baja el almacenaje de este cliente.
+5,May,Puerto Acajutla,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+5,May,Puerto Acajutla,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+5,May,Puerto Acajutla,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+5,May,Almacén Pacífico,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+5,May,Almacén Pacífico,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+5,May,Almacén Pacífico,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+5,May,Naviera del Golfo,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+5,May,Naviera del Golfo,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+5,May,Naviera del Golfo,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+5,May,Bodega La Unión,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+5,May,Bodega La Unión,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+5,May,Bodega La Unión,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+5,May,Carga Sonsonate,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+5,May,Carga Sonsonate,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+5,May,Carga Sonsonate,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+5,May,Terminal Cutuco,Ventas a terceros,USD,33600,NO,Mantiene el mismo peso que el año pasado.
+5,May,Terminal Cutuco,Costo de ventas,USD,20160,NO,Mantiene el mismo peso que el año pasado.
+5,May,Terminal Cutuco,Gastos,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+5,May,Almacén Santa Ana,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+5,May,Almacén Santa Ana,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+5,May,Almacén Santa Ana,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+5,May,Fletes San Miguel,Ventas a terceros,USD,28800,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fletes San Miguel,Costo de ventas,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fletes San Miguel,Gastos,USD,4320,NO,Mantiene el mismo peso que el año pasado.
+5,May,Contenedores La Libertad,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+5,May,Contenedores La Libertad,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+5,May,Contenedores La Libertad,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+5,May,Patio Santa Tecla,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+5,May,Patio Santa Tecla,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+5,May,Patio Santa Tecla,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+5,May,Exportadora Bálsamo,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+5,May,Exportadora Bálsamo,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+5,May,Exportadora Bálsamo,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+5,May,Frigorífico Acajutla,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+5,May,Frigorífico Acajutla,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+5,May,Frigorífico Acajutla,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+5,May,Textiles de Apopa,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+5,May,Textiles de Apopa,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+5,May,Textiles de Apopa,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+5,May,Café de Apaneca,Ventas a terceros,USD,28800,NO,Pierde participación contra el año pasado.
+5,May,Café de Apaneca,Costo de ventas,USD,17280,NO,Pierde participación contra el año pasado.
+5,May,Café de Apaneca,Gastos,USD,4320,NO,Pierde participación contra el año pasado.
+5,May,Maquila Opico,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+5,May,Maquila Opico,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+5,May,Maquila Opico,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
 5,May,Holding Servicios,Ventas a terceros,USD,36000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Holding Servicios,Costo de ventas,USD,21600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Holding Servicios,Gastos,USD,5400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-6,Jun,Puerto Acajutla,Ventas a terceros,USD,336000,NO,Más carga de importación.
-6,Jun,Puerto Acajutla,Costo de ventas,USD,201600,NO,Más carga de importación.
-6,Jun,Puerto Acajutla,Gastos,USD,50400,NO,Más carga de importación.
-6,Jun,Almacén Pacífico,Ventas a terceros,USD,144000,NO,Baja el almacenaje de este cliente.
-6,Jun,Almacén Pacífico,Costo de ventas,USD,86400,NO,Baja el almacenaje de este cliente.
-6,Jun,Almacén Pacífico,Gastos,USD,21600,NO,Baja el almacenaje de este cliente.
+6,Jun,Puerto Acajutla,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+6,Jun,Puerto Acajutla,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+6,Jun,Puerto Acajutla,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+6,Jun,Almacén Pacífico,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+6,Jun,Almacén Pacífico,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+6,Jun,Almacén Pacífico,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+6,Jun,Naviera del Golfo,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+6,Jun,Naviera del Golfo,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+6,Jun,Naviera del Golfo,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+6,Jun,Bodega La Unión,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+6,Jun,Bodega La Unión,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+6,Jun,Bodega La Unión,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+6,Jun,Carga Sonsonate,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+6,Jun,Carga Sonsonate,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+6,Jun,Carga Sonsonate,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+6,Jun,Terminal Cutuco,Ventas a terceros,USD,33600,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Terminal Cutuco,Costo de ventas,USD,20160,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Terminal Cutuco,Gastos,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Almacén Santa Ana,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+6,Jun,Almacén Santa Ana,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+6,Jun,Almacén Santa Ana,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+6,Jun,Fletes San Miguel,Ventas a terceros,USD,28800,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fletes San Miguel,Costo de ventas,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fletes San Miguel,Gastos,USD,4320,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Contenedores La Libertad,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+6,Jun,Contenedores La Libertad,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+6,Jun,Contenedores La Libertad,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+6,Jun,Patio Santa Tecla,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+6,Jun,Patio Santa Tecla,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+6,Jun,Patio Santa Tecla,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+6,Jun,Exportadora Bálsamo,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+6,Jun,Exportadora Bálsamo,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+6,Jun,Exportadora Bálsamo,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+6,Jun,Frigorífico Acajutla,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+6,Jun,Frigorífico Acajutla,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+6,Jun,Frigorífico Acajutla,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+6,Jun,Textiles de Apopa,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+6,Jun,Textiles de Apopa,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+6,Jun,Textiles de Apopa,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+6,Jun,Café de Apaneca,Ventas a terceros,USD,28800,NO,Pierde participación contra el año pasado.
+6,Jun,Café de Apaneca,Costo de ventas,USD,17280,NO,Pierde participación contra el año pasado.
+6,Jun,Café de Apaneca,Gastos,USD,4320,NO,Pierde participación contra el año pasado.
+6,Jun,Maquila Opico,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+6,Jun,Maquila Opico,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+6,Jun,Maquila Opico,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
 6,Jun,Holding Servicios,Ventas a terceros,USD,36000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Holding Servicios,Costo de ventas,USD,21600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Holding Servicios,Gastos,USD,5400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-7,Jul,Puerto Acajutla,Ventas a terceros,USD,336000,NO,Más carga de importación.
-7,Jul,Puerto Acajutla,Costo de ventas,USD,201600,NO,Más carga de importación.
-7,Jul,Puerto Acajutla,Gastos,USD,50400,NO,Más carga de importación.
-7,Jul,Almacén Pacífico,Ventas a terceros,USD,144000,NO,Baja el almacenaje de este cliente.
-7,Jul,Almacén Pacífico,Costo de ventas,USD,86400,NO,Baja el almacenaje de este cliente.
-7,Jul,Almacén Pacífico,Gastos,USD,21600,NO,Baja el almacenaje de este cliente.
+7,Jul,Puerto Acajutla,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+7,Jul,Puerto Acajutla,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+7,Jul,Puerto Acajutla,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+7,Jul,Almacén Pacífico,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+7,Jul,Almacén Pacífico,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+7,Jul,Almacén Pacífico,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+7,Jul,Naviera del Golfo,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+7,Jul,Naviera del Golfo,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+7,Jul,Naviera del Golfo,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+7,Jul,Bodega La Unión,Ventas a terceros,USD,38400,NO,Gana participación contra el año pasado.
+7,Jul,Bodega La Unión,Costo de ventas,USD,23040,NO,Gana participación contra el año pasado.
+7,Jul,Bodega La Unión,Gastos,USD,5760,NO,Gana participación contra el año pasado.
+7,Jul,Carga Sonsonate,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+7,Jul,Carga Sonsonate,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+7,Jul,Carga Sonsonate,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+7,Jul,Terminal Cutuco,Ventas a terceros,USD,33600,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Terminal Cutuco,Costo de ventas,USD,20160,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Terminal Cutuco,Gastos,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Almacén Santa Ana,Ventas a terceros,USD,33600,NO,Gana participación contra el año pasado.
+7,Jul,Almacén Santa Ana,Costo de ventas,USD,20160,NO,Gana participación contra el año pasado.
+7,Jul,Almacén Santa Ana,Gastos,USD,5040,NO,Gana participación contra el año pasado.
+7,Jul,Fletes San Miguel,Ventas a terceros,USD,28800,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fletes San Miguel,Costo de ventas,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fletes San Miguel,Gastos,USD,4320,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Contenedores La Libertad,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+7,Jul,Contenedores La Libertad,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+7,Jul,Contenedores La Libertad,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+7,Jul,Patio Santa Tecla,Ventas a terceros,USD,28800,NO,Gana participación contra el año pasado.
+7,Jul,Patio Santa Tecla,Costo de ventas,USD,17280,NO,Gana participación contra el año pasado.
+7,Jul,Patio Santa Tecla,Gastos,USD,4320,NO,Gana participación contra el año pasado.
+7,Jul,Exportadora Bálsamo,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+7,Jul,Exportadora Bálsamo,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+7,Jul,Exportadora Bálsamo,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+7,Jul,Frigorífico Acajutla,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+7,Jul,Frigorífico Acajutla,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+7,Jul,Frigorífico Acajutla,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+7,Jul,Textiles de Apopa,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+7,Jul,Textiles de Apopa,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+7,Jul,Textiles de Apopa,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
+7,Jul,Café de Apaneca,Ventas a terceros,USD,28800,NO,Pierde participación contra el año pasado.
+7,Jul,Café de Apaneca,Costo de ventas,USD,17280,NO,Pierde participación contra el año pasado.
+7,Jul,Café de Apaneca,Gastos,USD,4320,NO,Pierde participación contra el año pasado.
+7,Jul,Maquila Opico,Ventas a terceros,USD,24000,NO,Pierde participación contra el año pasado.
+7,Jul,Maquila Opico,Costo de ventas,USD,14400,NO,Pierde participación contra el año pasado.
+7,Jul,Maquila Opico,Gastos,USD,3600,NO,Pierde participación contra el año pasado.
 7,Jul,Holding Servicios,Ventas a terceros,USD,36000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Holding Servicios,Costo de ventas,USD,21600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Holding Servicios,Gastos,USD,5400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-8,Ago,Puerto Acajutla,Ventas a terceros,USD,378000,NO,Más carga de importación.
-8,Ago,Puerto Acajutla,Costo de ventas,USD,226800,NO,Más carga de importación.
-8,Ago,Puerto Acajutla,Gastos,USD,56700,NO,Más carga de importación.
-8,Ago,Almacén Pacífico,Ventas a terceros,USD,162000,NO,Baja el almacenaje de este cliente.
-8,Ago,Almacén Pacífico,Costo de ventas,USD,97200,NO,Baja el almacenaje de este cliente.
-8,Ago,Almacén Pacífico,Gastos,USD,24300,NO,Baja el almacenaje de este cliente.
+8,Ago,Puerto Acajutla,Ventas a terceros,USD,54000,NO,Gana participación contra el año pasado.
+8,Ago,Puerto Acajutla,Costo de ventas,USD,32400,NO,Gana participación contra el año pasado.
+8,Ago,Puerto Acajutla,Gastos,USD,8100,NO,Gana participación contra el año pasado.
+8,Ago,Almacén Pacífico,Ventas a terceros,USD,48600,NO,Gana participación contra el año pasado.
+8,Ago,Almacén Pacífico,Costo de ventas,USD,29160,NO,Gana participación contra el año pasado.
+8,Ago,Almacén Pacífico,Gastos,USD,7290,NO,Gana participación contra el año pasado.
+8,Ago,Naviera del Golfo,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+8,Ago,Naviera del Golfo,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+8,Ago,Naviera del Golfo,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+8,Ago,Bodega La Unión,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+8,Ago,Bodega La Unión,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+8,Ago,Bodega La Unión,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+8,Ago,Carga Sonsonate,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+8,Ago,Carga Sonsonate,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+8,Ago,Carga Sonsonate,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+8,Ago,Terminal Cutuco,Ventas a terceros,USD,37800,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Terminal Cutuco,Costo de ventas,USD,22680,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Terminal Cutuco,Gastos,USD,5670,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Almacén Santa Ana,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+8,Ago,Almacén Santa Ana,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+8,Ago,Almacén Santa Ana,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+8,Ago,Fletes San Miguel,Ventas a terceros,USD,32400,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fletes San Miguel,Costo de ventas,USD,19440,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fletes San Miguel,Gastos,USD,4860,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Contenedores La Libertad,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+8,Ago,Contenedores La Libertad,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+8,Ago,Contenedores La Libertad,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+8,Ago,Patio Santa Tecla,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+8,Ago,Patio Santa Tecla,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+8,Ago,Patio Santa Tecla,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+8,Ago,Exportadora Bálsamo,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+8,Ago,Exportadora Bálsamo,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+8,Ago,Exportadora Bálsamo,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+8,Ago,Frigorífico Acajutla,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+8,Ago,Frigorífico Acajutla,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+8,Ago,Frigorífico Acajutla,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+8,Ago,Textiles de Apopa,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+8,Ago,Textiles de Apopa,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+8,Ago,Textiles de Apopa,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+8,Ago,Café de Apaneca,Ventas a terceros,USD,32400,NO,Pierde participación contra el año pasado.
+8,Ago,Café de Apaneca,Costo de ventas,USD,19440,NO,Pierde participación contra el año pasado.
+8,Ago,Café de Apaneca,Gastos,USD,4860,NO,Pierde participación contra el año pasado.
+8,Ago,Maquila Opico,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+8,Ago,Maquila Opico,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+8,Ago,Maquila Opico,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
 8,Ago,Holding Servicios,Ventas a terceros,USD,40500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Holding Servicios,Costo de ventas,USD,24300,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Holding Servicios,Gastos,USD,6075,SI,Venta a otra empresa del grupo. Esta línea no entra.
-9,Sep,Puerto Acajutla,Ventas a terceros,USD,378000,NO,Más carga de importación.
-9,Sep,Puerto Acajutla,Costo de ventas,USD,226800,NO,Más carga de importación.
-9,Sep,Puerto Acajutla,Gastos,USD,56700,NO,Más carga de importación.
-9,Sep,Almacén Pacífico,Ventas a terceros,USD,162000,NO,Baja el almacenaje de este cliente.
-9,Sep,Almacén Pacífico,Costo de ventas,USD,97200,NO,Baja el almacenaje de este cliente.
-9,Sep,Almacén Pacífico,Gastos,USD,24300,NO,Baja el almacenaje de este cliente.
+9,Sep,Puerto Acajutla,Ventas a terceros,USD,54000,NO,Gana participación contra el año pasado.
+9,Sep,Puerto Acajutla,Costo de ventas,USD,32400,NO,Gana participación contra el año pasado.
+9,Sep,Puerto Acajutla,Gastos,USD,8100,NO,Gana participación contra el año pasado.
+9,Sep,Almacén Pacífico,Ventas a terceros,USD,48600,NO,Gana participación contra el año pasado.
+9,Sep,Almacén Pacífico,Costo de ventas,USD,29160,NO,Gana participación contra el año pasado.
+9,Sep,Almacén Pacífico,Gastos,USD,7290,NO,Gana participación contra el año pasado.
+9,Sep,Naviera del Golfo,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+9,Sep,Naviera del Golfo,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+9,Sep,Naviera del Golfo,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+9,Sep,Bodega La Unión,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+9,Sep,Bodega La Unión,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+9,Sep,Bodega La Unión,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+9,Sep,Carga Sonsonate,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+9,Sep,Carga Sonsonate,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+9,Sep,Carga Sonsonate,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+9,Sep,Terminal Cutuco,Ventas a terceros,USD,37800,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Terminal Cutuco,Costo de ventas,USD,22680,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Terminal Cutuco,Gastos,USD,5670,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Almacén Santa Ana,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+9,Sep,Almacén Santa Ana,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+9,Sep,Almacén Santa Ana,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+9,Sep,Fletes San Miguel,Ventas a terceros,USD,32400,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fletes San Miguel,Costo de ventas,USD,19440,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fletes San Miguel,Gastos,USD,4860,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Contenedores La Libertad,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+9,Sep,Contenedores La Libertad,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+9,Sep,Contenedores La Libertad,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+9,Sep,Patio Santa Tecla,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+9,Sep,Patio Santa Tecla,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+9,Sep,Patio Santa Tecla,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+9,Sep,Exportadora Bálsamo,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+9,Sep,Exportadora Bálsamo,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+9,Sep,Exportadora Bálsamo,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+9,Sep,Frigorífico Acajutla,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+9,Sep,Frigorífico Acajutla,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+9,Sep,Frigorífico Acajutla,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+9,Sep,Textiles de Apopa,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+9,Sep,Textiles de Apopa,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+9,Sep,Textiles de Apopa,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+9,Sep,Café de Apaneca,Ventas a terceros,USD,32400,NO,Pierde participación contra el año pasado.
+9,Sep,Café de Apaneca,Costo de ventas,USD,19440,NO,Pierde participación contra el año pasado.
+9,Sep,Café de Apaneca,Gastos,USD,4860,NO,Pierde participación contra el año pasado.
+9,Sep,Maquila Opico,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+9,Sep,Maquila Opico,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+9,Sep,Maquila Opico,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
 9,Sep,Holding Servicios,Ventas a terceros,USD,40500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Holding Servicios,Costo de ventas,USD,24300,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Holding Servicios,Gastos,USD,6075,SI,Venta a otra empresa del grupo. Esta línea no entra.
-10,Oct,Puerto Acajutla,Ventas a terceros,USD,378000,NO,Más carga de importación.
-10,Oct,Puerto Acajutla,Costo de ventas,USD,226800,NO,Más carga de importación.
-10,Oct,Puerto Acajutla,Gastos,USD,56700,NO,Más carga de importación.
-10,Oct,Almacén Pacífico,Ventas a terceros,USD,162000,NO,Baja el almacenaje de este cliente.
-10,Oct,Almacén Pacífico,Costo de ventas,USD,97200,NO,Baja el almacenaje de este cliente.
-10,Oct,Almacén Pacífico,Gastos,USD,24300,NO,Baja el almacenaje de este cliente.
+10,Oct,Puerto Acajutla,Ventas a terceros,USD,54000,NO,Gana participación contra el año pasado.
+10,Oct,Puerto Acajutla,Costo de ventas,USD,32400,NO,Gana participación contra el año pasado.
+10,Oct,Puerto Acajutla,Gastos,USD,8100,NO,Gana participación contra el año pasado.
+10,Oct,Almacén Pacífico,Ventas a terceros,USD,48600,NO,Gana participación contra el año pasado.
+10,Oct,Almacén Pacífico,Costo de ventas,USD,29160,NO,Gana participación contra el año pasado.
+10,Oct,Almacén Pacífico,Gastos,USD,7290,NO,Gana participación contra el año pasado.
+10,Oct,Naviera del Golfo,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+10,Oct,Naviera del Golfo,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+10,Oct,Naviera del Golfo,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+10,Oct,Bodega La Unión,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+10,Oct,Bodega La Unión,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+10,Oct,Bodega La Unión,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+10,Oct,Carga Sonsonate,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+10,Oct,Carga Sonsonate,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+10,Oct,Carga Sonsonate,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+10,Oct,Terminal Cutuco,Ventas a terceros,USD,37800,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Terminal Cutuco,Costo de ventas,USD,22680,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Terminal Cutuco,Gastos,USD,5670,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Almacén Santa Ana,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+10,Oct,Almacén Santa Ana,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+10,Oct,Almacén Santa Ana,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+10,Oct,Fletes San Miguel,Ventas a terceros,USD,32400,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fletes San Miguel,Costo de ventas,USD,19440,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fletes San Miguel,Gastos,USD,4860,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Contenedores La Libertad,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+10,Oct,Contenedores La Libertad,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+10,Oct,Contenedores La Libertad,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+10,Oct,Patio Santa Tecla,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+10,Oct,Patio Santa Tecla,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+10,Oct,Patio Santa Tecla,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+10,Oct,Exportadora Bálsamo,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+10,Oct,Exportadora Bálsamo,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+10,Oct,Exportadora Bálsamo,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+10,Oct,Frigorífico Acajutla,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+10,Oct,Frigorífico Acajutla,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+10,Oct,Frigorífico Acajutla,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+10,Oct,Textiles de Apopa,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+10,Oct,Textiles de Apopa,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+10,Oct,Textiles de Apopa,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+10,Oct,Café de Apaneca,Ventas a terceros,USD,32400,NO,Pierde participación contra el año pasado.
+10,Oct,Café de Apaneca,Costo de ventas,USD,19440,NO,Pierde participación contra el año pasado.
+10,Oct,Café de Apaneca,Gastos,USD,4860,NO,Pierde participación contra el año pasado.
+10,Oct,Maquila Opico,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+10,Oct,Maquila Opico,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+10,Oct,Maquila Opico,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
 10,Oct,Holding Servicios,Ventas a terceros,USD,40500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Holding Servicios,Costo de ventas,USD,24300,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Holding Servicios,Gastos,USD,6075,SI,Venta a otra empresa del grupo. Esta línea no entra.
-11,Nov,Puerto Acajutla,Ventas a terceros,USD,378000,NO,Más carga de importación.
-11,Nov,Puerto Acajutla,Costo de ventas,USD,226800,NO,Más carga de importación.
-11,Nov,Puerto Acajutla,Gastos,USD,56700,NO,Más carga de importación.
-11,Nov,Almacén Pacífico,Ventas a terceros,USD,162000,NO,Baja el almacenaje de este cliente.
-11,Nov,Almacén Pacífico,Costo de ventas,USD,97200,NO,Baja el almacenaje de este cliente.
-11,Nov,Almacén Pacífico,Gastos,USD,24300,NO,Baja el almacenaje de este cliente.
+11,Nov,Puerto Acajutla,Ventas a terceros,USD,54000,NO,Gana participación contra el año pasado.
+11,Nov,Puerto Acajutla,Costo de ventas,USD,32400,NO,Gana participación contra el año pasado.
+11,Nov,Puerto Acajutla,Gastos,USD,8100,NO,Gana participación contra el año pasado.
+11,Nov,Almacén Pacífico,Ventas a terceros,USD,48600,NO,Gana participación contra el año pasado.
+11,Nov,Almacén Pacífico,Costo de ventas,USD,29160,NO,Gana participación contra el año pasado.
+11,Nov,Almacén Pacífico,Gastos,USD,7290,NO,Gana participación contra el año pasado.
+11,Nov,Naviera del Golfo,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+11,Nov,Naviera del Golfo,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+11,Nov,Naviera del Golfo,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+11,Nov,Bodega La Unión,Ventas a terceros,USD,43200,NO,Gana participación contra el año pasado.
+11,Nov,Bodega La Unión,Costo de ventas,USD,25920,NO,Gana participación contra el año pasado.
+11,Nov,Bodega La Unión,Gastos,USD,6480,NO,Gana participación contra el año pasado.
+11,Nov,Carga Sonsonate,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+11,Nov,Carga Sonsonate,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+11,Nov,Carga Sonsonate,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+11,Nov,Terminal Cutuco,Ventas a terceros,USD,37800,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Terminal Cutuco,Costo de ventas,USD,22680,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Terminal Cutuco,Gastos,USD,5670,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Almacén Santa Ana,Ventas a terceros,USD,37800,NO,Gana participación contra el año pasado.
+11,Nov,Almacén Santa Ana,Costo de ventas,USD,22680,NO,Gana participación contra el año pasado.
+11,Nov,Almacén Santa Ana,Gastos,USD,5670,NO,Gana participación contra el año pasado.
+11,Nov,Fletes San Miguel,Ventas a terceros,USD,32400,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fletes San Miguel,Costo de ventas,USD,19440,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fletes San Miguel,Gastos,USD,4860,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Contenedores La Libertad,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+11,Nov,Contenedores La Libertad,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+11,Nov,Contenedores La Libertad,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+11,Nov,Patio Santa Tecla,Ventas a terceros,USD,32400,NO,Gana participación contra el año pasado.
+11,Nov,Patio Santa Tecla,Costo de ventas,USD,19440,NO,Gana participación contra el año pasado.
+11,Nov,Patio Santa Tecla,Gastos,USD,4860,NO,Gana participación contra el año pasado.
+11,Nov,Exportadora Bálsamo,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+11,Nov,Exportadora Bálsamo,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+11,Nov,Exportadora Bálsamo,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+11,Nov,Frigorífico Acajutla,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+11,Nov,Frigorífico Acajutla,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+11,Nov,Frigorífico Acajutla,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+11,Nov,Textiles de Apopa,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+11,Nov,Textiles de Apopa,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+11,Nov,Textiles de Apopa,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
+11,Nov,Café de Apaneca,Ventas a terceros,USD,32400,NO,Pierde participación contra el año pasado.
+11,Nov,Café de Apaneca,Costo de ventas,USD,19440,NO,Pierde participación contra el año pasado.
+11,Nov,Café de Apaneca,Gastos,USD,4860,NO,Pierde participación contra el año pasado.
+11,Nov,Maquila Opico,Ventas a terceros,USD,27000,NO,Pierde participación contra el año pasado.
+11,Nov,Maquila Opico,Costo de ventas,USD,16200,NO,Pierde participación contra el año pasado.
+11,Nov,Maquila Opico,Gastos,USD,4050,NO,Pierde participación contra el año pasado.
 11,Nov,Holding Servicios,Ventas a terceros,USD,40500,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Holding Servicios,Costo de ventas,USD,24300,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Holding Servicios,Gastos,USD,6075,SI,Venta a otra empresa del grupo. Esta línea no entra.
-12,Dic,Puerto Acajutla,Ventas a terceros,USD,420000,NO,Más carga de importación.
-12,Dic,Puerto Acajutla,Costo de ventas,USD,252000,NO,Más carga de importación.
-12,Dic,Puerto Acajutla,Gastos,USD,63000,NO,Más carga de importación.
-12,Dic,Almacén Pacífico,Ventas a terceros,USD,180000,NO,Baja el almacenaje de este cliente.
-12,Dic,Almacén Pacífico,Costo de ventas,USD,108000,NO,Baja el almacenaje de este cliente.
-12,Dic,Almacén Pacífico,Gastos,USD,27000,NO,Baja el almacenaje de este cliente.
+12,Dic,Puerto Acajutla,Ventas a terceros,USD,60000,NO,Gana participación contra el año pasado.
+12,Dic,Puerto Acajutla,Costo de ventas,USD,36000,NO,Gana participación contra el año pasado.
+12,Dic,Puerto Acajutla,Gastos,USD,9000,NO,Gana participación contra el año pasado.
+12,Dic,Almacén Pacífico,Ventas a terceros,USD,54000,NO,Gana participación contra el año pasado.
+12,Dic,Almacén Pacífico,Costo de ventas,USD,32400,NO,Gana participación contra el año pasado.
+12,Dic,Almacén Pacífico,Gastos,USD,8100,NO,Gana participación contra el año pasado.
+12,Dic,Naviera del Golfo,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+12,Dic,Naviera del Golfo,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+12,Dic,Naviera del Golfo,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+12,Dic,Bodega La Unión,Ventas a terceros,USD,48000,NO,Gana participación contra el año pasado.
+12,Dic,Bodega La Unión,Costo de ventas,USD,28800,NO,Gana participación contra el año pasado.
+12,Dic,Bodega La Unión,Gastos,USD,7200,NO,Gana participación contra el año pasado.
+12,Dic,Carga Sonsonate,Ventas a terceros,USD,42000,NO,Gana participación contra el año pasado.
+12,Dic,Carga Sonsonate,Costo de ventas,USD,25200,NO,Gana participación contra el año pasado.
+12,Dic,Carga Sonsonate,Gastos,USD,6300,NO,Gana participación contra el año pasado.
+12,Dic,Terminal Cutuco,Ventas a terceros,USD,42000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Terminal Cutuco,Costo de ventas,USD,25200,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Terminal Cutuco,Gastos,USD,6300,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Almacén Santa Ana,Ventas a terceros,USD,42000,NO,Gana participación contra el año pasado.
+12,Dic,Almacén Santa Ana,Costo de ventas,USD,25200,NO,Gana participación contra el año pasado.
+12,Dic,Almacén Santa Ana,Gastos,USD,6300,NO,Gana participación contra el año pasado.
+12,Dic,Fletes San Miguel,Ventas a terceros,USD,36000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fletes San Miguel,Costo de ventas,USD,21600,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fletes San Miguel,Gastos,USD,5400,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Contenedores La Libertad,Ventas a terceros,USD,36000,NO,Gana participación contra el año pasado.
+12,Dic,Contenedores La Libertad,Costo de ventas,USD,21600,NO,Gana participación contra el año pasado.
+12,Dic,Contenedores La Libertad,Gastos,USD,5400,NO,Gana participación contra el año pasado.
+12,Dic,Patio Santa Tecla,Ventas a terceros,USD,36000,NO,Gana participación contra el año pasado.
+12,Dic,Patio Santa Tecla,Costo de ventas,USD,21600,NO,Gana participación contra el año pasado.
+12,Dic,Patio Santa Tecla,Gastos,USD,5400,NO,Gana participación contra el año pasado.
+12,Dic,Exportadora Bálsamo,Ventas a terceros,USD,30000,NO,Pierde participación contra el año pasado.
+12,Dic,Exportadora Bálsamo,Costo de ventas,USD,18000,NO,Pierde participación contra el año pasado.
+12,Dic,Exportadora Bálsamo,Gastos,USD,4500,NO,Pierde participación contra el año pasado.
+12,Dic,Frigorífico Acajutla,Ventas a terceros,USD,30000,NO,Pierde participación contra el año pasado.
+12,Dic,Frigorífico Acajutla,Costo de ventas,USD,18000,NO,Pierde participación contra el año pasado.
+12,Dic,Frigorífico Acajutla,Gastos,USD,4500,NO,Pierde participación contra el año pasado.
+12,Dic,Textiles de Apopa,Ventas a terceros,USD,30000,NO,Pierde participación contra el año pasado.
+12,Dic,Textiles de Apopa,Costo de ventas,USD,18000,NO,Pierde participación contra el año pasado.
+12,Dic,Textiles de Apopa,Gastos,USD,4500,NO,Pierde participación contra el año pasado.
+12,Dic,Café de Apaneca,Ventas a terceros,USD,36000,NO,Pierde participación contra el año pasado.
+12,Dic,Café de Apaneca,Costo de ventas,USD,21600,NO,Pierde participación contra el año pasado.
+12,Dic,Café de Apaneca,Gastos,USD,5400,NO,Pierde participación contra el año pasado.
+12,Dic,Maquila Opico,Ventas a terceros,USD,30000,NO,Pierde participación contra el año pasado.
+12,Dic,Maquila Opico,Costo de ventas,USD,18000,NO,Pierde participación contra el año pasado.
+12,Dic,Maquila Opico,Gastos,USD,4500,NO,Pierde participación contra el año pasado.
 12,Dic,Holding Servicios,Ventas a terceros,USD,45000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Holding Servicios,Costo de ventas,USD,27000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Holding Servicios,Gastos,USD,6750,SI,Venta a otra empresa del grupo. Esta línea no entra.

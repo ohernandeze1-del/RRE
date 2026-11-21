@@ -1,49 +1,193 @@
 mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
-1,Ene,Obra San Pedro,HNL,2240000,NO
-1,Ene,Cadena del Lago,HNL,2240000,NO
-1,Ene,Depósito Choloma,HNL,1120000,NO
+1,Ene,Obra San Pedro,HNL,280000,NO
+1,Ene,Cadena del Lago,HNL,392000,NO
+1,Ene,Depósito Choloma,HNL,224000,NO
+1,Ene,Ferretería La Lima,HNL,336000,NO
+1,Ene,Tienda El Progreso,HNL,280000,NO
+1,Ene,Mayorista Villanueva,HNL,280000,NO
+1,Ene,Obra Cortés,HNL,336000,NO
+1,Ene,Depósito La Ceiba,HNL,448000,NO
+1,Ene,Cadena Sula,HNL,616000,NO
+1,Ene,Taller SPS Norte,HNL,392000,NO
+1,Ene,Miniobra Comayagua,HNL,504000,NO
+1,Ene,Ferretería Choluteca,HNL,336000,NO
+1,Ene,Tienda Tegucigalpa,HNL,448000,NO
+1,Ene,Depósito Olanchito,HNL,336000,NO
+1,Ene,Obra Villanueva Este,HNL,392000,NO
 1,Ene,Aceros Honduras,HNL,448000,SI
-2,Feb,Obra San Pedro,HNL,2240000,NO
-2,Feb,Cadena del Lago,HNL,2240000,NO
-2,Feb,Depósito Choloma,HNL,1120000,NO
+2,Feb,Obra San Pedro,HNL,280000,NO
+2,Feb,Cadena del Lago,HNL,392000,NO
+2,Feb,Depósito Choloma,HNL,224000,NO
+2,Feb,Ferretería La Lima,HNL,336000,NO
+2,Feb,Tienda El Progreso,HNL,280000,NO
+2,Feb,Mayorista Villanueva,HNL,280000,NO
+2,Feb,Obra Cortés,HNL,336000,NO
+2,Feb,Depósito La Ceiba,HNL,448000,NO
+2,Feb,Cadena Sula,HNL,616000,NO
+2,Feb,Taller SPS Norte,HNL,392000,NO
+2,Feb,Miniobra Comayagua,HNL,504000,NO
+2,Feb,Ferretería Choluteca,HNL,336000,NO
+2,Feb,Tienda Tegucigalpa,HNL,448000,NO
+2,Feb,Depósito Olanchito,HNL,336000,NO
+2,Feb,Obra Villanueva Este,HNL,392000,NO
 2,Feb,Aceros Honduras,HNL,448000,SI
-3,Mar,Obra San Pedro,HNL,2560000,NO
-3,Mar,Cadena del Lago,HNL,2560000,NO
-3,Mar,Depósito Choloma,HNL,1280000,NO
+3,Mar,Obra San Pedro,HNL,320000,NO
+3,Mar,Cadena del Lago,HNL,448000,NO
+3,Mar,Depósito Choloma,HNL,256000,NO
+3,Mar,Ferretería La Lima,HNL,384000,NO
+3,Mar,Tienda El Progreso,HNL,320000,NO
+3,Mar,Mayorista Villanueva,HNL,320000,NO
+3,Mar,Obra Cortés,HNL,384000,NO
+3,Mar,Depósito La Ceiba,HNL,512000,NO
+3,Mar,Cadena Sula,HNL,704000,NO
+3,Mar,Taller SPS Norte,HNL,448000,NO
+3,Mar,Miniobra Comayagua,HNL,576000,NO
+3,Mar,Ferretería Choluteca,HNL,384000,NO
+3,Mar,Tienda Tegucigalpa,HNL,512000,NO
+3,Mar,Depósito Olanchito,HNL,384000,NO
+3,Mar,Obra Villanueva Este,HNL,448000,NO
 3,Mar,Aceros Honduras,HNL,512000,SI
-4,Abr,Obra San Pedro,HNL,2560000,NO
-4,Abr,Cadena del Lago,HNL,2560000,NO
-4,Abr,Depósito Choloma,HNL,1280000,NO
+4,Abr,Obra San Pedro,HNL,320000,NO
+4,Abr,Cadena del Lago,HNL,448000,NO
+4,Abr,Depósito Choloma,HNL,256000,NO
+4,Abr,Ferretería La Lima,HNL,384000,NO
+4,Abr,Tienda El Progreso,HNL,320000,NO
+4,Abr,Mayorista Villanueva,HNL,320000,NO
+4,Abr,Obra Cortés,HNL,384000,NO
+4,Abr,Depósito La Ceiba,HNL,512000,NO
+4,Abr,Cadena Sula,HNL,704000,NO
+4,Abr,Taller SPS Norte,HNL,448000,NO
+4,Abr,Miniobra Comayagua,HNL,576000,NO
+4,Abr,Ferretería Choluteca,HNL,384000,NO
+4,Abr,Tienda Tegucigalpa,HNL,512000,NO
+4,Abr,Depósito Olanchito,HNL,384000,NO
+4,Abr,Obra Villanueva Este,HNL,448000,NO
 4,Abr,Aceros Honduras,HNL,512000,SI
-5,May,Obra San Pedro,HNL,2560000,NO
-5,May,Cadena del Lago,HNL,2560000,NO
-5,May,Depósito Choloma,HNL,1280000,NO
+5,May,Obra San Pedro,HNL,320000,NO
+5,May,Cadena del Lago,HNL,448000,NO
+5,May,Depósito Choloma,HNL,256000,NO
+5,May,Ferretería La Lima,HNL,384000,NO
+5,May,Tienda El Progreso,HNL,320000,NO
+5,May,Mayorista Villanueva,HNL,320000,NO
+5,May,Obra Cortés,HNL,384000,NO
+5,May,Depósito La Ceiba,HNL,512000,NO
+5,May,Cadena Sula,HNL,704000,NO
+5,May,Taller SPS Norte,HNL,448000,NO
+5,May,Miniobra Comayagua,HNL,576000,NO
+5,May,Ferretería Choluteca,HNL,384000,NO
+5,May,Tienda Tegucigalpa,HNL,512000,NO
+5,May,Depósito Olanchito,HNL,384000,NO
+5,May,Obra Villanueva Este,HNL,448000,NO
 5,May,Aceros Honduras,HNL,512000,SI
-6,Jun,Obra San Pedro,HNL,2560000,NO
-6,Jun,Cadena del Lago,HNL,2560000,NO
-6,Jun,Depósito Choloma,HNL,1280000,NO
+6,Jun,Obra San Pedro,HNL,320000,NO
+6,Jun,Cadena del Lago,HNL,448000,NO
+6,Jun,Depósito Choloma,HNL,256000,NO
+6,Jun,Ferretería La Lima,HNL,384000,NO
+6,Jun,Tienda El Progreso,HNL,320000,NO
+6,Jun,Mayorista Villanueva,HNL,320000,NO
+6,Jun,Obra Cortés,HNL,384000,NO
+6,Jun,Depósito La Ceiba,HNL,512000,NO
+6,Jun,Cadena Sula,HNL,704000,NO
+6,Jun,Taller SPS Norte,HNL,448000,NO
+6,Jun,Miniobra Comayagua,HNL,576000,NO
+6,Jun,Ferretería Choluteca,HNL,384000,NO
+6,Jun,Tienda Tegucigalpa,HNL,512000,NO
+6,Jun,Depósito Olanchito,HNL,384000,NO
+6,Jun,Obra Villanueva Este,HNL,448000,NO
 6,Jun,Aceros Honduras,HNL,512000,SI
-7,Jul,Obra San Pedro,HNL,2560000,NO
-7,Jul,Cadena del Lago,HNL,2560000,NO
-7,Jul,Depósito Choloma,HNL,1280000,NO
+7,Jul,Obra San Pedro,HNL,320000,NO
+7,Jul,Cadena del Lago,HNL,448000,NO
+7,Jul,Depósito Choloma,HNL,256000,NO
+7,Jul,Ferretería La Lima,HNL,384000,NO
+7,Jul,Tienda El Progreso,HNL,320000,NO
+7,Jul,Mayorista Villanueva,HNL,320000,NO
+7,Jul,Obra Cortés,HNL,384000,NO
+7,Jul,Depósito La Ceiba,HNL,512000,NO
+7,Jul,Cadena Sula,HNL,704000,NO
+7,Jul,Taller SPS Norte,HNL,448000,NO
+7,Jul,Miniobra Comayagua,HNL,576000,NO
+7,Jul,Ferretería Choluteca,HNL,384000,NO
+7,Jul,Tienda Tegucigalpa,HNL,512000,NO
+7,Jul,Depósito Olanchito,HNL,384000,NO
+7,Jul,Obra Villanueva Este,HNL,448000,NO
 7,Jul,Aceros Honduras,HNL,512000,SI
-8,Ago,Obra San Pedro,HNL,2880000,NO
-8,Ago,Cadena del Lago,HNL,2880000,NO
-8,Ago,Depósito Choloma,HNL,1440000,NO
+8,Ago,Obra San Pedro,HNL,360000,NO
+8,Ago,Cadena del Lago,HNL,504000,NO
+8,Ago,Depósito Choloma,HNL,288000,NO
+8,Ago,Ferretería La Lima,HNL,432000,NO
+8,Ago,Tienda El Progreso,HNL,360000,NO
+8,Ago,Mayorista Villanueva,HNL,360000,NO
+8,Ago,Obra Cortés,HNL,432000,NO
+8,Ago,Depósito La Ceiba,HNL,576000,NO
+8,Ago,Cadena Sula,HNL,792000,NO
+8,Ago,Taller SPS Norte,HNL,504000,NO
+8,Ago,Miniobra Comayagua,HNL,648000,NO
+8,Ago,Ferretería Choluteca,HNL,432000,NO
+8,Ago,Tienda Tegucigalpa,HNL,576000,NO
+8,Ago,Depósito Olanchito,HNL,432000,NO
+8,Ago,Obra Villanueva Este,HNL,504000,NO
 8,Ago,Aceros Honduras,HNL,576000,SI
-9,Sep,Obra San Pedro,HNL,2880000,NO
-9,Sep,Cadena del Lago,HNL,2880000,NO
-9,Sep,Depósito Choloma,HNL,1440000,NO
+9,Sep,Obra San Pedro,HNL,360000,NO
+9,Sep,Cadena del Lago,HNL,504000,NO
+9,Sep,Depósito Choloma,HNL,288000,NO
+9,Sep,Ferretería La Lima,HNL,432000,NO
+9,Sep,Tienda El Progreso,HNL,360000,NO
+9,Sep,Mayorista Villanueva,HNL,360000,NO
+9,Sep,Obra Cortés,HNL,432000,NO
+9,Sep,Depósito La Ceiba,HNL,576000,NO
+9,Sep,Cadena Sula,HNL,792000,NO
+9,Sep,Taller SPS Norte,HNL,504000,NO
+9,Sep,Miniobra Comayagua,HNL,648000,NO
+9,Sep,Ferretería Choluteca,HNL,432000,NO
+9,Sep,Tienda Tegucigalpa,HNL,576000,NO
+9,Sep,Depósito Olanchito,HNL,432000,NO
+9,Sep,Obra Villanueva Este,HNL,504000,NO
 9,Sep,Aceros Honduras,HNL,576000,SI
-10,Oct,Obra San Pedro,HNL,2880000,NO
-10,Oct,Cadena del Lago,HNL,2880000,NO
-10,Oct,Depósito Choloma,HNL,1440000,NO
+10,Oct,Obra San Pedro,HNL,360000,NO
+10,Oct,Cadena del Lago,HNL,504000,NO
+10,Oct,Depósito Choloma,HNL,288000,NO
+10,Oct,Ferretería La Lima,HNL,432000,NO
+10,Oct,Tienda El Progreso,HNL,360000,NO
+10,Oct,Mayorista Villanueva,HNL,360000,NO
+10,Oct,Obra Cortés,HNL,432000,NO
+10,Oct,Depósito La Ceiba,HNL,576000,NO
+10,Oct,Cadena Sula,HNL,792000,NO
+10,Oct,Taller SPS Norte,HNL,504000,NO
+10,Oct,Miniobra Comayagua,HNL,648000,NO
+10,Oct,Ferretería Choluteca,HNL,432000,NO
+10,Oct,Tienda Tegucigalpa,HNL,576000,NO
+10,Oct,Depósito Olanchito,HNL,432000,NO
+10,Oct,Obra Villanueva Este,HNL,504000,NO
 10,Oct,Aceros Honduras,HNL,576000,SI
-11,Nov,Obra San Pedro,HNL,2880000,NO
-11,Nov,Cadena del Lago,HNL,2880000,NO
-11,Nov,Depósito Choloma,HNL,1440000,NO
+11,Nov,Obra San Pedro,HNL,360000,NO
+11,Nov,Cadena del Lago,HNL,504000,NO
+11,Nov,Depósito Choloma,HNL,288000,NO
+11,Nov,Ferretería La Lima,HNL,432000,NO
+11,Nov,Tienda El Progreso,HNL,360000,NO
+11,Nov,Mayorista Villanueva,HNL,360000,NO
+11,Nov,Obra Cortés,HNL,432000,NO
+11,Nov,Depósito La Ceiba,HNL,576000,NO
+11,Nov,Cadena Sula,HNL,792000,NO
+11,Nov,Taller SPS Norte,HNL,504000,NO
+11,Nov,Miniobra Comayagua,HNL,648000,NO
+11,Nov,Ferretería Choluteca,HNL,432000,NO
+11,Nov,Tienda Tegucigalpa,HNL,576000,NO
+11,Nov,Depósito Olanchito,HNL,432000,NO
+11,Nov,Obra Villanueva Este,HNL,504000,NO
 11,Nov,Aceros Honduras,HNL,576000,SI
-12,Dic,Obra San Pedro,HNL,3200000,NO
-12,Dic,Cadena del Lago,HNL,3200000,NO
-12,Dic,Depósito Choloma,HNL,1600000,NO
+12,Dic,Obra San Pedro,HNL,400000,NO
+12,Dic,Cadena del Lago,HNL,560000,NO
+12,Dic,Depósito Choloma,HNL,320000,NO
+12,Dic,Ferretería La Lima,HNL,480000,NO
+12,Dic,Tienda El Progreso,HNL,400000,NO
+12,Dic,Mayorista Villanueva,HNL,400000,NO
+12,Dic,Obra Cortés,HNL,480000,NO
+12,Dic,Depósito La Ceiba,HNL,640000,NO
+12,Dic,Cadena Sula,HNL,880000,NO
+12,Dic,Taller SPS Norte,HNL,560000,NO
+12,Dic,Miniobra Comayagua,HNL,720000,NO
+12,Dic,Ferretería Choluteca,HNL,480000,NO
+12,Dic,Tienda Tegucigalpa,HNL,640000,NO
+12,Dic,Depósito Olanchito,HNL,480000,NO
+12,Dic,Obra Villanueva Este,HNL,560000,NO
 12,Dic,Aceros Honduras,HNL,640000,SI

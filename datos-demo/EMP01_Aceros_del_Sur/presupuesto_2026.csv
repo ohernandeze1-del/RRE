@@ -1,145 +1,577 @@
 mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
-1,Ene,Constructora Izabal,Ventas a terceros,GTQ,4200000,NO,Sube el volumen de varilla.
-1,Ene,Constructora Izabal,Costo de ventas,GTQ,2520000,NO,Sube el volumen de varilla.
-1,Ene,Constructora Izabal,Gastos,GTQ,630000,NO,Sube el volumen de varilla.
-1,Ene,Cementos del Valle,Ventas a terceros,GTQ,2520000,NO,El precio del contrato anual sube.
-1,Ene,Cementos del Valle,Costo de ventas,GTQ,1512000,NO,El precio del contrato anual sube.
-1,Ene,Cementos del Valle,Gastos,GTQ,378000,NO,El precio del contrato anual sube.
-1,Ene,Taller Océano,Ventas a terceros,GTQ,1680000,NO,Compra más chatarra que el año pasado.
-1,Ene,Taller Océano,Costo de ventas,GTQ,1008000,NO,Compra más chatarra que el año pasado.
-1,Ene,Taller Océano,Gastos,GTQ,252000,NO,Compra más chatarra que el año pasado.
+1,Ene,Constructora Izabal,Ventas a terceros,GTQ,840000,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Izabal,Costo de ventas,GTQ,504000,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Izabal,Gastos,GTQ,126000,NO,Gana participación contra el año pasado.
+1,Ene,Cementos del Valle,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+1,Ene,Cementos del Valle,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+1,Ene,Cementos del Valle,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+1,Ene,Taller Océano,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+1,Ene,Taller Océano,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+1,Ene,Taller Océano,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+1,Ene,Fábrica El Progreso,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+1,Ene,Fábrica El Progreso,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+1,Ene,Fábrica El Progreso,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+1,Ene,Ingenio Palo Verde,Ventas a terceros,GTQ,588000,NO,Gana participación contra el año pasado.
+1,Ene,Ingenio Palo Verde,Costo de ventas,GTQ,352800,NO,Gana participación contra el año pasado.
+1,Ene,Ingenio Palo Verde,Gastos,GTQ,88200,NO,Gana participación contra el año pasado.
+1,Ene,Depósito Escuintla,Ventas a terceros,GTQ,588000,NO,Pierde participación contra el año pasado.
+1,Ene,Depósito Escuintla,Costo de ventas,GTQ,352800,NO,Pierde participación contra el año pasado.
+1,Ene,Depósito Escuintla,Gastos,GTQ,88200,NO,Pierde participación contra el año pasado.
+1,Ene,Obra Puerto Barrios,Ventas a terceros,GTQ,588000,NO,Gana participación contra el año pasado.
+1,Ene,Obra Puerto Barrios,Costo de ventas,GTQ,352800,NO,Gana participación contra el año pasado.
+1,Ene,Obra Puerto Barrios,Gastos,GTQ,88200,NO,Gana participación contra el año pasado.
+1,Ene,Talleres Chimaltenango,Ventas a terceros,GTQ,504000,NO,Pierde participación contra el año pasado.
+1,Ene,Talleres Chimaltenango,Costo de ventas,GTQ,302400,NO,Pierde participación contra el año pasado.
+1,Ene,Talleres Chimaltenango,Gastos,GTQ,75600,NO,Pierde participación contra el año pasado.
+1,Ene,Constructora Los Altos,Ventas a terceros,GTQ,504000,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Los Altos,Costo de ventas,GTQ,302400,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Los Altos,Gastos,GTQ,75600,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería Quetzal,Ventas a terceros,GTQ,504000,NO,Pierde participación contra el año pasado.
+1,Ene,Ferretería Quetzal,Costo de ventas,GTQ,302400,NO,Pierde participación contra el año pasado.
+1,Ene,Ferretería Quetzal,Gastos,GTQ,75600,NO,Pierde participación contra el año pasado.
+1,Ene,Planta Amatitlán,Ventas a terceros,GTQ,420000,NO,Gana participación contra el año pasado.
+1,Ene,Planta Amatitlán,Costo de ventas,GTQ,252000,NO,Gana participación contra el año pasado.
+1,Ene,Planta Amatitlán,Gastos,GTQ,63000,NO,Gana participación contra el año pasado.
+1,Ene,Obras del Motagua,Ventas a terceros,GTQ,420000,NO,Pierde participación contra el año pasado.
+1,Ene,Obras del Motagua,Costo de ventas,GTQ,252000,NO,Pierde participación contra el año pasado.
+1,Ene,Obras del Motagua,Gastos,GTQ,63000,NO,Pierde participación contra el año pasado.
+1,Ene,Taller La Chatarra,Ventas a terceros,GTQ,420000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Taller La Chatarra,Costo de ventas,GTQ,252000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Taller La Chatarra,Gastos,GTQ,63000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Edificios Zona 10,Ventas a terceros,GTQ,504000,NO,Gana participación contra el año pasado.
+1,Ene,Edificios Zona 10,Costo de ventas,GTQ,302400,NO,Gana participación contra el año pasado.
+1,Ene,Edificios Zona 10,Gastos,GTQ,75600,NO,Gana participación contra el año pasado.
+1,Ene,Agroindustria Escuintla,Ventas a terceros,GTQ,420000,NO,Pierde participación contra el año pasado.
+1,Ene,Agroindustria Escuintla,Costo de ventas,GTQ,252000,NO,Pierde participación contra el año pasado.
+1,Ene,Agroindustria Escuintla,Gastos,GTQ,63000,NO,Pierde participación contra el año pasado.
 1,Ene,Distribuidora Metro,Ventas a terceros,GTQ,588000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Distribuidora Metro,Costo de ventas,GTQ,352800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Distribuidora Metro,Gastos,GTQ,88200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-2,Feb,Constructora Izabal,Ventas a terceros,GTQ,4200000,NO,Sube el volumen de varilla.
-2,Feb,Constructora Izabal,Costo de ventas,GTQ,2520000,NO,Sube el volumen de varilla.
-2,Feb,Constructora Izabal,Gastos,GTQ,630000,NO,Sube el volumen de varilla.
-2,Feb,Cementos del Valle,Ventas a terceros,GTQ,2520000,NO,El precio del contrato anual sube.
-2,Feb,Cementos del Valle,Costo de ventas,GTQ,1512000,NO,El precio del contrato anual sube.
-2,Feb,Cementos del Valle,Gastos,GTQ,378000,NO,El precio del contrato anual sube.
-2,Feb,Taller Océano,Ventas a terceros,GTQ,1680000,NO,Compra más chatarra que el año pasado.
-2,Feb,Taller Océano,Costo de ventas,GTQ,1008000,NO,Compra más chatarra que el año pasado.
-2,Feb,Taller Océano,Gastos,GTQ,252000,NO,Compra más chatarra que el año pasado.
+2,Feb,Constructora Izabal,Ventas a terceros,GTQ,840000,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Izabal,Costo de ventas,GTQ,504000,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Izabal,Gastos,GTQ,126000,NO,Gana participación contra el año pasado.
+2,Feb,Cementos del Valle,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+2,Feb,Cementos del Valle,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+2,Feb,Cementos del Valle,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+2,Feb,Taller Océano,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+2,Feb,Taller Océano,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+2,Feb,Taller Océano,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+2,Feb,Fábrica El Progreso,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+2,Feb,Fábrica El Progreso,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+2,Feb,Fábrica El Progreso,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+2,Feb,Ingenio Palo Verde,Ventas a terceros,GTQ,588000,NO,Gana participación contra el año pasado.
+2,Feb,Ingenio Palo Verde,Costo de ventas,GTQ,352800,NO,Gana participación contra el año pasado.
+2,Feb,Ingenio Palo Verde,Gastos,GTQ,88200,NO,Gana participación contra el año pasado.
+2,Feb,Depósito Escuintla,Ventas a terceros,GTQ,588000,NO,Pierde participación contra el año pasado.
+2,Feb,Depósito Escuintla,Costo de ventas,GTQ,352800,NO,Pierde participación contra el año pasado.
+2,Feb,Depósito Escuintla,Gastos,GTQ,88200,NO,Pierde participación contra el año pasado.
+2,Feb,Obra Puerto Barrios,Ventas a terceros,GTQ,588000,NO,Gana participación contra el año pasado.
+2,Feb,Obra Puerto Barrios,Costo de ventas,GTQ,352800,NO,Gana participación contra el año pasado.
+2,Feb,Obra Puerto Barrios,Gastos,GTQ,88200,NO,Gana participación contra el año pasado.
+2,Feb,Talleres Chimaltenango,Ventas a terceros,GTQ,504000,NO,Pierde participación contra el año pasado.
+2,Feb,Talleres Chimaltenango,Costo de ventas,GTQ,302400,NO,Pierde participación contra el año pasado.
+2,Feb,Talleres Chimaltenango,Gastos,GTQ,75600,NO,Pierde participación contra el año pasado.
+2,Feb,Constructora Los Altos,Ventas a terceros,GTQ,504000,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Los Altos,Costo de ventas,GTQ,302400,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Los Altos,Gastos,GTQ,75600,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería Quetzal,Ventas a terceros,GTQ,504000,NO,Pierde participación contra el año pasado.
+2,Feb,Ferretería Quetzal,Costo de ventas,GTQ,302400,NO,Pierde participación contra el año pasado.
+2,Feb,Ferretería Quetzal,Gastos,GTQ,75600,NO,Pierde participación contra el año pasado.
+2,Feb,Planta Amatitlán,Ventas a terceros,GTQ,420000,NO,Gana participación contra el año pasado.
+2,Feb,Planta Amatitlán,Costo de ventas,GTQ,252000,NO,Gana participación contra el año pasado.
+2,Feb,Planta Amatitlán,Gastos,GTQ,63000,NO,Gana participación contra el año pasado.
+2,Feb,Obras del Motagua,Ventas a terceros,GTQ,420000,NO,Pierde participación contra el año pasado.
+2,Feb,Obras del Motagua,Costo de ventas,GTQ,252000,NO,Pierde participación contra el año pasado.
+2,Feb,Obras del Motagua,Gastos,GTQ,63000,NO,Pierde participación contra el año pasado.
+2,Feb,Taller La Chatarra,Ventas a terceros,GTQ,420000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Taller La Chatarra,Costo de ventas,GTQ,252000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Taller La Chatarra,Gastos,GTQ,63000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Edificios Zona 10,Ventas a terceros,GTQ,504000,NO,Gana participación contra el año pasado.
+2,Feb,Edificios Zona 10,Costo de ventas,GTQ,302400,NO,Gana participación contra el año pasado.
+2,Feb,Edificios Zona 10,Gastos,GTQ,75600,NO,Gana participación contra el año pasado.
+2,Feb,Agroindustria Escuintla,Ventas a terceros,GTQ,420000,NO,Pierde participación contra el año pasado.
+2,Feb,Agroindustria Escuintla,Costo de ventas,GTQ,252000,NO,Pierde participación contra el año pasado.
+2,Feb,Agroindustria Escuintla,Gastos,GTQ,63000,NO,Pierde participación contra el año pasado.
 2,Feb,Distribuidora Metro,Ventas a terceros,GTQ,588000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Distribuidora Metro,Costo de ventas,GTQ,352800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Distribuidora Metro,Gastos,GTQ,88200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-3,Mar,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
-3,Mar,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
-3,Mar,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
-3,Mar,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
-3,Mar,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
-3,Mar,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
-3,Mar,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
-3,Mar,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
-3,Mar,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+3,Mar,Constructora Izabal,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Izabal,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Izabal,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+3,Mar,Cementos del Valle,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+3,Mar,Cementos del Valle,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+3,Mar,Cementos del Valle,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+3,Mar,Taller Océano,Ventas a terceros,GTQ,768000,NO,Gana participación contra el año pasado.
+3,Mar,Taller Océano,Costo de ventas,GTQ,460800,NO,Gana participación contra el año pasado.
+3,Mar,Taller Océano,Gastos,GTQ,115200,NO,Gana participación contra el año pasado.
+3,Mar,Fábrica El Progreso,Ventas a terceros,GTQ,768000,NO,Pierde participación contra el año pasado.
+3,Mar,Fábrica El Progreso,Costo de ventas,GTQ,460800,NO,Pierde participación contra el año pasado.
+3,Mar,Fábrica El Progreso,Gastos,GTQ,115200,NO,Pierde participación contra el año pasado.
+3,Mar,Ingenio Palo Verde,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+3,Mar,Ingenio Palo Verde,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+3,Mar,Ingenio Palo Verde,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+3,Mar,Depósito Escuintla,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+3,Mar,Depósito Escuintla,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+3,Mar,Depósito Escuintla,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+3,Mar,Obra Puerto Barrios,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+3,Mar,Obra Puerto Barrios,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+3,Mar,Obra Puerto Barrios,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+3,Mar,Talleres Chimaltenango,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+3,Mar,Talleres Chimaltenango,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+3,Mar,Talleres Chimaltenango,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+3,Mar,Constructora Los Altos,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Los Altos,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Los Altos,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería Quetzal,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+3,Mar,Ferretería Quetzal,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+3,Mar,Ferretería Quetzal,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+3,Mar,Planta Amatitlán,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+3,Mar,Planta Amatitlán,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+3,Mar,Planta Amatitlán,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+3,Mar,Obras del Motagua,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+3,Mar,Obras del Motagua,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+3,Mar,Obras del Motagua,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
+3,Mar,Taller La Chatarra,Ventas a terceros,GTQ,480000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Taller La Chatarra,Costo de ventas,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Taller La Chatarra,Gastos,GTQ,72000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Edificios Zona 10,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+3,Mar,Edificios Zona 10,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+3,Mar,Edificios Zona 10,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+3,Mar,Agroindustria Escuintla,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+3,Mar,Agroindustria Escuintla,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+3,Mar,Agroindustria Escuintla,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
 3,Mar,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-4,Abr,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
-4,Abr,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
-4,Abr,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
-4,Abr,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
-4,Abr,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
-4,Abr,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
-4,Abr,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
-4,Abr,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
-4,Abr,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+4,Abr,Constructora Izabal,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Izabal,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Izabal,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+4,Abr,Cementos del Valle,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+4,Abr,Cementos del Valle,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+4,Abr,Cementos del Valle,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+4,Abr,Taller Océano,Ventas a terceros,GTQ,768000,NO,Gana participación contra el año pasado.
+4,Abr,Taller Océano,Costo de ventas,GTQ,460800,NO,Gana participación contra el año pasado.
+4,Abr,Taller Océano,Gastos,GTQ,115200,NO,Gana participación contra el año pasado.
+4,Abr,Fábrica El Progreso,Ventas a terceros,GTQ,768000,NO,Pierde participación contra el año pasado.
+4,Abr,Fábrica El Progreso,Costo de ventas,GTQ,460800,NO,Pierde participación contra el año pasado.
+4,Abr,Fábrica El Progreso,Gastos,GTQ,115200,NO,Pierde participación contra el año pasado.
+4,Abr,Ingenio Palo Verde,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+4,Abr,Ingenio Palo Verde,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+4,Abr,Ingenio Palo Verde,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+4,Abr,Depósito Escuintla,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+4,Abr,Depósito Escuintla,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+4,Abr,Depósito Escuintla,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+4,Abr,Obra Puerto Barrios,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+4,Abr,Obra Puerto Barrios,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+4,Abr,Obra Puerto Barrios,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+4,Abr,Talleres Chimaltenango,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+4,Abr,Talleres Chimaltenango,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+4,Abr,Talleres Chimaltenango,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+4,Abr,Constructora Los Altos,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Los Altos,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Los Altos,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería Quetzal,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+4,Abr,Ferretería Quetzal,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+4,Abr,Ferretería Quetzal,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+4,Abr,Planta Amatitlán,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+4,Abr,Planta Amatitlán,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+4,Abr,Planta Amatitlán,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+4,Abr,Obras del Motagua,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+4,Abr,Obras del Motagua,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+4,Abr,Obras del Motagua,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
+4,Abr,Taller La Chatarra,Ventas a terceros,GTQ,480000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Taller La Chatarra,Costo de ventas,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Taller La Chatarra,Gastos,GTQ,72000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Edificios Zona 10,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+4,Abr,Edificios Zona 10,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+4,Abr,Edificios Zona 10,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+4,Abr,Agroindustria Escuintla,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+4,Abr,Agroindustria Escuintla,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+4,Abr,Agroindustria Escuintla,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
 4,Abr,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-5,May,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
-5,May,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
-5,May,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
-5,May,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
-5,May,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
-5,May,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
-5,May,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
-5,May,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
-5,May,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+5,May,Constructora Izabal,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+5,May,Constructora Izabal,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+5,May,Constructora Izabal,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+5,May,Cementos del Valle,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+5,May,Cementos del Valle,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+5,May,Cementos del Valle,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+5,May,Taller Océano,Ventas a terceros,GTQ,768000,NO,Gana participación contra el año pasado.
+5,May,Taller Océano,Costo de ventas,GTQ,460800,NO,Gana participación contra el año pasado.
+5,May,Taller Océano,Gastos,GTQ,115200,NO,Gana participación contra el año pasado.
+5,May,Fábrica El Progreso,Ventas a terceros,GTQ,768000,NO,Pierde participación contra el año pasado.
+5,May,Fábrica El Progreso,Costo de ventas,GTQ,460800,NO,Pierde participación contra el año pasado.
+5,May,Fábrica El Progreso,Gastos,GTQ,115200,NO,Pierde participación contra el año pasado.
+5,May,Ingenio Palo Verde,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+5,May,Ingenio Palo Verde,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+5,May,Ingenio Palo Verde,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+5,May,Depósito Escuintla,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+5,May,Depósito Escuintla,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+5,May,Depósito Escuintla,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+5,May,Obra Puerto Barrios,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+5,May,Obra Puerto Barrios,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+5,May,Obra Puerto Barrios,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+5,May,Talleres Chimaltenango,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+5,May,Talleres Chimaltenango,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+5,May,Talleres Chimaltenango,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+5,May,Constructora Los Altos,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+5,May,Constructora Los Altos,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+5,May,Constructora Los Altos,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+5,May,Ferretería Quetzal,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+5,May,Ferretería Quetzal,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+5,May,Ferretería Quetzal,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+5,May,Planta Amatitlán,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+5,May,Planta Amatitlán,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+5,May,Planta Amatitlán,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+5,May,Obras del Motagua,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+5,May,Obras del Motagua,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+5,May,Obras del Motagua,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
+5,May,Taller La Chatarra,Ventas a terceros,GTQ,480000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Taller La Chatarra,Costo de ventas,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Taller La Chatarra,Gastos,GTQ,72000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Edificios Zona 10,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+5,May,Edificios Zona 10,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+5,May,Edificios Zona 10,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+5,May,Agroindustria Escuintla,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+5,May,Agroindustria Escuintla,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+5,May,Agroindustria Escuintla,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
 5,May,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-6,Jun,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
-6,Jun,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
-6,Jun,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
-6,Jun,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
-6,Jun,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
-6,Jun,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
-6,Jun,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
-6,Jun,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
-6,Jun,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+6,Jun,Constructora Izabal,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Izabal,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Izabal,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+6,Jun,Cementos del Valle,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+6,Jun,Cementos del Valle,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+6,Jun,Cementos del Valle,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+6,Jun,Taller Océano,Ventas a terceros,GTQ,768000,NO,Gana participación contra el año pasado.
+6,Jun,Taller Océano,Costo de ventas,GTQ,460800,NO,Gana participación contra el año pasado.
+6,Jun,Taller Océano,Gastos,GTQ,115200,NO,Gana participación contra el año pasado.
+6,Jun,Fábrica El Progreso,Ventas a terceros,GTQ,768000,NO,Pierde participación contra el año pasado.
+6,Jun,Fábrica El Progreso,Costo de ventas,GTQ,460800,NO,Pierde participación contra el año pasado.
+6,Jun,Fábrica El Progreso,Gastos,GTQ,115200,NO,Pierde participación contra el año pasado.
+6,Jun,Ingenio Palo Verde,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+6,Jun,Ingenio Palo Verde,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+6,Jun,Ingenio Palo Verde,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+6,Jun,Depósito Escuintla,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+6,Jun,Depósito Escuintla,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+6,Jun,Depósito Escuintla,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+6,Jun,Obra Puerto Barrios,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+6,Jun,Obra Puerto Barrios,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+6,Jun,Obra Puerto Barrios,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+6,Jun,Talleres Chimaltenango,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+6,Jun,Talleres Chimaltenango,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+6,Jun,Talleres Chimaltenango,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+6,Jun,Constructora Los Altos,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Los Altos,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Los Altos,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería Quetzal,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+6,Jun,Ferretería Quetzal,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+6,Jun,Ferretería Quetzal,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+6,Jun,Planta Amatitlán,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+6,Jun,Planta Amatitlán,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+6,Jun,Planta Amatitlán,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+6,Jun,Obras del Motagua,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+6,Jun,Obras del Motagua,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+6,Jun,Obras del Motagua,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
+6,Jun,Taller La Chatarra,Ventas a terceros,GTQ,480000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Taller La Chatarra,Costo de ventas,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Taller La Chatarra,Gastos,GTQ,72000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Edificios Zona 10,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+6,Jun,Edificios Zona 10,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+6,Jun,Edificios Zona 10,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+6,Jun,Agroindustria Escuintla,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+6,Jun,Agroindustria Escuintla,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+6,Jun,Agroindustria Escuintla,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
 6,Jun,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-7,Jul,Constructora Izabal,Ventas a terceros,GTQ,4800000,NO,Sube el volumen de varilla.
-7,Jul,Constructora Izabal,Costo de ventas,GTQ,2880000,NO,Sube el volumen de varilla.
-7,Jul,Constructora Izabal,Gastos,GTQ,720000,NO,Sube el volumen de varilla.
-7,Jul,Cementos del Valle,Ventas a terceros,GTQ,2880000,NO,El precio del contrato anual sube.
-7,Jul,Cementos del Valle,Costo de ventas,GTQ,1728000,NO,El precio del contrato anual sube.
-7,Jul,Cementos del Valle,Gastos,GTQ,432000,NO,El precio del contrato anual sube.
-7,Jul,Taller Océano,Ventas a terceros,GTQ,1920000,NO,Compra más chatarra que el año pasado.
-7,Jul,Taller Océano,Costo de ventas,GTQ,1152000,NO,Compra más chatarra que el año pasado.
-7,Jul,Taller Océano,Gastos,GTQ,288000,NO,Compra más chatarra que el año pasado.
+7,Jul,Constructora Izabal,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Izabal,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Izabal,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+7,Jul,Cementos del Valle,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+7,Jul,Cementos del Valle,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+7,Jul,Cementos del Valle,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+7,Jul,Taller Océano,Ventas a terceros,GTQ,768000,NO,Gana participación contra el año pasado.
+7,Jul,Taller Océano,Costo de ventas,GTQ,460800,NO,Gana participación contra el año pasado.
+7,Jul,Taller Océano,Gastos,GTQ,115200,NO,Gana participación contra el año pasado.
+7,Jul,Fábrica El Progreso,Ventas a terceros,GTQ,768000,NO,Pierde participación contra el año pasado.
+7,Jul,Fábrica El Progreso,Costo de ventas,GTQ,460800,NO,Pierde participación contra el año pasado.
+7,Jul,Fábrica El Progreso,Gastos,GTQ,115200,NO,Pierde participación contra el año pasado.
+7,Jul,Ingenio Palo Verde,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+7,Jul,Ingenio Palo Verde,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+7,Jul,Ingenio Palo Verde,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+7,Jul,Depósito Escuintla,Ventas a terceros,GTQ,672000,NO,Pierde participación contra el año pasado.
+7,Jul,Depósito Escuintla,Costo de ventas,GTQ,403200,NO,Pierde participación contra el año pasado.
+7,Jul,Depósito Escuintla,Gastos,GTQ,100800,NO,Pierde participación contra el año pasado.
+7,Jul,Obra Puerto Barrios,Ventas a terceros,GTQ,672000,NO,Gana participación contra el año pasado.
+7,Jul,Obra Puerto Barrios,Costo de ventas,GTQ,403200,NO,Gana participación contra el año pasado.
+7,Jul,Obra Puerto Barrios,Gastos,GTQ,100800,NO,Gana participación contra el año pasado.
+7,Jul,Talleres Chimaltenango,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+7,Jul,Talleres Chimaltenango,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+7,Jul,Talleres Chimaltenango,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+7,Jul,Constructora Los Altos,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Los Altos,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Los Altos,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería Quetzal,Ventas a terceros,GTQ,576000,NO,Pierde participación contra el año pasado.
+7,Jul,Ferretería Quetzal,Costo de ventas,GTQ,345600,NO,Pierde participación contra el año pasado.
+7,Jul,Ferretería Quetzal,Gastos,GTQ,86400,NO,Pierde participación contra el año pasado.
+7,Jul,Planta Amatitlán,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+7,Jul,Planta Amatitlán,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+7,Jul,Planta Amatitlán,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+7,Jul,Obras del Motagua,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+7,Jul,Obras del Motagua,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+7,Jul,Obras del Motagua,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
+7,Jul,Taller La Chatarra,Ventas a terceros,GTQ,480000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Taller La Chatarra,Costo de ventas,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Taller La Chatarra,Gastos,GTQ,72000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Edificios Zona 10,Ventas a terceros,GTQ,576000,NO,Gana participación contra el año pasado.
+7,Jul,Edificios Zona 10,Costo de ventas,GTQ,345600,NO,Gana participación contra el año pasado.
+7,Jul,Edificios Zona 10,Gastos,GTQ,86400,NO,Gana participación contra el año pasado.
+7,Jul,Agroindustria Escuintla,Ventas a terceros,GTQ,480000,NO,Pierde participación contra el año pasado.
+7,Jul,Agroindustria Escuintla,Costo de ventas,GTQ,288000,NO,Pierde participación contra el año pasado.
+7,Jul,Agroindustria Escuintla,Gastos,GTQ,72000,NO,Pierde participación contra el año pasado.
 7,Jul,Distribuidora Metro,Ventas a terceros,GTQ,672000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Distribuidora Metro,Costo de ventas,GTQ,403200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Distribuidora Metro,Gastos,GTQ,100800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-8,Ago,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
-8,Ago,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
-8,Ago,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
-8,Ago,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
-8,Ago,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
-8,Ago,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
-8,Ago,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
-8,Ago,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
-8,Ago,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+8,Ago,Constructora Izabal,Ventas a terceros,GTQ,1080000,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Izabal,Costo de ventas,GTQ,648000,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Izabal,Gastos,GTQ,162000,NO,Gana participación contra el año pasado.
+8,Ago,Cementos del Valle,Ventas a terceros,GTQ,972000,NO,Pierde participación contra el año pasado.
+8,Ago,Cementos del Valle,Costo de ventas,GTQ,583200,NO,Pierde participación contra el año pasado.
+8,Ago,Cementos del Valle,Gastos,GTQ,145800,NO,Pierde participación contra el año pasado.
+8,Ago,Taller Océano,Ventas a terceros,GTQ,864000,NO,Gana participación contra el año pasado.
+8,Ago,Taller Océano,Costo de ventas,GTQ,518400,NO,Gana participación contra el año pasado.
+8,Ago,Taller Océano,Gastos,GTQ,129600,NO,Gana participación contra el año pasado.
+8,Ago,Fábrica El Progreso,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+8,Ago,Fábrica El Progreso,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+8,Ago,Fábrica El Progreso,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+8,Ago,Ingenio Palo Verde,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+8,Ago,Ingenio Palo Verde,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+8,Ago,Ingenio Palo Verde,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+8,Ago,Depósito Escuintla,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+8,Ago,Depósito Escuintla,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+8,Ago,Depósito Escuintla,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+8,Ago,Obra Puerto Barrios,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+8,Ago,Obra Puerto Barrios,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+8,Ago,Obra Puerto Barrios,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+8,Ago,Talleres Chimaltenango,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+8,Ago,Talleres Chimaltenango,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+8,Ago,Talleres Chimaltenango,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+8,Ago,Constructora Los Altos,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Los Altos,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Los Altos,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería Quetzal,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+8,Ago,Ferretería Quetzal,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+8,Ago,Ferretería Quetzal,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+8,Ago,Planta Amatitlán,Ventas a terceros,GTQ,540000,NO,Gana participación contra el año pasado.
+8,Ago,Planta Amatitlán,Costo de ventas,GTQ,324000,NO,Gana participación contra el año pasado.
+8,Ago,Planta Amatitlán,Gastos,GTQ,81000,NO,Gana participación contra el año pasado.
+8,Ago,Obras del Motagua,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+8,Ago,Obras del Motagua,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+8,Ago,Obras del Motagua,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
+8,Ago,Taller La Chatarra,Ventas a terceros,GTQ,540000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Taller La Chatarra,Costo de ventas,GTQ,324000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Taller La Chatarra,Gastos,GTQ,81000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Edificios Zona 10,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+8,Ago,Edificios Zona 10,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+8,Ago,Edificios Zona 10,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+8,Ago,Agroindustria Escuintla,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+8,Ago,Agroindustria Escuintla,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+8,Ago,Agroindustria Escuintla,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
 8,Ago,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-9,Sep,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
-9,Sep,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
-9,Sep,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
-9,Sep,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
-9,Sep,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
-9,Sep,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
-9,Sep,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
-9,Sep,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
-9,Sep,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+9,Sep,Constructora Izabal,Ventas a terceros,GTQ,1080000,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Izabal,Costo de ventas,GTQ,648000,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Izabal,Gastos,GTQ,162000,NO,Gana participación contra el año pasado.
+9,Sep,Cementos del Valle,Ventas a terceros,GTQ,972000,NO,Pierde participación contra el año pasado.
+9,Sep,Cementos del Valle,Costo de ventas,GTQ,583200,NO,Pierde participación contra el año pasado.
+9,Sep,Cementos del Valle,Gastos,GTQ,145800,NO,Pierde participación contra el año pasado.
+9,Sep,Taller Océano,Ventas a terceros,GTQ,864000,NO,Gana participación contra el año pasado.
+9,Sep,Taller Océano,Costo de ventas,GTQ,518400,NO,Gana participación contra el año pasado.
+9,Sep,Taller Océano,Gastos,GTQ,129600,NO,Gana participación contra el año pasado.
+9,Sep,Fábrica El Progreso,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+9,Sep,Fábrica El Progreso,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+9,Sep,Fábrica El Progreso,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+9,Sep,Ingenio Palo Verde,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+9,Sep,Ingenio Palo Verde,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+9,Sep,Ingenio Palo Verde,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+9,Sep,Depósito Escuintla,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+9,Sep,Depósito Escuintla,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+9,Sep,Depósito Escuintla,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+9,Sep,Obra Puerto Barrios,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+9,Sep,Obra Puerto Barrios,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+9,Sep,Obra Puerto Barrios,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+9,Sep,Talleres Chimaltenango,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+9,Sep,Talleres Chimaltenango,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+9,Sep,Talleres Chimaltenango,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+9,Sep,Constructora Los Altos,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Los Altos,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Los Altos,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería Quetzal,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+9,Sep,Ferretería Quetzal,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+9,Sep,Ferretería Quetzal,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+9,Sep,Planta Amatitlán,Ventas a terceros,GTQ,540000,NO,Gana participación contra el año pasado.
+9,Sep,Planta Amatitlán,Costo de ventas,GTQ,324000,NO,Gana participación contra el año pasado.
+9,Sep,Planta Amatitlán,Gastos,GTQ,81000,NO,Gana participación contra el año pasado.
+9,Sep,Obras del Motagua,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+9,Sep,Obras del Motagua,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+9,Sep,Obras del Motagua,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
+9,Sep,Taller La Chatarra,Ventas a terceros,GTQ,540000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Taller La Chatarra,Costo de ventas,GTQ,324000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Taller La Chatarra,Gastos,GTQ,81000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Edificios Zona 10,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+9,Sep,Edificios Zona 10,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+9,Sep,Edificios Zona 10,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+9,Sep,Agroindustria Escuintla,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+9,Sep,Agroindustria Escuintla,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+9,Sep,Agroindustria Escuintla,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
 9,Sep,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-10,Oct,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
-10,Oct,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
-10,Oct,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
-10,Oct,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
-10,Oct,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
-10,Oct,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
-10,Oct,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
-10,Oct,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
-10,Oct,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+10,Oct,Constructora Izabal,Ventas a terceros,GTQ,1080000,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Izabal,Costo de ventas,GTQ,648000,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Izabal,Gastos,GTQ,162000,NO,Gana participación contra el año pasado.
+10,Oct,Cementos del Valle,Ventas a terceros,GTQ,972000,NO,Pierde participación contra el año pasado.
+10,Oct,Cementos del Valle,Costo de ventas,GTQ,583200,NO,Pierde participación contra el año pasado.
+10,Oct,Cementos del Valle,Gastos,GTQ,145800,NO,Pierde participación contra el año pasado.
+10,Oct,Taller Océano,Ventas a terceros,GTQ,864000,NO,Gana participación contra el año pasado.
+10,Oct,Taller Océano,Costo de ventas,GTQ,518400,NO,Gana participación contra el año pasado.
+10,Oct,Taller Océano,Gastos,GTQ,129600,NO,Gana participación contra el año pasado.
+10,Oct,Fábrica El Progreso,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+10,Oct,Fábrica El Progreso,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+10,Oct,Fábrica El Progreso,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+10,Oct,Ingenio Palo Verde,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+10,Oct,Ingenio Palo Verde,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+10,Oct,Ingenio Palo Verde,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+10,Oct,Depósito Escuintla,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+10,Oct,Depósito Escuintla,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+10,Oct,Depósito Escuintla,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+10,Oct,Obra Puerto Barrios,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+10,Oct,Obra Puerto Barrios,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+10,Oct,Obra Puerto Barrios,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+10,Oct,Talleres Chimaltenango,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+10,Oct,Talleres Chimaltenango,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+10,Oct,Talleres Chimaltenango,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+10,Oct,Constructora Los Altos,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Los Altos,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Los Altos,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería Quetzal,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+10,Oct,Ferretería Quetzal,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+10,Oct,Ferretería Quetzal,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+10,Oct,Planta Amatitlán,Ventas a terceros,GTQ,540000,NO,Gana participación contra el año pasado.
+10,Oct,Planta Amatitlán,Costo de ventas,GTQ,324000,NO,Gana participación contra el año pasado.
+10,Oct,Planta Amatitlán,Gastos,GTQ,81000,NO,Gana participación contra el año pasado.
+10,Oct,Obras del Motagua,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+10,Oct,Obras del Motagua,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+10,Oct,Obras del Motagua,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
+10,Oct,Taller La Chatarra,Ventas a terceros,GTQ,540000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Taller La Chatarra,Costo de ventas,GTQ,324000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Taller La Chatarra,Gastos,GTQ,81000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Edificios Zona 10,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+10,Oct,Edificios Zona 10,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+10,Oct,Edificios Zona 10,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+10,Oct,Agroindustria Escuintla,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+10,Oct,Agroindustria Escuintla,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+10,Oct,Agroindustria Escuintla,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
 10,Oct,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-11,Nov,Constructora Izabal,Ventas a terceros,GTQ,5400000,NO,Sube el volumen de varilla.
-11,Nov,Constructora Izabal,Costo de ventas,GTQ,3240000,NO,Sube el volumen de varilla.
-11,Nov,Constructora Izabal,Gastos,GTQ,810000,NO,Sube el volumen de varilla.
-11,Nov,Cementos del Valle,Ventas a terceros,GTQ,3240000,NO,El precio del contrato anual sube.
-11,Nov,Cementos del Valle,Costo de ventas,GTQ,1944000,NO,El precio del contrato anual sube.
-11,Nov,Cementos del Valle,Gastos,GTQ,486000,NO,El precio del contrato anual sube.
-11,Nov,Taller Océano,Ventas a terceros,GTQ,2160000,NO,Compra más chatarra que el año pasado.
-11,Nov,Taller Océano,Costo de ventas,GTQ,1296000,NO,Compra más chatarra que el año pasado.
-11,Nov,Taller Océano,Gastos,GTQ,324000,NO,Compra más chatarra que el año pasado.
+11,Nov,Constructora Izabal,Ventas a terceros,GTQ,1080000,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Izabal,Costo de ventas,GTQ,648000,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Izabal,Gastos,GTQ,162000,NO,Gana participación contra el año pasado.
+11,Nov,Cementos del Valle,Ventas a terceros,GTQ,972000,NO,Pierde participación contra el año pasado.
+11,Nov,Cementos del Valle,Costo de ventas,GTQ,583200,NO,Pierde participación contra el año pasado.
+11,Nov,Cementos del Valle,Gastos,GTQ,145800,NO,Pierde participación contra el año pasado.
+11,Nov,Taller Océano,Ventas a terceros,GTQ,864000,NO,Gana participación contra el año pasado.
+11,Nov,Taller Océano,Costo de ventas,GTQ,518400,NO,Gana participación contra el año pasado.
+11,Nov,Taller Océano,Gastos,GTQ,129600,NO,Gana participación contra el año pasado.
+11,Nov,Fábrica El Progreso,Ventas a terceros,GTQ,864000,NO,Pierde participación contra el año pasado.
+11,Nov,Fábrica El Progreso,Costo de ventas,GTQ,518400,NO,Pierde participación contra el año pasado.
+11,Nov,Fábrica El Progreso,Gastos,GTQ,129600,NO,Pierde participación contra el año pasado.
+11,Nov,Ingenio Palo Verde,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+11,Nov,Ingenio Palo Verde,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+11,Nov,Ingenio Palo Verde,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+11,Nov,Depósito Escuintla,Ventas a terceros,GTQ,756000,NO,Pierde participación contra el año pasado.
+11,Nov,Depósito Escuintla,Costo de ventas,GTQ,453600,NO,Pierde participación contra el año pasado.
+11,Nov,Depósito Escuintla,Gastos,GTQ,113400,NO,Pierde participación contra el año pasado.
+11,Nov,Obra Puerto Barrios,Ventas a terceros,GTQ,756000,NO,Gana participación contra el año pasado.
+11,Nov,Obra Puerto Barrios,Costo de ventas,GTQ,453600,NO,Gana participación contra el año pasado.
+11,Nov,Obra Puerto Barrios,Gastos,GTQ,113400,NO,Gana participación contra el año pasado.
+11,Nov,Talleres Chimaltenango,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+11,Nov,Talleres Chimaltenango,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+11,Nov,Talleres Chimaltenango,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+11,Nov,Constructora Los Altos,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Los Altos,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Los Altos,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería Quetzal,Ventas a terceros,GTQ,648000,NO,Pierde participación contra el año pasado.
+11,Nov,Ferretería Quetzal,Costo de ventas,GTQ,388800,NO,Pierde participación contra el año pasado.
+11,Nov,Ferretería Quetzal,Gastos,GTQ,97200,NO,Pierde participación contra el año pasado.
+11,Nov,Planta Amatitlán,Ventas a terceros,GTQ,540000,NO,Gana participación contra el año pasado.
+11,Nov,Planta Amatitlán,Costo de ventas,GTQ,324000,NO,Gana participación contra el año pasado.
+11,Nov,Planta Amatitlán,Gastos,GTQ,81000,NO,Gana participación contra el año pasado.
+11,Nov,Obras del Motagua,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+11,Nov,Obras del Motagua,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+11,Nov,Obras del Motagua,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
+11,Nov,Taller La Chatarra,Ventas a terceros,GTQ,540000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Taller La Chatarra,Costo de ventas,GTQ,324000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Taller La Chatarra,Gastos,GTQ,81000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Edificios Zona 10,Ventas a terceros,GTQ,648000,NO,Gana participación contra el año pasado.
+11,Nov,Edificios Zona 10,Costo de ventas,GTQ,388800,NO,Gana participación contra el año pasado.
+11,Nov,Edificios Zona 10,Gastos,GTQ,97200,NO,Gana participación contra el año pasado.
+11,Nov,Agroindustria Escuintla,Ventas a terceros,GTQ,540000,NO,Pierde participación contra el año pasado.
+11,Nov,Agroindustria Escuintla,Costo de ventas,GTQ,324000,NO,Pierde participación contra el año pasado.
+11,Nov,Agroindustria Escuintla,Gastos,GTQ,81000,NO,Pierde participación contra el año pasado.
 11,Nov,Distribuidora Metro,Ventas a terceros,GTQ,756000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Distribuidora Metro,Costo de ventas,GTQ,453600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Distribuidora Metro,Gastos,GTQ,113400,SI,Venta a otra empresa del grupo. Esta línea no entra.
-12,Dic,Constructora Izabal,Ventas a terceros,GTQ,6000000,NO,Sube el volumen de varilla.
-12,Dic,Constructora Izabal,Costo de ventas,GTQ,3600000,NO,Sube el volumen de varilla.
-12,Dic,Constructora Izabal,Gastos,GTQ,900000,NO,Sube el volumen de varilla.
-12,Dic,Cementos del Valle,Ventas a terceros,GTQ,3600000,NO,El precio del contrato anual sube.
-12,Dic,Cementos del Valle,Costo de ventas,GTQ,2160000,NO,El precio del contrato anual sube.
-12,Dic,Cementos del Valle,Gastos,GTQ,540000,NO,El precio del contrato anual sube.
-12,Dic,Taller Océano,Ventas a terceros,GTQ,2400000,NO,Compra más chatarra que el año pasado.
-12,Dic,Taller Océano,Costo de ventas,GTQ,1440000,NO,Compra más chatarra que el año pasado.
-12,Dic,Taller Océano,Gastos,GTQ,360000,NO,Compra más chatarra que el año pasado.
+12,Dic,Constructora Izabal,Ventas a terceros,GTQ,1200000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Izabal,Costo de ventas,GTQ,720000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Izabal,Gastos,GTQ,180000,NO,Gana participación contra el año pasado.
+12,Dic,Cementos del Valle,Ventas a terceros,GTQ,1080000,NO,Pierde participación contra el año pasado.
+12,Dic,Cementos del Valle,Costo de ventas,GTQ,648000,NO,Pierde participación contra el año pasado.
+12,Dic,Cementos del Valle,Gastos,GTQ,162000,NO,Pierde participación contra el año pasado.
+12,Dic,Taller Océano,Ventas a terceros,GTQ,960000,NO,Gana participación contra el año pasado.
+12,Dic,Taller Océano,Costo de ventas,GTQ,576000,NO,Gana participación contra el año pasado.
+12,Dic,Taller Océano,Gastos,GTQ,144000,NO,Gana participación contra el año pasado.
+12,Dic,Fábrica El Progreso,Ventas a terceros,GTQ,960000,NO,Pierde participación contra el año pasado.
+12,Dic,Fábrica El Progreso,Costo de ventas,GTQ,576000,NO,Pierde participación contra el año pasado.
+12,Dic,Fábrica El Progreso,Gastos,GTQ,144000,NO,Pierde participación contra el año pasado.
+12,Dic,Ingenio Palo Verde,Ventas a terceros,GTQ,840000,NO,Gana participación contra el año pasado.
+12,Dic,Ingenio Palo Verde,Costo de ventas,GTQ,504000,NO,Gana participación contra el año pasado.
+12,Dic,Ingenio Palo Verde,Gastos,GTQ,126000,NO,Gana participación contra el año pasado.
+12,Dic,Depósito Escuintla,Ventas a terceros,GTQ,840000,NO,Pierde participación contra el año pasado.
+12,Dic,Depósito Escuintla,Costo de ventas,GTQ,504000,NO,Pierde participación contra el año pasado.
+12,Dic,Depósito Escuintla,Gastos,GTQ,126000,NO,Pierde participación contra el año pasado.
+12,Dic,Obra Puerto Barrios,Ventas a terceros,GTQ,840000,NO,Gana participación contra el año pasado.
+12,Dic,Obra Puerto Barrios,Costo de ventas,GTQ,504000,NO,Gana participación contra el año pasado.
+12,Dic,Obra Puerto Barrios,Gastos,GTQ,126000,NO,Gana participación contra el año pasado.
+12,Dic,Talleres Chimaltenango,Ventas a terceros,GTQ,720000,NO,Pierde participación contra el año pasado.
+12,Dic,Talleres Chimaltenango,Costo de ventas,GTQ,432000,NO,Pierde participación contra el año pasado.
+12,Dic,Talleres Chimaltenango,Gastos,GTQ,108000,NO,Pierde participación contra el año pasado.
+12,Dic,Constructora Los Altos,Ventas a terceros,GTQ,720000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Los Altos,Costo de ventas,GTQ,432000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Los Altos,Gastos,GTQ,108000,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería Quetzal,Ventas a terceros,GTQ,720000,NO,Pierde participación contra el año pasado.
+12,Dic,Ferretería Quetzal,Costo de ventas,GTQ,432000,NO,Pierde participación contra el año pasado.
+12,Dic,Ferretería Quetzal,Gastos,GTQ,108000,NO,Pierde participación contra el año pasado.
+12,Dic,Planta Amatitlán,Ventas a terceros,GTQ,600000,NO,Gana participación contra el año pasado.
+12,Dic,Planta Amatitlán,Costo de ventas,GTQ,360000,NO,Gana participación contra el año pasado.
+12,Dic,Planta Amatitlán,Gastos,GTQ,90000,NO,Gana participación contra el año pasado.
+12,Dic,Obras del Motagua,Ventas a terceros,GTQ,600000,NO,Pierde participación contra el año pasado.
+12,Dic,Obras del Motagua,Costo de ventas,GTQ,360000,NO,Pierde participación contra el año pasado.
+12,Dic,Obras del Motagua,Gastos,GTQ,90000,NO,Pierde participación contra el año pasado.
+12,Dic,Taller La Chatarra,Ventas a terceros,GTQ,600000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Taller La Chatarra,Costo de ventas,GTQ,360000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Taller La Chatarra,Gastos,GTQ,90000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Edificios Zona 10,Ventas a terceros,GTQ,720000,NO,Gana participación contra el año pasado.
+12,Dic,Edificios Zona 10,Costo de ventas,GTQ,432000,NO,Gana participación contra el año pasado.
+12,Dic,Edificios Zona 10,Gastos,GTQ,108000,NO,Gana participación contra el año pasado.
+12,Dic,Agroindustria Escuintla,Ventas a terceros,GTQ,600000,NO,Pierde participación contra el año pasado.
+12,Dic,Agroindustria Escuintla,Costo de ventas,GTQ,360000,NO,Pierde participación contra el año pasado.
+12,Dic,Agroindustria Escuintla,Gastos,GTQ,90000,NO,Pierde participación contra el año pasado.
 12,Dic,Distribuidora Metro,Ventas a terceros,GTQ,840000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Distribuidora Metro,Costo de ventas,GTQ,504000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Distribuidora Metro,Gastos,GTQ,126000,SI,Venta a otra empresa del grupo. Esta línea no entra.

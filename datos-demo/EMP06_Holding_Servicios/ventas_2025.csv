@@ -1,37 +1,193 @@
 mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
-1,Ene,Aseguradora Istmo,USD,70000,NO
-1,Ene,Banco del Puerto,USD,70000,NO
+1,Ene,Aseguradora Istmo,USD,12600,NO
+1,Ene,Banco del Puerto,USD,8400,NO
+1,Ene,Oficina Regional Panamá,USD,11200,NO
+1,Ene,Consultora Bahía,USD,8400,NO
+1,Ene,Fondo Casco Viejo,USD,9800,NO
+1,Ene,Despacho Balboa,USD,7000,NO
+1,Ene,Servicios Costa del Este,USD,9800,NO
+1,Ene,Auditoría Clayton,USD,5600,NO
+1,Ene,Gestora Punta Pacífica,USD,8400,NO
+1,Ene,Oficina Amador,USD,7000,NO
+1,Ene,Fiduciaria Calidonia,USD,7000,NO
+1,Ene,Asesoría Obarrio,USD,8400,NO
+1,Ene,Family Office Coco del Mar,USD,11200,NO
+1,Ene,Broker Santa María,USD,15400,NO
+1,Ene,Administradora San Francisco,USD,9800,NO
 1,Ene,Logística CA,USD,10500,SI
-2,Feb,Aseguradora Istmo,USD,70000,NO
-2,Feb,Banco del Puerto,USD,70000,NO
+2,Feb,Aseguradora Istmo,USD,12600,NO
+2,Feb,Banco del Puerto,USD,8400,NO
+2,Feb,Oficina Regional Panamá,USD,11200,NO
+2,Feb,Consultora Bahía,USD,8400,NO
+2,Feb,Fondo Casco Viejo,USD,9800,NO
+2,Feb,Despacho Balboa,USD,7000,NO
+2,Feb,Servicios Costa del Este,USD,9800,NO
+2,Feb,Auditoría Clayton,USD,5600,NO
+2,Feb,Gestora Punta Pacífica,USD,8400,NO
+2,Feb,Oficina Amador,USD,7000,NO
+2,Feb,Fiduciaria Calidonia,USD,7000,NO
+2,Feb,Asesoría Obarrio,USD,8400,NO
+2,Feb,Family Office Coco del Mar,USD,11200,NO
+2,Feb,Broker Santa María,USD,15400,NO
+2,Feb,Administradora San Francisco,USD,9800,NO
 2,Feb,Logística CA,USD,10500,SI
-3,Mar,Aseguradora Istmo,USD,80000,NO
-3,Mar,Banco del Puerto,USD,80000,NO
+3,Mar,Aseguradora Istmo,USD,14400,NO
+3,Mar,Banco del Puerto,USD,9600,NO
+3,Mar,Oficina Regional Panamá,USD,12800,NO
+3,Mar,Consultora Bahía,USD,9600,NO
+3,Mar,Fondo Casco Viejo,USD,11200,NO
+3,Mar,Despacho Balboa,USD,8000,NO
+3,Mar,Servicios Costa del Este,USD,11200,NO
+3,Mar,Auditoría Clayton,USD,6400,NO
+3,Mar,Gestora Punta Pacífica,USD,9600,NO
+3,Mar,Oficina Amador,USD,8000,NO
+3,Mar,Fiduciaria Calidonia,USD,8000,NO
+3,Mar,Asesoría Obarrio,USD,9600,NO
+3,Mar,Family Office Coco del Mar,USD,12800,NO
+3,Mar,Broker Santa María,USD,17600,NO
+3,Mar,Administradora San Francisco,USD,11200,NO
 3,Mar,Logística CA,USD,12000,SI
-4,Abr,Aseguradora Istmo,USD,80000,NO
-4,Abr,Banco del Puerto,USD,80000,NO
+4,Abr,Aseguradora Istmo,USD,14400,NO
+4,Abr,Banco del Puerto,USD,9600,NO
+4,Abr,Oficina Regional Panamá,USD,12800,NO
+4,Abr,Consultora Bahía,USD,9600,NO
+4,Abr,Fondo Casco Viejo,USD,11200,NO
+4,Abr,Despacho Balboa,USD,8000,NO
+4,Abr,Servicios Costa del Este,USD,11200,NO
+4,Abr,Auditoría Clayton,USD,6400,NO
+4,Abr,Gestora Punta Pacífica,USD,9600,NO
+4,Abr,Oficina Amador,USD,8000,NO
+4,Abr,Fiduciaria Calidonia,USD,8000,NO
+4,Abr,Asesoría Obarrio,USD,9600,NO
+4,Abr,Family Office Coco del Mar,USD,12800,NO
+4,Abr,Broker Santa María,USD,17600,NO
+4,Abr,Administradora San Francisco,USD,11200,NO
 4,Abr,Logística CA,USD,12000,SI
-5,May,Aseguradora Istmo,USD,80000,NO
-5,May,Banco del Puerto,USD,80000,NO
+5,May,Aseguradora Istmo,USD,14400,NO
+5,May,Banco del Puerto,USD,9600,NO
+5,May,Oficina Regional Panamá,USD,12800,NO
+5,May,Consultora Bahía,USD,9600,NO
+5,May,Fondo Casco Viejo,USD,11200,NO
+5,May,Despacho Balboa,USD,8000,NO
+5,May,Servicios Costa del Este,USD,11200,NO
+5,May,Auditoría Clayton,USD,6400,NO
+5,May,Gestora Punta Pacífica,USD,9600,NO
+5,May,Oficina Amador,USD,8000,NO
+5,May,Fiduciaria Calidonia,USD,8000,NO
+5,May,Asesoría Obarrio,USD,9600,NO
+5,May,Family Office Coco del Mar,USD,12800,NO
+5,May,Broker Santa María,USD,17600,NO
+5,May,Administradora San Francisco,USD,11200,NO
 5,May,Logística CA,USD,12000,SI
-6,Jun,Aseguradora Istmo,USD,80000,NO
-6,Jun,Banco del Puerto,USD,80000,NO
+6,Jun,Aseguradora Istmo,USD,14400,NO
+6,Jun,Banco del Puerto,USD,9600,NO
+6,Jun,Oficina Regional Panamá,USD,12800,NO
+6,Jun,Consultora Bahía,USD,9600,NO
+6,Jun,Fondo Casco Viejo,USD,11200,NO
+6,Jun,Despacho Balboa,USD,8000,NO
+6,Jun,Servicios Costa del Este,USD,11200,NO
+6,Jun,Auditoría Clayton,USD,6400,NO
+6,Jun,Gestora Punta Pacífica,USD,9600,NO
+6,Jun,Oficina Amador,USD,8000,NO
+6,Jun,Fiduciaria Calidonia,USD,8000,NO
+6,Jun,Asesoría Obarrio,USD,9600,NO
+6,Jun,Family Office Coco del Mar,USD,12800,NO
+6,Jun,Broker Santa María,USD,17600,NO
+6,Jun,Administradora San Francisco,USD,11200,NO
 6,Jun,Logística CA,USD,12000,SI
-7,Jul,Aseguradora Istmo,USD,80000,NO
-7,Jul,Banco del Puerto,USD,80000,NO
+7,Jul,Aseguradora Istmo,USD,14400,NO
+7,Jul,Banco del Puerto,USD,9600,NO
+7,Jul,Oficina Regional Panamá,USD,12800,NO
+7,Jul,Consultora Bahía,USD,9600,NO
+7,Jul,Fondo Casco Viejo,USD,11200,NO
+7,Jul,Despacho Balboa,USD,8000,NO
+7,Jul,Servicios Costa del Este,USD,11200,NO
+7,Jul,Auditoría Clayton,USD,6400,NO
+7,Jul,Gestora Punta Pacífica,USD,9600,NO
+7,Jul,Oficina Amador,USD,8000,NO
+7,Jul,Fiduciaria Calidonia,USD,8000,NO
+7,Jul,Asesoría Obarrio,USD,9600,NO
+7,Jul,Family Office Coco del Mar,USD,12800,NO
+7,Jul,Broker Santa María,USD,17600,NO
+7,Jul,Administradora San Francisco,USD,11200,NO
 7,Jul,Logística CA,USD,12000,SI
-8,Ago,Aseguradora Istmo,USD,90000,NO
-8,Ago,Banco del Puerto,USD,90000,NO
+8,Ago,Aseguradora Istmo,USD,16200,NO
+8,Ago,Banco del Puerto,USD,10800,NO
+8,Ago,Oficina Regional Panamá,USD,14400,NO
+8,Ago,Consultora Bahía,USD,10800,NO
+8,Ago,Fondo Casco Viejo,USD,12600,NO
+8,Ago,Despacho Balboa,USD,9000,NO
+8,Ago,Servicios Costa del Este,USD,12600,NO
+8,Ago,Auditoría Clayton,USD,7200,NO
+8,Ago,Gestora Punta Pacífica,USD,10800,NO
+8,Ago,Oficina Amador,USD,9000,NO
+8,Ago,Fiduciaria Calidonia,USD,9000,NO
+8,Ago,Asesoría Obarrio,USD,10800,NO
+8,Ago,Family Office Coco del Mar,USD,14400,NO
+8,Ago,Broker Santa María,USD,19800,NO
+8,Ago,Administradora San Francisco,USD,12600,NO
 8,Ago,Logística CA,USD,13500,SI
-9,Sep,Aseguradora Istmo,USD,90000,NO
-9,Sep,Banco del Puerto,USD,90000,NO
+9,Sep,Aseguradora Istmo,USD,16200,NO
+9,Sep,Banco del Puerto,USD,10800,NO
+9,Sep,Oficina Regional Panamá,USD,14400,NO
+9,Sep,Consultora Bahía,USD,10800,NO
+9,Sep,Fondo Casco Viejo,USD,12600,NO
+9,Sep,Despacho Balboa,USD,9000,NO
+9,Sep,Servicios Costa del Este,USD,12600,NO
+9,Sep,Auditoría Clayton,USD,7200,NO
+9,Sep,Gestora Punta Pacífica,USD,10800,NO
+9,Sep,Oficina Amador,USD,9000,NO
+9,Sep,Fiduciaria Calidonia,USD,9000,NO
+9,Sep,Asesoría Obarrio,USD,10800,NO
+9,Sep,Family Office Coco del Mar,USD,14400,NO
+9,Sep,Broker Santa María,USD,19800,NO
+9,Sep,Administradora San Francisco,USD,12600,NO
 9,Sep,Logística CA,USD,13500,SI
-10,Oct,Aseguradora Istmo,USD,90000,NO
-10,Oct,Banco del Puerto,USD,90000,NO
+10,Oct,Aseguradora Istmo,USD,16200,NO
+10,Oct,Banco del Puerto,USD,10800,NO
+10,Oct,Oficina Regional Panamá,USD,14400,NO
+10,Oct,Consultora Bahía,USD,10800,NO
+10,Oct,Fondo Casco Viejo,USD,12600,NO
+10,Oct,Despacho Balboa,USD,9000,NO
+10,Oct,Servicios Costa del Este,USD,12600,NO
+10,Oct,Auditoría Clayton,USD,7200,NO
+10,Oct,Gestora Punta Pacífica,USD,10800,NO
+10,Oct,Oficina Amador,USD,9000,NO
+10,Oct,Fiduciaria Calidonia,USD,9000,NO
+10,Oct,Asesoría Obarrio,USD,10800,NO
+10,Oct,Family Office Coco del Mar,USD,14400,NO
+10,Oct,Broker Santa María,USD,19800,NO
+10,Oct,Administradora San Francisco,USD,12600,NO
 10,Oct,Logística CA,USD,13500,SI
-11,Nov,Aseguradora Istmo,USD,90000,NO
-11,Nov,Banco del Puerto,USD,90000,NO
+11,Nov,Aseguradora Istmo,USD,16200,NO
+11,Nov,Banco del Puerto,USD,10800,NO
+11,Nov,Oficina Regional Panamá,USD,14400,NO
+11,Nov,Consultora Bahía,USD,10800,NO
+11,Nov,Fondo Casco Viejo,USD,12600,NO
+11,Nov,Despacho Balboa,USD,9000,NO
+11,Nov,Servicios Costa del Este,USD,12600,NO
+11,Nov,Auditoría Clayton,USD,7200,NO
+11,Nov,Gestora Punta Pacífica,USD,10800,NO
+11,Nov,Oficina Amador,USD,9000,NO
+11,Nov,Fiduciaria Calidonia,USD,9000,NO
+11,Nov,Asesoría Obarrio,USD,10800,NO
+11,Nov,Family Office Coco del Mar,USD,14400,NO
+11,Nov,Broker Santa María,USD,19800,NO
+11,Nov,Administradora San Francisco,USD,12600,NO
 11,Nov,Logística CA,USD,13500,SI
-12,Dic,Aseguradora Istmo,USD,100000,NO
-12,Dic,Banco del Puerto,USD,100000,NO
+12,Dic,Aseguradora Istmo,USD,18000,NO
+12,Dic,Banco del Puerto,USD,12000,NO
+12,Dic,Oficina Regional Panamá,USD,16000,NO
+12,Dic,Consultora Bahía,USD,12000,NO
+12,Dic,Fondo Casco Viejo,USD,14000,NO
+12,Dic,Despacho Balboa,USD,10000,NO
+12,Dic,Servicios Costa del Este,USD,14000,NO
+12,Dic,Auditoría Clayton,USD,8000,NO
+12,Dic,Gestora Punta Pacífica,USD,12000,NO
+12,Dic,Oficina Amador,USD,10000,NO
+12,Dic,Fiduciaria Calidonia,USD,10000,NO
+12,Dic,Asesoría Obarrio,USD,12000,NO
+12,Dic,Family Office Coco del Mar,USD,16000,NO
+12,Dic,Broker Santa María,USD,22000,NO
+12,Dic,Administradora San Francisco,USD,14000,NO
 12,Dic,Logística CA,USD,15000,SI

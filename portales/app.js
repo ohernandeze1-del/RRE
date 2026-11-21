@@ -244,7 +244,7 @@
         return `<tr><td>${esc(item.name)}</td><td>${esc(row.cliente)}</td><td>${money(row.prior)}</td><td>${money(row.budget)}</td><td class="${row.dentro ? "" : delta < 0 ? "down" : "up"}">${change}</td><td>${esc(whyText(row))}</td></tr>`;
       }).join("");
     }).join("");
-    return `<div class="sheet"><table><thead><tr><th>Empresa</th><th>Cliente</th><th>2025</th><th>2026</th><th>Cambio</th><th>Por qué</th></tr></thead><tbody>${body}</tbody></table></div>`;
+    return `<div class="sheet explain"><table><thead><tr><th>Empresa</th><th>Cliente</th><th>2025</th><th>2026</th><th>Cambio</th><th>Por qué</th></tr></thead><tbody>${body}</tbody></table></div>`;
   }
 
   function ebitOf(id) {
@@ -447,10 +447,10 @@
     return `<div class="sheet"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto 2026</th><th>Variación</th></tr></thead><tbody>${rows.join("")}</tbody></table></div><p class="note">Importes en ${esc(currency)}.</p>`;
   }
 
-  function chart(prior, parts, incremental) {
+  function chart(prior, parts, incremental, barHeight) {
     const stacked = DATA.months.map((_, index) => parts.reduce((total, part) => total + (part.values[index] || 0), 0));
     const max = Math.max(...prior.map((value, index) => Math.max(value, stacked[index] + (incremental[index] || 0))), 1);
-    const height = 230;
+    const height = barHeight || 230;
     const columns = DATA.months.map((name, index) => {
       const priorPx = Math.round(prior[index] / max * height);
       const pieces = parts.map((part) => {
@@ -459,7 +459,7 @@
       });
       const incPx = Math.round((incremental[index] || 0) / max * height);
       const inc = incPx ? `<div class="bar inc" style="height:${incPx}px"></div>` : "";
-      return `<div class="month"><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack">${inc}${pieces.reverse().join("")}</div></div><span class="name">${name}</span></div>`;
+      return `<div class="month" style="--i:${index}"><div class="pair"><div class="col"><div class="bar prior" style="height:${priorPx}px"></div></div><div class="col stack">${inc}${pieces.reverse().join("")}</div></div><span class="name">${name}</span></div>`;
     }).join("");
     const legend = [`<span><i class="swatch prior"></i>Año pasado</span>`]
       .concat(parts.map((part) => `<span><i class="swatch" style="background:${part.color}"></i>${esc(part.name)}</span>`))
@@ -513,10 +513,10 @@
         <a class="back" href="../index.html">Elegir otro portal</a>
       </header>
       <dl class="ledger">
-        <div><dt>Presupuesto 2026</dt><dd>${money(sum(budget))} <small>${esc(item.currency)}</small></dd></div>
-        <div><dt>Ventas 2025</dt><dd>${money(sum(prior))} <small>${esc(item.currency)}</small></dd></div>
-        <div><dt>Contra el año pasado</dt><dd class="${change < 0 ? "down" : "up"}">${pct(change)}</dd></div>
-        <div><dt>Venta interna que no entra</dt><dd>${money(detailOf(id).removedAmount)} <small>${esc(item.currency)}</small></dd></div>
+        <div><dt>Presupuesto 2026</dt><dd><span data-kind="money" data-value="${sum(budget)}">${money(sum(budget))}</span> <small>${esc(item.currency)}</small></dd></div>
+        <div><dt>Ventas 2025</dt><dd><span data-kind="money" data-value="${sum(prior)}">${money(sum(prior))}</span> <small>${esc(item.currency)}</small></dd></div>
+        <div><dt>Contra el año pasado</dt><dd class="${change < 0 ? "down" : "up"}"><span data-kind="pct" data-value="${change}">${pct(change)}</span></dd></div>
+        <div><dt>Venta interna que no entra</dt><dd><span data-kind="money" data-value="${detailOf(id).removedAmount}">${money(detailOf(id).removedAmount)}</span> <small>${esc(item.currency)}</small></dd></div>
       </dl>
       ${ratios(returnsOf(id), item.currency)}
       <div class="split">
@@ -601,6 +601,7 @@
       saveStore(state);
       renderCompany();
     });
+    playFigures(root);
   }
 
   async function saveExistingInitiative(box) {
@@ -679,52 +680,85 @@
       const delta = sales.prior[index] ? (sales.budget[index] - sales.prior[index]) / sales.prior[index] : 0;
       return `<tr><td>${name}</td><td>${money(sales.prior[index])}</td><td>${money(sales.budget[index])}</td><td class="${delta < 0 ? "down" : "up"}">${pct(delta)}</td><td>${money(incremental[index])}</td><td>${money(sales.budget[index] + incremental[index])}</td></tr>`;
     }).join("");
+    const each = ids.map((companyId) => returnsOf(companyId));
+    const ebit = each.every((item) => item.ebit == null) ? null : each.reduce((total, item, index) => total + toUsd(item.ebit || 0, DATA.sales[ids[index]].currency), 0);
+    const ready = each.every((item) => item.ready);
+    const groupReturn = ready ? (() => {
+      const nopat = each.reduce((total, item, index) => total + toUsd(item.nopat, DATA.sales[ids[index]].currency), 0);
+      const employed = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_empleado, DATA.sales[ids[index]].currency), 0);
+      const invested = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido, DATA.sales[ids[index]].currency), 0);
+      const charge = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido * detailOf(ids[index]).assumptions.wacc, DATA.sales[ids[index]].currency), 0);
+      return { roce: ebit / employed, roic: nopat / invested, eva: nopat - charge };
+    })() : null;
+    const bars = chart(sales.prior, ids.map((companyId) => ({
+      name: company(companyId).name,
+      color: colorOf(companyId),
+      values: budgetOf(companyId).map((value) => toUsd(value, DATA.sales[companyId].currency))
+    })), incremental, 132);
     root.innerHTML = `
-      <header class="top">
-        <div>
-          <h1>Grupo unificado</h1>
-          <p class="sub">Ventas pasadas a dólares con la tasa oficial, más el incremental de las iniciativas. ${esc(DATA.note)}</p>
+      <header class="top board-top">
+        <h1>Grupo unificado</h1>
+        <div class="tools">
+          <label>Ver <select id="filtro">${options}</select></label>
+          <a class="solid" href="detalle.html${selected === "TODAS" ? "" : `?empresa=${selected}`}">Trazar</a>
+          <a class="back" href="../index.html">Otro portal</a>
         </div>
-        <a class="back" href="../index.html">Elegir otro portal</a>
       </header>
-      <div class="tools">
-        <label>Ver <select id="filtro">${options}</select></label>
-        <a class="solid" href="detalle.html">Ver detalle de cifras</a>
-        <a class="solid" href="#iniciativas">Ver iniciativas</a>
-      </div>
-      <dl class="ledger">
-        <div><dt>Presupuesto base</dt><dd>${money(sum(sales.budget))} <small>USD</small></dd></div>
-        <div><dt>Ventas 2025</dt><dd>${money(sum(sales.prior))} <small>USD</small></dd></div>
-        <div><dt>Contra el año pasado</dt><dd class="${change < 0 ? "down" : "up"}">${pct(change)}</dd></div>
-        <div><dt>Incremental</dt><dd>${money(sum(incremental))} <small>USD</small></dd></div>
+      <dl class="ledger board-ledger">
+        <div><dt>Presupuesto</dt><dd><span data-kind="money" data-value="${sum(sales.budget)}">${money(sum(sales.budget))}</span></dd></div>
+        <div><dt>Año pasado</dt><dd><span data-kind="money" data-value="${sum(sales.prior)}">${money(sum(sales.prior))}</span></dd></div>
+        <div><dt>Variación</dt><dd class="${change < 0 ? "down" : "up"}"><span data-kind="pct" data-value="${change}">${pct(change)}</span></dd></div>
+        <div><dt>Incremental</dt><dd><span data-kind="money" data-value="${sum(incremental)}">${money(sum(incremental))}</span></dd></div>
+        <div><dt>EBIT</dt><dd>${ebit == null ? "—" : `<span data-kind="money" data-value="${ebit}">${money(ebit)}</span>`}</dd></div>
+        <div><dt>ROIC</dt><dd>${groupReturn ? `<span data-kind="ratio" data-value="${groupReturn.roic}">${pct(groupReturn.roic).replace("+", "")}</span>` : "—"}</dd></div>
+        <div><dt>ROCE</dt><dd>${groupReturn ? `<span data-kind="ratio" data-value="${groupReturn.roce}">${pct(groupReturn.roce).replace("+", "")}</span>` : "—"}</dd></div>
+        <div><dt>EVA</dt><dd>${groupReturn ? `<span data-kind="money" data-value="${groupReturn.eva}">${money(groupReturn.eva)}</span>` : "—"}</dd></div>
       </dl>
-      ${ratios((() => {
-        const each = ids.map((companyId) => returnsOf(companyId));
-        const ebit = each.every((item) => item.ebit == null) ? null : each.reduce((total, item) => total + toUsd(item.ebit || 0, DATA.sales[ids[each.indexOf(item)]].currency), 0);
-        if (!each.every((item) => item.ready)) return { ebit, ready: false };
-        const nopat = each.reduce((total, item, index) => total + toUsd(item.nopat, DATA.sales[ids[index]].currency), 0);
-        const employed = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_empleado, DATA.sales[ids[index]].currency), 0);
-        const invested = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido, DATA.sales[ids[index]].currency), 0);
-        const charge = each.reduce((total, item, index) => total + toUsd(detailOf(ids[index]).assumptions.capital_invertido * detailOf(ids[index]).assumptions.wacc, DATA.sales[ids[index]].currency), 0);
-        return { ebit, ready: true, nopat, roce: ebit / employed, roic: nopat / invested, eva: nopat - charge };
-      })(), "USD")}
       <div class="viz">
-        <section class="chart-box">${chart(sales.prior, ids.map((companyId) => ({ name: company(companyId).name, color: colorOf(companyId), values: budgetOf(companyId).map((value) => toUsd(value, DATA.sales[companyId].currency)) })), incremental)}</section>
-        <section>
-          <h2>Aporte de cada empresa</h2>
-          ${pie()}
-        </section>
+        <section class="chart-box">${bars}</section>
+        <section>${pie()}</section>
       </div>
-      <div class="sheet" style="margin-top:22px"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto base</th><th>Variación</th><th>Incremental</th><th>Base + incremental</th></tr></thead><tbody>${monthRows}</tbody></table></div>
-      <p class="note">Dólares. Quetzal a 7,75. Lempira a 25. La barra blanca es el año pasado. La barra de al lado se parte por empresa y el incremental queda encima. La venta entre empresas no está en estas cifras.</p>
-      <h2>Qué cambió contra el año pasado</h2>
-      ${explainTable(ids)}
-      <h2 id="iniciativas">Iniciativas de crecimiento</h2>
-      <div class="init-list">${list.map(card).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
+      <details class="fold">
+        <summary>Mes a mes y clientes</summary>
+        <div class="sheet"><table><thead><tr><th>Mes</th><th>Ventas 2025</th><th>Presupuesto</th><th>Variación</th><th>Incremental</th><th>Base + incremental</th></tr></thead><tbody>${monthRows}</tbody></table></div>
+        <h2>Qué cambió contra el año pasado</h2>
+        ${explainTable(ids)}
+      </details>
+      <aside class="dock">
+        <div class="dock-panel" id="init-dock" hidden>
+          <h2>Iniciativas${selected === "TODAS" ? "" : " · " + esc(company(selected).name)}</h2>
+          <div class="init-list">${list.map(card).join("") || "<p class='note'>No hay iniciativas para este filtro.</p>"}</div>
+        </div>
+        <button class="solid" type="button" id="toggle-inits">Iniciativas (${list.length})</button>
+      </aside>
     `;
     document.getElementById("filtro").addEventListener("change", (event) => {
       const value = event.target.value;
       location.search = value === "TODAS" ? "" : `?empresa=${value}`;
+    });
+    document.getElementById("toggle-inits").addEventListener("click", () => {
+      const panel = document.getElementById("init-dock");
+      panel.hidden = !panel.hidden;
+    });
+    playFigures(root);
+  }
+
+  function playFigures(root) {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    root.querySelectorAll("[data-value]").forEach((node) => {
+      const target = Number(node.dataset.value);
+      if (!isFinite(target)) return;
+      const kind = node.dataset.kind;
+      const start = performance.now();
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / 720);
+        const current = target * (1 - Math.pow(1 - t, 3));
+        if (kind === "pct") node.textContent = pct(current);
+        else if (kind === "ratio") node.textContent = pct(current).replace("+", "");
+        else node.textContent = money(current);
+        if (t < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
     });
   }
 

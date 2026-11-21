@@ -1,5 +1,6 @@
 Datos crudos para la demostración. Cifras ficticias del Grupo Istmo. No son de Grupo AG.
 
+Cada empresa tiene quince clientes por mes, más una venta a otra empresa del grupo.
 Cada carpeta EMP0x trae el detalle por cliente y mes:
 - presupuesto_2026.xlsx: cliente, cuenta, importe y si el cliente está dentro del grupo.
 - ventas_2025.xlsx: a qué cliente se le vendió el año pasado, por mes.

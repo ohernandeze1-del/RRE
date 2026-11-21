@@ -1,37 +1,193 @@
 mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
-1,Ene,Puerto Acajutla,USD,210000,NO
-1,Ene,Almacén Pacífico,USD,140000,NO
+1,Ene,Puerto Acajutla,USD,21000,NO
+1,Ene,Almacén Pacífico,USD,28000,NO
+1,Ene,Naviera del Golfo,USD,21000,NO
+1,Ene,Bodega La Unión,USD,24500,NO
+1,Ene,Carga Sonsonate,USD,17500,NO
+1,Ene,Terminal Cutuco,USD,24500,NO
+1,Ene,Almacén Santa Ana,USD,14000,NO
+1,Ene,Fletes San Miguel,USD,21000,NO
+1,Ene,Contenedores La Libertad,USD,17500,NO
+1,Ene,Patio Santa Tecla,USD,17500,NO
+1,Ene,Exportadora Bálsamo,USD,21000,NO
+1,Ene,Frigorífico Acajutla,USD,28000,NO
+1,Ene,Textiles de Apopa,USD,38500,NO
+1,Ene,Café de Apaneca,USD,24500,NO
+1,Ene,Maquila Opico,USD,31500,NO
 1,Ene,Holding Servicios,USD,26600,SI
-2,Feb,Puerto Acajutla,USD,210000,NO
-2,Feb,Almacén Pacífico,USD,140000,NO
+2,Feb,Puerto Acajutla,USD,21000,NO
+2,Feb,Almacén Pacífico,USD,28000,NO
+2,Feb,Naviera del Golfo,USD,21000,NO
+2,Feb,Bodega La Unión,USD,24500,NO
+2,Feb,Carga Sonsonate,USD,17500,NO
+2,Feb,Terminal Cutuco,USD,24500,NO
+2,Feb,Almacén Santa Ana,USD,14000,NO
+2,Feb,Fletes San Miguel,USD,21000,NO
+2,Feb,Contenedores La Libertad,USD,17500,NO
+2,Feb,Patio Santa Tecla,USD,17500,NO
+2,Feb,Exportadora Bálsamo,USD,21000,NO
+2,Feb,Frigorífico Acajutla,USD,28000,NO
+2,Feb,Textiles de Apopa,USD,38500,NO
+2,Feb,Café de Apaneca,USD,24500,NO
+2,Feb,Maquila Opico,USD,31500,NO
 2,Feb,Holding Servicios,USD,26600,SI
-3,Mar,Puerto Acajutla,USD,240000,NO
-3,Mar,Almacén Pacífico,USD,160000,NO
+3,Mar,Puerto Acajutla,USD,24000,NO
+3,Mar,Almacén Pacífico,USD,32000,NO
+3,Mar,Naviera del Golfo,USD,24000,NO
+3,Mar,Bodega La Unión,USD,28000,NO
+3,Mar,Carga Sonsonate,USD,20000,NO
+3,Mar,Terminal Cutuco,USD,28000,NO
+3,Mar,Almacén Santa Ana,USD,16000,NO
+3,Mar,Fletes San Miguel,USD,24000,NO
+3,Mar,Contenedores La Libertad,USD,20000,NO
+3,Mar,Patio Santa Tecla,USD,20000,NO
+3,Mar,Exportadora Bálsamo,USD,24000,NO
+3,Mar,Frigorífico Acajutla,USD,32000,NO
+3,Mar,Textiles de Apopa,USD,44000,NO
+3,Mar,Café de Apaneca,USD,28000,NO
+3,Mar,Maquila Opico,USD,36000,NO
 3,Mar,Holding Servicios,USD,30400,SI
-4,Abr,Puerto Acajutla,USD,240000,NO
-4,Abr,Almacén Pacífico,USD,160000,NO
+4,Abr,Puerto Acajutla,USD,24000,NO
+4,Abr,Almacén Pacífico,USD,32000,NO
+4,Abr,Naviera del Golfo,USD,24000,NO
+4,Abr,Bodega La Unión,USD,28000,NO
+4,Abr,Carga Sonsonate,USD,20000,NO
+4,Abr,Terminal Cutuco,USD,28000,NO
+4,Abr,Almacén Santa Ana,USD,16000,NO
+4,Abr,Fletes San Miguel,USD,24000,NO
+4,Abr,Contenedores La Libertad,USD,20000,NO
+4,Abr,Patio Santa Tecla,USD,20000,NO
+4,Abr,Exportadora Bálsamo,USD,24000,NO
+4,Abr,Frigorífico Acajutla,USD,32000,NO
+4,Abr,Textiles de Apopa,USD,44000,NO
+4,Abr,Café de Apaneca,USD,28000,NO
+4,Abr,Maquila Opico,USD,36000,NO
 4,Abr,Holding Servicios,USD,30400,SI
-5,May,Puerto Acajutla,USD,240000,NO
-5,May,Almacén Pacífico,USD,160000,NO
+5,May,Puerto Acajutla,USD,24000,NO
+5,May,Almacén Pacífico,USD,32000,NO
+5,May,Naviera del Golfo,USD,24000,NO
+5,May,Bodega La Unión,USD,28000,NO
+5,May,Carga Sonsonate,USD,20000,NO
+5,May,Terminal Cutuco,USD,28000,NO
+5,May,Almacén Santa Ana,USD,16000,NO
+5,May,Fletes San Miguel,USD,24000,NO
+5,May,Contenedores La Libertad,USD,20000,NO
+5,May,Patio Santa Tecla,USD,20000,NO
+5,May,Exportadora Bálsamo,USD,24000,NO
+5,May,Frigorífico Acajutla,USD,32000,NO
+5,May,Textiles de Apopa,USD,44000,NO
+5,May,Café de Apaneca,USD,28000,NO
+5,May,Maquila Opico,USD,36000,NO
 5,May,Holding Servicios,USD,30400,SI
-6,Jun,Puerto Acajutla,USD,240000,NO
-6,Jun,Almacén Pacífico,USD,160000,NO
+6,Jun,Puerto Acajutla,USD,24000,NO
+6,Jun,Almacén Pacífico,USD,32000,NO
+6,Jun,Naviera del Golfo,USD,24000,NO
+6,Jun,Bodega La Unión,USD,28000,NO
+6,Jun,Carga Sonsonate,USD,20000,NO
+6,Jun,Terminal Cutuco,USD,28000,NO
+6,Jun,Almacén Santa Ana,USD,16000,NO
+6,Jun,Fletes San Miguel,USD,24000,NO
+6,Jun,Contenedores La Libertad,USD,20000,NO
+6,Jun,Patio Santa Tecla,USD,20000,NO
+6,Jun,Exportadora Bálsamo,USD,24000,NO
+6,Jun,Frigorífico Acajutla,USD,32000,NO
+6,Jun,Textiles de Apopa,USD,44000,NO
+6,Jun,Café de Apaneca,USD,28000,NO
+6,Jun,Maquila Opico,USD,36000,NO
 6,Jun,Holding Servicios,USD,30400,SI
-7,Jul,Puerto Acajutla,USD,240000,NO
-7,Jul,Almacén Pacífico,USD,160000,NO
+7,Jul,Puerto Acajutla,USD,24000,NO
+7,Jul,Almacén Pacífico,USD,32000,NO
+7,Jul,Naviera del Golfo,USD,24000,NO
+7,Jul,Bodega La Unión,USD,28000,NO
+7,Jul,Carga Sonsonate,USD,20000,NO
+7,Jul,Terminal Cutuco,USD,28000,NO
+7,Jul,Almacén Santa Ana,USD,16000,NO
+7,Jul,Fletes San Miguel,USD,24000,NO
+7,Jul,Contenedores La Libertad,USD,20000,NO
+7,Jul,Patio Santa Tecla,USD,20000,NO
+7,Jul,Exportadora Bálsamo,USD,24000,NO
+7,Jul,Frigorífico Acajutla,USD,32000,NO
+7,Jul,Textiles de Apopa,USD,44000,NO
+7,Jul,Café de Apaneca,USD,28000,NO
+7,Jul,Maquila Opico,USD,36000,NO
 7,Jul,Holding Servicios,USD,30400,SI
-8,Ago,Puerto Acajutla,USD,270000,NO
-8,Ago,Almacén Pacífico,USD,180000,NO
+8,Ago,Puerto Acajutla,USD,27000,NO
+8,Ago,Almacén Pacífico,USD,36000,NO
+8,Ago,Naviera del Golfo,USD,27000,NO
+8,Ago,Bodega La Unión,USD,31500,NO
+8,Ago,Carga Sonsonate,USD,22500,NO
+8,Ago,Terminal Cutuco,USD,31500,NO
+8,Ago,Almacén Santa Ana,USD,18000,NO
+8,Ago,Fletes San Miguel,USD,27000,NO
+8,Ago,Contenedores La Libertad,USD,22500,NO
+8,Ago,Patio Santa Tecla,USD,22500,NO
+8,Ago,Exportadora Bálsamo,USD,27000,NO
+8,Ago,Frigorífico Acajutla,USD,36000,NO
+8,Ago,Textiles de Apopa,USD,49500,NO
+8,Ago,Café de Apaneca,USD,31500,NO
+8,Ago,Maquila Opico,USD,40500,NO
 8,Ago,Holding Servicios,USD,34200,SI
-9,Sep,Puerto Acajutla,USD,270000,NO
-9,Sep,Almacén Pacífico,USD,180000,NO
+9,Sep,Puerto Acajutla,USD,27000,NO
+9,Sep,Almacén Pacífico,USD,36000,NO
+9,Sep,Naviera del Golfo,USD,27000,NO
+9,Sep,Bodega La Unión,USD,31500,NO
+9,Sep,Carga Sonsonate,USD,22500,NO
+9,Sep,Terminal Cutuco,USD,31500,NO
+9,Sep,Almacén Santa Ana,USD,18000,NO
+9,Sep,Fletes San Miguel,USD,27000,NO
+9,Sep,Contenedores La Libertad,USD,22500,NO
+9,Sep,Patio Santa Tecla,USD,22500,NO
+9,Sep,Exportadora Bálsamo,USD,27000,NO
+9,Sep,Frigorífico Acajutla,USD,36000,NO
+9,Sep,Textiles de Apopa,USD,49500,NO
+9,Sep,Café de Apaneca,USD,31500,NO
+9,Sep,Maquila Opico,USD,40500,NO
 9,Sep,Holding Servicios,USD,34200,SI
-10,Oct,Puerto Acajutla,USD,270000,NO
-10,Oct,Almacén Pacífico,USD,180000,NO
+10,Oct,Puerto Acajutla,USD,27000,NO
+10,Oct,Almacén Pacífico,USD,36000,NO
+10,Oct,Naviera del Golfo,USD,27000,NO
+10,Oct,Bodega La Unión,USD,31500,NO
+10,Oct,Carga Sonsonate,USD,22500,NO
+10,Oct,Terminal Cutuco,USD,31500,NO
+10,Oct,Almacén Santa Ana,USD,18000,NO
+10,Oct,Fletes San Miguel,USD,27000,NO
+10,Oct,Contenedores La Libertad,USD,22500,NO
+10,Oct,Patio Santa Tecla,USD,22500,NO
+10,Oct,Exportadora Bálsamo,USD,27000,NO
+10,Oct,Frigorífico Acajutla,USD,36000,NO
+10,Oct,Textiles de Apopa,USD,49500,NO
+10,Oct,Café de Apaneca,USD,31500,NO
+10,Oct,Maquila Opico,USD,40500,NO
 10,Oct,Holding Servicios,USD,34200,SI
-11,Nov,Puerto Acajutla,USD,270000,NO
-11,Nov,Almacén Pacífico,USD,180000,NO
+11,Nov,Puerto Acajutla,USD,27000,NO
+11,Nov,Almacén Pacífico,USD,36000,NO
+11,Nov,Naviera del Golfo,USD,27000,NO
+11,Nov,Bodega La Unión,USD,31500,NO
+11,Nov,Carga Sonsonate,USD,22500,NO
+11,Nov,Terminal Cutuco,USD,31500,NO
+11,Nov,Almacén Santa Ana,USD,18000,NO
+11,Nov,Fletes San Miguel,USD,27000,NO
+11,Nov,Contenedores La Libertad,USD,22500,NO
+11,Nov,Patio Santa Tecla,USD,22500,NO
+11,Nov,Exportadora Bálsamo,USD,27000,NO
+11,Nov,Frigorífico Acajutla,USD,36000,NO
+11,Nov,Textiles de Apopa,USD,49500,NO
+11,Nov,Café de Apaneca,USD,31500,NO
+11,Nov,Maquila Opico,USD,40500,NO
 11,Nov,Holding Servicios,USD,34200,SI
-12,Dic,Puerto Acajutla,USD,300000,NO
-12,Dic,Almacén Pacífico,USD,200000,NO
+12,Dic,Puerto Acajutla,USD,30000,NO
+12,Dic,Almacén Pacífico,USD,40000,NO
+12,Dic,Naviera del Golfo,USD,30000,NO
+12,Dic,Bodega La Unión,USD,35000,NO
+12,Dic,Carga Sonsonate,USD,25000,NO
+12,Dic,Terminal Cutuco,USD,35000,NO
+12,Dic,Almacén Santa Ana,USD,20000,NO
+12,Dic,Fletes San Miguel,USD,30000,NO
+12,Dic,Contenedores La Libertad,USD,25000,NO
+12,Dic,Patio Santa Tecla,USD,25000,NO
+12,Dic,Exportadora Bálsamo,USD,30000,NO
+12,Dic,Frigorífico Acajutla,USD,40000,NO
+12,Dic,Textiles de Apopa,USD,55000,NO
+12,Dic,Café de Apaneca,USD,35000,NO
+12,Dic,Maquila Opico,USD,45000,NO
 12,Dic,Holding Servicios,USD,38000,SI

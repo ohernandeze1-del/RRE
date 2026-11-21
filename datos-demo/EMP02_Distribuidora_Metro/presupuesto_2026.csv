@@ -1,109 +1,577 @@
 mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
-1,Ene,Ferretería El Prado,Ventas a terceros,GTQ,2016000,NO,Abre más puntos de venta.
-1,Ene,Ferretería El Prado,Costo de ventas,GTQ,1209600,NO,Abre más puntos de venta.
-1,Ene,Ferretería El Prado,Gastos,GTQ,302400,NO,Abre más puntos de venta.
-1,Ene,Depósito Central,Ventas a terceros,GTQ,1344000,NO,Este depósito compra menos.
-1,Ene,Depósito Central,Costo de ventas,GTQ,806400,NO,Este depósito compra menos.
-1,Ene,Depósito Central,Gastos,GTQ,201600,NO,Este depósito compra menos.
+1,Ene,Ferretería El Prado,Ventas a terceros,GTQ,336000,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería El Prado,Costo de ventas,GTQ,201600,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería El Prado,Gastos,GTQ,50400,NO,Gana participación contra el año pasado.
+1,Ene,Depósito Central,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Depósito Central,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Depósito Central,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Tienda Villa Nueva,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+1,Ene,Tienda Villa Nueva,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+1,Ene,Tienda Villa Nueva,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+1,Ene,Mayorista Mixco,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Mayorista Mixco,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Mayorista Mixco,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Abarrotes Petapa,Ventas a terceros,GTQ,235200,NO,Gana participación contra el año pasado.
+1,Ene,Abarrotes Petapa,Costo de ventas,GTQ,141120,NO,Gana participación contra el año pasado.
+1,Ene,Abarrotes Petapa,Gastos,GTQ,35280,NO,Gana participación contra el año pasado.
+1,Ene,Cadena Los Pinos,Ventas a terceros,GTQ,235200,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Cadena Los Pinos,Costo de ventas,GTQ,141120,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Cadena Los Pinos,Gastos,GTQ,35280,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Depósito San Juan,Ventas a terceros,GTQ,235200,NO,Gana participación contra el año pasado.
+1,Ene,Depósito San Juan,Costo de ventas,GTQ,141120,NO,Gana participación contra el año pasado.
+1,Ene,Depósito San Juan,Gastos,GTQ,35280,NO,Gana participación contra el año pasado.
+1,Ene,Mini Súper El Edén,Ventas a terceros,GTQ,201600,NO,Pierde participación contra el año pasado.
+1,Ene,Mini Súper El Edén,Costo de ventas,GTQ,120960,NO,Pierde participación contra el año pasado.
+1,Ene,Mini Súper El Edén,Gastos,GTQ,30240,NO,Pierde participación contra el año pasado.
+1,Ene,Distribuidora Las Vacas,Ventas a terceros,GTQ,201600,NO,Gana participación contra el año pasado.
+1,Ene,Distribuidora Las Vacas,Costo de ventas,GTQ,120960,NO,Gana participación contra el año pasado.
+1,Ene,Distribuidora Las Vacas,Gastos,GTQ,30240,NO,Gana participación contra el año pasado.
+1,Ene,Puesto de Mercado,Ventas a terceros,GTQ,201600,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Puesto de Mercado,Costo de ventas,GTQ,120960,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Puesto de Mercado,Gastos,GTQ,30240,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Bodega Palín,Ventas a terceros,GTQ,168000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Bodega Palín,Costo de ventas,GTQ,100800,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Bodega Palín,Gastos,GTQ,25200,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Autoservicio Cipreses,Ventas a terceros,GTQ,168000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Autoservicio Cipreses,Costo de ventas,GTQ,100800,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Autoservicio Cipreses,Gastos,GTQ,25200,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Tienda Santa Catarina,Ventas a terceros,GTQ,168000,NO,Pierde participación contra el año pasado.
+1,Ene,Tienda Santa Catarina,Costo de ventas,GTQ,100800,NO,Pierde participación contra el año pasado.
+1,Ene,Tienda Santa Catarina,Gastos,GTQ,25200,NO,Pierde participación contra el año pasado.
+1,Ene,Mayorista Amatitlán,Ventas a terceros,GTQ,201600,NO,Pierde participación contra el año pasado.
+1,Ene,Mayorista Amatitlán,Costo de ventas,GTQ,120960,NO,Pierde participación contra el año pasado.
+1,Ene,Mayorista Amatitlán,Gastos,GTQ,30240,NO,Pierde participación contra el año pasado.
+1,Ene,Kiosco Roosevelt,Ventas a terceros,GTQ,168000,NO,Pierde participación contra el año pasado.
+1,Ene,Kiosco Roosevelt,Costo de ventas,GTQ,100800,NO,Pierde participación contra el año pasado.
+1,Ene,Kiosco Roosevelt,Gastos,GTQ,25200,NO,Pierde participación contra el año pasado.
 1,Ene,Aceros del Sur,Ventas a terceros,GTQ,252000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Aceros del Sur,Costo de ventas,GTQ,151200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Aceros del Sur,Gastos,GTQ,37800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-2,Feb,Ferretería El Prado,Ventas a terceros,GTQ,2016000,NO,Abre más puntos de venta.
-2,Feb,Ferretería El Prado,Costo de ventas,GTQ,1209600,NO,Abre más puntos de venta.
-2,Feb,Ferretería El Prado,Gastos,GTQ,302400,NO,Abre más puntos de venta.
-2,Feb,Depósito Central,Ventas a terceros,GTQ,1344000,NO,Este depósito compra menos.
-2,Feb,Depósito Central,Costo de ventas,GTQ,806400,NO,Este depósito compra menos.
-2,Feb,Depósito Central,Gastos,GTQ,201600,NO,Este depósito compra menos.
+2,Feb,Ferretería El Prado,Ventas a terceros,GTQ,336000,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería El Prado,Costo de ventas,GTQ,201600,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería El Prado,Gastos,GTQ,50400,NO,Gana participación contra el año pasado.
+2,Feb,Depósito Central,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Depósito Central,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Depósito Central,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Tienda Villa Nueva,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+2,Feb,Tienda Villa Nueva,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+2,Feb,Tienda Villa Nueva,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+2,Feb,Mayorista Mixco,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Mayorista Mixco,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Mayorista Mixco,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Abarrotes Petapa,Ventas a terceros,GTQ,235200,NO,Gana participación contra el año pasado.
+2,Feb,Abarrotes Petapa,Costo de ventas,GTQ,141120,NO,Gana participación contra el año pasado.
+2,Feb,Abarrotes Petapa,Gastos,GTQ,35280,NO,Gana participación contra el año pasado.
+2,Feb,Cadena Los Pinos,Ventas a terceros,GTQ,235200,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Cadena Los Pinos,Costo de ventas,GTQ,141120,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Cadena Los Pinos,Gastos,GTQ,35280,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Depósito San Juan,Ventas a terceros,GTQ,235200,NO,Gana participación contra el año pasado.
+2,Feb,Depósito San Juan,Costo de ventas,GTQ,141120,NO,Gana participación contra el año pasado.
+2,Feb,Depósito San Juan,Gastos,GTQ,35280,NO,Gana participación contra el año pasado.
+2,Feb,Mini Súper El Edén,Ventas a terceros,GTQ,201600,NO,Pierde participación contra el año pasado.
+2,Feb,Mini Súper El Edén,Costo de ventas,GTQ,120960,NO,Pierde participación contra el año pasado.
+2,Feb,Mini Súper El Edén,Gastos,GTQ,30240,NO,Pierde participación contra el año pasado.
+2,Feb,Distribuidora Las Vacas,Ventas a terceros,GTQ,201600,NO,Gana participación contra el año pasado.
+2,Feb,Distribuidora Las Vacas,Costo de ventas,GTQ,120960,NO,Gana participación contra el año pasado.
+2,Feb,Distribuidora Las Vacas,Gastos,GTQ,30240,NO,Gana participación contra el año pasado.
+2,Feb,Puesto de Mercado,Ventas a terceros,GTQ,201600,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Puesto de Mercado,Costo de ventas,GTQ,120960,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Puesto de Mercado,Gastos,GTQ,30240,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Bodega Palín,Ventas a terceros,GTQ,168000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Bodega Palín,Costo de ventas,GTQ,100800,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Bodega Palín,Gastos,GTQ,25200,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Autoservicio Cipreses,Ventas a terceros,GTQ,168000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Autoservicio Cipreses,Costo de ventas,GTQ,100800,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Autoservicio Cipreses,Gastos,GTQ,25200,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Tienda Santa Catarina,Ventas a terceros,GTQ,168000,NO,Pierde participación contra el año pasado.
+2,Feb,Tienda Santa Catarina,Costo de ventas,GTQ,100800,NO,Pierde participación contra el año pasado.
+2,Feb,Tienda Santa Catarina,Gastos,GTQ,25200,NO,Pierde participación contra el año pasado.
+2,Feb,Mayorista Amatitlán,Ventas a terceros,GTQ,201600,NO,Pierde participación contra el año pasado.
+2,Feb,Mayorista Amatitlán,Costo de ventas,GTQ,120960,NO,Pierde participación contra el año pasado.
+2,Feb,Mayorista Amatitlán,Gastos,GTQ,30240,NO,Pierde participación contra el año pasado.
+2,Feb,Kiosco Roosevelt,Ventas a terceros,GTQ,168000,NO,Pierde participación contra el año pasado.
+2,Feb,Kiosco Roosevelt,Costo de ventas,GTQ,100800,NO,Pierde participación contra el año pasado.
+2,Feb,Kiosco Roosevelt,Gastos,GTQ,25200,NO,Pierde participación contra el año pasado.
 2,Feb,Aceros del Sur,Ventas a terceros,GTQ,252000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Aceros del Sur,Costo de ventas,GTQ,151200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Aceros del Sur,Gastos,GTQ,37800,SI,Venta a otra empresa del grupo. Esta línea no entra.
-3,Mar,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
-3,Mar,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
-3,Mar,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
-3,Mar,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
-3,Mar,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
-3,Mar,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+3,Mar,Ferretería El Prado,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería El Prado,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería El Prado,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+3,Mar,Depósito Central,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Depósito Central,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Depósito Central,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Tienda Villa Nueva,Ventas a terceros,GTQ,307200,NO,Gana participación contra el año pasado.
+3,Mar,Tienda Villa Nueva,Costo de ventas,GTQ,184320,NO,Gana participación contra el año pasado.
+3,Mar,Tienda Villa Nueva,Gastos,GTQ,46080,NO,Gana participación contra el año pasado.
+3,Mar,Mayorista Mixco,Ventas a terceros,GTQ,307200,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Mayorista Mixco,Costo de ventas,GTQ,184320,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Mayorista Mixco,Gastos,GTQ,46080,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Abarrotes Petapa,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+3,Mar,Abarrotes Petapa,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+3,Mar,Abarrotes Petapa,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+3,Mar,Cadena Los Pinos,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Cadena Los Pinos,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Cadena Los Pinos,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Depósito San Juan,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+3,Mar,Depósito San Juan,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+3,Mar,Depósito San Juan,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+3,Mar,Mini Súper El Edén,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+3,Mar,Mini Súper El Edén,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+3,Mar,Mini Súper El Edén,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+3,Mar,Distribuidora Las Vacas,Ventas a terceros,GTQ,230400,NO,Gana participación contra el año pasado.
+3,Mar,Distribuidora Las Vacas,Costo de ventas,GTQ,138240,NO,Gana participación contra el año pasado.
+3,Mar,Distribuidora Las Vacas,Gastos,GTQ,34560,NO,Gana participación contra el año pasado.
+3,Mar,Puesto de Mercado,Ventas a terceros,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Puesto de Mercado,Costo de ventas,GTQ,138240,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Puesto de Mercado,Gastos,GTQ,34560,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Bodega Palín,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Bodega Palín,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Bodega Palín,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Autoservicio Cipreses,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Autoservicio Cipreses,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Autoservicio Cipreses,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Tienda Santa Catarina,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+3,Mar,Tienda Santa Catarina,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+3,Mar,Tienda Santa Catarina,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
+3,Mar,Mayorista Amatitlán,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+3,Mar,Mayorista Amatitlán,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+3,Mar,Mayorista Amatitlán,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+3,Mar,Kiosco Roosevelt,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+3,Mar,Kiosco Roosevelt,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+3,Mar,Kiosco Roosevelt,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
 3,Mar,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-4,Abr,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
-4,Abr,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
-4,Abr,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
-4,Abr,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
-4,Abr,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
-4,Abr,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+4,Abr,Ferretería El Prado,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería El Prado,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería El Prado,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+4,Abr,Depósito Central,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Depósito Central,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Depósito Central,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Tienda Villa Nueva,Ventas a terceros,GTQ,307200,NO,Gana participación contra el año pasado.
+4,Abr,Tienda Villa Nueva,Costo de ventas,GTQ,184320,NO,Gana participación contra el año pasado.
+4,Abr,Tienda Villa Nueva,Gastos,GTQ,46080,NO,Gana participación contra el año pasado.
+4,Abr,Mayorista Mixco,Ventas a terceros,GTQ,307200,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Mayorista Mixco,Costo de ventas,GTQ,184320,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Mayorista Mixco,Gastos,GTQ,46080,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Abarrotes Petapa,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+4,Abr,Abarrotes Petapa,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+4,Abr,Abarrotes Petapa,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+4,Abr,Cadena Los Pinos,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Cadena Los Pinos,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Cadena Los Pinos,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Depósito San Juan,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+4,Abr,Depósito San Juan,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+4,Abr,Depósito San Juan,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+4,Abr,Mini Súper El Edén,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+4,Abr,Mini Súper El Edén,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+4,Abr,Mini Súper El Edén,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+4,Abr,Distribuidora Las Vacas,Ventas a terceros,GTQ,230400,NO,Gana participación contra el año pasado.
+4,Abr,Distribuidora Las Vacas,Costo de ventas,GTQ,138240,NO,Gana participación contra el año pasado.
+4,Abr,Distribuidora Las Vacas,Gastos,GTQ,34560,NO,Gana participación contra el año pasado.
+4,Abr,Puesto de Mercado,Ventas a terceros,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Puesto de Mercado,Costo de ventas,GTQ,138240,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Puesto de Mercado,Gastos,GTQ,34560,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Bodega Palín,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Bodega Palín,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Bodega Palín,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Autoservicio Cipreses,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Autoservicio Cipreses,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Autoservicio Cipreses,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Tienda Santa Catarina,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+4,Abr,Tienda Santa Catarina,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+4,Abr,Tienda Santa Catarina,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
+4,Abr,Mayorista Amatitlán,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+4,Abr,Mayorista Amatitlán,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+4,Abr,Mayorista Amatitlán,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+4,Abr,Kiosco Roosevelt,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+4,Abr,Kiosco Roosevelt,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+4,Abr,Kiosco Roosevelt,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
 4,Abr,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-5,May,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
-5,May,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
-5,May,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
-5,May,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
-5,May,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
-5,May,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+5,May,Ferretería El Prado,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+5,May,Ferretería El Prado,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+5,May,Ferretería El Prado,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+5,May,Depósito Central,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+5,May,Depósito Central,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+5,May,Depósito Central,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+5,May,Tienda Villa Nueva,Ventas a terceros,GTQ,307200,NO,Gana participación contra el año pasado.
+5,May,Tienda Villa Nueva,Costo de ventas,GTQ,184320,NO,Gana participación contra el año pasado.
+5,May,Tienda Villa Nueva,Gastos,GTQ,46080,NO,Gana participación contra el año pasado.
+5,May,Mayorista Mixco,Ventas a terceros,GTQ,307200,NO,Mantiene el mismo peso que el año pasado.
+5,May,Mayorista Mixco,Costo de ventas,GTQ,184320,NO,Mantiene el mismo peso que el año pasado.
+5,May,Mayorista Mixco,Gastos,GTQ,46080,NO,Mantiene el mismo peso que el año pasado.
+5,May,Abarrotes Petapa,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+5,May,Abarrotes Petapa,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+5,May,Abarrotes Petapa,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+5,May,Cadena Los Pinos,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+5,May,Cadena Los Pinos,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+5,May,Cadena Los Pinos,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+5,May,Depósito San Juan,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+5,May,Depósito San Juan,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+5,May,Depósito San Juan,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+5,May,Mini Súper El Edén,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+5,May,Mini Súper El Edén,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+5,May,Mini Súper El Edén,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+5,May,Distribuidora Las Vacas,Ventas a terceros,GTQ,230400,NO,Gana participación contra el año pasado.
+5,May,Distribuidora Las Vacas,Costo de ventas,GTQ,138240,NO,Gana participación contra el año pasado.
+5,May,Distribuidora Las Vacas,Gastos,GTQ,34560,NO,Gana participación contra el año pasado.
+5,May,Puesto de Mercado,Ventas a terceros,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+5,May,Puesto de Mercado,Costo de ventas,GTQ,138240,NO,Mantiene el mismo peso que el año pasado.
+5,May,Puesto de Mercado,Gastos,GTQ,34560,NO,Mantiene el mismo peso que el año pasado.
+5,May,Bodega Palín,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Bodega Palín,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+5,May,Bodega Palín,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+5,May,Autoservicio Cipreses,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Autoservicio Cipreses,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+5,May,Autoservicio Cipreses,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+5,May,Tienda Santa Catarina,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+5,May,Tienda Santa Catarina,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+5,May,Tienda Santa Catarina,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
+5,May,Mayorista Amatitlán,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+5,May,Mayorista Amatitlán,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+5,May,Mayorista Amatitlán,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+5,May,Kiosco Roosevelt,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+5,May,Kiosco Roosevelt,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+5,May,Kiosco Roosevelt,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
 5,May,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-6,Jun,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
-6,Jun,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
-6,Jun,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
-6,Jun,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
-6,Jun,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
-6,Jun,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+6,Jun,Ferretería El Prado,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería El Prado,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería El Prado,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+6,Jun,Depósito Central,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Depósito Central,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Depósito Central,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Tienda Villa Nueva,Ventas a terceros,GTQ,307200,NO,Gana participación contra el año pasado.
+6,Jun,Tienda Villa Nueva,Costo de ventas,GTQ,184320,NO,Gana participación contra el año pasado.
+6,Jun,Tienda Villa Nueva,Gastos,GTQ,46080,NO,Gana participación contra el año pasado.
+6,Jun,Mayorista Mixco,Ventas a terceros,GTQ,307200,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Mayorista Mixco,Costo de ventas,GTQ,184320,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Mayorista Mixco,Gastos,GTQ,46080,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Abarrotes Petapa,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+6,Jun,Abarrotes Petapa,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+6,Jun,Abarrotes Petapa,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+6,Jun,Cadena Los Pinos,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Cadena Los Pinos,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Cadena Los Pinos,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Depósito San Juan,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+6,Jun,Depósito San Juan,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+6,Jun,Depósito San Juan,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+6,Jun,Mini Súper El Edén,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+6,Jun,Mini Súper El Edén,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+6,Jun,Mini Súper El Edén,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+6,Jun,Distribuidora Las Vacas,Ventas a terceros,GTQ,230400,NO,Gana participación contra el año pasado.
+6,Jun,Distribuidora Las Vacas,Costo de ventas,GTQ,138240,NO,Gana participación contra el año pasado.
+6,Jun,Distribuidora Las Vacas,Gastos,GTQ,34560,NO,Gana participación contra el año pasado.
+6,Jun,Puesto de Mercado,Ventas a terceros,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Puesto de Mercado,Costo de ventas,GTQ,138240,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Puesto de Mercado,Gastos,GTQ,34560,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Bodega Palín,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Bodega Palín,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Bodega Palín,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Autoservicio Cipreses,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Autoservicio Cipreses,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Autoservicio Cipreses,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Tienda Santa Catarina,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+6,Jun,Tienda Santa Catarina,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+6,Jun,Tienda Santa Catarina,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
+6,Jun,Mayorista Amatitlán,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+6,Jun,Mayorista Amatitlán,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+6,Jun,Mayorista Amatitlán,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+6,Jun,Kiosco Roosevelt,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+6,Jun,Kiosco Roosevelt,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+6,Jun,Kiosco Roosevelt,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
 6,Jun,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-7,Jul,Ferretería El Prado,Ventas a terceros,GTQ,2304000,NO,Abre más puntos de venta.
-7,Jul,Ferretería El Prado,Costo de ventas,GTQ,1382400,NO,Abre más puntos de venta.
-7,Jul,Ferretería El Prado,Gastos,GTQ,345600,NO,Abre más puntos de venta.
-7,Jul,Depósito Central,Ventas a terceros,GTQ,1536000,NO,Este depósito compra menos.
-7,Jul,Depósito Central,Costo de ventas,GTQ,921600,NO,Este depósito compra menos.
-7,Jul,Depósito Central,Gastos,GTQ,230400,NO,Este depósito compra menos.
+7,Jul,Ferretería El Prado,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería El Prado,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería El Prado,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+7,Jul,Depósito Central,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Depósito Central,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Depósito Central,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Tienda Villa Nueva,Ventas a terceros,GTQ,307200,NO,Gana participación contra el año pasado.
+7,Jul,Tienda Villa Nueva,Costo de ventas,GTQ,184320,NO,Gana participación contra el año pasado.
+7,Jul,Tienda Villa Nueva,Gastos,GTQ,46080,NO,Gana participación contra el año pasado.
+7,Jul,Mayorista Mixco,Ventas a terceros,GTQ,307200,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Mayorista Mixco,Costo de ventas,GTQ,184320,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Mayorista Mixco,Gastos,GTQ,46080,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Abarrotes Petapa,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+7,Jul,Abarrotes Petapa,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+7,Jul,Abarrotes Petapa,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+7,Jul,Cadena Los Pinos,Ventas a terceros,GTQ,268800,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Cadena Los Pinos,Costo de ventas,GTQ,161280,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Cadena Los Pinos,Gastos,GTQ,40320,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Depósito San Juan,Ventas a terceros,GTQ,268800,NO,Gana participación contra el año pasado.
+7,Jul,Depósito San Juan,Costo de ventas,GTQ,161280,NO,Gana participación contra el año pasado.
+7,Jul,Depósito San Juan,Gastos,GTQ,40320,NO,Gana participación contra el año pasado.
+7,Jul,Mini Súper El Edén,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+7,Jul,Mini Súper El Edén,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+7,Jul,Mini Súper El Edén,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+7,Jul,Distribuidora Las Vacas,Ventas a terceros,GTQ,230400,NO,Gana participación contra el año pasado.
+7,Jul,Distribuidora Las Vacas,Costo de ventas,GTQ,138240,NO,Gana participación contra el año pasado.
+7,Jul,Distribuidora Las Vacas,Gastos,GTQ,34560,NO,Gana participación contra el año pasado.
+7,Jul,Puesto de Mercado,Ventas a terceros,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Puesto de Mercado,Costo de ventas,GTQ,138240,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Puesto de Mercado,Gastos,GTQ,34560,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Bodega Palín,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Bodega Palín,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Bodega Palín,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Autoservicio Cipreses,Ventas a terceros,GTQ,192000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Autoservicio Cipreses,Costo de ventas,GTQ,115200,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Autoservicio Cipreses,Gastos,GTQ,28800,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Tienda Santa Catarina,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+7,Jul,Tienda Santa Catarina,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+7,Jul,Tienda Santa Catarina,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
+7,Jul,Mayorista Amatitlán,Ventas a terceros,GTQ,230400,NO,Pierde participación contra el año pasado.
+7,Jul,Mayorista Amatitlán,Costo de ventas,GTQ,138240,NO,Pierde participación contra el año pasado.
+7,Jul,Mayorista Amatitlán,Gastos,GTQ,34560,NO,Pierde participación contra el año pasado.
+7,Jul,Kiosco Roosevelt,Ventas a terceros,GTQ,192000,NO,Pierde participación contra el año pasado.
+7,Jul,Kiosco Roosevelt,Costo de ventas,GTQ,115200,NO,Pierde participación contra el año pasado.
+7,Jul,Kiosco Roosevelt,Gastos,GTQ,28800,NO,Pierde participación contra el año pasado.
 7,Jul,Aceros del Sur,Ventas a terceros,GTQ,288000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Aceros del Sur,Costo de ventas,GTQ,172800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Aceros del Sur,Gastos,GTQ,43200,SI,Venta a otra empresa del grupo. Esta línea no entra.
-8,Ago,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
-8,Ago,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
-8,Ago,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
-8,Ago,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
-8,Ago,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
-8,Ago,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+8,Ago,Ferretería El Prado,Ventas a terceros,GTQ,432000,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería El Prado,Costo de ventas,GTQ,259200,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería El Prado,Gastos,GTQ,64800,NO,Gana participación contra el año pasado.
+8,Ago,Depósito Central,Ventas a terceros,GTQ,388800,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Depósito Central,Costo de ventas,GTQ,233280,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Depósito Central,Gastos,GTQ,58320,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Tienda Villa Nueva,Ventas a terceros,GTQ,345600,NO,Gana participación contra el año pasado.
+8,Ago,Tienda Villa Nueva,Costo de ventas,GTQ,207360,NO,Gana participación contra el año pasado.
+8,Ago,Tienda Villa Nueva,Gastos,GTQ,51840,NO,Gana participación contra el año pasado.
+8,Ago,Mayorista Mixco,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Mayorista Mixco,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Mayorista Mixco,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Abarrotes Petapa,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+8,Ago,Abarrotes Petapa,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+8,Ago,Abarrotes Petapa,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+8,Ago,Cadena Los Pinos,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Cadena Los Pinos,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Cadena Los Pinos,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Depósito San Juan,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+8,Ago,Depósito San Juan,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+8,Ago,Depósito San Juan,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+8,Ago,Mini Súper El Edén,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+8,Ago,Mini Súper El Edén,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+8,Ago,Mini Súper El Edén,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+8,Ago,Distribuidora Las Vacas,Ventas a terceros,GTQ,259200,NO,Gana participación contra el año pasado.
+8,Ago,Distribuidora Las Vacas,Costo de ventas,GTQ,155520,NO,Gana participación contra el año pasado.
+8,Ago,Distribuidora Las Vacas,Gastos,GTQ,38880,NO,Gana participación contra el año pasado.
+8,Ago,Puesto de Mercado,Ventas a terceros,GTQ,259200,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Puesto de Mercado,Costo de ventas,GTQ,155520,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Puesto de Mercado,Gastos,GTQ,38880,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Bodega Palín,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Bodega Palín,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Bodega Palín,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Autoservicio Cipreses,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Autoservicio Cipreses,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Autoservicio Cipreses,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Tienda Santa Catarina,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+8,Ago,Tienda Santa Catarina,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+8,Ago,Tienda Santa Catarina,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
+8,Ago,Mayorista Amatitlán,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+8,Ago,Mayorista Amatitlán,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+8,Ago,Mayorista Amatitlán,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+8,Ago,Kiosco Roosevelt,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+8,Ago,Kiosco Roosevelt,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+8,Ago,Kiosco Roosevelt,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
 8,Ago,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
-9,Sep,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
-9,Sep,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
-9,Sep,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
-9,Sep,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
-9,Sep,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
-9,Sep,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+9,Sep,Ferretería El Prado,Ventas a terceros,GTQ,432000,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería El Prado,Costo de ventas,GTQ,259200,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería El Prado,Gastos,GTQ,64800,NO,Gana participación contra el año pasado.
+9,Sep,Depósito Central,Ventas a terceros,GTQ,388800,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Depósito Central,Costo de ventas,GTQ,233280,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Depósito Central,Gastos,GTQ,58320,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Tienda Villa Nueva,Ventas a terceros,GTQ,345600,NO,Gana participación contra el año pasado.
+9,Sep,Tienda Villa Nueva,Costo de ventas,GTQ,207360,NO,Gana participación contra el año pasado.
+9,Sep,Tienda Villa Nueva,Gastos,GTQ,51840,NO,Gana participación contra el año pasado.
+9,Sep,Mayorista Mixco,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Mayorista Mixco,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Mayorista Mixco,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Abarrotes Petapa,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+9,Sep,Abarrotes Petapa,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+9,Sep,Abarrotes Petapa,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+9,Sep,Cadena Los Pinos,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Cadena Los Pinos,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Cadena Los Pinos,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Depósito San Juan,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+9,Sep,Depósito San Juan,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+9,Sep,Depósito San Juan,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+9,Sep,Mini Súper El Edén,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+9,Sep,Mini Súper El Edén,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+9,Sep,Mini Súper El Edén,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+9,Sep,Distribuidora Las Vacas,Ventas a terceros,GTQ,259200,NO,Gana participación contra el año pasado.
+9,Sep,Distribuidora Las Vacas,Costo de ventas,GTQ,155520,NO,Gana participación contra el año pasado.
+9,Sep,Distribuidora Las Vacas,Gastos,GTQ,38880,NO,Gana participación contra el año pasado.
+9,Sep,Puesto de Mercado,Ventas a terceros,GTQ,259200,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Puesto de Mercado,Costo de ventas,GTQ,155520,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Puesto de Mercado,Gastos,GTQ,38880,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Bodega Palín,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Bodega Palín,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Bodega Palín,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Autoservicio Cipreses,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Autoservicio Cipreses,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Autoservicio Cipreses,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Tienda Santa Catarina,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+9,Sep,Tienda Santa Catarina,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+9,Sep,Tienda Santa Catarina,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
+9,Sep,Mayorista Amatitlán,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+9,Sep,Mayorista Amatitlán,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+9,Sep,Mayorista Amatitlán,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+9,Sep,Kiosco Roosevelt,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+9,Sep,Kiosco Roosevelt,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+9,Sep,Kiosco Roosevelt,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
 9,Sep,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
-10,Oct,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
-10,Oct,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
-10,Oct,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
-10,Oct,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
-10,Oct,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
-10,Oct,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+10,Oct,Ferretería El Prado,Ventas a terceros,GTQ,432000,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería El Prado,Costo de ventas,GTQ,259200,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería El Prado,Gastos,GTQ,64800,NO,Gana participación contra el año pasado.
+10,Oct,Depósito Central,Ventas a terceros,GTQ,388800,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Depósito Central,Costo de ventas,GTQ,233280,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Depósito Central,Gastos,GTQ,58320,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Tienda Villa Nueva,Ventas a terceros,GTQ,345600,NO,Gana participación contra el año pasado.
+10,Oct,Tienda Villa Nueva,Costo de ventas,GTQ,207360,NO,Gana participación contra el año pasado.
+10,Oct,Tienda Villa Nueva,Gastos,GTQ,51840,NO,Gana participación contra el año pasado.
+10,Oct,Mayorista Mixco,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Mayorista Mixco,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Mayorista Mixco,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Abarrotes Petapa,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+10,Oct,Abarrotes Petapa,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+10,Oct,Abarrotes Petapa,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+10,Oct,Cadena Los Pinos,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Cadena Los Pinos,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Cadena Los Pinos,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Depósito San Juan,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+10,Oct,Depósito San Juan,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+10,Oct,Depósito San Juan,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+10,Oct,Mini Súper El Edén,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+10,Oct,Mini Súper El Edén,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+10,Oct,Mini Súper El Edén,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+10,Oct,Distribuidora Las Vacas,Ventas a terceros,GTQ,259200,NO,Gana participación contra el año pasado.
+10,Oct,Distribuidora Las Vacas,Costo de ventas,GTQ,155520,NO,Gana participación contra el año pasado.
+10,Oct,Distribuidora Las Vacas,Gastos,GTQ,38880,NO,Gana participación contra el año pasado.
+10,Oct,Puesto de Mercado,Ventas a terceros,GTQ,259200,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Puesto de Mercado,Costo de ventas,GTQ,155520,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Puesto de Mercado,Gastos,GTQ,38880,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Bodega Palín,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Bodega Palín,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Bodega Palín,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Autoservicio Cipreses,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Autoservicio Cipreses,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Autoservicio Cipreses,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Tienda Santa Catarina,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+10,Oct,Tienda Santa Catarina,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+10,Oct,Tienda Santa Catarina,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
+10,Oct,Mayorista Amatitlán,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+10,Oct,Mayorista Amatitlán,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+10,Oct,Mayorista Amatitlán,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+10,Oct,Kiosco Roosevelt,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+10,Oct,Kiosco Roosevelt,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+10,Oct,Kiosco Roosevelt,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
 10,Oct,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
-11,Nov,Ferretería El Prado,Ventas a terceros,GTQ,2592000,NO,Abre más puntos de venta.
-11,Nov,Ferretería El Prado,Costo de ventas,GTQ,1555200,NO,Abre más puntos de venta.
-11,Nov,Ferretería El Prado,Gastos,GTQ,388800,NO,Abre más puntos de venta.
-11,Nov,Depósito Central,Ventas a terceros,GTQ,1728000,NO,Este depósito compra menos.
-11,Nov,Depósito Central,Costo de ventas,GTQ,1036800,NO,Este depósito compra menos.
-11,Nov,Depósito Central,Gastos,GTQ,259200,NO,Este depósito compra menos.
+11,Nov,Ferretería El Prado,Ventas a terceros,GTQ,432000,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería El Prado,Costo de ventas,GTQ,259200,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería El Prado,Gastos,GTQ,64800,NO,Gana participación contra el año pasado.
+11,Nov,Depósito Central,Ventas a terceros,GTQ,388800,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Depósito Central,Costo de ventas,GTQ,233280,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Depósito Central,Gastos,GTQ,58320,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Tienda Villa Nueva,Ventas a terceros,GTQ,345600,NO,Gana participación contra el año pasado.
+11,Nov,Tienda Villa Nueva,Costo de ventas,GTQ,207360,NO,Gana participación contra el año pasado.
+11,Nov,Tienda Villa Nueva,Gastos,GTQ,51840,NO,Gana participación contra el año pasado.
+11,Nov,Mayorista Mixco,Ventas a terceros,GTQ,345600,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Mayorista Mixco,Costo de ventas,GTQ,207360,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Mayorista Mixco,Gastos,GTQ,51840,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Abarrotes Petapa,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+11,Nov,Abarrotes Petapa,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+11,Nov,Abarrotes Petapa,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+11,Nov,Cadena Los Pinos,Ventas a terceros,GTQ,302400,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Cadena Los Pinos,Costo de ventas,GTQ,181440,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Cadena Los Pinos,Gastos,GTQ,45360,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Depósito San Juan,Ventas a terceros,GTQ,302400,NO,Gana participación contra el año pasado.
+11,Nov,Depósito San Juan,Costo de ventas,GTQ,181440,NO,Gana participación contra el año pasado.
+11,Nov,Depósito San Juan,Gastos,GTQ,45360,NO,Gana participación contra el año pasado.
+11,Nov,Mini Súper El Edén,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+11,Nov,Mini Súper El Edén,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+11,Nov,Mini Súper El Edén,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+11,Nov,Distribuidora Las Vacas,Ventas a terceros,GTQ,259200,NO,Gana participación contra el año pasado.
+11,Nov,Distribuidora Las Vacas,Costo de ventas,GTQ,155520,NO,Gana participación contra el año pasado.
+11,Nov,Distribuidora Las Vacas,Gastos,GTQ,38880,NO,Gana participación contra el año pasado.
+11,Nov,Puesto de Mercado,Ventas a terceros,GTQ,259200,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Puesto de Mercado,Costo de ventas,GTQ,155520,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Puesto de Mercado,Gastos,GTQ,38880,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Bodega Palín,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Bodega Palín,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Bodega Palín,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Autoservicio Cipreses,Ventas a terceros,GTQ,216000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Autoservicio Cipreses,Costo de ventas,GTQ,129600,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Autoservicio Cipreses,Gastos,GTQ,32400,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Tienda Santa Catarina,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+11,Nov,Tienda Santa Catarina,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+11,Nov,Tienda Santa Catarina,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
+11,Nov,Mayorista Amatitlán,Ventas a terceros,GTQ,259200,NO,Pierde participación contra el año pasado.
+11,Nov,Mayorista Amatitlán,Costo de ventas,GTQ,155520,NO,Pierde participación contra el año pasado.
+11,Nov,Mayorista Amatitlán,Gastos,GTQ,38880,NO,Pierde participación contra el año pasado.
+11,Nov,Kiosco Roosevelt,Ventas a terceros,GTQ,216000,NO,Pierde participación contra el año pasado.
+11,Nov,Kiosco Roosevelt,Costo de ventas,GTQ,129600,NO,Pierde participación contra el año pasado.
+11,Nov,Kiosco Roosevelt,Gastos,GTQ,32400,NO,Pierde participación contra el año pasado.
 11,Nov,Aceros del Sur,Ventas a terceros,GTQ,324000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Aceros del Sur,Costo de ventas,GTQ,194400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Aceros del Sur,Gastos,GTQ,48600,SI,Venta a otra empresa del grupo. Esta línea no entra.
-12,Dic,Ferretería El Prado,Ventas a terceros,GTQ,2880000,NO,Abre más puntos de venta.
-12,Dic,Ferretería El Prado,Costo de ventas,GTQ,1728000,NO,Abre más puntos de venta.
-12,Dic,Ferretería El Prado,Gastos,GTQ,432000,NO,Abre más puntos de venta.
-12,Dic,Depósito Central,Ventas a terceros,GTQ,1920000,NO,Este depósito compra menos.
-12,Dic,Depósito Central,Costo de ventas,GTQ,1152000,NO,Este depósito compra menos.
-12,Dic,Depósito Central,Gastos,GTQ,288000,NO,Este depósito compra menos.
+12,Dic,Ferretería El Prado,Ventas a terceros,GTQ,480000,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería El Prado,Costo de ventas,GTQ,288000,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería El Prado,Gastos,GTQ,72000,NO,Gana participación contra el año pasado.
+12,Dic,Depósito Central,Ventas a terceros,GTQ,432000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Depósito Central,Costo de ventas,GTQ,259200,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Depósito Central,Gastos,GTQ,64800,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Tienda Villa Nueva,Ventas a terceros,GTQ,384000,NO,Gana participación contra el año pasado.
+12,Dic,Tienda Villa Nueva,Costo de ventas,GTQ,230400,NO,Gana participación contra el año pasado.
+12,Dic,Tienda Villa Nueva,Gastos,GTQ,57600,NO,Gana participación contra el año pasado.
+12,Dic,Mayorista Mixco,Ventas a terceros,GTQ,384000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Mayorista Mixco,Costo de ventas,GTQ,230400,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Mayorista Mixco,Gastos,GTQ,57600,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Abarrotes Petapa,Ventas a terceros,GTQ,336000,NO,Gana participación contra el año pasado.
+12,Dic,Abarrotes Petapa,Costo de ventas,GTQ,201600,NO,Gana participación contra el año pasado.
+12,Dic,Abarrotes Petapa,Gastos,GTQ,50400,NO,Gana participación contra el año pasado.
+12,Dic,Cadena Los Pinos,Ventas a terceros,GTQ,336000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Cadena Los Pinos,Costo de ventas,GTQ,201600,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Cadena Los Pinos,Gastos,GTQ,50400,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Depósito San Juan,Ventas a terceros,GTQ,336000,NO,Gana participación contra el año pasado.
+12,Dic,Depósito San Juan,Costo de ventas,GTQ,201600,NO,Gana participación contra el año pasado.
+12,Dic,Depósito San Juan,Gastos,GTQ,50400,NO,Gana participación contra el año pasado.
+12,Dic,Mini Súper El Edén,Ventas a terceros,GTQ,288000,NO,Pierde participación contra el año pasado.
+12,Dic,Mini Súper El Edén,Costo de ventas,GTQ,172800,NO,Pierde participación contra el año pasado.
+12,Dic,Mini Súper El Edén,Gastos,GTQ,43200,NO,Pierde participación contra el año pasado.
+12,Dic,Distribuidora Las Vacas,Ventas a terceros,GTQ,288000,NO,Gana participación contra el año pasado.
+12,Dic,Distribuidora Las Vacas,Costo de ventas,GTQ,172800,NO,Gana participación contra el año pasado.
+12,Dic,Distribuidora Las Vacas,Gastos,GTQ,43200,NO,Gana participación contra el año pasado.
+12,Dic,Puesto de Mercado,Ventas a terceros,GTQ,288000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Puesto de Mercado,Costo de ventas,GTQ,172800,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Puesto de Mercado,Gastos,GTQ,43200,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Bodega Palín,Ventas a terceros,GTQ,240000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Bodega Palín,Costo de ventas,GTQ,144000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Bodega Palín,Gastos,GTQ,36000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Autoservicio Cipreses,Ventas a terceros,GTQ,240000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Autoservicio Cipreses,Costo de ventas,GTQ,144000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Autoservicio Cipreses,Gastos,GTQ,36000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Tienda Santa Catarina,Ventas a terceros,GTQ,240000,NO,Pierde participación contra el año pasado.
+12,Dic,Tienda Santa Catarina,Costo de ventas,GTQ,144000,NO,Pierde participación contra el año pasado.
+12,Dic,Tienda Santa Catarina,Gastos,GTQ,36000,NO,Pierde participación contra el año pasado.
+12,Dic,Mayorista Amatitlán,Ventas a terceros,GTQ,288000,NO,Pierde participación contra el año pasado.
+12,Dic,Mayorista Amatitlán,Costo de ventas,GTQ,172800,NO,Pierde participación contra el año pasado.
+12,Dic,Mayorista Amatitlán,Gastos,GTQ,43200,NO,Pierde participación contra el año pasado.
+12,Dic,Kiosco Roosevelt,Ventas a terceros,GTQ,240000,NO,Pierde participación contra el año pasado.
+12,Dic,Kiosco Roosevelt,Costo de ventas,GTQ,144000,NO,Pierde participación contra el año pasado.
+12,Dic,Kiosco Roosevelt,Gastos,GTQ,36000,NO,Pierde participación contra el año pasado.
 12,Dic,Aceros del Sur,Ventas a terceros,GTQ,360000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Aceros del Sur,Costo de ventas,GTQ,216000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Aceros del Sur,Gastos,GTQ,54000,SI,Venta a otra empresa del grupo. Esta línea no entra.

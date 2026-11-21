@@ -1,109 +1,577 @@
 mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
-1,Ene,Aseguradora Istmo,Ventas a terceros,USD,84000,NO,Renueva el contrato de servicios.
-1,Ene,Aseguradora Istmo,Costo de ventas,USD,50400,NO,Renueva el contrato de servicios.
-1,Ene,Aseguradora Istmo,Gastos,USD,12600,NO,Renueva el contrato de servicios.
-1,Ene,Banco del Puerto,Ventas a terceros,USD,84000,NO,El fee mensual se mantiene.
-1,Ene,Banco del Puerto,Costo de ventas,USD,50400,NO,El fee mensual se mantiene.
-1,Ene,Banco del Puerto,Gastos,USD,12600,NO,El fee mensual se mantiene.
+1,Ene,Aseguradora Istmo,Ventas a terceros,USD,16800,NO,Gana participación contra el año pasado.
+1,Ene,Aseguradora Istmo,Costo de ventas,USD,10080,NO,Gana participación contra el año pasado.
+1,Ene,Aseguradora Istmo,Gastos,USD,2520,NO,Gana participación contra el año pasado.
+1,Ene,Banco del Puerto,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+1,Ene,Banco del Puerto,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+1,Ene,Banco del Puerto,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+1,Ene,Oficina Regional Panamá,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Oficina Regional Panamá,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Oficina Regional Panamá,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Consultora Bahía,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+1,Ene,Consultora Bahía,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+1,Ene,Consultora Bahía,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+1,Ene,Fondo Casco Viejo,Ventas a terceros,USD,11760,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fondo Casco Viejo,Costo de ventas,USD,7056,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fondo Casco Viejo,Gastos,USD,1764,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Despacho Balboa,Ventas a terceros,USD,11760,NO,Gana participación contra el año pasado.
+1,Ene,Despacho Balboa,Costo de ventas,USD,7056,NO,Gana participación contra el año pasado.
+1,Ene,Despacho Balboa,Gastos,USD,1764,NO,Gana participación contra el año pasado.
+1,Ene,Servicios Costa del Este,Ventas a terceros,USD,11760,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Servicios Costa del Este,Costo de ventas,USD,7056,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Servicios Costa del Este,Gastos,USD,1764,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Auditoría Clayton,Ventas a terceros,USD,10080,NO,Gana participación contra el año pasado.
+1,Ene,Auditoría Clayton,Costo de ventas,USD,6048,NO,Gana participación contra el año pasado.
+1,Ene,Auditoría Clayton,Gastos,USD,1512,NO,Gana participación contra el año pasado.
+1,Ene,Gestora Punta Pacífica,Ventas a terceros,USD,10080,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Gestora Punta Pacífica,Costo de ventas,USD,6048,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Gestora Punta Pacífica,Gastos,USD,1512,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Oficina Amador,Ventas a terceros,USD,10080,NO,Gana participación contra el año pasado.
+1,Ene,Oficina Amador,Costo de ventas,USD,6048,NO,Gana participación contra el año pasado.
+1,Ene,Oficina Amador,Gastos,USD,1512,NO,Gana participación contra el año pasado.
+1,Ene,Fiduciaria Calidonia,Ventas a terceros,USD,8400,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fiduciaria Calidonia,Costo de ventas,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Fiduciaria Calidonia,Gastos,USD,1260,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Asesoría Obarrio,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+1,Ene,Asesoría Obarrio,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+1,Ene,Asesoría Obarrio,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
+1,Ene,Family Office Coco del Mar,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+1,Ene,Family Office Coco del Mar,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+1,Ene,Family Office Coco del Mar,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
+1,Ene,Broker Santa María,Ventas a terceros,USD,10080,NO,Pierde participación contra el año pasado.
+1,Ene,Broker Santa María,Costo de ventas,USD,6048,NO,Pierde participación contra el año pasado.
+1,Ene,Broker Santa María,Gastos,USD,1512,NO,Pierde participación contra el año pasado.
+1,Ene,Administradora San Francisco,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+1,Ene,Administradora San Francisco,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+1,Ene,Administradora San Francisco,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
 1,Ene,Logística CA,Ventas a terceros,USD,12600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Logística CA,Costo de ventas,USD,7560,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Logística CA,Gastos,USD,1890,SI,Venta a otra empresa del grupo. Esta línea no entra.
-2,Feb,Aseguradora Istmo,Ventas a terceros,USD,84000,NO,Renueva el contrato de servicios.
-2,Feb,Aseguradora Istmo,Costo de ventas,USD,50400,NO,Renueva el contrato de servicios.
-2,Feb,Aseguradora Istmo,Gastos,USD,12600,NO,Renueva el contrato de servicios.
-2,Feb,Banco del Puerto,Ventas a terceros,USD,84000,NO,El fee mensual se mantiene.
-2,Feb,Banco del Puerto,Costo de ventas,USD,50400,NO,El fee mensual se mantiene.
-2,Feb,Banco del Puerto,Gastos,USD,12600,NO,El fee mensual se mantiene.
+2,Feb,Aseguradora Istmo,Ventas a terceros,USD,16800,NO,Gana participación contra el año pasado.
+2,Feb,Aseguradora Istmo,Costo de ventas,USD,10080,NO,Gana participación contra el año pasado.
+2,Feb,Aseguradora Istmo,Gastos,USD,2520,NO,Gana participación contra el año pasado.
+2,Feb,Banco del Puerto,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+2,Feb,Banco del Puerto,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+2,Feb,Banco del Puerto,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+2,Feb,Oficina Regional Panamá,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Oficina Regional Panamá,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Oficina Regional Panamá,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Consultora Bahía,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+2,Feb,Consultora Bahía,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+2,Feb,Consultora Bahía,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+2,Feb,Fondo Casco Viejo,Ventas a terceros,USD,11760,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fondo Casco Viejo,Costo de ventas,USD,7056,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fondo Casco Viejo,Gastos,USD,1764,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Despacho Balboa,Ventas a terceros,USD,11760,NO,Gana participación contra el año pasado.
+2,Feb,Despacho Balboa,Costo de ventas,USD,7056,NO,Gana participación contra el año pasado.
+2,Feb,Despacho Balboa,Gastos,USD,1764,NO,Gana participación contra el año pasado.
+2,Feb,Servicios Costa del Este,Ventas a terceros,USD,11760,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Servicios Costa del Este,Costo de ventas,USD,7056,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Servicios Costa del Este,Gastos,USD,1764,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Auditoría Clayton,Ventas a terceros,USD,10080,NO,Gana participación contra el año pasado.
+2,Feb,Auditoría Clayton,Costo de ventas,USD,6048,NO,Gana participación contra el año pasado.
+2,Feb,Auditoría Clayton,Gastos,USD,1512,NO,Gana participación contra el año pasado.
+2,Feb,Gestora Punta Pacífica,Ventas a terceros,USD,10080,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Gestora Punta Pacífica,Costo de ventas,USD,6048,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Gestora Punta Pacífica,Gastos,USD,1512,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Oficina Amador,Ventas a terceros,USD,10080,NO,Gana participación contra el año pasado.
+2,Feb,Oficina Amador,Costo de ventas,USD,6048,NO,Gana participación contra el año pasado.
+2,Feb,Oficina Amador,Gastos,USD,1512,NO,Gana participación contra el año pasado.
+2,Feb,Fiduciaria Calidonia,Ventas a terceros,USD,8400,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fiduciaria Calidonia,Costo de ventas,USD,5040,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Fiduciaria Calidonia,Gastos,USD,1260,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Asesoría Obarrio,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+2,Feb,Asesoría Obarrio,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+2,Feb,Asesoría Obarrio,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
+2,Feb,Family Office Coco del Mar,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+2,Feb,Family Office Coco del Mar,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+2,Feb,Family Office Coco del Mar,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
+2,Feb,Broker Santa María,Ventas a terceros,USD,10080,NO,Pierde participación contra el año pasado.
+2,Feb,Broker Santa María,Costo de ventas,USD,6048,NO,Pierde participación contra el año pasado.
+2,Feb,Broker Santa María,Gastos,USD,1512,NO,Pierde participación contra el año pasado.
+2,Feb,Administradora San Francisco,Ventas a terceros,USD,8400,NO,Pierde participación contra el año pasado.
+2,Feb,Administradora San Francisco,Costo de ventas,USD,5040,NO,Pierde participación contra el año pasado.
+2,Feb,Administradora San Francisco,Gastos,USD,1260,NO,Pierde participación contra el año pasado.
 2,Feb,Logística CA,Ventas a terceros,USD,12600,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Logística CA,Costo de ventas,USD,7560,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Logística CA,Gastos,USD,1890,SI,Venta a otra empresa del grupo. Esta línea no entra.
-3,Mar,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
-3,Mar,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
-3,Mar,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
-3,Mar,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
-3,Mar,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
-3,Mar,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+3,Mar,Aseguradora Istmo,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+3,Mar,Aseguradora Istmo,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+3,Mar,Aseguradora Istmo,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+3,Mar,Banco del Puerto,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+3,Mar,Banco del Puerto,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+3,Mar,Banco del Puerto,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+3,Mar,Oficina Regional Panamá,Ventas a terceros,USD,15360,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Oficina Regional Panamá,Costo de ventas,USD,9216,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Oficina Regional Panamá,Gastos,USD,2304,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Consultora Bahía,Ventas a terceros,USD,15360,NO,Gana participación contra el año pasado.
+3,Mar,Consultora Bahía,Costo de ventas,USD,9216,NO,Gana participación contra el año pasado.
+3,Mar,Consultora Bahía,Gastos,USD,2304,NO,Gana participación contra el año pasado.
+3,Mar,Fondo Casco Viejo,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fondo Casco Viejo,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fondo Casco Viejo,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Despacho Balboa,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+3,Mar,Despacho Balboa,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+3,Mar,Despacho Balboa,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+3,Mar,Servicios Costa del Este,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Servicios Costa del Este,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Servicios Costa del Este,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Auditoría Clayton,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+3,Mar,Auditoría Clayton,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+3,Mar,Auditoría Clayton,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+3,Mar,Gestora Punta Pacífica,Ventas a terceros,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Gestora Punta Pacífica,Costo de ventas,USD,6912,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Gestora Punta Pacífica,Gastos,USD,1728,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Oficina Amador,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+3,Mar,Oficina Amador,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+3,Mar,Oficina Amador,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+3,Mar,Fiduciaria Calidonia,Ventas a terceros,USD,9600,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fiduciaria Calidonia,Costo de ventas,USD,5760,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Fiduciaria Calidonia,Gastos,USD,1440,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Asesoría Obarrio,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+3,Mar,Asesoría Obarrio,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+3,Mar,Asesoría Obarrio,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+3,Mar,Family Office Coco del Mar,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+3,Mar,Family Office Coco del Mar,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+3,Mar,Family Office Coco del Mar,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+3,Mar,Broker Santa María,Ventas a terceros,USD,11520,NO,Pierde participación contra el año pasado.
+3,Mar,Broker Santa María,Costo de ventas,USD,6912,NO,Pierde participación contra el año pasado.
+3,Mar,Broker Santa María,Gastos,USD,1728,NO,Pierde participación contra el año pasado.
+3,Mar,Administradora San Francisco,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+3,Mar,Administradora San Francisco,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+3,Mar,Administradora San Francisco,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
 3,Mar,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
-4,Abr,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
-4,Abr,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
-4,Abr,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
-4,Abr,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
-4,Abr,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
-4,Abr,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+4,Abr,Aseguradora Istmo,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+4,Abr,Aseguradora Istmo,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+4,Abr,Aseguradora Istmo,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+4,Abr,Banco del Puerto,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+4,Abr,Banco del Puerto,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+4,Abr,Banco del Puerto,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+4,Abr,Oficina Regional Panamá,Ventas a terceros,USD,15360,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Oficina Regional Panamá,Costo de ventas,USD,9216,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Oficina Regional Panamá,Gastos,USD,2304,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Consultora Bahía,Ventas a terceros,USD,15360,NO,Gana participación contra el año pasado.
+4,Abr,Consultora Bahía,Costo de ventas,USD,9216,NO,Gana participación contra el año pasado.
+4,Abr,Consultora Bahía,Gastos,USD,2304,NO,Gana participación contra el año pasado.
+4,Abr,Fondo Casco Viejo,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fondo Casco Viejo,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fondo Casco Viejo,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Despacho Balboa,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+4,Abr,Despacho Balboa,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+4,Abr,Despacho Balboa,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+4,Abr,Servicios Costa del Este,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Servicios Costa del Este,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Servicios Costa del Este,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Auditoría Clayton,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+4,Abr,Auditoría Clayton,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+4,Abr,Auditoría Clayton,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+4,Abr,Gestora Punta Pacífica,Ventas a terceros,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Gestora Punta Pacífica,Costo de ventas,USD,6912,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Gestora Punta Pacífica,Gastos,USD,1728,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Oficina Amador,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+4,Abr,Oficina Amador,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+4,Abr,Oficina Amador,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+4,Abr,Fiduciaria Calidonia,Ventas a terceros,USD,9600,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fiduciaria Calidonia,Costo de ventas,USD,5760,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Fiduciaria Calidonia,Gastos,USD,1440,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Asesoría Obarrio,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+4,Abr,Asesoría Obarrio,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+4,Abr,Asesoría Obarrio,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+4,Abr,Family Office Coco del Mar,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+4,Abr,Family Office Coco del Mar,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+4,Abr,Family Office Coco del Mar,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+4,Abr,Broker Santa María,Ventas a terceros,USD,11520,NO,Pierde participación contra el año pasado.
+4,Abr,Broker Santa María,Costo de ventas,USD,6912,NO,Pierde participación contra el año pasado.
+4,Abr,Broker Santa María,Gastos,USD,1728,NO,Pierde participación contra el año pasado.
+4,Abr,Administradora San Francisco,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+4,Abr,Administradora San Francisco,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+4,Abr,Administradora San Francisco,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
 4,Abr,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
-5,May,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
-5,May,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
-5,May,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
-5,May,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
-5,May,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
-5,May,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+5,May,Aseguradora Istmo,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+5,May,Aseguradora Istmo,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+5,May,Aseguradora Istmo,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+5,May,Banco del Puerto,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+5,May,Banco del Puerto,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+5,May,Banco del Puerto,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+5,May,Oficina Regional Panamá,Ventas a terceros,USD,15360,NO,Mantiene el mismo peso que el año pasado.
+5,May,Oficina Regional Panamá,Costo de ventas,USD,9216,NO,Mantiene el mismo peso que el año pasado.
+5,May,Oficina Regional Panamá,Gastos,USD,2304,NO,Mantiene el mismo peso que el año pasado.
+5,May,Consultora Bahía,Ventas a terceros,USD,15360,NO,Gana participación contra el año pasado.
+5,May,Consultora Bahía,Costo de ventas,USD,9216,NO,Gana participación contra el año pasado.
+5,May,Consultora Bahía,Gastos,USD,2304,NO,Gana participación contra el año pasado.
+5,May,Fondo Casco Viejo,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fondo Casco Viejo,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fondo Casco Viejo,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+5,May,Despacho Balboa,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+5,May,Despacho Balboa,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+5,May,Despacho Balboa,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+5,May,Servicios Costa del Este,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+5,May,Servicios Costa del Este,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+5,May,Servicios Costa del Este,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+5,May,Auditoría Clayton,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+5,May,Auditoría Clayton,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+5,May,Auditoría Clayton,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+5,May,Gestora Punta Pacífica,Ventas a terceros,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+5,May,Gestora Punta Pacífica,Costo de ventas,USD,6912,NO,Mantiene el mismo peso que el año pasado.
+5,May,Gestora Punta Pacífica,Gastos,USD,1728,NO,Mantiene el mismo peso que el año pasado.
+5,May,Oficina Amador,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+5,May,Oficina Amador,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+5,May,Oficina Amador,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+5,May,Fiduciaria Calidonia,Ventas a terceros,USD,9600,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fiduciaria Calidonia,Costo de ventas,USD,5760,NO,Mantiene el mismo peso que el año pasado.
+5,May,Fiduciaria Calidonia,Gastos,USD,1440,NO,Mantiene el mismo peso que el año pasado.
+5,May,Asesoría Obarrio,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+5,May,Asesoría Obarrio,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+5,May,Asesoría Obarrio,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+5,May,Family Office Coco del Mar,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+5,May,Family Office Coco del Mar,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+5,May,Family Office Coco del Mar,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+5,May,Broker Santa María,Ventas a terceros,USD,11520,NO,Pierde participación contra el año pasado.
+5,May,Broker Santa María,Costo de ventas,USD,6912,NO,Pierde participación contra el año pasado.
+5,May,Broker Santa María,Gastos,USD,1728,NO,Pierde participación contra el año pasado.
+5,May,Administradora San Francisco,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+5,May,Administradora San Francisco,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+5,May,Administradora San Francisco,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
 5,May,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
-6,Jun,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
-6,Jun,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
-6,Jun,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
-6,Jun,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
-6,Jun,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
-6,Jun,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+6,Jun,Aseguradora Istmo,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+6,Jun,Aseguradora Istmo,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+6,Jun,Aseguradora Istmo,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+6,Jun,Banco del Puerto,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+6,Jun,Banco del Puerto,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+6,Jun,Banco del Puerto,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+6,Jun,Oficina Regional Panamá,Ventas a terceros,USD,15360,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Oficina Regional Panamá,Costo de ventas,USD,9216,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Oficina Regional Panamá,Gastos,USD,2304,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Consultora Bahía,Ventas a terceros,USD,15360,NO,Gana participación contra el año pasado.
+6,Jun,Consultora Bahía,Costo de ventas,USD,9216,NO,Gana participación contra el año pasado.
+6,Jun,Consultora Bahía,Gastos,USD,2304,NO,Gana participación contra el año pasado.
+6,Jun,Fondo Casco Viejo,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fondo Casco Viejo,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fondo Casco Viejo,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Despacho Balboa,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+6,Jun,Despacho Balboa,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+6,Jun,Despacho Balboa,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+6,Jun,Servicios Costa del Este,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Servicios Costa del Este,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Servicios Costa del Este,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Auditoría Clayton,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+6,Jun,Auditoría Clayton,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+6,Jun,Auditoría Clayton,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+6,Jun,Gestora Punta Pacífica,Ventas a terceros,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Gestora Punta Pacífica,Costo de ventas,USD,6912,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Gestora Punta Pacífica,Gastos,USD,1728,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Oficina Amador,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+6,Jun,Oficina Amador,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+6,Jun,Oficina Amador,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+6,Jun,Fiduciaria Calidonia,Ventas a terceros,USD,9600,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fiduciaria Calidonia,Costo de ventas,USD,5760,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Fiduciaria Calidonia,Gastos,USD,1440,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Asesoría Obarrio,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+6,Jun,Asesoría Obarrio,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+6,Jun,Asesoría Obarrio,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+6,Jun,Family Office Coco del Mar,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+6,Jun,Family Office Coco del Mar,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+6,Jun,Family Office Coco del Mar,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+6,Jun,Broker Santa María,Ventas a terceros,USD,11520,NO,Pierde participación contra el año pasado.
+6,Jun,Broker Santa María,Costo de ventas,USD,6912,NO,Pierde participación contra el año pasado.
+6,Jun,Broker Santa María,Gastos,USD,1728,NO,Pierde participación contra el año pasado.
+6,Jun,Administradora San Francisco,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+6,Jun,Administradora San Francisco,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+6,Jun,Administradora San Francisco,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
 6,Jun,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
-7,Jul,Aseguradora Istmo,Ventas a terceros,USD,96000,NO,Renueva el contrato de servicios.
-7,Jul,Aseguradora Istmo,Costo de ventas,USD,57600,NO,Renueva el contrato de servicios.
-7,Jul,Aseguradora Istmo,Gastos,USD,14400,NO,Renueva el contrato de servicios.
-7,Jul,Banco del Puerto,Ventas a terceros,USD,96000,NO,El fee mensual se mantiene.
-7,Jul,Banco del Puerto,Costo de ventas,USD,57600,NO,El fee mensual se mantiene.
-7,Jul,Banco del Puerto,Gastos,USD,14400,NO,El fee mensual se mantiene.
+7,Jul,Aseguradora Istmo,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+7,Jul,Aseguradora Istmo,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+7,Jul,Aseguradora Istmo,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+7,Jul,Banco del Puerto,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+7,Jul,Banco del Puerto,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+7,Jul,Banco del Puerto,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+7,Jul,Oficina Regional Panamá,Ventas a terceros,USD,15360,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Oficina Regional Panamá,Costo de ventas,USD,9216,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Oficina Regional Panamá,Gastos,USD,2304,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Consultora Bahía,Ventas a terceros,USD,15360,NO,Gana participación contra el año pasado.
+7,Jul,Consultora Bahía,Costo de ventas,USD,9216,NO,Gana participación contra el año pasado.
+7,Jul,Consultora Bahía,Gastos,USD,2304,NO,Gana participación contra el año pasado.
+7,Jul,Fondo Casco Viejo,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fondo Casco Viejo,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fondo Casco Viejo,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Despacho Balboa,Ventas a terceros,USD,13440,NO,Gana participación contra el año pasado.
+7,Jul,Despacho Balboa,Costo de ventas,USD,8064,NO,Gana participación contra el año pasado.
+7,Jul,Despacho Balboa,Gastos,USD,2016,NO,Gana participación contra el año pasado.
+7,Jul,Servicios Costa del Este,Ventas a terceros,USD,13440,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Servicios Costa del Este,Costo de ventas,USD,8064,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Servicios Costa del Este,Gastos,USD,2016,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Auditoría Clayton,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+7,Jul,Auditoría Clayton,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+7,Jul,Auditoría Clayton,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+7,Jul,Gestora Punta Pacífica,Ventas a terceros,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Gestora Punta Pacífica,Costo de ventas,USD,6912,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Gestora Punta Pacífica,Gastos,USD,1728,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Oficina Amador,Ventas a terceros,USD,11520,NO,Gana participación contra el año pasado.
+7,Jul,Oficina Amador,Costo de ventas,USD,6912,NO,Gana participación contra el año pasado.
+7,Jul,Oficina Amador,Gastos,USD,1728,NO,Gana participación contra el año pasado.
+7,Jul,Fiduciaria Calidonia,Ventas a terceros,USD,9600,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fiduciaria Calidonia,Costo de ventas,USD,5760,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Fiduciaria Calidonia,Gastos,USD,1440,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Asesoría Obarrio,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+7,Jul,Asesoría Obarrio,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+7,Jul,Asesoría Obarrio,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+7,Jul,Family Office Coco del Mar,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+7,Jul,Family Office Coco del Mar,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+7,Jul,Family Office Coco del Mar,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
+7,Jul,Broker Santa María,Ventas a terceros,USD,11520,NO,Pierde participación contra el año pasado.
+7,Jul,Broker Santa María,Costo de ventas,USD,6912,NO,Pierde participación contra el año pasado.
+7,Jul,Broker Santa María,Gastos,USD,1728,NO,Pierde participación contra el año pasado.
+7,Jul,Administradora San Francisco,Ventas a terceros,USD,9600,NO,Pierde participación contra el año pasado.
+7,Jul,Administradora San Francisco,Costo de ventas,USD,5760,NO,Pierde participación contra el año pasado.
+7,Jul,Administradora San Francisco,Gastos,USD,1440,NO,Pierde participación contra el año pasado.
 7,Jul,Logística CA,Ventas a terceros,USD,14400,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Logística CA,Costo de ventas,USD,8640,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Logística CA,Gastos,USD,2160,SI,Venta a otra empresa del grupo. Esta línea no entra.
-8,Ago,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
-8,Ago,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
-8,Ago,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
-8,Ago,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
-8,Ago,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
-8,Ago,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+8,Ago,Aseguradora Istmo,Ventas a terceros,USD,21600,NO,Gana participación contra el año pasado.
+8,Ago,Aseguradora Istmo,Costo de ventas,USD,12960,NO,Gana participación contra el año pasado.
+8,Ago,Aseguradora Istmo,Gastos,USD,3240,NO,Gana participación contra el año pasado.
+8,Ago,Banco del Puerto,Ventas a terceros,USD,19440,NO,Gana participación contra el año pasado.
+8,Ago,Banco del Puerto,Costo de ventas,USD,11664,NO,Gana participación contra el año pasado.
+8,Ago,Banco del Puerto,Gastos,USD,2916,NO,Gana participación contra el año pasado.
+8,Ago,Oficina Regional Panamá,Ventas a terceros,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Oficina Regional Panamá,Costo de ventas,USD,10368,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Oficina Regional Panamá,Gastos,USD,2592,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Consultora Bahía,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+8,Ago,Consultora Bahía,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+8,Ago,Consultora Bahía,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+8,Ago,Fondo Casco Viejo,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fondo Casco Viejo,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fondo Casco Viejo,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Despacho Balboa,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+8,Ago,Despacho Balboa,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+8,Ago,Despacho Balboa,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+8,Ago,Servicios Costa del Este,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Servicios Costa del Este,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Servicios Costa del Este,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Auditoría Clayton,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+8,Ago,Auditoría Clayton,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+8,Ago,Auditoría Clayton,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+8,Ago,Gestora Punta Pacífica,Ventas a terceros,USD,12960,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Gestora Punta Pacífica,Costo de ventas,USD,7776,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Gestora Punta Pacífica,Gastos,USD,1944,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Oficina Amador,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+8,Ago,Oficina Amador,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+8,Ago,Oficina Amador,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+8,Ago,Fiduciaria Calidonia,Ventas a terceros,USD,10800,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fiduciaria Calidonia,Costo de ventas,USD,6480,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Fiduciaria Calidonia,Gastos,USD,1620,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Asesoría Obarrio,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+8,Ago,Asesoría Obarrio,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+8,Ago,Asesoría Obarrio,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+8,Ago,Family Office Coco del Mar,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+8,Ago,Family Office Coco del Mar,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+8,Ago,Family Office Coco del Mar,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+8,Ago,Broker Santa María,Ventas a terceros,USD,12960,NO,Pierde participación contra el año pasado.
+8,Ago,Broker Santa María,Costo de ventas,USD,7776,NO,Pierde participación contra el año pasado.
+8,Ago,Broker Santa María,Gastos,USD,1944,NO,Pierde participación contra el año pasado.
+8,Ago,Administradora San Francisco,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+8,Ago,Administradora San Francisco,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+8,Ago,Administradora San Francisco,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
 8,Ago,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
-9,Sep,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
-9,Sep,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
-9,Sep,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
-9,Sep,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
-9,Sep,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
-9,Sep,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+9,Sep,Aseguradora Istmo,Ventas a terceros,USD,21600,NO,Gana participación contra el año pasado.
+9,Sep,Aseguradora Istmo,Costo de ventas,USD,12960,NO,Gana participación contra el año pasado.
+9,Sep,Aseguradora Istmo,Gastos,USD,3240,NO,Gana participación contra el año pasado.
+9,Sep,Banco del Puerto,Ventas a terceros,USD,19440,NO,Gana participación contra el año pasado.
+9,Sep,Banco del Puerto,Costo de ventas,USD,11664,NO,Gana participación contra el año pasado.
+9,Sep,Banco del Puerto,Gastos,USD,2916,NO,Gana participación contra el año pasado.
+9,Sep,Oficina Regional Panamá,Ventas a terceros,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Oficina Regional Panamá,Costo de ventas,USD,10368,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Oficina Regional Panamá,Gastos,USD,2592,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Consultora Bahía,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+9,Sep,Consultora Bahía,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+9,Sep,Consultora Bahía,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+9,Sep,Fondo Casco Viejo,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fondo Casco Viejo,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fondo Casco Viejo,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Despacho Balboa,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+9,Sep,Despacho Balboa,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+9,Sep,Despacho Balboa,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+9,Sep,Servicios Costa del Este,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Servicios Costa del Este,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Servicios Costa del Este,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Auditoría Clayton,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+9,Sep,Auditoría Clayton,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+9,Sep,Auditoría Clayton,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+9,Sep,Gestora Punta Pacífica,Ventas a terceros,USD,12960,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Gestora Punta Pacífica,Costo de ventas,USD,7776,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Gestora Punta Pacífica,Gastos,USD,1944,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Oficina Amador,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+9,Sep,Oficina Amador,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+9,Sep,Oficina Amador,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+9,Sep,Fiduciaria Calidonia,Ventas a terceros,USD,10800,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fiduciaria Calidonia,Costo de ventas,USD,6480,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Fiduciaria Calidonia,Gastos,USD,1620,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Asesoría Obarrio,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+9,Sep,Asesoría Obarrio,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+9,Sep,Asesoría Obarrio,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+9,Sep,Family Office Coco del Mar,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+9,Sep,Family Office Coco del Mar,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+9,Sep,Family Office Coco del Mar,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+9,Sep,Broker Santa María,Ventas a terceros,USD,12960,NO,Pierde participación contra el año pasado.
+9,Sep,Broker Santa María,Costo de ventas,USD,7776,NO,Pierde participación contra el año pasado.
+9,Sep,Broker Santa María,Gastos,USD,1944,NO,Pierde participación contra el año pasado.
+9,Sep,Administradora San Francisco,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+9,Sep,Administradora San Francisco,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+9,Sep,Administradora San Francisco,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
 9,Sep,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
-10,Oct,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
-10,Oct,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
-10,Oct,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
-10,Oct,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
-10,Oct,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
-10,Oct,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+10,Oct,Aseguradora Istmo,Ventas a terceros,USD,21600,NO,Gana participación contra el año pasado.
+10,Oct,Aseguradora Istmo,Costo de ventas,USD,12960,NO,Gana participación contra el año pasado.
+10,Oct,Aseguradora Istmo,Gastos,USD,3240,NO,Gana participación contra el año pasado.
+10,Oct,Banco del Puerto,Ventas a terceros,USD,19440,NO,Gana participación contra el año pasado.
+10,Oct,Banco del Puerto,Costo de ventas,USD,11664,NO,Gana participación contra el año pasado.
+10,Oct,Banco del Puerto,Gastos,USD,2916,NO,Gana participación contra el año pasado.
+10,Oct,Oficina Regional Panamá,Ventas a terceros,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Oficina Regional Panamá,Costo de ventas,USD,10368,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Oficina Regional Panamá,Gastos,USD,2592,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Consultora Bahía,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+10,Oct,Consultora Bahía,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+10,Oct,Consultora Bahía,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+10,Oct,Fondo Casco Viejo,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fondo Casco Viejo,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fondo Casco Viejo,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Despacho Balboa,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+10,Oct,Despacho Balboa,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+10,Oct,Despacho Balboa,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+10,Oct,Servicios Costa del Este,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Servicios Costa del Este,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Servicios Costa del Este,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Auditoría Clayton,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+10,Oct,Auditoría Clayton,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+10,Oct,Auditoría Clayton,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+10,Oct,Gestora Punta Pacífica,Ventas a terceros,USD,12960,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Gestora Punta Pacífica,Costo de ventas,USD,7776,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Gestora Punta Pacífica,Gastos,USD,1944,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Oficina Amador,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+10,Oct,Oficina Amador,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+10,Oct,Oficina Amador,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+10,Oct,Fiduciaria Calidonia,Ventas a terceros,USD,10800,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fiduciaria Calidonia,Costo de ventas,USD,6480,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Fiduciaria Calidonia,Gastos,USD,1620,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Asesoría Obarrio,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+10,Oct,Asesoría Obarrio,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+10,Oct,Asesoría Obarrio,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+10,Oct,Family Office Coco del Mar,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+10,Oct,Family Office Coco del Mar,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+10,Oct,Family Office Coco del Mar,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+10,Oct,Broker Santa María,Ventas a terceros,USD,12960,NO,Pierde participación contra el año pasado.
+10,Oct,Broker Santa María,Costo de ventas,USD,7776,NO,Pierde participación contra el año pasado.
+10,Oct,Broker Santa María,Gastos,USD,1944,NO,Pierde participación contra el año pasado.
+10,Oct,Administradora San Francisco,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+10,Oct,Administradora San Francisco,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+10,Oct,Administradora San Francisco,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
 10,Oct,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
-11,Nov,Aseguradora Istmo,Ventas a terceros,USD,108000,NO,Renueva el contrato de servicios.
-11,Nov,Aseguradora Istmo,Costo de ventas,USD,64800,NO,Renueva el contrato de servicios.
-11,Nov,Aseguradora Istmo,Gastos,USD,16200,NO,Renueva el contrato de servicios.
-11,Nov,Banco del Puerto,Ventas a terceros,USD,108000,NO,El fee mensual se mantiene.
-11,Nov,Banco del Puerto,Costo de ventas,USD,64800,NO,El fee mensual se mantiene.
-11,Nov,Banco del Puerto,Gastos,USD,16200,NO,El fee mensual se mantiene.
+11,Nov,Aseguradora Istmo,Ventas a terceros,USD,21600,NO,Gana participación contra el año pasado.
+11,Nov,Aseguradora Istmo,Costo de ventas,USD,12960,NO,Gana participación contra el año pasado.
+11,Nov,Aseguradora Istmo,Gastos,USD,3240,NO,Gana participación contra el año pasado.
+11,Nov,Banco del Puerto,Ventas a terceros,USD,19440,NO,Gana participación contra el año pasado.
+11,Nov,Banco del Puerto,Costo de ventas,USD,11664,NO,Gana participación contra el año pasado.
+11,Nov,Banco del Puerto,Gastos,USD,2916,NO,Gana participación contra el año pasado.
+11,Nov,Oficina Regional Panamá,Ventas a terceros,USD,17280,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Oficina Regional Panamá,Costo de ventas,USD,10368,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Oficina Regional Panamá,Gastos,USD,2592,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Consultora Bahía,Ventas a terceros,USD,17280,NO,Gana participación contra el año pasado.
+11,Nov,Consultora Bahía,Costo de ventas,USD,10368,NO,Gana participación contra el año pasado.
+11,Nov,Consultora Bahía,Gastos,USD,2592,NO,Gana participación contra el año pasado.
+11,Nov,Fondo Casco Viejo,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fondo Casco Viejo,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fondo Casco Viejo,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Despacho Balboa,Ventas a terceros,USD,15120,NO,Gana participación contra el año pasado.
+11,Nov,Despacho Balboa,Costo de ventas,USD,9072,NO,Gana participación contra el año pasado.
+11,Nov,Despacho Balboa,Gastos,USD,2268,NO,Gana participación contra el año pasado.
+11,Nov,Servicios Costa del Este,Ventas a terceros,USD,15120,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Servicios Costa del Este,Costo de ventas,USD,9072,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Servicios Costa del Este,Gastos,USD,2268,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Auditoría Clayton,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+11,Nov,Auditoría Clayton,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+11,Nov,Auditoría Clayton,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+11,Nov,Gestora Punta Pacífica,Ventas a terceros,USD,12960,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Gestora Punta Pacífica,Costo de ventas,USD,7776,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Gestora Punta Pacífica,Gastos,USD,1944,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Oficina Amador,Ventas a terceros,USD,12960,NO,Gana participación contra el año pasado.
+11,Nov,Oficina Amador,Costo de ventas,USD,7776,NO,Gana participación contra el año pasado.
+11,Nov,Oficina Amador,Gastos,USD,1944,NO,Gana participación contra el año pasado.
+11,Nov,Fiduciaria Calidonia,Ventas a terceros,USD,10800,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fiduciaria Calidonia,Costo de ventas,USD,6480,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Fiduciaria Calidonia,Gastos,USD,1620,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Asesoría Obarrio,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+11,Nov,Asesoría Obarrio,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+11,Nov,Asesoría Obarrio,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+11,Nov,Family Office Coco del Mar,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+11,Nov,Family Office Coco del Mar,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+11,Nov,Family Office Coco del Mar,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
+11,Nov,Broker Santa María,Ventas a terceros,USD,12960,NO,Pierde participación contra el año pasado.
+11,Nov,Broker Santa María,Costo de ventas,USD,7776,NO,Pierde participación contra el año pasado.
+11,Nov,Broker Santa María,Gastos,USD,1944,NO,Pierde participación contra el año pasado.
+11,Nov,Administradora San Francisco,Ventas a terceros,USD,10800,NO,Pierde participación contra el año pasado.
+11,Nov,Administradora San Francisco,Costo de ventas,USD,6480,NO,Pierde participación contra el año pasado.
+11,Nov,Administradora San Francisco,Gastos,USD,1620,NO,Pierde participación contra el año pasado.
 11,Nov,Logística CA,Ventas a terceros,USD,16200,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Logística CA,Costo de ventas,USD,9720,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Logística CA,Gastos,USD,2430,SI,Venta a otra empresa del grupo. Esta línea no entra.
-12,Dic,Aseguradora Istmo,Ventas a terceros,USD,120000,NO,Renueva el contrato de servicios.
-12,Dic,Aseguradora Istmo,Costo de ventas,USD,72000,NO,Renueva el contrato de servicios.
-12,Dic,Aseguradora Istmo,Gastos,USD,18000,NO,Renueva el contrato de servicios.
-12,Dic,Banco del Puerto,Ventas a terceros,USD,120000,NO,El fee mensual se mantiene.
-12,Dic,Banco del Puerto,Costo de ventas,USD,72000,NO,El fee mensual se mantiene.
-12,Dic,Banco del Puerto,Gastos,USD,18000,NO,El fee mensual se mantiene.
+12,Dic,Aseguradora Istmo,Ventas a terceros,USD,24000,NO,Gana participación contra el año pasado.
+12,Dic,Aseguradora Istmo,Costo de ventas,USD,14400,NO,Gana participación contra el año pasado.
+12,Dic,Aseguradora Istmo,Gastos,USD,3600,NO,Gana participación contra el año pasado.
+12,Dic,Banco del Puerto,Ventas a terceros,USD,21600,NO,Gana participación contra el año pasado.
+12,Dic,Banco del Puerto,Costo de ventas,USD,12960,NO,Gana participación contra el año pasado.
+12,Dic,Banco del Puerto,Gastos,USD,3240,NO,Gana participación contra el año pasado.
+12,Dic,Oficina Regional Panamá,Ventas a terceros,USD,19200,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Oficina Regional Panamá,Costo de ventas,USD,11520,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Oficina Regional Panamá,Gastos,USD,2880,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Consultora Bahía,Ventas a terceros,USD,19200,NO,Gana participación contra el año pasado.
+12,Dic,Consultora Bahía,Costo de ventas,USD,11520,NO,Gana participación contra el año pasado.
+12,Dic,Consultora Bahía,Gastos,USD,2880,NO,Gana participación contra el año pasado.
+12,Dic,Fondo Casco Viejo,Ventas a terceros,USD,16800,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fondo Casco Viejo,Costo de ventas,USD,10080,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fondo Casco Viejo,Gastos,USD,2520,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Despacho Balboa,Ventas a terceros,USD,16800,NO,Gana participación contra el año pasado.
+12,Dic,Despacho Balboa,Costo de ventas,USD,10080,NO,Gana participación contra el año pasado.
+12,Dic,Despacho Balboa,Gastos,USD,2520,NO,Gana participación contra el año pasado.
+12,Dic,Servicios Costa del Este,Ventas a terceros,USD,16800,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Servicios Costa del Este,Costo de ventas,USD,10080,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Servicios Costa del Este,Gastos,USD,2520,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Auditoría Clayton,Ventas a terceros,USD,14400,NO,Gana participación contra el año pasado.
+12,Dic,Auditoría Clayton,Costo de ventas,USD,8640,NO,Gana participación contra el año pasado.
+12,Dic,Auditoría Clayton,Gastos,USD,2160,NO,Gana participación contra el año pasado.
+12,Dic,Gestora Punta Pacífica,Ventas a terceros,USD,14400,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Gestora Punta Pacífica,Costo de ventas,USD,8640,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Gestora Punta Pacífica,Gastos,USD,2160,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Oficina Amador,Ventas a terceros,USD,14400,NO,Gana participación contra el año pasado.
+12,Dic,Oficina Amador,Costo de ventas,USD,8640,NO,Gana participación contra el año pasado.
+12,Dic,Oficina Amador,Gastos,USD,2160,NO,Gana participación contra el año pasado.
+12,Dic,Fiduciaria Calidonia,Ventas a terceros,USD,12000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fiduciaria Calidonia,Costo de ventas,USD,7200,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Fiduciaria Calidonia,Gastos,USD,1800,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Asesoría Obarrio,Ventas a terceros,USD,12000,NO,Pierde participación contra el año pasado.
+12,Dic,Asesoría Obarrio,Costo de ventas,USD,7200,NO,Pierde participación contra el año pasado.
+12,Dic,Asesoría Obarrio,Gastos,USD,1800,NO,Pierde participación contra el año pasado.
+12,Dic,Family Office Coco del Mar,Ventas a terceros,USD,12000,NO,Pierde participación contra el año pasado.
+12,Dic,Family Office Coco del Mar,Costo de ventas,USD,7200,NO,Pierde participación contra el año pasado.
+12,Dic,Family Office Coco del Mar,Gastos,USD,1800,NO,Pierde participación contra el año pasado.
+12,Dic,Broker Santa María,Ventas a terceros,USD,14400,NO,Pierde participación contra el año pasado.
+12,Dic,Broker Santa María,Costo de ventas,USD,8640,NO,Pierde participación contra el año pasado.
+12,Dic,Broker Santa María,Gastos,USD,2160,NO,Pierde participación contra el año pasado.
+12,Dic,Administradora San Francisco,Ventas a terceros,USD,12000,NO,Pierde participación contra el año pasado.
+12,Dic,Administradora San Francisco,Costo de ventas,USD,7200,NO,Pierde participación contra el año pasado.
+12,Dic,Administradora San Francisco,Gastos,USD,1800,NO,Pierde participación contra el año pasado.
 12,Dic,Logística CA,Ventas a terceros,USD,18000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Logística CA,Costo de ventas,USD,10800,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Logística CA,Gastos,USD,2700,SI,Venta a otra empresa del grupo. Esta línea no entra.

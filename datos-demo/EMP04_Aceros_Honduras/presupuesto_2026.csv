@@ -1,109 +1,577 @@
 mes,nombre_mes,cliente,cuenta,moneda,importe,dentro_del_grupo,motivo
-1,Ene,Constructora Sula,Ventas a terceros,HNL,9625000,NO,Más obra privada en San Pedro Sula.
-1,Ene,Constructora Sula,Costo de ventas,HNL,5775000,NO,Más obra privada en San Pedro Sula.
-1,Ene,Constructora Sula,Gastos,HNL,1443750,NO,Más obra privada en San Pedro Sula.
-1,Ene,Agroindustrias Lenca,Ventas a terceros,HNL,7875000,NO,El ingenio pide menos acero.
-1,Ene,Agroindustrias Lenca,Costo de ventas,HNL,4725000,NO,El ingenio pide menos acero.
-1,Ene,Agroindustrias Lenca,Gastos,HNL,1181250,NO,El ingenio pide menos acero.
+1,Ene,Constructora Sula,Ventas a terceros,HNL,1750000,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Sula,Costo de ventas,HNL,1050000,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Sula,Gastos,HNL,262500,NO,Gana participación contra el año pasado.
+1,Ene,Agroindustrias Lenca,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+1,Ene,Agroindustrias Lenca,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+1,Ene,Agroindustrias Lenca,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+1,Ene,Ingenio Yojoa,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+1,Ene,Ingenio Yojoa,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+1,Ene,Ingenio Yojoa,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+1,Ene,Obras Choloma,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+1,Ene,Obras Choloma,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+1,Ene,Obras Choloma,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+1,Ene,Puerto Cortés Industrial,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+1,Ene,Puerto Cortés Industrial,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+1,Ene,Puerto Cortés Industrial,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+1,Ene,Talleres SPS,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+1,Ene,Talleres SPS,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+1,Ene,Talleres SPS,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería La Ceiba,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería La Ceiba,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+1,Ene,Ferretería La Ceiba,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+1,Ene,Planta Villanueva,Ventas a terceros,HNL,1050000,NO,Gana participación contra el año pasado.
+1,Ene,Planta Villanueva,Costo de ventas,HNL,630000,NO,Gana participación contra el año pasado.
+1,Ene,Planta Villanueva,Gastos,HNL,157500,NO,Gana participación contra el año pasado.
+1,Ene,Constructora Copán,Ventas a terceros,HNL,1050000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Constructora Copán,Costo de ventas,HNL,630000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Constructora Copán,Gastos,HNL,157500,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Depósito El Progreso,Ventas a terceros,HNL,1050000,NO,Pierde participación contra el año pasado.
+1,Ene,Depósito El Progreso,Costo de ventas,HNL,630000,NO,Pierde participación contra el año pasado.
+1,Ene,Depósito El Progreso,Gastos,HNL,157500,NO,Pierde participación contra el año pasado.
+1,Ene,Obras Comayagua,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+1,Ene,Obras Comayagua,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+1,Ene,Obras Comayagua,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+1,Ene,Taller Choluteca,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+1,Ene,Taller Choluteca,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+1,Ene,Taller Choluteca,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+1,Ene,Edificios Tegucigalpa,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+1,Ene,Edificios Tegucigalpa,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+1,Ene,Edificios Tegucigalpa,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+1,Ene,Agro Olanchito,Ventas a terceros,HNL,1050000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Agro Olanchito,Costo de ventas,HNL,630000,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Agro Olanchito,Gastos,HNL,157500,NO,Mantiene el mismo peso que el año pasado.
+1,Ene,Maquila Choloma,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+1,Ene,Maquila Choloma,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+1,Ene,Maquila Choloma,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
 1,Ene,Ferretería Norte,Ventas a terceros,HNL,1050000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Ferretería Norte,Costo de ventas,HNL,630000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 1,Ene,Ferretería Norte,Gastos,HNL,157500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-2,Feb,Constructora Sula,Ventas a terceros,HNL,9625000,NO,Más obra privada en San Pedro Sula.
-2,Feb,Constructora Sula,Costo de ventas,HNL,5775000,NO,Más obra privada en San Pedro Sula.
-2,Feb,Constructora Sula,Gastos,HNL,1443750,NO,Más obra privada en San Pedro Sula.
-2,Feb,Agroindustrias Lenca,Ventas a terceros,HNL,7875000,NO,El ingenio pide menos acero.
-2,Feb,Agroindustrias Lenca,Costo de ventas,HNL,4725000,NO,El ingenio pide menos acero.
-2,Feb,Agroindustrias Lenca,Gastos,HNL,1181250,NO,El ingenio pide menos acero.
+2,Feb,Constructora Sula,Ventas a terceros,HNL,1750000,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Sula,Costo de ventas,HNL,1050000,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Sula,Gastos,HNL,262500,NO,Gana participación contra el año pasado.
+2,Feb,Agroindustrias Lenca,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+2,Feb,Agroindustrias Lenca,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+2,Feb,Agroindustrias Lenca,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+2,Feb,Ingenio Yojoa,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+2,Feb,Ingenio Yojoa,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+2,Feb,Ingenio Yojoa,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+2,Feb,Obras Choloma,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+2,Feb,Obras Choloma,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+2,Feb,Obras Choloma,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+2,Feb,Puerto Cortés Industrial,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+2,Feb,Puerto Cortés Industrial,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+2,Feb,Puerto Cortés Industrial,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+2,Feb,Talleres SPS,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+2,Feb,Talleres SPS,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+2,Feb,Talleres SPS,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería La Ceiba,Ventas a terceros,HNL,1225000,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería La Ceiba,Costo de ventas,HNL,735000,NO,Gana participación contra el año pasado.
+2,Feb,Ferretería La Ceiba,Gastos,HNL,183750,NO,Gana participación contra el año pasado.
+2,Feb,Planta Villanueva,Ventas a terceros,HNL,1050000,NO,Gana participación contra el año pasado.
+2,Feb,Planta Villanueva,Costo de ventas,HNL,630000,NO,Gana participación contra el año pasado.
+2,Feb,Planta Villanueva,Gastos,HNL,157500,NO,Gana participación contra el año pasado.
+2,Feb,Constructora Copán,Ventas a terceros,HNL,1050000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Constructora Copán,Costo de ventas,HNL,630000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Constructora Copán,Gastos,HNL,157500,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Depósito El Progreso,Ventas a terceros,HNL,1050000,NO,Pierde participación contra el año pasado.
+2,Feb,Depósito El Progreso,Costo de ventas,HNL,630000,NO,Pierde participación contra el año pasado.
+2,Feb,Depósito El Progreso,Gastos,HNL,157500,NO,Pierde participación contra el año pasado.
+2,Feb,Obras Comayagua,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+2,Feb,Obras Comayagua,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+2,Feb,Obras Comayagua,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+2,Feb,Taller Choluteca,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+2,Feb,Taller Choluteca,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+2,Feb,Taller Choluteca,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+2,Feb,Edificios Tegucigalpa,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+2,Feb,Edificios Tegucigalpa,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+2,Feb,Edificios Tegucigalpa,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
+2,Feb,Agro Olanchito,Ventas a terceros,HNL,1050000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Agro Olanchito,Costo de ventas,HNL,630000,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Agro Olanchito,Gastos,HNL,157500,NO,Mantiene el mismo peso que el año pasado.
+2,Feb,Maquila Choloma,Ventas a terceros,HNL,875000,NO,Pierde participación contra el año pasado.
+2,Feb,Maquila Choloma,Costo de ventas,HNL,525000,NO,Pierde participación contra el año pasado.
+2,Feb,Maquila Choloma,Gastos,HNL,131250,NO,Pierde participación contra el año pasado.
 2,Feb,Ferretería Norte,Ventas a terceros,HNL,1050000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Ferretería Norte,Costo de ventas,HNL,630000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 2,Feb,Ferretería Norte,Gastos,HNL,157500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-3,Mar,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
-3,Mar,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
-3,Mar,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
-3,Mar,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
-3,Mar,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
-3,Mar,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+3,Mar,Constructora Sula,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Sula,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Sula,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+3,Mar,Agroindustrias Lenca,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+3,Mar,Agroindustrias Lenca,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+3,Mar,Agroindustrias Lenca,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+3,Mar,Ingenio Yojoa,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+3,Mar,Ingenio Yojoa,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+3,Mar,Ingenio Yojoa,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+3,Mar,Obras Choloma,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+3,Mar,Obras Choloma,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+3,Mar,Obras Choloma,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+3,Mar,Puerto Cortés Industrial,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+3,Mar,Puerto Cortés Industrial,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+3,Mar,Puerto Cortés Industrial,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+3,Mar,Talleres SPS,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+3,Mar,Talleres SPS,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+3,Mar,Talleres SPS,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería La Ceiba,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería La Ceiba,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+3,Mar,Ferretería La Ceiba,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+3,Mar,Planta Villanueva,Ventas a terceros,HNL,1200000,NO,Gana participación contra el año pasado.
+3,Mar,Planta Villanueva,Costo de ventas,HNL,720000,NO,Gana participación contra el año pasado.
+3,Mar,Planta Villanueva,Gastos,HNL,180000,NO,Gana participación contra el año pasado.
+3,Mar,Constructora Copán,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Constructora Copán,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Constructora Copán,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Depósito El Progreso,Ventas a terceros,HNL,1200000,NO,Pierde participación contra el año pasado.
+3,Mar,Depósito El Progreso,Costo de ventas,HNL,720000,NO,Pierde participación contra el año pasado.
+3,Mar,Depósito El Progreso,Gastos,HNL,180000,NO,Pierde participación contra el año pasado.
+3,Mar,Obras Comayagua,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+3,Mar,Obras Comayagua,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+3,Mar,Obras Comayagua,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+3,Mar,Taller Choluteca,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+3,Mar,Taller Choluteca,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+3,Mar,Taller Choluteca,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+3,Mar,Edificios Tegucigalpa,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+3,Mar,Edificios Tegucigalpa,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+3,Mar,Edificios Tegucigalpa,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+3,Mar,Agro Olanchito,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Agro Olanchito,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Agro Olanchito,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+3,Mar,Maquila Choloma,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+3,Mar,Maquila Choloma,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+3,Mar,Maquila Choloma,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
 3,Mar,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 3,Mar,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
-4,Abr,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
-4,Abr,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
-4,Abr,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
-4,Abr,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
-4,Abr,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
-4,Abr,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+4,Abr,Constructora Sula,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Sula,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Sula,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+4,Abr,Agroindustrias Lenca,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+4,Abr,Agroindustrias Lenca,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+4,Abr,Agroindustrias Lenca,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+4,Abr,Ingenio Yojoa,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+4,Abr,Ingenio Yojoa,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+4,Abr,Ingenio Yojoa,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+4,Abr,Obras Choloma,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+4,Abr,Obras Choloma,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+4,Abr,Obras Choloma,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+4,Abr,Puerto Cortés Industrial,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+4,Abr,Puerto Cortés Industrial,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+4,Abr,Puerto Cortés Industrial,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+4,Abr,Talleres SPS,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+4,Abr,Talleres SPS,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+4,Abr,Talleres SPS,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería La Ceiba,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería La Ceiba,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+4,Abr,Ferretería La Ceiba,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+4,Abr,Planta Villanueva,Ventas a terceros,HNL,1200000,NO,Gana participación contra el año pasado.
+4,Abr,Planta Villanueva,Costo de ventas,HNL,720000,NO,Gana participación contra el año pasado.
+4,Abr,Planta Villanueva,Gastos,HNL,180000,NO,Gana participación contra el año pasado.
+4,Abr,Constructora Copán,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Constructora Copán,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Constructora Copán,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Depósito El Progreso,Ventas a terceros,HNL,1200000,NO,Pierde participación contra el año pasado.
+4,Abr,Depósito El Progreso,Costo de ventas,HNL,720000,NO,Pierde participación contra el año pasado.
+4,Abr,Depósito El Progreso,Gastos,HNL,180000,NO,Pierde participación contra el año pasado.
+4,Abr,Obras Comayagua,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+4,Abr,Obras Comayagua,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+4,Abr,Obras Comayagua,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+4,Abr,Taller Choluteca,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+4,Abr,Taller Choluteca,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+4,Abr,Taller Choluteca,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+4,Abr,Edificios Tegucigalpa,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+4,Abr,Edificios Tegucigalpa,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+4,Abr,Edificios Tegucigalpa,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+4,Abr,Agro Olanchito,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Agro Olanchito,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Agro Olanchito,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+4,Abr,Maquila Choloma,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+4,Abr,Maquila Choloma,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+4,Abr,Maquila Choloma,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
 4,Abr,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 4,Abr,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
-5,May,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
-5,May,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
-5,May,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
-5,May,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
-5,May,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
-5,May,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+5,May,Constructora Sula,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+5,May,Constructora Sula,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+5,May,Constructora Sula,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+5,May,Agroindustrias Lenca,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+5,May,Agroindustrias Lenca,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+5,May,Agroindustrias Lenca,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+5,May,Ingenio Yojoa,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+5,May,Ingenio Yojoa,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+5,May,Ingenio Yojoa,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+5,May,Obras Choloma,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+5,May,Obras Choloma,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+5,May,Obras Choloma,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+5,May,Puerto Cortés Industrial,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+5,May,Puerto Cortés Industrial,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+5,May,Puerto Cortés Industrial,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+5,May,Talleres SPS,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+5,May,Talleres SPS,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+5,May,Talleres SPS,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+5,May,Ferretería La Ceiba,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+5,May,Ferretería La Ceiba,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+5,May,Ferretería La Ceiba,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+5,May,Planta Villanueva,Ventas a terceros,HNL,1200000,NO,Gana participación contra el año pasado.
+5,May,Planta Villanueva,Costo de ventas,HNL,720000,NO,Gana participación contra el año pasado.
+5,May,Planta Villanueva,Gastos,HNL,180000,NO,Gana participación contra el año pasado.
+5,May,Constructora Copán,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Constructora Copán,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Constructora Copán,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Depósito El Progreso,Ventas a terceros,HNL,1200000,NO,Pierde participación contra el año pasado.
+5,May,Depósito El Progreso,Costo de ventas,HNL,720000,NO,Pierde participación contra el año pasado.
+5,May,Depósito El Progreso,Gastos,HNL,180000,NO,Pierde participación contra el año pasado.
+5,May,Obras Comayagua,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+5,May,Obras Comayagua,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+5,May,Obras Comayagua,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+5,May,Taller Choluteca,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+5,May,Taller Choluteca,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+5,May,Taller Choluteca,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+5,May,Edificios Tegucigalpa,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+5,May,Edificios Tegucigalpa,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+5,May,Edificios Tegucigalpa,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+5,May,Agro Olanchito,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Agro Olanchito,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Agro Olanchito,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+5,May,Maquila Choloma,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+5,May,Maquila Choloma,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+5,May,Maquila Choloma,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
 5,May,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 5,May,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
-6,Jun,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
-6,Jun,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
-6,Jun,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
-6,Jun,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
-6,Jun,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
-6,Jun,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+6,Jun,Constructora Sula,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Sula,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Sula,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+6,Jun,Agroindustrias Lenca,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+6,Jun,Agroindustrias Lenca,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+6,Jun,Agroindustrias Lenca,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+6,Jun,Ingenio Yojoa,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+6,Jun,Ingenio Yojoa,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+6,Jun,Ingenio Yojoa,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+6,Jun,Obras Choloma,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+6,Jun,Obras Choloma,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+6,Jun,Obras Choloma,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+6,Jun,Puerto Cortés Industrial,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+6,Jun,Puerto Cortés Industrial,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+6,Jun,Puerto Cortés Industrial,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+6,Jun,Talleres SPS,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+6,Jun,Talleres SPS,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+6,Jun,Talleres SPS,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería La Ceiba,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería La Ceiba,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+6,Jun,Ferretería La Ceiba,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+6,Jun,Planta Villanueva,Ventas a terceros,HNL,1200000,NO,Gana participación contra el año pasado.
+6,Jun,Planta Villanueva,Costo de ventas,HNL,720000,NO,Gana participación contra el año pasado.
+6,Jun,Planta Villanueva,Gastos,HNL,180000,NO,Gana participación contra el año pasado.
+6,Jun,Constructora Copán,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Constructora Copán,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Constructora Copán,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Depósito El Progreso,Ventas a terceros,HNL,1200000,NO,Pierde participación contra el año pasado.
+6,Jun,Depósito El Progreso,Costo de ventas,HNL,720000,NO,Pierde participación contra el año pasado.
+6,Jun,Depósito El Progreso,Gastos,HNL,180000,NO,Pierde participación contra el año pasado.
+6,Jun,Obras Comayagua,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+6,Jun,Obras Comayagua,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+6,Jun,Obras Comayagua,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+6,Jun,Taller Choluteca,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+6,Jun,Taller Choluteca,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+6,Jun,Taller Choluteca,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+6,Jun,Edificios Tegucigalpa,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+6,Jun,Edificios Tegucigalpa,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+6,Jun,Edificios Tegucigalpa,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+6,Jun,Agro Olanchito,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Agro Olanchito,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Agro Olanchito,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+6,Jun,Maquila Choloma,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+6,Jun,Maquila Choloma,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+6,Jun,Maquila Choloma,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
 6,Jun,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 6,Jun,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
-7,Jul,Constructora Sula,Ventas a terceros,HNL,11000000,NO,Más obra privada en San Pedro Sula.
-7,Jul,Constructora Sula,Costo de ventas,HNL,6600000,NO,Más obra privada en San Pedro Sula.
-7,Jul,Constructora Sula,Gastos,HNL,1650000,NO,Más obra privada en San Pedro Sula.
-7,Jul,Agroindustrias Lenca,Ventas a terceros,HNL,9000000,NO,El ingenio pide menos acero.
-7,Jul,Agroindustrias Lenca,Costo de ventas,HNL,5400000,NO,El ingenio pide menos acero.
-7,Jul,Agroindustrias Lenca,Gastos,HNL,1350000,NO,El ingenio pide menos acero.
+7,Jul,Constructora Sula,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Sula,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Sula,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+7,Jul,Agroindustrias Lenca,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+7,Jul,Agroindustrias Lenca,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+7,Jul,Agroindustrias Lenca,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+7,Jul,Ingenio Yojoa,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+7,Jul,Ingenio Yojoa,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+7,Jul,Ingenio Yojoa,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+7,Jul,Obras Choloma,Ventas a terceros,HNL,1600000,NO,Gana participación contra el año pasado.
+7,Jul,Obras Choloma,Costo de ventas,HNL,960000,NO,Gana participación contra el año pasado.
+7,Jul,Obras Choloma,Gastos,HNL,240000,NO,Gana participación contra el año pasado.
+7,Jul,Puerto Cortés Industrial,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+7,Jul,Puerto Cortés Industrial,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+7,Jul,Puerto Cortés Industrial,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+7,Jul,Talleres SPS,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+7,Jul,Talleres SPS,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+7,Jul,Talleres SPS,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería La Ceiba,Ventas a terceros,HNL,1400000,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería La Ceiba,Costo de ventas,HNL,840000,NO,Gana participación contra el año pasado.
+7,Jul,Ferretería La Ceiba,Gastos,HNL,210000,NO,Gana participación contra el año pasado.
+7,Jul,Planta Villanueva,Ventas a terceros,HNL,1200000,NO,Gana participación contra el año pasado.
+7,Jul,Planta Villanueva,Costo de ventas,HNL,720000,NO,Gana participación contra el año pasado.
+7,Jul,Planta Villanueva,Gastos,HNL,180000,NO,Gana participación contra el año pasado.
+7,Jul,Constructora Copán,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Constructora Copán,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Constructora Copán,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Depósito El Progreso,Ventas a terceros,HNL,1200000,NO,Pierde participación contra el año pasado.
+7,Jul,Depósito El Progreso,Costo de ventas,HNL,720000,NO,Pierde participación contra el año pasado.
+7,Jul,Depósito El Progreso,Gastos,HNL,180000,NO,Pierde participación contra el año pasado.
+7,Jul,Obras Comayagua,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+7,Jul,Obras Comayagua,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+7,Jul,Obras Comayagua,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+7,Jul,Taller Choluteca,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+7,Jul,Taller Choluteca,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+7,Jul,Taller Choluteca,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+7,Jul,Edificios Tegucigalpa,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+7,Jul,Edificios Tegucigalpa,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+7,Jul,Edificios Tegucigalpa,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
+7,Jul,Agro Olanchito,Ventas a terceros,HNL,1200000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Agro Olanchito,Costo de ventas,HNL,720000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Agro Olanchito,Gastos,HNL,180000,NO,Mantiene el mismo peso que el año pasado.
+7,Jul,Maquila Choloma,Ventas a terceros,HNL,1000000,NO,Pierde participación contra el año pasado.
+7,Jul,Maquila Choloma,Costo de ventas,HNL,600000,NO,Pierde participación contra el año pasado.
+7,Jul,Maquila Choloma,Gastos,HNL,150000,NO,Pierde participación contra el año pasado.
 7,Jul,Ferretería Norte,Ventas a terceros,HNL,1200000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Ferretería Norte,Costo de ventas,HNL,720000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 7,Jul,Ferretería Norte,Gastos,HNL,180000,SI,Venta a otra empresa del grupo. Esta línea no entra.
-8,Ago,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
-8,Ago,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
-8,Ago,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
-8,Ago,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
-8,Ago,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
-8,Ago,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+8,Ago,Constructora Sula,Ventas a terceros,HNL,2250000,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Sula,Costo de ventas,HNL,1350000,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Sula,Gastos,HNL,337500,NO,Gana participación contra el año pasado.
+8,Ago,Agroindustrias Lenca,Ventas a terceros,HNL,2025000,NO,Gana participación contra el año pasado.
+8,Ago,Agroindustrias Lenca,Costo de ventas,HNL,1215000,NO,Gana participación contra el año pasado.
+8,Ago,Agroindustrias Lenca,Gastos,HNL,303750,NO,Gana participación contra el año pasado.
+8,Ago,Ingenio Yojoa,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+8,Ago,Ingenio Yojoa,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+8,Ago,Ingenio Yojoa,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+8,Ago,Obras Choloma,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+8,Ago,Obras Choloma,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+8,Ago,Obras Choloma,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+8,Ago,Puerto Cortés Industrial,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+8,Ago,Puerto Cortés Industrial,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+8,Ago,Puerto Cortés Industrial,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+8,Ago,Talleres SPS,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+8,Ago,Talleres SPS,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+8,Ago,Talleres SPS,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería La Ceiba,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería La Ceiba,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+8,Ago,Ferretería La Ceiba,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+8,Ago,Planta Villanueva,Ventas a terceros,HNL,1350000,NO,Gana participación contra el año pasado.
+8,Ago,Planta Villanueva,Costo de ventas,HNL,810000,NO,Gana participación contra el año pasado.
+8,Ago,Planta Villanueva,Gastos,HNL,202500,NO,Gana participación contra el año pasado.
+8,Ago,Constructora Copán,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Constructora Copán,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Constructora Copán,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Depósito El Progreso,Ventas a terceros,HNL,1350000,NO,Pierde participación contra el año pasado.
+8,Ago,Depósito El Progreso,Costo de ventas,HNL,810000,NO,Pierde participación contra el año pasado.
+8,Ago,Depósito El Progreso,Gastos,HNL,202500,NO,Pierde participación contra el año pasado.
+8,Ago,Obras Comayagua,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+8,Ago,Obras Comayagua,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+8,Ago,Obras Comayagua,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+8,Ago,Taller Choluteca,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+8,Ago,Taller Choluteca,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+8,Ago,Taller Choluteca,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+8,Ago,Edificios Tegucigalpa,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+8,Ago,Edificios Tegucigalpa,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+8,Ago,Edificios Tegucigalpa,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+8,Ago,Agro Olanchito,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Agro Olanchito,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Agro Olanchito,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+8,Ago,Maquila Choloma,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+8,Ago,Maquila Choloma,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+8,Ago,Maquila Choloma,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
 8,Ago,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 8,Ago,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-9,Sep,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
-9,Sep,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
-9,Sep,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
-9,Sep,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
-9,Sep,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
-9,Sep,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+9,Sep,Constructora Sula,Ventas a terceros,HNL,2250000,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Sula,Costo de ventas,HNL,1350000,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Sula,Gastos,HNL,337500,NO,Gana participación contra el año pasado.
+9,Sep,Agroindustrias Lenca,Ventas a terceros,HNL,2025000,NO,Gana participación contra el año pasado.
+9,Sep,Agroindustrias Lenca,Costo de ventas,HNL,1215000,NO,Gana participación contra el año pasado.
+9,Sep,Agroindustrias Lenca,Gastos,HNL,303750,NO,Gana participación contra el año pasado.
+9,Sep,Ingenio Yojoa,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+9,Sep,Ingenio Yojoa,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+9,Sep,Ingenio Yojoa,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+9,Sep,Obras Choloma,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+9,Sep,Obras Choloma,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+9,Sep,Obras Choloma,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+9,Sep,Puerto Cortés Industrial,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+9,Sep,Puerto Cortés Industrial,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+9,Sep,Puerto Cortés Industrial,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+9,Sep,Talleres SPS,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+9,Sep,Talleres SPS,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+9,Sep,Talleres SPS,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería La Ceiba,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería La Ceiba,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+9,Sep,Ferretería La Ceiba,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+9,Sep,Planta Villanueva,Ventas a terceros,HNL,1350000,NO,Gana participación contra el año pasado.
+9,Sep,Planta Villanueva,Costo de ventas,HNL,810000,NO,Gana participación contra el año pasado.
+9,Sep,Planta Villanueva,Gastos,HNL,202500,NO,Gana participación contra el año pasado.
+9,Sep,Constructora Copán,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Constructora Copán,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Constructora Copán,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Depósito El Progreso,Ventas a terceros,HNL,1350000,NO,Pierde participación contra el año pasado.
+9,Sep,Depósito El Progreso,Costo de ventas,HNL,810000,NO,Pierde participación contra el año pasado.
+9,Sep,Depósito El Progreso,Gastos,HNL,202500,NO,Pierde participación contra el año pasado.
+9,Sep,Obras Comayagua,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+9,Sep,Obras Comayagua,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+9,Sep,Obras Comayagua,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+9,Sep,Taller Choluteca,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+9,Sep,Taller Choluteca,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+9,Sep,Taller Choluteca,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+9,Sep,Edificios Tegucigalpa,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+9,Sep,Edificios Tegucigalpa,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+9,Sep,Edificios Tegucigalpa,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+9,Sep,Agro Olanchito,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Agro Olanchito,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Agro Olanchito,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+9,Sep,Maquila Choloma,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+9,Sep,Maquila Choloma,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+9,Sep,Maquila Choloma,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
 9,Sep,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 9,Sep,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-10,Oct,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
-10,Oct,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
-10,Oct,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
-10,Oct,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
-10,Oct,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
-10,Oct,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+10,Oct,Constructora Sula,Ventas a terceros,HNL,2250000,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Sula,Costo de ventas,HNL,1350000,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Sula,Gastos,HNL,337500,NO,Gana participación contra el año pasado.
+10,Oct,Agroindustrias Lenca,Ventas a terceros,HNL,2025000,NO,Gana participación contra el año pasado.
+10,Oct,Agroindustrias Lenca,Costo de ventas,HNL,1215000,NO,Gana participación contra el año pasado.
+10,Oct,Agroindustrias Lenca,Gastos,HNL,303750,NO,Gana participación contra el año pasado.
+10,Oct,Ingenio Yojoa,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+10,Oct,Ingenio Yojoa,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+10,Oct,Ingenio Yojoa,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+10,Oct,Obras Choloma,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+10,Oct,Obras Choloma,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+10,Oct,Obras Choloma,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+10,Oct,Puerto Cortés Industrial,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+10,Oct,Puerto Cortés Industrial,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+10,Oct,Puerto Cortés Industrial,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+10,Oct,Talleres SPS,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+10,Oct,Talleres SPS,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+10,Oct,Talleres SPS,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería La Ceiba,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería La Ceiba,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+10,Oct,Ferretería La Ceiba,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+10,Oct,Planta Villanueva,Ventas a terceros,HNL,1350000,NO,Gana participación contra el año pasado.
+10,Oct,Planta Villanueva,Costo de ventas,HNL,810000,NO,Gana participación contra el año pasado.
+10,Oct,Planta Villanueva,Gastos,HNL,202500,NO,Gana participación contra el año pasado.
+10,Oct,Constructora Copán,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Constructora Copán,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Constructora Copán,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Depósito El Progreso,Ventas a terceros,HNL,1350000,NO,Pierde participación contra el año pasado.
+10,Oct,Depósito El Progreso,Costo de ventas,HNL,810000,NO,Pierde participación contra el año pasado.
+10,Oct,Depósito El Progreso,Gastos,HNL,202500,NO,Pierde participación contra el año pasado.
+10,Oct,Obras Comayagua,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+10,Oct,Obras Comayagua,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+10,Oct,Obras Comayagua,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+10,Oct,Taller Choluteca,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+10,Oct,Taller Choluteca,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+10,Oct,Taller Choluteca,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+10,Oct,Edificios Tegucigalpa,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+10,Oct,Edificios Tegucigalpa,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+10,Oct,Edificios Tegucigalpa,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+10,Oct,Agro Olanchito,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Agro Olanchito,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Agro Olanchito,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+10,Oct,Maquila Choloma,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+10,Oct,Maquila Choloma,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+10,Oct,Maquila Choloma,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
 10,Oct,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 10,Oct,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-11,Nov,Constructora Sula,Ventas a terceros,HNL,12375000,NO,Más obra privada en San Pedro Sula.
-11,Nov,Constructora Sula,Costo de ventas,HNL,7425000,NO,Más obra privada en San Pedro Sula.
-11,Nov,Constructora Sula,Gastos,HNL,1856250,NO,Más obra privada en San Pedro Sula.
-11,Nov,Agroindustrias Lenca,Ventas a terceros,HNL,10125000,NO,El ingenio pide menos acero.
-11,Nov,Agroindustrias Lenca,Costo de ventas,HNL,6075000,NO,El ingenio pide menos acero.
-11,Nov,Agroindustrias Lenca,Gastos,HNL,1518750,NO,El ingenio pide menos acero.
+11,Nov,Constructora Sula,Ventas a terceros,HNL,2250000,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Sula,Costo de ventas,HNL,1350000,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Sula,Gastos,HNL,337500,NO,Gana participación contra el año pasado.
+11,Nov,Agroindustrias Lenca,Ventas a terceros,HNL,2025000,NO,Gana participación contra el año pasado.
+11,Nov,Agroindustrias Lenca,Costo de ventas,HNL,1215000,NO,Gana participación contra el año pasado.
+11,Nov,Agroindustrias Lenca,Gastos,HNL,303750,NO,Gana participación contra el año pasado.
+11,Nov,Ingenio Yojoa,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+11,Nov,Ingenio Yojoa,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+11,Nov,Ingenio Yojoa,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+11,Nov,Obras Choloma,Ventas a terceros,HNL,1800000,NO,Gana participación contra el año pasado.
+11,Nov,Obras Choloma,Costo de ventas,HNL,1080000,NO,Gana participación contra el año pasado.
+11,Nov,Obras Choloma,Gastos,HNL,270000,NO,Gana participación contra el año pasado.
+11,Nov,Puerto Cortés Industrial,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+11,Nov,Puerto Cortés Industrial,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+11,Nov,Puerto Cortés Industrial,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+11,Nov,Talleres SPS,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+11,Nov,Talleres SPS,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+11,Nov,Talleres SPS,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería La Ceiba,Ventas a terceros,HNL,1575000,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería La Ceiba,Costo de ventas,HNL,945000,NO,Gana participación contra el año pasado.
+11,Nov,Ferretería La Ceiba,Gastos,HNL,236250,NO,Gana participación contra el año pasado.
+11,Nov,Planta Villanueva,Ventas a terceros,HNL,1350000,NO,Gana participación contra el año pasado.
+11,Nov,Planta Villanueva,Costo de ventas,HNL,810000,NO,Gana participación contra el año pasado.
+11,Nov,Planta Villanueva,Gastos,HNL,202500,NO,Gana participación contra el año pasado.
+11,Nov,Constructora Copán,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Constructora Copán,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Constructora Copán,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Depósito El Progreso,Ventas a terceros,HNL,1350000,NO,Pierde participación contra el año pasado.
+11,Nov,Depósito El Progreso,Costo de ventas,HNL,810000,NO,Pierde participación contra el año pasado.
+11,Nov,Depósito El Progreso,Gastos,HNL,202500,NO,Pierde participación contra el año pasado.
+11,Nov,Obras Comayagua,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+11,Nov,Obras Comayagua,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+11,Nov,Obras Comayagua,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+11,Nov,Taller Choluteca,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+11,Nov,Taller Choluteca,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+11,Nov,Taller Choluteca,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+11,Nov,Edificios Tegucigalpa,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+11,Nov,Edificios Tegucigalpa,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+11,Nov,Edificios Tegucigalpa,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
+11,Nov,Agro Olanchito,Ventas a terceros,HNL,1350000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Agro Olanchito,Costo de ventas,HNL,810000,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Agro Olanchito,Gastos,HNL,202500,NO,Mantiene el mismo peso que el año pasado.
+11,Nov,Maquila Choloma,Ventas a terceros,HNL,1125000,NO,Pierde participación contra el año pasado.
+11,Nov,Maquila Choloma,Costo de ventas,HNL,675000,NO,Pierde participación contra el año pasado.
+11,Nov,Maquila Choloma,Gastos,HNL,168750,NO,Pierde participación contra el año pasado.
 11,Nov,Ferretería Norte,Ventas a terceros,HNL,1350000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Ferretería Norte,Costo de ventas,HNL,810000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 11,Nov,Ferretería Norte,Gastos,HNL,202500,SI,Venta a otra empresa del grupo. Esta línea no entra.
-12,Dic,Constructora Sula,Ventas a terceros,HNL,13750000,NO,Más obra privada en San Pedro Sula.
-12,Dic,Constructora Sula,Costo de ventas,HNL,8250000,NO,Más obra privada en San Pedro Sula.
-12,Dic,Constructora Sula,Gastos,HNL,2062500,NO,Más obra privada en San Pedro Sula.
-12,Dic,Agroindustrias Lenca,Ventas a terceros,HNL,11250000,NO,El ingenio pide menos acero.
-12,Dic,Agroindustrias Lenca,Costo de ventas,HNL,6750000,NO,El ingenio pide menos acero.
-12,Dic,Agroindustrias Lenca,Gastos,HNL,1687500,NO,El ingenio pide menos acero.
+12,Dic,Constructora Sula,Ventas a terceros,HNL,2500000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Sula,Costo de ventas,HNL,1500000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Sula,Gastos,HNL,375000,NO,Gana participación contra el año pasado.
+12,Dic,Agroindustrias Lenca,Ventas a terceros,HNL,2250000,NO,Gana participación contra el año pasado.
+12,Dic,Agroindustrias Lenca,Costo de ventas,HNL,1350000,NO,Gana participación contra el año pasado.
+12,Dic,Agroindustrias Lenca,Gastos,HNL,337500,NO,Gana participación contra el año pasado.
+12,Dic,Ingenio Yojoa,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+12,Dic,Ingenio Yojoa,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+12,Dic,Ingenio Yojoa,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+12,Dic,Obras Choloma,Ventas a terceros,HNL,2000000,NO,Gana participación contra el año pasado.
+12,Dic,Obras Choloma,Costo de ventas,HNL,1200000,NO,Gana participación contra el año pasado.
+12,Dic,Obras Choloma,Gastos,HNL,300000,NO,Gana participación contra el año pasado.
+12,Dic,Puerto Cortés Industrial,Ventas a terceros,HNL,1750000,NO,Gana participación contra el año pasado.
+12,Dic,Puerto Cortés Industrial,Costo de ventas,HNL,1050000,NO,Gana participación contra el año pasado.
+12,Dic,Puerto Cortés Industrial,Gastos,HNL,262500,NO,Gana participación contra el año pasado.
+12,Dic,Talleres SPS,Ventas a terceros,HNL,1750000,NO,Gana participación contra el año pasado.
+12,Dic,Talleres SPS,Costo de ventas,HNL,1050000,NO,Gana participación contra el año pasado.
+12,Dic,Talleres SPS,Gastos,HNL,262500,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería La Ceiba,Ventas a terceros,HNL,1750000,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería La Ceiba,Costo de ventas,HNL,1050000,NO,Gana participación contra el año pasado.
+12,Dic,Ferretería La Ceiba,Gastos,HNL,262500,NO,Gana participación contra el año pasado.
+12,Dic,Planta Villanueva,Ventas a terceros,HNL,1500000,NO,Gana participación contra el año pasado.
+12,Dic,Planta Villanueva,Costo de ventas,HNL,900000,NO,Gana participación contra el año pasado.
+12,Dic,Planta Villanueva,Gastos,HNL,225000,NO,Gana participación contra el año pasado.
+12,Dic,Constructora Copán,Ventas a terceros,HNL,1500000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Constructora Copán,Costo de ventas,HNL,900000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Constructora Copán,Gastos,HNL,225000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Depósito El Progreso,Ventas a terceros,HNL,1500000,NO,Pierde participación contra el año pasado.
+12,Dic,Depósito El Progreso,Costo de ventas,HNL,900000,NO,Pierde participación contra el año pasado.
+12,Dic,Depósito El Progreso,Gastos,HNL,225000,NO,Pierde participación contra el año pasado.
+12,Dic,Obras Comayagua,Ventas a terceros,HNL,1250000,NO,Pierde participación contra el año pasado.
+12,Dic,Obras Comayagua,Costo de ventas,HNL,750000,NO,Pierde participación contra el año pasado.
+12,Dic,Obras Comayagua,Gastos,HNL,187500,NO,Pierde participación contra el año pasado.
+12,Dic,Taller Choluteca,Ventas a terceros,HNL,1250000,NO,Pierde participación contra el año pasado.
+12,Dic,Taller Choluteca,Costo de ventas,HNL,750000,NO,Pierde participación contra el año pasado.
+12,Dic,Taller Choluteca,Gastos,HNL,187500,NO,Pierde participación contra el año pasado.
+12,Dic,Edificios Tegucigalpa,Ventas a terceros,HNL,1250000,NO,Pierde participación contra el año pasado.
+12,Dic,Edificios Tegucigalpa,Costo de ventas,HNL,750000,NO,Pierde participación contra el año pasado.
+12,Dic,Edificios Tegucigalpa,Gastos,HNL,187500,NO,Pierde participación contra el año pasado.
+12,Dic,Agro Olanchito,Ventas a terceros,HNL,1500000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Agro Olanchito,Costo de ventas,HNL,900000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Agro Olanchito,Gastos,HNL,225000,NO,Mantiene el mismo peso que el año pasado.
+12,Dic,Maquila Choloma,Ventas a terceros,HNL,1250000,NO,Pierde participación contra el año pasado.
+12,Dic,Maquila Choloma,Costo de ventas,HNL,750000,NO,Pierde participación contra el año pasado.
+12,Dic,Maquila Choloma,Gastos,HNL,187500,NO,Pierde participación contra el año pasado.
 12,Dic,Ferretería Norte,Ventas a terceros,HNL,1500000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Ferretería Norte,Costo de ventas,HNL,900000,SI,Venta a otra empresa del grupo. Esta línea no entra.
 12,Dic,Ferretería Norte,Gastos,HNL,225000,SI,Venta a otra empresa del grupo. Esta línea no entra.

@@ -76,53 +76,44 @@ def portions(total: int, weights: list[int]) -> list[int]:
     return values
 
 
-# El presupuesto publicado de cada empresa queda en los clientes externos.
+# Quince clientes externos por empresa. Los pesos suman 100 y el total anual no cambia.
 # El cliente interno es una venta entre empresas: va en el Excel y no entra al número.
+SHARE_BUDGET = [10, 9, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 6, 5]
+SHARE_PRIOR = [8, 11, 7, 9, 6, 8, 6, 7, 5, 7, 4, 6, 5, 5, 6]
+
+CLIENT_NAMES = {
+    "EMP01": ["Constructora Izabal", "Cementos del Valle", "Taller Océano", "Fábrica El Progreso", "Ingenio Palo Verde", "Depósito Escuintla", "Obra Puerto Barrios", "Talleres Chimaltenango", "Constructora Los Altos", "Ferretería Quetzal", "Planta Amatitlán", "Obras del Motagua", "Taller La Chatarra", "Edificios Zona 10", "Agroindustria Escuintla"],
+    "EMP02": ["Ferretería El Prado", "Depósito Central", "Tienda Villa Nueva", "Mayorista Mixco", "Abarrotes Petapa", "Cadena Los Pinos", "Depósito San Juan", "Mini Súper El Edén", "Distribuidora Las Vacas", "Puesto de Mercado", "Bodega Palín", "Autoservicio Cipreses", "Tienda Santa Catarina", "Mayorista Amatitlán", "Kiosco Roosevelt"],
+    "EMP03": ["Puerto Acajutla", "Almacén Pacífico", "Naviera del Golfo", "Bodega La Unión", "Carga Sonsonate", "Terminal Cutuco", "Almacén Santa Ana", "Fletes San Miguel", "Contenedores La Libertad", "Patio Santa Tecla", "Exportadora Bálsamo", "Frigorífico Acajutla", "Textiles de Apopa", "Café de Apaneca", "Maquila Opico"],
+    "EMP04": ["Constructora Sula", "Agroindustrias Lenca", "Ingenio Yojoa", "Obras Choloma", "Puerto Cortés Industrial", "Talleres SPS", "Ferretería La Ceiba", "Planta Villanueva", "Constructora Copán", "Depósito El Progreso", "Obras Comayagua", "Taller Choluteca", "Edificios Tegucigalpa", "Agro Olanchito", "Maquila Choloma"],
+    "EMP05": ["Obra San Pedro", "Cadena del Lago", "Depósito Choloma", "Ferretería La Lima", "Tienda El Progreso", "Mayorista Villanueva", "Obra Cortés", "Depósito La Ceiba", "Cadena Sula", "Taller SPS Norte", "Miniobra Comayagua", "Ferretería Choluteca", "Tienda Tegucigalpa", "Depósito Olanchito", "Obra Villanueva Este"],
+    "EMP06": ["Aseguradora Istmo", "Banco del Puerto", "Oficina Regional Panamá", "Consultora Bahía", "Fondo Casco Viejo", "Despacho Balboa", "Servicios Costa del Este", "Auditoría Clayton", "Gestora Punta Pacífica", "Oficina Amador", "Fiduciaria Calidonia", "Asesoría Obarrio", "Family Office Coco del Mar", "Broker Santa María", "Administradora San Francisco"],
+}
+
+
+def externos(company_id: str, shift: int) -> list[dict]:
+    assert sum(SHARE_BUDGET) == 100 and sum(SHARE_PRIOR) == 100
+    assert len(CLIENT_NAMES[company_id]) == 15
+    prior = SHARE_PRIOR[shift:] + SHARE_PRIOR[:shift]
+    rows = []
+    for name, budget, old in zip(CLIENT_NAMES[company_id], SHARE_BUDGET, prior):
+        if budget > old:
+            reason = "Gana participación contra el año pasado."
+        elif budget < old:
+            reason = "Pierde participación contra el año pasado."
+        else:
+            reason = "Mantiene el mismo peso que el año pasado."
+        rows.append({"cliente": name, "budget": budget, "prior": old, "motivo": reason})
+    return rows
+
+
 BOOKS = {
-    "EMP01": {
-        "externos": [
-            {"cliente": "Constructora Izabal", "budget": 50, "prior": 55, "motivo": "Sube el volumen de varilla."},
-            {"cliente": "Cementos del Valle", "budget": 30, "prior": 30, "motivo": "El precio del contrato anual sube."},
-            {"cliente": "Taller Océano", "budget": 20, "prior": 15, "motivo": "Compra más chatarra que el año pasado."},
-        ],
-        "interno": {"cliente": "Distribuidora Metro", "budget": 8_400_000, "prior": 6_200_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
-    "EMP02": {
-        "externos": [
-            {"cliente": "Ferretería El Prado", "budget": 60, "prior": 50, "motivo": "Abre más puntos de venta."},
-            {"cliente": "Depósito Central", "budget": 40, "prior": 50, "motivo": "Este depósito compra menos."},
-        ],
-        "interno": {"cliente": "Aceros del Sur", "budget": 3_600_000, "prior": 2_800_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
-    "EMP03": {
-        "externos": [
-            {"cliente": "Puerto Acajutla", "budget": 70, "prior": 60, "motivo": "Más carga de importación."},
-            {"cliente": "Almacén Pacífico", "budget": 30, "prior": 40, "motivo": "Baja el almacenaje de este cliente."},
-        ],
-        "interno": {"cliente": "Holding Servicios", "budget": 450_000, "prior": 380_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
-    "EMP04": {
-        "externos": [
-            {"cliente": "Constructora Sula", "budget": 55, "prior": 50, "motivo": "Más obra privada en San Pedro Sula."},
-            {"cliente": "Agroindustrias Lenca", "budget": 45, "prior": 50, "motivo": "El ingenio pide menos acero."},
-        ],
-        "interno": {"cliente": "Ferretería Norte", "budget": 15_000_000, "prior": 12_000_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
-    "EMP05": {
-        "externos": [
-            {"cliente": "Obra San Pedro", "budget": 55, "prior": 40, "motivo": "Concentra más obra de este cliente."},
-            {"cliente": "Cadena del Lago", "budget": 25, "prior": 40, "motivo": "Perdió parte del contrato de la cadena."},
-            {"cliente": "Depósito Choloma", "budget": 20, "prior": 20, "motivo": "Sigue el mismo peso que el año pasado."},
-        ],
-        "interno": {"cliente": "Aceros Honduras", "budget": 5_000_000, "prior": 6_400_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
-    "EMP06": {
-        "externos": [
-            {"cliente": "Aseguradora Istmo", "budget": 50, "prior": 50, "motivo": "Renueva el contrato de servicios."},
-            {"cliente": "Banco del Puerto", "budget": 50, "prior": 50, "motivo": "El fee mensual se mantiene."},
-        ],
-        "interno": {"cliente": "Logística CA", "budget": 180_000, "prior": 150_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."},
-    },
+    "EMP01": {"externos": externos("EMP01", 0), "interno": {"cliente": "Distribuidora Metro", "budget": 8_400_000, "prior": 6_200_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
+    "EMP02": {"externos": externos("EMP02", 2), "interno": {"cliente": "Aceros del Sur", "budget": 3_600_000, "prior": 2_800_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
+    "EMP03": {"externos": externos("EMP03", 4), "interno": {"cliente": "Holding Servicios", "budget": 450_000, "prior": 380_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
+    "EMP04": {"externos": externos("EMP04", 6), "interno": {"cliente": "Ferretería Norte", "budget": 15_000_000, "prior": 12_000_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
+    "EMP05": {"externos": externos("EMP05", 8), "interno": {"cliente": "Aceros Honduras", "budget": 5_000_000, "prior": 6_400_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
+    "EMP06": {"externos": externos("EMP06", 3), "interno": {"cliente": "Logística CA", "budget": 180_000, "prior": 150_000, "motivo": "Venta a otra empresa del grupo. Esta línea no entra."}},
 }
 
 # Supuestos de prueba, no salen del Excel de ventas. Impuesto 30 % y WACC 10 % en todas.
@@ -392,12 +383,14 @@ def main() -> None:
         stem = OUT / "iniciativas" / item["ppt"].replace(".pptx", "")
         write_csv(stem.with_suffix(".csv"), headers, rows)
         write_xlsx(stem.with_suffix(".xlsx"), headers, rows)
-        company = next(c for c in COMPANIES if c["id"] == item["company"])
-        write_pptx(
-            stem.with_suffix(".pptx"),
-            item["name"],
-            f"{company['name']}. El detalle mensual está en el Excel del mismo nombre.",
-        )
+        deck = stem.with_suffix(".pptx")
+        if not deck.exists() or deck.stat().st_size < 20_000:
+            company = next(c for c in COMPANIES if c["id"] == item["company"])
+            write_pptx(
+                deck,
+                item["name"],
+                f"{company['name']}. El detalle mensual está en el Excel del mismo nombre.",
+            )
         initiative_rows_js.append(item)
 
     payload = {
@@ -434,6 +427,7 @@ def main() -> None:
             [
                 "Datos crudos para la demostración. Cifras ficticias del Grupo Istmo. No son de Grupo AG.",
                 "",
+                "Cada empresa tiene quince clientes por mes, más una venta a otra empresa del grupo.",
                 "Cada carpeta EMP0x trae el detalle por cliente y mes:",
                 "- presupuesto_2026.xlsx: cliente, cuenta, importe y si el cliente está dentro del grupo.",
                 "- ventas_2025.xlsx: a qué cliente se le vendió el año pasado, por mes.",
@@ -446,7 +440,7 @@ def main() -> None:
                 "",
                 "La carpeta iniciativas trae, por iniciativa:",
                 "- un Excel con ingreso incremental e inversión de cada mes.",
-                "- un PowerPoint de una lámina para subir en el portal.",
+                "- un PowerPoint de 10 láminas (portada, proceso, beneficios, datos y cierre) para subir en el portal.",
                 "",
                 "Tasa oficial a dólares: quetzal 7,75, lempira 25, dólar 1. USD = importe local / tasa.",
                 "En el portal, elegí la empresa y subí el Excel de presupuesto o el de la iniciativa.",

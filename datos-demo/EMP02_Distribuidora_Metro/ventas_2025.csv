@@ -1,37 +1,193 @@
 mes,nombre_mes,cliente,moneda,importe,dentro_del_grupo
-1,Ene,Ferretería El Prado,GTQ,1400000,NO
-1,Ene,Depósito Central,GTQ,1400000,NO
+1,Ene,Ferretería El Prado,GTQ,196000,NO
+1,Ene,Depósito Central,GTQ,252000,NO
+1,Ene,Tienda Villa Nueva,GTQ,168000,NO
+1,Ene,Mayorista Mixco,GTQ,224000,NO
+1,Ene,Abarrotes Petapa,GTQ,168000,NO
+1,Ene,Cadena Los Pinos,GTQ,196000,NO
+1,Ene,Depósito San Juan,GTQ,140000,NO
+1,Ene,Mini Súper El Edén,GTQ,196000,NO
+1,Ene,Distribuidora Las Vacas,GTQ,112000,NO
+1,Ene,Puesto de Mercado,GTQ,168000,NO
+1,Ene,Bodega Palín,GTQ,140000,NO
+1,Ene,Autoservicio Cipreses,GTQ,140000,NO
+1,Ene,Tienda Santa Catarina,GTQ,168000,NO
+1,Ene,Mayorista Amatitlán,GTQ,224000,NO
+1,Ene,Kiosco Roosevelt,GTQ,308000,NO
 1,Ene,Aceros del Sur,GTQ,196000,SI
-2,Feb,Ferretería El Prado,GTQ,1400000,NO
-2,Feb,Depósito Central,GTQ,1400000,NO
+2,Feb,Ferretería El Prado,GTQ,196000,NO
+2,Feb,Depósito Central,GTQ,252000,NO
+2,Feb,Tienda Villa Nueva,GTQ,168000,NO
+2,Feb,Mayorista Mixco,GTQ,224000,NO
+2,Feb,Abarrotes Petapa,GTQ,168000,NO
+2,Feb,Cadena Los Pinos,GTQ,196000,NO
+2,Feb,Depósito San Juan,GTQ,140000,NO
+2,Feb,Mini Súper El Edén,GTQ,196000,NO
+2,Feb,Distribuidora Las Vacas,GTQ,112000,NO
+2,Feb,Puesto de Mercado,GTQ,168000,NO
+2,Feb,Bodega Palín,GTQ,140000,NO
+2,Feb,Autoservicio Cipreses,GTQ,140000,NO
+2,Feb,Tienda Santa Catarina,GTQ,168000,NO
+2,Feb,Mayorista Amatitlán,GTQ,224000,NO
+2,Feb,Kiosco Roosevelt,GTQ,308000,NO
 2,Feb,Aceros del Sur,GTQ,196000,SI
-3,Mar,Ferretería El Prado,GTQ,1600000,NO
-3,Mar,Depósito Central,GTQ,1600000,NO
+3,Mar,Ferretería El Prado,GTQ,224000,NO
+3,Mar,Depósito Central,GTQ,288000,NO
+3,Mar,Tienda Villa Nueva,GTQ,192000,NO
+3,Mar,Mayorista Mixco,GTQ,256000,NO
+3,Mar,Abarrotes Petapa,GTQ,192000,NO
+3,Mar,Cadena Los Pinos,GTQ,224000,NO
+3,Mar,Depósito San Juan,GTQ,160000,NO
+3,Mar,Mini Súper El Edén,GTQ,224000,NO
+3,Mar,Distribuidora Las Vacas,GTQ,128000,NO
+3,Mar,Puesto de Mercado,GTQ,192000,NO
+3,Mar,Bodega Palín,GTQ,160000,NO
+3,Mar,Autoservicio Cipreses,GTQ,160000,NO
+3,Mar,Tienda Santa Catarina,GTQ,192000,NO
+3,Mar,Mayorista Amatitlán,GTQ,256000,NO
+3,Mar,Kiosco Roosevelt,GTQ,352000,NO
 3,Mar,Aceros del Sur,GTQ,224000,SI
-4,Abr,Ferretería El Prado,GTQ,1600000,NO
-4,Abr,Depósito Central,GTQ,1600000,NO
+4,Abr,Ferretería El Prado,GTQ,224000,NO
+4,Abr,Depósito Central,GTQ,288000,NO
+4,Abr,Tienda Villa Nueva,GTQ,192000,NO
+4,Abr,Mayorista Mixco,GTQ,256000,NO
+4,Abr,Abarrotes Petapa,GTQ,192000,NO
+4,Abr,Cadena Los Pinos,GTQ,224000,NO
+4,Abr,Depósito San Juan,GTQ,160000,NO
+4,Abr,Mini Súper El Edén,GTQ,224000,NO
+4,Abr,Distribuidora Las Vacas,GTQ,128000,NO
+4,Abr,Puesto de Mercado,GTQ,192000,NO
+4,Abr,Bodega Palín,GTQ,160000,NO
+4,Abr,Autoservicio Cipreses,GTQ,160000,NO
+4,Abr,Tienda Santa Catarina,GTQ,192000,NO
+4,Abr,Mayorista Amatitlán,GTQ,256000,NO
+4,Abr,Kiosco Roosevelt,GTQ,352000,NO
 4,Abr,Aceros del Sur,GTQ,224000,SI
-5,May,Ferretería El Prado,GTQ,1600000,NO
-5,May,Depósito Central,GTQ,1600000,NO
+5,May,Ferretería El Prado,GTQ,224000,NO
+5,May,Depósito Central,GTQ,288000,NO
+5,May,Tienda Villa Nueva,GTQ,192000,NO
+5,May,Mayorista Mixco,GTQ,256000,NO
+5,May,Abarrotes Petapa,GTQ,192000,NO
+5,May,Cadena Los Pinos,GTQ,224000,NO
+5,May,Depósito San Juan,GTQ,160000,NO
+5,May,Mini Súper El Edén,GTQ,224000,NO
+5,May,Distribuidora Las Vacas,GTQ,128000,NO
+5,May,Puesto de Mercado,GTQ,192000,NO
+5,May,Bodega Palín,GTQ,160000,NO
+5,May,Autoservicio Cipreses,GTQ,160000,NO
+5,May,Tienda Santa Catarina,GTQ,192000,NO
+5,May,Mayorista Amatitlán,GTQ,256000,NO
+5,May,Kiosco Roosevelt,GTQ,352000,NO
 5,May,Aceros del Sur,GTQ,224000,SI
-6,Jun,Ferretería El Prado,GTQ,1600000,NO
-6,Jun,Depósito Central,GTQ,1600000,NO
+6,Jun,Ferretería El Prado,GTQ,224000,NO
+6,Jun,Depósito Central,GTQ,288000,NO
+6,Jun,Tienda Villa Nueva,GTQ,192000,NO
+6,Jun,Mayorista Mixco,GTQ,256000,NO
+6,Jun,Abarrotes Petapa,GTQ,192000,NO
+6,Jun,Cadena Los Pinos,GTQ,224000,NO
+6,Jun,Depósito San Juan,GTQ,160000,NO
+6,Jun,Mini Súper El Edén,GTQ,224000,NO
+6,Jun,Distribuidora Las Vacas,GTQ,128000,NO
+6,Jun,Puesto de Mercado,GTQ,192000,NO
+6,Jun,Bodega Palín,GTQ,160000,NO
+6,Jun,Autoservicio Cipreses,GTQ,160000,NO
+6,Jun,Tienda Santa Catarina,GTQ,192000,NO
+6,Jun,Mayorista Amatitlán,GTQ,256000,NO
+6,Jun,Kiosco Roosevelt,GTQ,352000,NO
 6,Jun,Aceros del Sur,GTQ,224000,SI
-7,Jul,Ferretería El Prado,GTQ,1600000,NO
-7,Jul,Depósito Central,GTQ,1600000,NO
+7,Jul,Ferretería El Prado,GTQ,224000,NO
+7,Jul,Depósito Central,GTQ,288000,NO
+7,Jul,Tienda Villa Nueva,GTQ,192000,NO
+7,Jul,Mayorista Mixco,GTQ,256000,NO
+7,Jul,Abarrotes Petapa,GTQ,192000,NO
+7,Jul,Cadena Los Pinos,GTQ,224000,NO
+7,Jul,Depósito San Juan,GTQ,160000,NO
+7,Jul,Mini Súper El Edén,GTQ,224000,NO
+7,Jul,Distribuidora Las Vacas,GTQ,128000,NO
+7,Jul,Puesto de Mercado,GTQ,192000,NO
+7,Jul,Bodega Palín,GTQ,160000,NO
+7,Jul,Autoservicio Cipreses,GTQ,160000,NO
+7,Jul,Tienda Santa Catarina,GTQ,192000,NO
+7,Jul,Mayorista Amatitlán,GTQ,256000,NO
+7,Jul,Kiosco Roosevelt,GTQ,352000,NO
 7,Jul,Aceros del Sur,GTQ,224000,SI
-8,Ago,Ferretería El Prado,GTQ,1800000,NO
-8,Ago,Depósito Central,GTQ,1800000,NO
+8,Ago,Ferretería El Prado,GTQ,252000,NO
+8,Ago,Depósito Central,GTQ,324000,NO
+8,Ago,Tienda Villa Nueva,GTQ,216000,NO
+8,Ago,Mayorista Mixco,GTQ,288000,NO
+8,Ago,Abarrotes Petapa,GTQ,216000,NO
+8,Ago,Cadena Los Pinos,GTQ,252000,NO
+8,Ago,Depósito San Juan,GTQ,180000,NO
+8,Ago,Mini Súper El Edén,GTQ,252000,NO
+8,Ago,Distribuidora Las Vacas,GTQ,144000,NO
+8,Ago,Puesto de Mercado,GTQ,216000,NO
+8,Ago,Bodega Palín,GTQ,180000,NO
+8,Ago,Autoservicio Cipreses,GTQ,180000,NO
+8,Ago,Tienda Santa Catarina,GTQ,216000,NO
+8,Ago,Mayorista Amatitlán,GTQ,288000,NO
+8,Ago,Kiosco Roosevelt,GTQ,396000,NO
 8,Ago,Aceros del Sur,GTQ,252000,SI
-9,Sep,Ferretería El Prado,GTQ,1800000,NO
-9,Sep,Depósito Central,GTQ,1800000,NO
+9,Sep,Ferretería El Prado,GTQ,252000,NO
+9,Sep,Depósito Central,GTQ,324000,NO
+9,Sep,Tienda Villa Nueva,GTQ,216000,NO
+9,Sep,Mayorista Mixco,GTQ,288000,NO
+9,Sep,Abarrotes Petapa,GTQ,216000,NO
+9,Sep,Cadena Los Pinos,GTQ,252000,NO
+9,Sep,Depósito San Juan,GTQ,180000,NO
+9,Sep,Mini Súper El Edén,GTQ,252000,NO
+9,Sep,Distribuidora Las Vacas,GTQ,144000,NO
+9,Sep,Puesto de Mercado,GTQ,216000,NO
+9,Sep,Bodega Palín,GTQ,180000,NO
+9,Sep,Autoservicio Cipreses,GTQ,180000,NO
+9,Sep,Tienda Santa Catarina,GTQ,216000,NO
+9,Sep,Mayorista Amatitlán,GTQ,288000,NO
+9,Sep,Kiosco Roosevelt,GTQ,396000,NO
 9,Sep,Aceros del Sur,GTQ,252000,SI
-10,Oct,Ferretería El Prado,GTQ,1800000,NO
-10,Oct,Depósito Central,GTQ,1800000,NO
+10,Oct,Ferretería El Prado,GTQ,252000,NO
+10,Oct,Depósito Central,GTQ,324000,NO
+10,Oct,Tienda Villa Nueva,GTQ,216000,NO
+10,Oct,Mayorista Mixco,GTQ,288000,NO
+10,Oct,Abarrotes Petapa,GTQ,216000,NO
+10,Oct,Cadena Los Pinos,GTQ,252000,NO
+10,Oct,Depósito San Juan,GTQ,180000,NO
+10,Oct,Mini Súper El Edén,GTQ,252000,NO
+10,Oct,Distribuidora Las Vacas,GTQ,144000,NO
+10,Oct,Puesto de Mercado,GTQ,216000,NO
+10,Oct,Bodega Palín,GTQ,180000,NO
+10,Oct,Autoservicio Cipreses,GTQ,180000,NO
+10,Oct,Tienda Santa Catarina,GTQ,216000,NO
+10,Oct,Mayorista Amatitlán,GTQ,288000,NO
+10,Oct,Kiosco Roosevelt,GTQ,396000,NO
 10,Oct,Aceros del Sur,GTQ,252000,SI
-11,Nov,Ferretería El Prado,GTQ,1800000,NO
-11,Nov,Depósito Central,GTQ,1800000,NO
+11,Nov,Ferretería El Prado,GTQ,252000,NO
+11,Nov,Depósito Central,GTQ,324000,NO
+11,Nov,Tienda Villa Nueva,GTQ,216000,NO
+11,Nov,Mayorista Mixco,GTQ,288000,NO
+11,Nov,Abarrotes Petapa,GTQ,216000,NO
+11,Nov,Cadena Los Pinos,GTQ,252000,NO
+11,Nov,Depósito San Juan,GTQ,180000,NO
+11,Nov,Mini Súper El Edén,GTQ,252000,NO
+11,Nov,Distribuidora Las Vacas,GTQ,144000,NO
+11,Nov,Puesto de Mercado,GTQ,216000,NO
+11,Nov,Bodega Palín,GTQ,180000,NO
+11,Nov,Autoservicio Cipreses,GTQ,180000,NO
+11,Nov,Tienda Santa Catarina,GTQ,216000,NO
+11,Nov,Mayorista Amatitlán,GTQ,288000,NO
+11,Nov,Kiosco Roosevelt,GTQ,396000,NO
 11,Nov,Aceros del Sur,GTQ,252000,SI
-12,Dic,Ferretería El Prado,GTQ,2000000,NO
-12,Dic,Depósito Central,GTQ,2000000,NO
+12,Dic,Ferretería El Prado,GTQ,280000,NO
+12,Dic,Depósito Central,GTQ,360000,NO
+12,Dic,Tienda Villa Nueva,GTQ,240000,NO
+12,Dic,Mayorista Mixco,GTQ,320000,NO
+12,Dic,Abarrotes Petapa,GTQ,240000,NO
+12,Dic,Cadena Los Pinos,GTQ,280000,NO
+12,Dic,Depósito San Juan,GTQ,200000,NO
+12,Dic,Mini Súper El Edén,GTQ,280000,NO
+12,Dic,Distribuidora Las Vacas,GTQ,160000,NO
+12,Dic,Puesto de Mercado,GTQ,240000,NO
+12,Dic,Bodega Palín,GTQ,200000,NO
+12,Dic,Autoservicio Cipreses,GTQ,200000,NO
+12,Dic,Tienda Santa Catarina,GTQ,240000,NO
+12,Dic,Mayorista Amatitlán,GTQ,320000,NO
+12,Dic,Kiosco Roosevelt,GTQ,440000,NO
 12,Dic,Aceros del Sur,GTQ,280000,SI
