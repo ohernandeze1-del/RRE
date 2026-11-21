@@ -19,3 +19,5 @@ python src/consolidar.py
 ```
 
 Eso escribe `salida/informe.html` y `salida/lineas.csv`. El informe es la hoja que se abre en el demo.
+
+La landing está en `index.html`. Abrila en el navegador.
